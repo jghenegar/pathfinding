@@ -14,11 +14,15 @@ public class Pathfinder {
     private class PFNode implements Comparable<PFNode> {
         // loc: the location of the PFNode
         // fromNode: how did we get here? (linked list back to start)
-        public PFNode(Coord loc, PFNode fromNode) { }
+        public PFNode(Coord loc, PFNode fromNode) {
+           Coord location=loc;
+           PFNode previous=fromNode;
+           int cost=0;
+        }
 
         // compares this with that, used to find minimum cost PFNode
         public int compareTo(PFNode that) {
-            return 0;
+            return this.compareTo(that);
         }
 
         // returns the cost to travel from starting point to this
@@ -54,28 +58,37 @@ public class Pathfinder {
 
     public Pathfinder(Terrain terrain) {
     }
-
+    Coord pathStart=null;
+    Coord pathEnd=null;
+    float heuristic;
+    boolean pathFound=false;
     public void setPathStart(Coord loc) {
+        if(loc==null) throw new IllegalArgumentException("Illegal Arguement");
+        pathStart=loc;
     }
 
     public Coord getPathStart() {
-        return null;
+        return pathStart;
     }
 
     public void setPathEnd(Coord loc) {
+        if(loc==null) throw new IllegalArgumentException("Illegal Arguement");
+        pathEnd=loc;
     }
 
     public Coord getPathEnd() {
-        return null;
+        return pathEnd;
     }
 
     public void setHeuristic(float v) {
+        heuristic=v;
     }
 
     public float getHeuristic() {
-        return 0;
+        return heuristic;
     }
 
+    //cleans out the queues ??
     public void resetPath() {
     }
 
@@ -83,7 +96,7 @@ public class Pathfinder {
     }
 
     public boolean foundPath() {
-        return false;
+        return pathFound;
     }
 
     public float getPathCost() {
