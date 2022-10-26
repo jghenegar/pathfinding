@@ -1,5 +1,5 @@
 import java.awt.event.KeyEvent;
-
+//kate was here
 /**
  * InteractivePathfinderVisualizer visualizes the terrain and the computed
  * path and allows the user to change parameters of the Pathfinder.  Below
