@@ -99,7 +99,9 @@ public class Pathfinder {
         // make the priorety queue
         // use a binary heap?
         Coord front = getPathStart(); // front queue item will be the start of the path
-        // I think we should implement BinomialMinPQ.java here for our priorety queue implementation?
+        int row = pathStart.getI(); // returns row
+        int col = pathStart.getJ(); // returns col
+        // I think we should implement BinomialMinPQ.java here for our priority queue implementation?
         // I'm open to change though
     }
 
