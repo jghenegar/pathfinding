@@ -1,0 +1,277 @@
+Index: src/InteractivePathfinderVisualizer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.awt.event.KeyEvent;\n\n/**\n * InteractivePathfinderVisualizer visualizes the terrain and the computed\n * path and allows the user to change parameters of the Pathfinder.  Below\n * is a list of commands and what they do.  Note: some of the commands\n * modify the properties of the path finder and some modify the terrain.\n *\n * Command        Action                                      Terrain\n * C              clear path\n * space          recompute path\n * S/E            set start/end location to mouse\n * left/right     halve/double path search heuristic value\n * 0/1            set path search heuristic to 0 or 1\n * W              start a walker to show the path\n * R              randomly generate a new terrain                *\n * M              smooths terrain under mouse                    *\n * shift+M        smooths all terrain                            *\n * up/down        increase/decrease terrain under mouse          *\n */\n\npublic class InteractivePathfinderVisualizer {\n    private final static int DELAY = 10;\n\n    // sets how many redraws it should take for the walker to reach its destination\n    private final static float STEPS_TO_WALK = 100.0f;\n\n    // for convenience, here are the emap files that are located under heightmaps/ folder\n    // the python script in that folder converts png files to emap. \\\n    // you can use it to create your own maps to test your code\n    private final static String[] emaps = {\n            \"maze32_0.png.emap\",    // 0   (32x32 maze)\n            \"maze32_1.png.emap\",    // 1   (another 32x32 maze)\n            \"maze232_0.png.emap\",   // 2   (232x232 maze)\n            \"maze320_0.png.emap\",   // 3   (same as maze32_0, only scaled up by 10x)\n            \"mazeAB.png.emap\",      // 4   (a maze from a site no longer online :( )\n            \"mazeBrain.png.emap\",   // 5   (...)\n            \"ramp.png.emap\",        // 6   (some tests)\n            \"ramp2.png.emap\",       // 7   (...)\n            \"ramp3.png.emap\",       // 8   (...)\n            \"usa128.png.emap\",      // 9   (elevation map of USA from https://bananas.openttd.org/en/heightmap/)\n            \"usa256.png.emap\",      // 10  (same as usa128, only higher resolution)\n            \"usa1024.png.emap\",     // 11  (same as usa128, only higher resolution\n    };\n\n    private final static String emapFilename = emaps[2];        // change index to load a different elevation map\n\n\n\n    public static void main(String[] args) {\n        Terrain terrain = new Terrain(emapFilename);\n        Pathfinder pf = new Pathfinder(terrain);\n        int N = terrain.getN();\n\n        StdDraw.show(0);\n\n        // set default starting and ending locations\n        pf.setPathStart(new Coord(1, 1));\n        pf.setPathEnd(new Coord(N-3, N-3));\n\n        // find a path\n        pf.resetPath();\n        pf.computePath();\n\n        PathfinderVisualizer.draw(terrain, pf, null, N);\n        StdDraw.show(DELAY);\n\n        // prevent repeated applications\n        boolean keyboardR = false;\n        boolean keyboardM = false;\n\n        Walker walker = null;\n\n        while(true) {\n            boolean recompute = false;\n            boolean redraw = false;\n\n            // mouse location on map\n            int mouseI = (int) ((StdDraw.mouseX()-24) / 464 * N);\n            int mouseJ = (int) ((464 - (StdDraw.mouseY()-36)) / 464 * N);\n            boolean isMouseOnMap = (mouseI >=0 && mouseI < N && mouseJ >= 0 && mouseJ < N);\n\n            if(StdDraw.isKeyPressed(KeyEvent.VK_LEFT) || StdDraw.isKeyPressed(KeyEvent.VK_RIGHT)) {\n                boolean keyboardLeft = StdDraw.isKeyPressed(KeyEvent.VK_LEFT);\n                float m = keyboardLeft ? 0.5f : 2.0f;\n                float h = pf.getHeuristic() * m;\n                h = Math.max(1.0f/1024.0f, Math.min(1048576.0f, h));\n                pf.setHeuristic(h);\n                recompute = true;\n            }\n\n            if(StdDraw.isKeyPressed(KeyEvent.VK_0) || StdDraw.isKeyPressed(KeyEvent.VK_1)) {\n                boolean keyboard0 = StdDraw.isKeyPressed(KeyEvent.VK_0);\n                float h = keyboard0 ? 0 : 1;\n                pf.setHeuristic(h);\n                recompute = true;\n            }\n\n            if(StdDraw.isKeyPressed(KeyEvent.VK_C)) {\n                pf.resetPath();\n                walker = null;\n                redraw = true;\n            }\n\n            if(StdDraw.isKeyPressed(KeyEvent.VK_R) && !keyboardR) {\n                TerrainEditor.setFractalHeights(terrain);\n                TerrainEditor.clampHeights(terrain);\n                recompute = true;\n            }\n            keyboardR = StdDraw.isKeyPressed(KeyEvent.VK_R);\n\n            if(StdDraw.isKeyPressed(KeyEvent.VK_M)) {\n                if(StdDraw.isKeyPressed(KeyEvent.VK_SHIFT)) {\n                    if(!keyboardM) {\n                        TerrainEditor.smoothHeights(terrain);\n                        recompute = true;\n                    }\n                } else {\n                    TerrainEditor.smoothHeights(mouseI, mouseJ, N / 20, true, terrain);\n                    recompute = true;\n                }\n            }\n            keyboardM = StdDraw.isKeyPressed(KeyEvent.VK_M);\n\n            if(StdDraw.isKeyPressed(KeyEvent.VK_SPACE)) {\n                recompute = true;\n            }\n\n            if(StdDraw.isKeyPressed(KeyEvent.VK_UP) || StdDraw.isKeyPressed(KeyEvent.VK_DOWN)) {\n                boolean keyboardUp = StdDraw.isKeyPressed(KeyEvent.VK_UP);\n                float add = keyboardUp ? 8.0f : -8.0f;\n                TerrainEditor.addHeight(mouseI, mouseJ, N / 20, add, terrain);\n                recompute = true;\n            }\n\n            if(isMouseOnMap && StdDraw.isKeyPressed(KeyEvent.VK_S)) {\n                pf.setPathStart(new Coord(mouseI, mouseJ));\n                recompute = true;\n            }\n\n            if(isMouseOnMap && StdDraw.isKeyPressed(KeyEvent.VK_E)) {\n                pf.setPathEnd(new Coord(mouseI, mouseJ));\n                recompute = true;\n            }\n\n            if(StdDraw.isKeyPressed(KeyEvent.VK_W)) {\n                Iterable<Coord> path = pf.getPathSolution();\n                if(path != null) {\n                    walker = new Walker(terrain, pf.getPathSolution());\n                }\n            }\n\n            if(walker != null) {\n                if(walker.doneWalking()) {\n                    walker = null;\n                } else {\n                    walker.advance(pf.getPathCost() / STEPS_TO_WALK);\n                }\n                redraw = true;\n            }\n\n            if(recompute) {\n                walker = null;\n                pf.resetPath();\n                if(pf.getPathStart() != null && pf.getPathEnd() != null) {\n                    pf.computePath();\n                }\n                redraw = true;\n            }\n\n            if(redraw) {\n                PathfinderVisualizer.draw(terrain, pf, walker, N);\n                StdDraw.show(DELAY);\n            } else {\n                try {\n                    Thread.sleep(10);\n                } catch (InterruptedException e) {\n                    /* do nothing */\n                }\n            }\n        }\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/InteractivePathfinderVisualizer.java b/src/InteractivePathfinderVisualizer.java
+--- a/src/InteractivePathfinderVisualizer.java	(revision 8d2d97a18f77e17c906c6f06e314308254d3014d)
++++ b/src/InteractivePathfinderVisualizer.java	(date 1666710043190)
+@@ -1,5 +1,5 @@
+ import java.awt.event.KeyEvent;
+-
++//kate was here
+ /**
+  * InteractivePathfinderVisualizer visualizes the terrain and the computed
+  * path and allows the user to change parameters of the Pathfinder.  Below
+Index: src/Pathfinder.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.lang.IndexOutOfBoundsException;\nimport java.lang.IllegalArgumentException;\n\n/**\n * Pathfinder uses A* search to find a near optimal path\n * between to locations with given terrain.\n */\n\npublic class Pathfinder {\n\n    /**\n     * PFNode will be the key for MinPQ (used in computePath())\n     */\n    private class PFNode implements Comparable<PFNode> {\n        // loc: the location of the PFNode\n        // fromNode: how did we get here? (linked list back to start)\n        public PFNode(Coord loc, PFNode fromNode) { }\n\n        // compares this with that, used to find minimum cost PFNode\n        public int compareTo(PFNode that) {\n            return 0;\n        }\n\n        // returns the cost to travel from starting point to this\n        // via the fromNode chain\n        public float getCost(float heuristic) {\n            return 0;\n        }\n\n        // returns if this PFNode is still valid\n        public boolean isValid() {\n            return false;\n        }\n\n        // invalidates the PFNode\n        public void invalidate() {\n        }\n\n        // returns if the PFNode has been used\n        public boolean isUsed() {\n            return true;\n        }\n\n        // uses the PFNode\n        public void use() { }\n\n        // returns an Iterable of PFNodes that surround this\n        public Iterable<PFNode> neighbors() {\n            Stack<PFNode> s = new Stack<>();\n            s.push(new PFNode(null, null));\n            return s;\n        }\n    }\n\n    public Pathfinder(Terrain terrain) {\n    }\n\n    public void setPathStart(Coord loc) {\n    }\n\n    public Coord getPathStart() {\n        return null;\n    }\n\n    public void setPathEnd(Coord loc) {\n    }\n\n    public Coord getPathEnd() {\n        return null;\n    }\n\n    public void setHeuristic(float v) {\n    }\n\n    public float getHeuristic() {\n        return 0;\n    }\n\n    public void resetPath() {\n    }\n\n    public void computePath() {\n    }\n\n    public boolean foundPath() {\n        return false;\n    }\n\n    public float getPathCost() {\n        return 0;\n    }\n\n    public int getSearchSize() {\n        return 0;\n    }\n\n    public Iterable<Coord> getPathSolution() {\n        return null;\n    }\n\n    public boolean wasSearched(Coord loc) {\n        return false;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Pathfinder.java b/src/Pathfinder.java
+--- a/src/Pathfinder.java	(revision 8d2d97a18f77e17c906c6f06e314308254d3014d)
++++ b/src/Pathfinder.java	(date 1666712959172)
+@@ -14,11 +14,12 @@
+     private class PFNode implements Comparable<PFNode> {
+         // loc: the location of the PFNode
+         // fromNode: how did we get here? (linked list back to start)
+-        public PFNode(Coord loc, PFNode fromNode) { }
++        public PFNode(Coord loc, PFNode fromNode) {
++        }
+ 
+         // compares this with that, used to find minimum cost PFNode
+         public int compareTo(PFNode that) {
+-            return 0;
++            return this.compareTo(that);        //???
+         }
+ 
+         // returns the cost to travel from starting point to this
+@@ -52,21 +53,22 @@
+         }
+     }
+ 
++    Coord pathStart = null;
++    Coord pathEnd = null;
+     public Pathfinder(Terrain terrain) {
+     }
+-
+     public void setPathStart(Coord loc) {
++        pathStart = loc;
+     }
+-
+     public Coord getPathStart() {
+-        return null;
++        return pathStart;
+     }
+ 
+     public void setPathEnd(Coord loc) {
++        pathEnd = loc;
+     }
+-
+     public Coord getPathEnd() {
+-        return null;
++        return pathEnd;
+     }
+ 
+     public void setHeuristic(float v) {
+@@ -80,6 +82,7 @@
+     }
+ 
+     public void computePath() {
++
+     }
+ 
+     public boolean foundPath() {
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"50b83df3-15a9-4360-bde3-1e23007b18a2\" name=\"Default\" comment=\"\" />\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"CreatePatchCommitExecutor\">\n    <option name=\"PATCH_PATH\" value=\"\" />\n  </component>\n  <component name=\"FavoritesManager\">\n    <favorites_list name=\"P04_Pathfinding\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/../../../..\" />\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"mavenHome\" value=\"Bundled (Maven 3)\" />\n      </MavenGeneralSettings>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"1iwYeHoVYqUfESIMNqB9GfLh0Bl\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"PropertiesComponent\">\n    <property name=\"FullScreen\" value=\"false\" />\n    <property name=\"OverrideImplement.combined\" value=\"true\" />\n    <property name=\"OverrideImplement.overriding.sorted\" value=\"false\" />\n    <property name=\"dynamic.classpath\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"project.structure.last.edited\" value=\"Libraries\" />\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\n    <property name=\"recentsLimit\" value=\"5\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.pluginManager\" />\n    <property name=\"settings.editor.splitter.proportion\" value=\"0.2\" />\n  </component>\n  <component name=\"RunDashboard\">\n    <option name=\"ruleStates\">\n      <list>\n        <RuleState>\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\n        </RuleState>\n        <RuleState>\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\n        </RuleState>\n      </list>\n    </option>\n  </component>\n  <component name=\"RunManager\">\n    <configuration default=\"true\" type=\"AndroidRunConfigurationType\">\n      <option name=\"DEPLOY\" value=\"true\" />\n      <option name=\"DEPLOY_APK_FROM_BUNDLE\" value=\"false\" />\n      <option name=\"DEPLOY_AS_INSTANT\" value=\"false\" />\n      <option name=\"ARTIFACT_NAME\" value=\"\" />\n      <option name=\"PM_INSTALL_OPTIONS\" value=\"\" />\n      <option name=\"DYNAMIC_FEATURES_DISABLED_LIST\" value=\"\" />\n      <option name=\"ACTIVITY_EXTRA_FLAGS\" value=\"\" />\n      <option name=\"MODE\" value=\"default_activity\" />\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"true\" />\n      <option name=\"SKIP_NOOP_APK_INSTALLATIONS\" value=\"true\" />\n      <option name=\"FORCE_STOP_RUNNING_APP\" value=\"true\" />\n      <option name=\"TARGET_SELECTION_MODE\" value=\"EMULATOR\" />\n      <option name=\"USE_LAST_SELECTED_DEVICE\" value=\"false\" />\n      <option name=\"PREFERRED_AVD\" value=\"\" />\n      <option name=\"DEBUGGER_TYPE\" value=\"Java\" />\n      <Java />\n      <Profilers>\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Sample Java Methods\" />\n      </Profilers>\n      <option name=\"DEEP_LINK\" value=\"\" />\n      <option name=\"ACTIVITY_CLASS\" value=\"\" />\n      <method v=\"2\">\n        <option name=\"Android.Gradle.BeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"AndroidTestRunConfigurationType\">\n      <option name=\"TESTING_TYPE\" value=\"0\" />\n      <option name=\"INSTRUMENTATION_RUNNER_CLASS\" value=\"\" />\n      <option name=\"METHOD_NAME\" value=\"\" />\n      <option name=\"CLASS_NAME\" value=\"\" />\n      <option name=\"PACKAGE_NAME\" value=\"\" />\n      <option name=\"EXTRA_OPTIONS\" value=\"\" />\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"true\" />\n      <option name=\"SKIP_NOOP_APK_INSTALLATIONS\" value=\"true\" />\n      <option name=\"FORCE_STOP_RUNNING_APP\" value=\"true\" />\n      <option name=\"TARGET_SELECTION_MODE\" value=\"EMULATOR\" />\n      <option name=\"USE_LAST_SELECTED_DEVICE\" value=\"false\" />\n      <option name=\"PREFERRED_AVD\" value=\"\" />\n      <option name=\"DEBUGGER_TYPE\" value=\"Java\" />\n      <Java />\n      <Profilers>\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Sample Java Methods\" />\n      </Profilers>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n        <option name=\"Android.Gradle.BeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"Applet\">\n      <option name=\"POLICY_FILE\" value=\"$APPLICATION_HOME_DIR$/bin/appletviewer.policy\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"InteractivePathfinderVisualizer\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"InteractivePathfinderVisualizer\" />\n      <module name=\"P04_Pathfinding\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"Application\" factoryName=\"Application\">\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"JUnit\" factoryName=\"JUnit\">\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_DIR$\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"JarApplication\">\n      <option name=\"JAR_PATH\" value=\"$PROJECT_DIR$/src/stdlib.jar\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration default=\"true\" type=\"TestNG\">\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"#org.jetbrains.idea.devkit.run.PluginConfigurationType\">\n      <module name=\"\" />\n      <option name=\"VM_PARAMETERS\" value=\"-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea\" />\n      <option name=\"PROGRAM_PARAMETERS\" />\n      <predefined_log_file enabled=\"true\" id=\"idea.log\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.InteractivePathfinderVisualizer\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"50b83df3-15a9-4360-bde3-1e23007b18a2\" name=\"Default\" comment=\"\" />\n      <created>1437589218980</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1437589218980</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"Vcs.Log.UiProperties\">\n    <option name=\"RECENTLY_FILTERED_USER_GROUPS\">\n      <collection />\n    </option>\n    <option name=\"RECENTLY_FILTERED_BRANCH_GROUPS\">\n      <collection />\n    </option>\n  </component>\n  <component name=\"antWorkspaceConfiguration\">\n    <option name=\"IS_AUTOSCROLL_TO_SOURCE\" value=\"false\" />\n    <option name=\"FILTER_TARGETS\" value=\"false\" />\n  </component>\n  <component name=\"masterDetails\">\n    <states>\n      <state key=\"ArtifactsStructureConfigurable.UI\">\n        <settings>\n          <artifact-editor />\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"FacetStructureConfigurable.UI\">\n        <settings>\n          <last-edited>No facets are configured</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"GlobalLibrariesConfigurable.UI\">\n        <settings>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"JdkListConfigurable.UI\">\n        <settings>\n          <last-edited>1.8</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"ModuleStructureConfigurable.UI\">\n        <settings>\n          <last-edited>P04_Pathfinding</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n                <option value=\"0.6\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"ProjectJDKs.UI\">\n        <settings>\n          <last-edited>1.7</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"ProjectLibrariesConfigurable.UI\">\n        <settings>\n          <last-edited>algs4</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n    </states>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 8d2d97a18f77e17c906c6f06e314308254d3014d)
++++ b/.idea/workspace.xml	(date 1666712959531)
+@@ -1,8 +1,12 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="50b83df3-15a9-4360-bde3-1e23007b18a2" name="Default" comment="" />
+-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
++    <list default="true" id="50b83df3-15a9-4360-bde3-1e23007b18a2" name="Default" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/InteractivePathfinderVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InteractivePathfinderVisualizer.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Pathfinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pathfinder.java" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -11,9 +15,6 @@
+   <component name="CreatePatchCommitExecutor">
+     <option name="PATCH_PATH" value="" />
+   </component>
+-  <component name="FavoritesManager">
+-    <favorites_list name="P04_Pathfinding" />
+-  </component>
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+@@ -22,7 +23,10 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
+   </component>
+   <component name="MavenImportPreferences">
+     <option name="generalSettings">
+@@ -33,89 +37,78 @@
+   </component>
+   <component name="ProjectId" id="1iwYeHoVYqUfESIMNqB9GfLh0Bl" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-  <component name="PropertiesComponent">
+-    <property name="FullScreen" value="false" />
+-    <property name="OverrideImplement.combined" value="true" />
+-    <property name="OverrideImplement.overriding.sorted" value="false" />
+-    <property name="dynamic.classpath" value="false" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-    <property name="project.structure.last.edited" value="Libraries" />
+-    <property name="project.structure.proportion" value="0.15" />
+-    <property name="project.structure.side.proportion" value="0.2" />
+-    <property name="recentsLimit" value="5" />
+-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+-    <property name="settings.editor.splitter.proportion" value="0.2" />
+-  </component>
+-  <component name="RunDashboard">
+-    <option name="ruleStates">
+-      <list>
+-        <RuleState>
+-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+-        </RuleState>
+-        <RuleState>
+-          <option name="name" value="StatusDashboardGroupingRule" />
+-        </RuleState>
+-      </list>
+-    </option>
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
+   </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "last_opened_file_path": "/Users/katemikels/Documents/COS265/P04_Pathfinding/pathfinding"
++  }
++}]]></component>
+   <component name="RunManager">
+-    <configuration default="true" type="AndroidRunConfigurationType">
++    <configuration default="true" type="Applet">
++      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+       <option name="DEPLOY" value="true" />
+       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+       <option name="DEPLOY_AS_INSTANT" value="false" />
+       <option name="ARTIFACT_NAME" value="" />
+       <option name="PM_INSTALL_OPTIONS" value="" />
++      <option name="ALL_USERS" value="false" />
++      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+       <option name="MODE" value="default_activity" />
+       <option name="CLEAR_LOGCAT" value="false" />
+       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
++      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+-      <option name="PREFERRED_AVD" value="" />
+       <option name="DEBUGGER_TYPE" value="Java" />
+       <Java />
+       <Profilers>
+         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
++        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
++        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
++        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+       </Profilers>
+       <option name="DEEP_LINK" value="" />
+       <option name="ACTIVITY_CLASS" value="" />
+-      <method v="2">
+-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+-      </method>
++      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
++      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
++      <method v="2" />
+     </configuration>
+-    <configuration default="true" type="AndroidTestRunConfigurationType">
++    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
+       <option name="TESTING_TYPE" value="0" />
+-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+       <option name="METHOD_NAME" value="" />
+       <option name="CLASS_NAME" value="" />
+       <option name="PACKAGE_NAME" value="" />
++      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+       <option name="EXTRA_OPTIONS" value="" />
++      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
++      <option name="RETENTION_ENABLED" value="No" />
++      <option name="RETENTION_MAX_SNAPSHOTS" value="2" />
++      <option name="RETENTION_COMPRESS_SNAPSHOTS" value="false" />
+       <option name="CLEAR_LOGCAT" value="false" />
+       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
++      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+-      <option name="PREFERRED_AVD" value="" />
+       <option name="DEBUGGER_TYPE" value="Java" />
+       <Java />
+       <Profilers>
+         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
++        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
++        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
++        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+       </Profilers>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration default="true" type="Applet">
+-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+@@ -169,6 +162,7 @@
+       </list>
+     </recent_temporary>
+   </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="SvnConfiguration">
+     <configuration />
+   </component>
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"VcsDirectoryMappings\">\n    <mapping directory=\"$PROJECT_DIR$/../../../..\" vcs=\"Git\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision 8d2d97a18f77e17c906c6f06e314308254d3014d)
++++ b/.idea/vcs.xml	(date 1666709913009)
+@@ -1,6 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/../../../.." vcs="Git" />
++    <mapping directory="$USER_HOME$" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
