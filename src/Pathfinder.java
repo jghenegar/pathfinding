@@ -28,6 +28,7 @@ public class Pathfinder {
         // returns the cost to travel from starting point to this
         // via the fromNode chain
         public float getCost(float heuristic) {
+
             return 0;
         }
 
@@ -60,14 +61,15 @@ public class Pathfinder {
     }
     Coord pathStart=null;
     Coord pathEnd=null;
-    float heuristic;
+    float heuristic = 1;
     boolean pathFound=false;
     public void setPathStart(Coord loc) {
         if(loc==null) throw new IllegalArgumentException("Illegal Arguement");
         pathStart=loc;
     }
 
-    public Coord getPathStart() {
+    public Coord getPathStart() { // this function is a little redundant if we
+                                  // just have a global var for it anyway...
         return pathStart;
     }
 
@@ -93,6 +95,11 @@ public class Pathfinder {
     }
 
     public void computePath() {
+        // make the priorety queue
+        // use a binary heap?
+        Coord front = getPathStart(); // front queue item will be the start of the path
+        // I think we should implement BinomialMinPQ.java here for our priorety queue implementation?
+        // I'm open to change though
     }
 
     public boolean foundPath() {
