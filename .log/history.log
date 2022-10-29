@@ -1321,3 +1321,290 @@ r 56     Coord pathEnd = null;
 + 55     
 --[ 2022.10.25.11.43.51.682.0 ]--
 + 85         
+--[ 2022.10.29.13.46.34.843.0 ]--
++ 103 <<<<<<< HEAD
++ 104         // use a binary heap?
++ 105         Coord front = getPathStart(); // front queue item will be the start of the path
++ 106         int row = pathStart.getI(); // returns row
++ 107         int col = pathStart.getJ(); // returns col
++ 108         // I think we should implement BinomialMinPQ.java here for our priority queue implementation?
++ 109         // I'm open to change though
++ 110 =======
++ 149 >>>>>>> a260a08 (computePath)
+--[ 2022.10.29.13.46.34.871.0 ]--
+UpdateTree (AD): 18 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.git/objects/1c/657c45ac423a783f740b198b8c2fb38ee7f1b9
++ /.git/objects/21/86213986a340219401746588209691c3a095a9
++ /.git/objects/28/3bac315169d5f131ab61d9a482b571b798e7e1
++ /.git/objects/57/48b108bdc945c49a7a22525e7f115334cb1314
++ /.git/objects/66/cac0def9077c483f8b403da0322603b318e347
++ /.git/objects/68/5025073ac6b980ab26461833cdd4d57cbe4d2d
++ /.git/objects/68/bcf84de8d9b44303a410eaa15011500fbc87dc
++ /.git/objects/81/415deddeaf54572c1897620ff4219df0bccf6c
++ /.git/objects/8a/ddb3b2f6de9b99de7882a6c54afc5707148f06
++ /.git/objects/8c/9d4b1873c2d88d47e50ec454cfd4a1b1721930
++ /.git/objects/99/fc95060d508a3b5990b31df2ec2b5d565dfcaa
++ /.git/objects/a1/8511806924333139ebf4a97a83d77f2ac48d01
++ /.git/objects/a2/60a0876851af8bbc28ad400b1586217be8fe03
++ /.git/objects/a5/142198d6b3120089f3d851541e0b10d8efa7cf
++ /.git/objects/bf/d803b8e3653af5834138691ea8521bcaa694d7
++ /.git/objects/cc/67a514baf96f57a38399f88f1f9b471c4b80e4
++ /.git/objects/d1/bab8cd923b7e91662049128ad2665d98da3e78
++ /.git/objects/df/ab375b6db323649427d9b468018424e7b318ad
+
+--[ 2022.10.29.13.46.34.877.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.34.895.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.34.902.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.34.906.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.34.910.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.34.913.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.34.917.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.34.921.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.34.925.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.34.931.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.34.935.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.34.939.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.781.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.790.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.792.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.794.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.797.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.805.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.807.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.809.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.812.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.814.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.816.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.818.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.825.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.827.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.829.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.831.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.833.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.46.44.835.0 ]--
+UpdateTree (AD): 2 2
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
+- /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_49_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_49__Default_.xml
+
+--[ 2022.10.29.13.47.15.013.0 ]--
+- 103
+- 103
+- 103
+- 103
+- 103
+- 103
+- 103
+- 103
+- 141
+--[ 2022.10.29.13.47.15.016.0 ]--
+UpdateTree (AD): 27 0
++ /out/production/P04_Pathfinding/.donotlog
++ /out/production/P04_Pathfinding/algs4.jar
++ /out/production/P04_Pathfinding/stdlib.jar
++ /out/production/P04_Pathfinding/Coord.class
++ /out/production/P04_Pathfinding/png2emap.py
++ /out/production/P04_Pathfinding/Walker.class
++ /out/production/P04_Pathfinding/ramp.png.emap
++ /out/production/P04_Pathfinding/Terrain.class
++ /out/production/P04_Pathfinding/ramp2.png.emap
++ /out/production/P04_Pathfinding/ramp3.png.emap
++ /out/production/P04_Pathfinding/mazeAB.png.emap
++ /out/production/P04_Pathfinding/usa128.png.emap
++ /out/production/P04_Pathfinding/usa256.png.emap
++ /out/production/P04_Pathfinding/Pathfinder.class
++ /out/production/P04_Pathfinding/usa1024.png.emap
++ /out/production/P04_Pathfinding/maze32_0.png.emap
++ /out/production/P04_Pathfinding/maze32_1.png.emap
++ /out/production/P04_Pathfinding/maze232_0.png.emap
++ /out/production/P04_Pathfinding/maze320_0.png.emap
++ /out/production/P04_Pathfinding/mazeBrain.png.emap
++ /out/production/P04_Pathfinding/TerrainEditor.class
++ /out/production/P04_Pathfinding/Pathfinder$PFNode.class
++ /out/production/P04_Pathfinding/PathfinderVisualizer.class
++ /out/production/P04_Pathfinding/InteractivePathfinderVisualizer.class
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_29_22,_13_46_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_25_22,_11_54_AM_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_25_22__11_54_AM__Default_.xml
+
+--[ 2022.10.29.13.47.27.978.0 ]--
+UpdateTree (AD): 1 0
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_29_22__13_46__Default_.xml
+

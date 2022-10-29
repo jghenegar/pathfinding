@@ -15,10 +15,13 @@ public class Pathfinder {
     private class PFNode implements Comparable<PFNode> {
         // loc: the location of the PFNode
         // fromNode: how did we get here? (linked list back to start)
-        public PFNode(Coord loc, PFNode fromNode) {
-           Coord location=loc;
-           PFNode previous=fromNode;
-           int cost=0;
+        Coord location;
+        PFNode previous;
+        float cost;
+        public PFNode(Coord loc, PFNode fromNode, float newCost) {
+           location=loc;
+           previous=fromNode;
+           cost=newCost;
         }
 
         // compares this with that, used to find minimum cost PFNode
@@ -53,7 +56,7 @@ public class Pathfinder {
         // returns an Iterable of PFNodes that surround this
         public Iterable<PFNode> neighbors() {
             Stack<PFNode> s = new Stack<>();
-            s.push(new PFNode(null, null));
+            s.push(new PFNode(null, null, 0));
             return s;
         }
     }
@@ -97,12 +100,44 @@ public class Pathfinder {
 
     public void computePath() {
         // make the priorety queue
-        // use a binary heap?
-        Coord front = getPathStart(); // front queue item will be the start of the path
-        int row = pathStart.getI(); // returns row
-        int col = pathStart.getJ(); // returns col
-        // I think we should implement BinomialMinPQ.java here for our priority queue implementation?
-        // I'm open to change though
+        Terrain map = new Terrain("maze232_0.png.emap");
+        MinPQ<PFNode> PQ = new MinPQ<>();
+        PFNode start = new PFNode(pathStart, null, 0);
+        PQ.insert(start);
+        while (!pathFound) {
+            PFNode location = PQ.delMin();
+
+            if (location.location == pathEnd) {    //if the location is the end
+                pathFound = true;
+                return;
+            }
+
+            if (location == null) return;
+
+            Coord[] neighbourList = checkNeighbour(location.location);  //give all the neighbours
+            float previousCost = location.cost;
+            for (int i = 0; i < 4; i++) {
+                float cost = map.computeTravelCost(location.location, neighbourList[i]);
+                PFNode temp = new PFNode(neighbourList[i], location, cost);
+                PQ.insert(temp);
+            }
+        }
+    }
+
+    private Coord[] checkNeighbour(Coord loc){
+        int x = loc.getI();   //row
+        int y = loc.getJ();   //col
+
+        Coord[] neighbourList = new Coord[4];
+        neighbourList[0] = loc.add(0, 1);   //up
+        neighbourList[1] = loc.add(-1, 0);  //left
+        neighbourList[2] = loc.add(0, -1);  //down
+        neighbourList[3] = loc.add(1, 0);   //right
+
+        //edge cases
+
+        return neighbourList;
+
     }
 
     public boolean foundPath() {
