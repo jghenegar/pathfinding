@@ -26,7 +26,9 @@ public class Pathfinder {
 
         // compares this with that, used to find minimum cost PFNode
         public int compareTo(PFNode that) {
-            return this.compareTo(that);
+            if(this.cost == that.cost) return 0;
+            if(this.cost < that.cost) return -1;
+            return 1; // else this.cost > that.cost
         }
 
         // returns the cost to travel from starting point to this
@@ -54,15 +56,21 @@ public class Pathfinder {
         public void use() { }
 
         // returns an Iterable of PFNodes that surround this
-        public Iterable<PFNode> neighbors() {
+        public Iterable<PFNode> neighbors() {   //american spelling... :(
             Stack<PFNode> s = new Stack<>();
-            s.push(new PFNode(null, null, 0));
+            // have end
+            // push end.prev, end.prev.prev
+            PFNode current = end;
+            while(current != null) {
+                s.push(current);
+                current = current.previous;
+            }
+            //s.push(new PFNode(null, null, 0));
             return s;
         }
     }
     Terrain map;
     int N;
-    boolean[][] wasSearchedA = new boolean[N][N];
     Coord pathStart=null;
     PFNode start = null;
 
@@ -71,9 +79,12 @@ public class Pathfinder {
     float heuristic = 1;
     boolean pathFound=false;
     int searchSize = 0;
+    boolean[][] wasSearchedA;
     public Pathfinder(Terrain terrain) {
         map = terrain;
         N = map.getN();
+        wasSearchedA = new boolean[N][N];
+
         for(int i = 0; i < N; i ++){
             for(int j = 0; j < N; j++) {
                 wasSearchedA[i][j] = false;
@@ -95,7 +106,6 @@ public class Pathfinder {
         if(loc==null) throw new IllegalArgumentException("Illegal Arguement");
         pathEnd=loc;
         end = new PFNode(pathEnd, null, 0);
-
     }
 
     public Coord getPathEnd() {
@@ -112,35 +122,56 @@ public class Pathfinder {
 
     //cleans out the queues ??
     public void resetPath() {
+//        searchSize = 0;
+//        pathFound = false;
+//        pathStart = null;
+//        pathEnd = null;
+//        start = null;
+//        end = null;
+//        heuristic = 1;
+//
+//        for(int i = 0; i < N; i ++){
+//            for(int j = 0; j < N; j++) {
+//                wasSearchedA[i][j] = false;
+//            }
+//        }
+
     }
 
     public void computePath() {
+        if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or end not set");
         // make the priorety queue
         //Terrain map = new Terrain("maze232_0.png.emap");
-        MinPQ<PFNode> PQ = new MinPQ<>();
+        MinPQ<PFNode> PQ = new MinPQ<>(PFNode::compareTo);
+
         PQ.insert(start);
         searchSize++;           //when something is inserted, increase this var
         wasSearchedA[start.location.getI()][start.location.getJ()] = true;
         while (!pathFound) {
-            PFNode location = PQ.delMin();
+            StdOut.println(PQ.min());
+            //if(PQ.isEmpty()) PQ.insert(start);
+            PFNode pos = PQ.delMin();
 
-            if (location == null) return;          // location must exist
+            if (pos == null) return;          // location must exist
 
-            if (location.location == pathEnd) {    //if the location is the end
+            if (pos.location.getI() == pathEnd.getI() &&
+                    pos.location.getJ() == pathEnd.getJ()) {    //if the location is the end
                 pathFound = true;
                 return;
             }
 
-            Coord[] neighbourList = checkNeighbour(location.location);  //give all the neighbours
+            Coord[] neighbourList = checkNeighbour(pos.location);  //give all the neighbours
 
-            float previousCost = location.cost;
+            //float previousCost = location.cost;
             for (int i = 0; i < 4; i++) {
-                float cost = map.computeTravelCost(location.location, neighbourList[i]);
                 // if neighbour is invalid, move on to the next neighbour
-                if(!neighbourEdgeCases(location, neighbourList[i])) {
+                if(!neighbourEdgeCases(pos, neighbourList[i])) {
                     continue;  //check neighbour edge cases
                 }
-                PFNode temp = new PFNode(neighbourList[i], location, cost);
+
+                float cost = map.computeTravelCost(pos.location, neighbourList[i]);
+
+                PFNode temp = new PFNode(neighbourList[i], pos, cost);
                 PQ.insert(temp);
                 searchSize++;           //when something is inserted, increase this var
                 wasSearchedA[temp.location.getI()][temp.location.getJ()] = true;
@@ -168,7 +199,6 @@ public class Pathfinder {
         // neighbour can't be...
 
         // off the board
-        int N = map.getN(); // this is the board size
         if(neighbour.getI() >= N || neighbour.getI() < 0 ||         // I has to be within the board range
             neighbour.getJ() >= N || neighbour.getJ() < 0) {        // J has to be within the board range
             return false;
@@ -190,8 +220,16 @@ public class Pathfinder {
     }
 
     public Iterable<Coord> getPathSolution() {
-        return null;        //from starting position to end
+        Stack<Coord> i = new Stack<>();
+        PFNode current = end;
+        while(current != null) {
+            i.push(current.location);
+            current = current.previous;
+        }
+        //s.push(new PFNode(null, null, 0));
+        return i;
     }
+
 
     public boolean wasSearched(Coord loc) {
         return (wasSearchedA[loc.getI()][loc.getJ()]);     // return true if was searched

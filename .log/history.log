@@ -6586,3 +6586,1915 @@ r 128
 r 166 
 r 169 
 r 174             return false;
+--[ 2022.11.01.10.55.59.039.0 ]--
++ 143                 
+--[ 2022.11.01.10.55.59.049.0 ]--
+UpdateTree (AD): 8 0
++ /.git/objects/1c/c703fb0cda54ada1d307c7157c38a5190d2ded
++ /.git/objects/37/fd884f83880453314255ebaa5a9e59245f8225
++ /.git/objects/50/f45a016f7fced8aab734e782d5104b8f4c80f9
++ /.git/objects/81/08f16f60245eccd076995743ba7086d4b115e8
++ /.git/objects/82/b448ba408d5bd16b7d1b4e0fbb1cb963716b62
++ /.git/objects/86/7961a56865efb049234525b508a86e39ffaef5
++ /.git/objects/a1/879cf9a504ff7d227fbfc8294c609b6ae9bd65
++ /.git/objects/de/d95243454c5ccb19c6973f1f718c2e8e40db8c
+
+--[ 2022.11.01.10.55.59.537.0 ]--
+r 143                 /
+--[ 2022.11.01.10.55.59.645.0 ]--
+r 143                 //
+--[ 2022.11.01.10.56.00.309.0 ]--
+r 143                 // 
+--[ 2022.11.01.10.56.01.137.0 ]--
+r 143                 // c
+--[ 2022.11.01.10.56.01.256.0 ]--
+r 143                 // co
+--[ 2022.11.01.10.56.01.349.0 ]--
+r 143                 // cos
+--[ 2022.11.01.10.56.01.521.0 ]--
+r 143                 // cost
+--[ 2022.11.01.10.56.01.679.0 ]--
+r 143                 // cost 
+--[ 2022.11.01.10.56.01.995.0 ]--
+r 143                 // cost w
+--[ 2022.11.01.10.56.02.099.0 ]--
+r 143                 // cost wo
+--[ 2022.11.01.10.56.02.174.0 ]--
+r 143                 // cost wou
+--[ 2022.11.01.10.56.02.325.0 ]--
+r 143                 // cost woul
+--[ 2022.11.01.10.56.02.436.0 ]--
+r 143                 // cost would
+--[ 2022.11.01.10.56.02.520.0 ]--
+r 143                 // cost would 
+--[ 2022.11.01.10.56.02.702.0 ]--
+r 143                 // cost would b
+--[ 2022.11.01.10.56.02.888.0 ]--
+r 143                 // cost would be
+--[ 2022.11.01.10.56.03.026.0 ]--
+r 143                 // cost would be 
+--[ 2022.11.01.10.56.03.121.0 ]--
+r 143                 // cost would be d
+--[ 2022.11.01.10.56.03.319.0 ]--
+r 143                 // cost would be di
+--[ 2022.11.01.10.56.03.475.0 ]--
+r 143                 // cost would be dif
+--[ 2022.11.01.10.56.03.605.0 ]--
+r 143                 // cost would be diff
+--[ 2022.11.01.10.56.03.764.0 ]--
+r 143                 // cost would be diffe
+--[ 2022.11.01.10.56.03.853.0 ]--
+r 143                 // cost would be differ
+--[ 2022.11.01.10.56.03.959.0 ]--
+r 143                 // cost would be differe
+--[ 2022.11.01.10.56.04.144.0 ]--
+r 143                 // cost would be differen
+--[ 2022.11.01.10.56.04.213.0 ]--
+r 143                 // cost would be different
+--[ 2022.11.01.10.56.04.384.0 ]--
+r 143                 // cost would be different 
+--[ 2022.11.01.10.56.04.650.0 ]--
+r 143                 // cost would be different w
+--[ 2022.11.01.10.56.04.763.0 ]--
+r 143                 // cost would be different wh
+--[ 2022.11.01.10.56.04.879.0 ]--
+r 143                 // cost would be different whe
+--[ 2022.11.01.10.56.04.965.0 ]--
+r 143                 // cost would be different when
+--[ 2022.11.01.10.56.05.100.0 ]--
+r 143                 // cost would be different when 
+--[ 2022.11.01.10.56.05.224.0 ]--
+r 143                 // cost would be different when c
+--[ 2022.11.01.10.56.05.333.0 ]--
+r 143                 // cost would be different when co
+--[ 2022.11.01.10.56.05.460.0 ]--
+r 143                 // cost would be different when com
+--[ 2022.11.01.10.56.05.607.0 ]--
+r 143                 // cost would be different when comi
+--[ 2022.11.01.10.56.05.786.0 ]--
+r 143                 // cost would be different when comin
+--[ 2022.11.01.10.56.05.925.0 ]--
+r 143                 // cost would be different when coming
+--[ 2022.11.01.10.56.06.016.0 ]--
+r 143                 // cost would be different when coming 
+--[ 2022.11.01.10.56.06.197.0 ]--
+r 143                 // cost would be different when coming a
+--[ 2022.11.01.10.56.06.277.0 ]--
+r 143                 // cost would be different when coming at
+--[ 2022.11.01.10.56.06.413.0 ]--
+r 143                 // cost would be different when coming at 
+--[ 2022.11.01.10.56.06.798.0 ]--
+r 143                 // cost would be different when coming at t
+--[ 2022.11.01.10.56.06.909.0 ]--
+r 143                 // cost would be different when coming at th
+--[ 2022.11.01.10.56.06.986.0 ]--
+r 143                 // cost would be different when coming at the
+--[ 2022.11.01.10.56.07.100.0 ]--
+r 143                 // cost would be different when coming at the 
+--[ 2022.11.01.10.56.07.260.0 ]--
+r 143                 // cost would be different when coming at the l
+--[ 2022.11.01.10.56.07.826.0 ]--
+r 143                 // cost would be different when coming at the lo
+--[ 2022.11.01.10.56.07.951.0 ]--
+r 143                 // cost would be different when coming at the loc
+--[ 2022.11.01.10.56.08.186.0 ]--
+r 143                 // cost would be different when coming at the loca
+--[ 2022.11.01.10.56.08.252.0 ]--
+r 143                 // cost would be different when coming at the locat
+--[ 2022.11.01.10.56.08.458.0 ]--
+r 143                 // cost would be different when coming at the locati
+--[ 2022.11.01.10.56.08.537.0 ]--
+r 143                 // cost would be different when coming at the locatio
+--[ 2022.11.01.10.56.08.720.0 ]--
+r 143                 // cost would be different when coming at the location
+--[ 2022.11.01.10.56.08.889.0 ]--
+r 143                 // cost would be different when coming at the location 
+--[ 2022.11.01.10.56.09.043.0 ]--
+r 143                 // cost would be different when coming at the location f
+--[ 2022.11.01.10.56.09.350.0 ]--
+r 143                 // cost would be different when coming at the location fo
+--[ 2022.11.01.10.56.09.694.0 ]--
+r 143                 // cost would be different when coming at the location f
+--[ 2022.11.01.10.56.09.815.0 ]--
+r 143                 // cost would be different when coming at the location fr
+--[ 2022.11.01.10.56.09.929.0 ]--
+r 143                 // cost would be different when coming at the location fro
+--[ 2022.11.01.10.56.10.130.0 ]--
+r 143                 // cost would be different when coming at the location from
+--[ 2022.11.01.10.56.10.251.0 ]--
+r 143                 // cost would be different when coming at the location from 
+--[ 2022.11.01.10.56.10.337.0 ]--
+r 143                 // cost would be different when coming at the location from d
+--[ 2022.11.01.10.56.10.461.0 ]--
+r 143                 // cost would be different when coming at the location from di
+--[ 2022.11.01.10.56.10.591.0 ]--
+r 143                 // cost would be different when coming at the location from dif
+--[ 2022.11.01.10.56.10.726.0 ]--
+r 143                 // cost would be different when coming at the location from diff
+--[ 2022.11.01.10.56.10.867.0 ]--
+r 143                 // cost would be different when coming at the location from diff 
+--[ 2022.11.01.10.56.11.009.0 ]--
+r 143                 // cost would be different when coming at the location from diff l
+--[ 2022.11.01.10.56.11.197.0 ]--
+r 143                 // cost would be different when coming at the location from diff lo
+--[ 2022.11.01.10.56.11.307.0 ]--
+r 143                 // cost would be different when coming at the location from diff loc
+--[ 2022.11.01.10.56.11.497.0 ]--
+r 143                 // cost would be different when coming at the location from diff loca
+--[ 2022.11.01.10.56.11.584.0 ]--
+r 143                 // cost would be different when coming at the location from diff locat
+--[ 2022.11.01.10.56.11.664.0 ]--
+r 143                 // cost would be different when coming at the location from diff locati
+--[ 2022.11.01.10.56.11.727.0 ]--
+r 143                 // cost would be different when coming at the location from diff locatio
+--[ 2022.11.01.10.56.11.907.0 ]--
+r 143                 // cost would be different when coming at the location from diff location
+--[ 2022.11.01.10.56.11.979.0 ]--
+r 143                 // cost would be different when coming at the location from diff locations
+--[ 2022.11.01.10.56.12.540.0 ]--
+r 143                 // cost would be different when coming at the location from diff locations?
+--[ 2022.11.01.10.56.15.495.0 ]--
++ 144                 
+--[ 2022.11.01.10.59.16.167.0 ]--
+r 144 
+--[ 2022.11.01.11.08.09.778.0 ]--
++ 29             
+--[ 2022.11.01.11.08.16.602.0 ]--
+r 29             i
+--[ 2022.11.01.11.08.16.954.0 ]--
+r 29             if
+--[ 2022.11.01.11.08.17.525.0 ]--
+r 29             if 
+--[ 2022.11.01.11.08.17.883.0 ]--
+r 29             if
+--[ 2022.11.01.11.08.18.257.0 ]--
+r 29             if()
+--[ 2022.11.01.11.08.18.691.0 ]--
+r 29             if(t)
+--[ 2022.11.01.11.08.18.814.0 ]--
+r 29             if(th)
+--[ 2022.11.01.11.08.18.822.0 ]--
+r 29             if(thi)
+--[ 2022.11.01.11.08.18.974.0 ]--
+r 29             if(this)
+--[ 2022.11.01.11.08.19.139.0 ]--
+r 29             if(this.)
+--[ 2022.11.01.11.08.19.374.0 ]--
+r 29             if(this.c)
+--[ 2022.11.01.11.08.19.496.0 ]--
+r 29             if(this.co)
+--[ 2022.11.01.11.08.19.628.0 ]--
+r 29             if(this.cos)
+--[ 2022.11.01.11.08.19.803.0 ]--
+r 29             if(this.cost)
+--[ 2022.11.01.11.08.20.539.0 ]--
+r 29             if(this.cost )
+--[ 2022.11.01.11.08.21.024.0 ]--
+r 29             if(this.cost =)
+--[ 2022.11.01.11.08.21.135.0 ]--
+r 29             if(this.cost ==)
+--[ 2022.11.01.11.08.21.695.0 ]--
+r 29             if(this.cost == )
+--[ 2022.11.01.11.08.22.061.0 ]--
+r 29             if(this.cost == t)
+--[ 2022.11.01.11.08.22.163.0 ]--
+r 29             if(this.cost == th)
+--[ 2022.11.01.11.08.22.270.0 ]--
+r 29             if(this.cost == tha)
+--[ 2022.11.01.11.08.22.332.0 ]--
+r 29             if(this.cost == that)
+--[ 2022.11.01.11.08.22.559.0 ]--
+r 29             if(this.cost == that.)
+--[ 2022.11.01.11.08.22.879.0 ]--
+r 29             if(this.cost == that.c)
+--[ 2022.11.01.11.08.22.951.0 ]--
+r 29             if(this.cost == that.co)
+--[ 2022.11.01.11.08.23.102.0 ]--
+r 29             if(this.cost == that.cos)
+--[ 2022.11.01.11.08.23.270.0 ]--
+r 29             if(this.cost == that.cost)
+--[ 2022.11.01.11.08.24.276.0 ]--
+r 29             if(this.cost == that.cost) 
+--[ 2022.11.01.11.08.24.449.0 ]--
+r 29             if(this.cost == that.cost) r
+--[ 2022.11.01.11.08.24.536.0 ]--
+r 29             if(this.cost == that.cost) re
+--[ 2022.11.01.11.08.24.661.0 ]--
+r 29             if(this.cost == that.cost) ret
+--[ 2022.11.01.11.08.24.771.0 ]--
+r 29             if(this.cost == that.cost) retu
+--[ 2022.11.01.11.08.24.895.0 ]--
+r 29             if(this.cost == that.cost) retur
+--[ 2022.11.01.11.08.24.975.0 ]--
+r 29             if(this.cost == that.cost) return
+--[ 2022.11.01.11.08.25.072.0 ]--
+r 29             if(this.cost == that.cost) return 
+--[ 2022.11.01.11.08.25.557.0 ]--
+r 29             if(this.cost == that.cost) return 0
+--[ 2022.11.01.11.08.26.130.0 ]--
+r 29             if(this.cost == that.cost) return 0;
+--[ 2022.11.01.11.08.26.813.0 ]--
++ 30             
+--[ 2022.11.01.11.08.29.951.0 ]--
++ 31             if(this.cost == that.cost) return 0;
+--[ 2022.11.01.11.08.29.967.0 ]--
+r 30 
+--[ 2022.11.01.11.08.31.565.0 ]--
++ 29             if(this.cost == that.cost) return 0;
+--[ 2022.11.01.11.08.32.401.0 ]--
+- 31
+--[ 2022.11.01.11.08.34.044.0 ]--
+r 30             if(this.cost = that.cost) return 0;
+--[ 2022.11.01.11.08.34.159.0 ]--
+r 30             if(this.cost  that.cost) return 0;
+--[ 2022.11.01.11.08.34.757.0 ]--
+r 30             if(this.cost < that.cost) return 0;
+--[ 2022.11.01.11.08.36.157.0 ]--
+r 31             if(this.cost = that.cost) return 0;
+--[ 2022.11.01.11.08.36.271.0 ]--
+r 31             if(this.cost  that.cost) return 0;
+--[ 2022.11.01.11.08.36.721.0 ]--
+r 31             if(this.cost > that.cost) return 0;
+--[ 2022.11.01.11.08.41.829.0 ]--
+r 30             if(this.cost < that.cost) return ;
+--[ 2022.11.01.11.08.42.008.0 ]--
+r 30             if(this.cost < that.cost) return -;
+--[ 2022.11.01.11.08.42.142.0 ]--
+r 30             if(this.cost < that.cost) return -1;
+--[ 2022.11.01.11.08.46.225.0 ]--
+r 31             if(this.cost > that.cost) return ;
+--[ 2022.11.01.11.08.46.276.0 ]--
+r 31             if(this.cost > that.cost) return 1;
+--[ 2022.11.01.11.08.49.918.0 ]--
+- 32
+--[ 2022.11.01.11.08.57.196.0 ]--
+r 31             ireturn 1;
+--[ 2022.11.01.11.08.58.215.0 ]--
+r 31             return 1;
+--[ 2022.11.01.11.08.59.455.0 ]--
+r 31             return 1; 
+--[ 2022.11.01.11.08.59.809.0 ]--
+r 31             return 1; /
+--[ 2022.11.01.11.08.59.912.0 ]--
+r 31             return 1; //
+--[ 2022.11.01.11.09.00.514.0 ]--
+r 31             return 1; // 
+--[ 2022.11.01.11.09.00.658.0 ]--
+r 31             return 1; // e
+--[ 2022.11.01.11.09.01.088.0 ]--
+r 31             return 1; // el
+--[ 2022.11.01.11.09.01.209.0 ]--
+r 31             return 1; // els
+--[ 2022.11.01.11.09.01.335.0 ]--
+r 31             return 1; // else
+--[ 2022.11.01.11.09.01.580.0 ]--
+r 31             return 1; // else 
+--[ 2022.11.01.11.09.02.876.0 ]--
+r 31             return 1; // else t
+--[ 2022.11.01.11.09.02.974.0 ]--
+r 31             return 1; // else th
+--[ 2022.11.01.11.09.03.052.0 ]--
+r 31             return 1; // else thi
+--[ 2022.11.01.11.09.03.177.0 ]--
+r 31             return 1; // else this
+--[ 2022.11.01.11.09.03.560.0 ]--
+r 31             return 1; // else this.
+--[ 2022.11.01.11.09.03.783.0 ]--
+r 31             return 1; // else this.c
+--[ 2022.11.01.11.09.03.851.0 ]--
+r 31             return 1; // else this.co
+--[ 2022.11.01.11.09.03.989.0 ]--
+r 31             return 1; // else this.cos
+--[ 2022.11.01.11.09.04.153.0 ]--
+r 31             return 1; // else this.cost
+--[ 2022.11.01.11.09.04.513.0 ]--
+r 31             return 1; // else this.cost 
+--[ 2022.11.01.11.09.04.790.0 ]--
+r 31             return 1; // else this.cost <
+--[ 2022.11.01.11.09.05.391.0 ]--
+r 31             return 1; // else this.cost 
+--[ 2022.11.01.11.09.05.695.0 ]--
+r 31             return 1; // else this.cost >
+--[ 2022.11.01.11.09.06.047.0 ]--
+r 31             return 1; // else this.cost > 
+--[ 2022.11.01.11.09.06.252.0 ]--
+r 31             return 1; // else this.cost > t
+--[ 2022.11.01.11.09.06.336.0 ]--
+r 31             return 1; // else this.cost > th
+--[ 2022.11.01.11.09.06.474.0 ]--
+r 31             return 1; // else this.cost > tha
+--[ 2022.11.01.11.09.06.545.0 ]--
+r 31             return 1; // else this.cost > that
+--[ 2022.11.01.11.09.06.784.0 ]--
+r 31             return 1; // else this.cost > that 
+--[ 2022.11.01.11.09.07.194.0 ]--
+r 31             return 1; // else this.cost > that
+--[ 2022.11.01.11.09.07.436.0 ]--
+r 31             return 1; // else this.cost > that.
+--[ 2022.11.01.11.09.07.803.0 ]--
+r 31             return 1; // else this.cost > that.c
+--[ 2022.11.01.11.09.07.901.0 ]--
+r 31             return 1; // else this.cost > that.co
+--[ 2022.11.01.11.09.08.003.0 ]--
+r 31             return 1; // else this.cost > that.cos
+--[ 2022.11.01.11.09.08.139.0 ]--
+r 31             return 1; // else this.cost > that.cost
+--[ 2022.11.01.11.10.05.084.0 ]--
+r 122         MinPQ<PFNode> PQ = new MinPQ<>(c);
+--[ 2022.11.01.11.10.05.101.0 ]--
+r 122         MinPQ<PFNode> PQ = new MinPQ<>(co);
+--[ 2022.11.01.11.10.05.265.0 ]--
+r 122         MinPQ<PFNode> PQ = new MinPQ<>(com);
+--[ 2022.11.01.11.10.05.365.0 ]--
+r 122         MinPQ<PFNode> PQ = new MinPQ<>(comp);
+--[ 2022.11.01.11.10.05.477.0 ]--
+r 122         MinPQ<PFNode> PQ = new MinPQ<>(compa);
+--[ 2022.11.01.11.10.05.547.0 ]--
+r 122         MinPQ<PFNode> PQ = new MinPQ<>(compar);
+--[ 2022.11.01.11.10.05.754.0 ]--
+r 122         MinPQ<PFNode> PQ = new MinPQ<>(compare);
+--[ 2022.11.01.11.10.06.340.0 ]--
+r 122         MinPQ<PFNode> PQ = new MinPQ<>(compareTo);
+--[ 2022.11.01.11.10.06.371.0 ]--
+r 122         MinPQ<PFNode> PQ = new MinPQ<>(::compareTo);
+--[ 2022.11.01.11.10.06.380.0 ]--
+r 122         MinPQ<PFNode> PQ = new MinPQ<>(PFNode::compareTo);
+--[ 2022.11.01.11.14.44.677.0 ]--
+r 138             /float previousCost = location.cost;
+--[ 2022.11.01.11.14.44.792.0 ]--
+r 138             //float previousCost = location.cost;
+--[ 2022.11.01.11.15.51.387.0 ]--
+- 140
+--[ 2022.11.01.11.15.52.657.0 ]--
++ 144                 
+--[ 2022.11.01.11.15.53.090.0 ]--
++ 144                                 float cost = map.computeTravelCost(location.location, neighbourList[i]);
+r 145 
+--[ 2022.11.01.11.15.53.098.0 ]--
+r 144                 float cost = map.computeTravelCost(location.location, neighbourList[i]);
+--[ 2022.11.01.11.15.55.218.0 ]--
+- 145
+--[ 2022.11.01.11.16.03.110.0 ]--
++ 144                 
+--[ 2022.11.01.11.16.06.252.0 ]--
+- 146
+--[ 2022.11.01.11.18.07.492.0 ]--
+r 144 
+--[ 2022.11.01.11.18.09.331.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.01.11.18.55.252.0 ]--
+- 67
+--[ 2022.11.01.11.19.04.194.0 ]--
++ 78         
+--[ 2022.11.01.11.19.04.795.0 ]--
++ 78             boolean[][] wasSearchedA = new boolean[N][N];
+r 79 
+--[ 2022.11.01.11.19.04.806.0 ]--
+r 78         boolean[][] wasSearchedA = new boolean[N][N];
+--[ 2022.11.01.11.19.11.044.0 ]--
+r 78          wasSearchedA = new boolean[N][N];
+--[ 2022.11.01.11.19.11.814.0 ]--
+r 78         wasSearchedA = new boolean[N][N];
+--[ 2022.11.01.11.19.13.314.0 ]--
++ 75     
+--[ 2022.11.01.11.19.13.474.0 ]--
+r 75     boolean[][] wasSearchedA
+--[ 2022.11.01.11.19.14.895.0 ]--
+r 75     boolean[][] wasSearchedA;
+--[ 2022.11.01.11.19.18.700.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.01.11.20.44.685.0 ]--
++ 129             
+--[ 2022.11.01.11.20.45.316.0 ]--
+r 129             i
+--[ 2022.11.01.11.20.45.448.0 ]--
+r 129             if
+--[ 2022.11.01.11.20.46.028.0 ]--
+r 129             if()
+--[ 2022.11.01.11.20.47.096.0 ]--
+r 129             if(P)
+--[ 2022.11.01.11.20.47.500.0 ]--
+r 129         if(P)
+--[ 2022.11.01.11.20.50.498.0 ]--
+r 129         i   f(P)
+--[ 2022.11.01.11.20.51.240.0 ]--
+r 129         i  f(P)
+--[ 2022.11.01.11.20.51.882.0 ]--
+r 129         i f(P)
+--[ 2022.11.01.11.20.51.998.0 ]--
+r 129         if(P)
+--[ 2022.11.01.11.20.52.579.0 ]--
+r 129             if(P)
+--[ 2022.11.01.11.20.53.940.0 ]--
+r 129             if(PQ)
+--[ 2022.11.01.11.20.54.935.0 ]--
+r 129             if(PQ.)
+--[ 2022.11.01.11.20.55.624.0 ]--
+r 129             if(PQ.isEmpty)
+--[ 2022.11.01.11.20.55.634.0 ]--
+r 129             if(PQ.isEmpty())
+--[ 2022.11.01.11.20.58.444.0 ]--
+r 129             if(PQ.isEmpty()) 
+--[ 2022.11.01.11.22.14.798.0 ]--
+r 129             if(PQ.isEmpty())         PQ.insert(start);
+--[ 2022.11.01.11.22.16.515.0 ]--
+r 129             if(PQ.isEmpty())        PQ.insert(start);
+--[ 2022.11.01.11.22.16.698.0 ]--
+r 129             if(PQ.isEmpty())       PQ.insert(start);
+--[ 2022.11.01.11.22.16.927.0 ]--
+r 129             if(PQ.isEmpty())      PQ.insert(start);
+--[ 2022.11.01.11.22.17.152.0 ]--
+r 129             if(PQ.isEmpty())     PQ.insert(start);
+--[ 2022.11.01.11.22.17.467.0 ]--
+r 129             if(PQ.isEmpty())    PQ.insert(start);
+--[ 2022.11.01.11.22.17.824.0 ]--
+r 129             if(PQ.isEmpty())   PQ.insert(start);
+--[ 2022.11.01.11.22.18.086.0 ]--
+r 129             if(PQ.isEmpty())  PQ.insert(start);
+--[ 2022.11.01.11.22.18.337.0 ]--
+r 129             if(PQ.isEmpty()) PQ.insert(start);
+--[ 2022.11.01.11.22.49.758.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.01.11.23.50.370.0 ]--
+r 178          // this is the board size
+--[ 2022.11.01.11.23.51.871.0 ]--
+- 178
+--[ 2022.11.01.11.23.59.395.0 ]--
+r 129             /if(PQ.isEmpty()) PQ.insert(start);
+--[ 2022.11.01.11.23.59.531.0 ]--
+r 129             //if(PQ.isEmpty()) PQ.insert(start);
+--[ 2022.11.01.11.24.23.219.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.01.11.26.11.491.0 ]--
+r 134             if (location.location == e) {    //if the location is the end
+--[ 2022.11.01.11.26.11.625.0 ]--
+r 134             if (location.location == en) {    //if the location is the end
+--[ 2022.11.01.11.26.11.666.0 ]--
+r 134             if (location.location == end) {    //if the location is the end
+--[ 2022.11.01.11.26.14.125.0 ]--
+r 134             if (location. == end) {    //if the location is the end
+--[ 2022.11.01.11.26.14.300.0 ]--
+r 134             if (location == end) {    //if the location is the end
+--[ 2022.11.01.11.26.22.899.0 ]--
+r 134             if (location.location == end) {    //if the location is the end
+--[ 2022.11.01.11.26.23.800.0 ]--
+r 134             if (location.location == pathEnd) {    //if the location is the end
+--[ 2022.11.01.11.26.28.720.0 ]--
++ 122         
+--[ 2022.11.01.11.26.31.344.0 ]--
+r 122         i
+--[ 2022.11.01.11.26.31.451.0 ]--
+r 122         if
+--[ 2022.11.01.11.26.33.479.0 ]--
+r 122         if()
+--[ 2022.11.01.11.26.35.926.0 ]--
+r 122         if(p)
+--[ 2022.11.01.11.26.36.061.0 ]--
+r 122         if(pa)
+--[ 2022.11.01.11.26.36.199.0 ]--
+r 122         if(pat)
+--[ 2022.11.01.11.26.36.315.0 ]--
+r 122         if(path)
+--[ 2022.11.01.11.26.37.037.0 ]--
+r 122         if(pathS)
+--[ 2022.11.01.11.26.37.662.0 ]--
+r 122         if(pathStart)
+--[ 2022.11.01.11.26.38.340.0 ]--
+r 122         if(pathStart )
+--[ 2022.11.01.11.26.38.612.0 ]--
+r 122         if(pathStart =)
+--[ 2022.11.01.11.26.38.692.0 ]--
+r 122         if(pathStart ==)
+--[ 2022.11.01.11.26.38.985.0 ]--
+r 122         if(pathStart == )
+--[ 2022.11.01.11.26.39.128.0 ]--
+r 122         if(pathStart == n)
+--[ 2022.11.01.11.26.39.311.0 ]--
+r 122         if(pathStart == nu)
+--[ 2022.11.01.11.26.39.475.0 ]--
+r 122         if(pathStart == nul)
+--[ 2022.11.01.11.26.39.575.0 ]--
+r 122         if(pathStart == null)
+--[ 2022.11.01.11.26.39.727.0 ]--
+r 122         if(pathStart == null )
+--[ 2022.11.01.11.26.40.190.0 ]--
+r 122         if(pathStart == null |)
+--[ 2022.11.01.11.26.40.316.0 ]--
+r 122         if(pathStart == null ||)
+--[ 2022.11.01.11.26.40.533.0 ]--
+r 122         if(pathStart == null || )
+--[ 2022.11.01.11.26.41.059.0 ]--
+r 122         if(pathStart == null || l)
+--[ 2022.11.01.11.26.41.464.0 ]--
+r 122         if(pathStart == null || )
+--[ 2022.11.01.11.26.41.696.0 ]--
+r 122         if(pathStart == null || p)
+--[ 2022.11.01.11.26.41.841.0 ]--
+r 122         if(pathStart == null || pa)
+--[ 2022.11.01.11.26.41.910.0 ]--
+r 122         if(pathStart == null || pat)
+--[ 2022.11.01.11.26.42.010.0 ]--
+r 122         if(pathStart == null || path)
+--[ 2022.11.01.11.26.42.477.0 ]--
+r 122         if(pathStart == null || pathE)
+--[ 2022.11.01.11.26.42.696.0 ]--
+r 122         if(pathStart == null || pathEnd)
+--[ 2022.11.01.11.26.43.252.0 ]--
+r 122         if(pathStart == null || pathEnd )
+--[ 2022.11.01.11.26.43.547.0 ]--
+r 122         if(pathStart == null || pathEnd =)
+--[ 2022.11.01.11.26.43.637.0 ]--
+r 122         if(pathStart == null || pathEnd ==)
+--[ 2022.11.01.11.26.43.762.0 ]--
+r 122         if(pathStart == null || pathEnd == )
+--[ 2022.11.01.11.26.44.131.0 ]--
+r 122         if(pathStart == null || pathEnd == n)
+--[ 2022.11.01.11.26.44.319.0 ]--
+r 122         if(pathStart == null || pathEnd == nu)
+--[ 2022.11.01.11.26.44.476.0 ]--
+r 122         if(pathStart == null || pathEnd == nul)
+--[ 2022.11.01.11.26.44.590.0 ]--
+r 122         if(pathStart == null || pathEnd == null)
+--[ 2022.11.01.11.26.45.319.0 ]--
+r 122         if(pathStart == null || pathEnd == null) 
+--[ 2022.11.01.11.26.45.594.0 ]--
+r 122         if(pathStart == null || pathEnd == null) t
+--[ 2022.11.01.11.26.45.672.0 ]--
+r 122         if(pathStart == null || pathEnd == null) th
+--[ 2022.11.01.11.26.45.774.0 ]--
+r 122         if(pathStart == null || pathEnd == null) thr
+--[ 2022.11.01.11.26.45.852.0 ]--
+r 122         if(pathStart == null || pathEnd == null) thro
+--[ 2022.11.01.11.26.45.964.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw
+--[ 2022.11.01.11.26.46.073.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw 
+--[ 2022.11.01.11.26.46.260.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw w
+--[ 2022.11.01.11.26.46.596.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw 
+--[ 2022.11.01.11.26.46.806.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw n
+--[ 2022.11.01.11.26.46.899.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw ne
+--[ 2022.11.01.11.26.46.992.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new
+--[ 2022.11.01.11.26.47.313.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new 
+--[ 2022.11.01.11.26.47.821.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new I
+--[ 2022.11.01.11.26.48.047.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new Il
+--[ 2022.11.01.11.26.48.179.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new Ill
+--[ 2022.11.01.11.26.48.247.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new Ille
+--[ 2022.11.01.11.26.48.440.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new Illeg
+--[ 2022.11.01.11.26.48.634.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new Illega
+--[ 2022.11.01.11.26.48.747.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new Illegal
+--[ 2022.11.01.11.26.49.044.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException
+--[ 2022.11.01.11.26.49.057.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException()
+--[ 2022.11.01.11.26.50.383.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("")
+--[ 2022.11.01.11.26.51.696.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("S")
+--[ 2022.11.01.11.26.51.885.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("St")
+--[ 2022.11.01.11.26.52.045.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Sta")
+--[ 2022.11.01.11.26.52.118.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Star")
+--[ 2022.11.01.11.26.52.334.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Star ")
+--[ 2022.11.01.11.26.52.446.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Star t")
+--[ 2022.11.01.11.26.52.666.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Star ")
+--[ 2022.11.01.11.26.52.754.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Star")
+--[ 2022.11.01.11.26.52.874.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start")
+--[ 2022.11.01.11.26.52.916.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start ")
+--[ 2022.11.01.11.26.53.113.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start o")
+--[ 2022.11.01.11.26.53.228.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or")
+--[ 2022.11.01.11.26.53.311.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or ")
+--[ 2022.11.01.11.26.53.442.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or e")
+--[ 2022.11.01.11.26.53.546.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or en")
+--[ 2022.11.01.11.26.53.683.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or end")
+--[ 2022.11.01.11.26.53.827.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or end ")
+--[ 2022.11.01.11.26.53.962.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or end n")
+--[ 2022.11.01.11.26.54.041.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or end no")
+--[ 2022.11.01.11.26.54.123.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or end not")
+--[ 2022.11.01.11.26.54.231.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or end not ")
+--[ 2022.11.01.11.26.54.414.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or end not s")
+--[ 2022.11.01.11.26.54.504.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or end not se")
+--[ 2022.11.01.11.26.54.668.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or end not set")
+--[ 2022.11.01.11.26.56.963.0 ]--
+r 122         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or end not set");
+--[ 2022.11.01.11.27.00.313.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.01.11.28.07.302.0 ]--
+r 131             PFNode location =PQ.delMin(); 
+--[ 2022.11.01.11.28.08.340.0 ]--
+r 131             PFNode location = PQ.delMin();
+--[ 2022.11.01.11.29.08.228.0 ]--
++ 130             
+--[ 2022.11.01.11.29.12.573.0 ]--
+r 130             S
+--[ 2022.11.01.11.29.12.816.0 ]--
+r 130             St
+--[ 2022.11.01.11.29.13.548.0 ]--
+r 130             Std
+--[ 2022.11.01.11.29.14.465.0 ]--
+r 130             StdOut
+--[ 2022.11.01.11.29.14.833.0 ]--
+r 130             StdOut.
+--[ 2022.11.01.11.29.15.065.0 ]--
+r 130             StdOut.p
+--[ 2022.11.01.11.29.15.471.0 ]--
+r 130             StdOut.println
+--[ 2022.11.01.11.29.15.480.0 ]--
+r 130             StdOut.println()
+--[ 2022.11.01.11.29.15.487.0 ]--
+r 130             StdOut.println();
+--[ 2022.11.01.11.29.17.453.0 ]--
+r 130             StdOut.println("");
+--[ 2022.11.01.11.29.20.894.0 ]--
+r 130             StdOut.println(");
+--[ 2022.11.01.11.29.21.005.0 ]--
+r 130             StdOut.println();
+--[ 2022.11.01.11.29.21.704.0 ]--
+r 130             StdOut.println(P);
+--[ 2022.11.01.11.29.22.147.0 ]--
+r 130             StdOut.println(PQ);
+--[ 2022.11.01.11.29.22.462.0 ]--
+r 130             StdOut.println(PQ.);
+--[ 2022.11.01.11.29.22.702.0 ]--
+r 130             StdOut.println(PQ.m);
+--[ 2022.11.01.11.29.22.827.0 ]--
+r 130             StdOut.println(PQ.mi);
+--[ 2022.11.01.11.29.22.936.0 ]--
+r 130             StdOut.println(PQ.min);
+--[ 2022.11.01.11.29.24.713.0 ]--
+r 130             StdOut.println(PQ.min());
+--[ 2022.11.01.11.29.31.355.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.01.11.30.17.670.0 ]--
+- 102
+--[ 2022.11.01.11.31.08.908.0 ]--
+r 131             PFNode p = PQ.delMin();
+--[ 2022.11.01.11.31.09.038.0 ]--
+r 131             PFNode po = PQ.delMin();
+--[ 2022.11.01.11.31.09.119.0 ]--
+r 131             PFNode pos = PQ.delMin();
+--[ 2022.11.01.11.31.11.562.0 ]--
+r 133             if (pos == null) return;          // location must exist
+--[ 2022.11.01.11.31.12.431.0 ]--
+r 135             if (pos.location == pathEnd) {    //if the location is the end
+--[ 2022.11.01.11.31.13.949.0 ]--
+r 140             Coord[] neighbourList = checkNeighbour(pos.location);  //give all the neighbours
+--[ 2022.11.01.11.31.16.234.0 ]--
+r 145                 if(!neighbourEdgeCases(pos, neighbourList[i])) {
+--[ 2022.11.01.11.31.17.379.0 ]--
+r 149                 float cost = map.computeTravelCost(pos.location, neighbourList[i]);
+--[ 2022.11.01.11.31.18.130.0 ]--
+r 151                 PFNode temp = new PFNode(neighbourList[i], pos, cost);
+--[ 2022.11.01.11.32.52.700.0 ]--
+r 135             if (pos.location. == pathEnd) {    //if the location is the end
+--[ 2022.11.01.11.32.53.472.0 ]--
+r 135             if (pos.location.g == pathEnd) {    //if the location is the end
+--[ 2022.11.01.11.32.53.669.0 ]--
+r 135             if (pos.location.ge == pathEnd) {    //if the location is the end
+--[ 2022.11.01.11.32.53.827.0 ]--
+r 135             if (pos.location.get == pathEnd) {    //if the location is the end
+--[ 2022.11.01.11.32.54.173.0 ]--
+r 135             if (pos.location.getI == pathEnd) {    //if the location is the end
+--[ 2022.11.01.11.32.54.182.0 ]--
+r 135             if (pos.location.getI() == pathEnd) {    //if the location is the end
+--[ 2022.11.01.11.32.59.489.0 ]--
+r 135             if (pos.location.getI() == pathEnd.) {    //if the location is the end
+--[ 2022.11.01.11.32.59.706.0 ]--
+r 135             if (pos.location.getI() == pathEnd.g) {    //if the location is the end
+--[ 2022.11.01.11.32.59.871.0 ]--
+r 135             if (pos.location.getI() == pathEnd.ge) {    //if the location is the end
+--[ 2022.11.01.11.32.59.984.0 ]--
+r 135             if (pos.location.getI() == pathEnd.get) {    //if the location is the end
+--[ 2022.11.01.11.33.01.272.0 ]--
+r 135             if (pos.location.getI() == pathEnd.getI) {    //if the location is the end
+--[ 2022.11.01.11.33.01.282.0 ]--
+r 135             if (pos.location.getI() == pathEnd.getI()) {    //if the location is the end
+--[ 2022.11.01.11.33.02.077.0 ]--
+r 135             if (pos.location.getI() == pathEnd.getI() ) {    //if the location is the end
+--[ 2022.11.01.11.33.03.410.0 ]--
+r 135             if (pos.location.getI() == pathEnd.getI() &) {    //if the location is the end
+--[ 2022.11.01.11.33.03.527.0 ]--
+r 135             if (pos.location.getI() == pathEnd.getI() &&) {    //if the location is the end
+--[ 2022.11.01.11.33.03.811.0 ]--
++ 135             if (pos.location.getI() == pathEnd.getI() &&
+r 136             ) {    //if the location is the end
+--[ 2022.11.01.11.33.04.466.0 ]--
+r 136                 ) {    //if the location is the end
+--[ 2022.11.01.11.33.05.441.0 ]--
+r 136                     ) {    //if the location is the end
+--[ 2022.11.01.11.33.06.248.0 ]--
+r 136                     p) {    //if the location is the end
+--[ 2022.11.01.11.33.06.405.0 ]--
+r 136                     po) {    //if the location is the end
+--[ 2022.11.01.11.33.06.547.0 ]--
+r 136                     pos) {    //if the location is the end
+--[ 2022.11.01.11.33.06.827.0 ]--
+r 136                     pos.) {    //if the location is the end
+--[ 2022.11.01.11.33.07.224.0 ]--
+r 136                     pos.l) {    //if the location is the end
+--[ 2022.11.01.11.33.07.491.0 ]--
+r 136                     pos.location) {    //if the location is the end
+--[ 2022.11.01.11.33.08.018.0 ]--
+r 136                     pos.location.) {    //if the location is the end
+--[ 2022.11.01.11.33.08.281.0 ]--
+r 136                     pos.location.g) {    //if the location is the end
+--[ 2022.11.01.11.33.08.402.0 ]--
+r 136                     pos.location.ge) {    //if the location is the end
+--[ 2022.11.01.11.33.08.510.0 ]--
+r 136                     pos.location.get) {    //if the location is the end
+--[ 2022.11.01.11.33.09.295.0 ]--
+r 136                     pos.location.getJ) {    //if the location is the end
+--[ 2022.11.01.11.33.09.306.0 ]--
+r 136                     pos.location.getJ()) {    //if the location is the end
+--[ 2022.11.01.11.33.10.313.0 ]--
+r 136                     pos.location.getJ() ) {    //if the location is the end
+--[ 2022.11.01.11.33.10.475.0 ]--
+r 136                     pos.location.getJ() =) {    //if the location is the end
+--[ 2022.11.01.11.33.10.579.0 ]--
+r 136                     pos.location.getJ() ==) {    //if the location is the end
+--[ 2022.11.01.11.33.10.771.0 ]--
+r 136                     pos.location.getJ() == ) {    //if the location is the end
+--[ 2022.11.01.11.33.11.176.0 ]--
+r 136                     pos.location.getJ() == p) {    //if the location is the end
+--[ 2022.11.01.11.33.11.311.0 ]--
+r 136                     pos.location.getJ() == pa) {    //if the location is the end
+--[ 2022.11.01.11.33.11.359.0 ]--
+r 136                     pos.location.getJ() == pat) {    //if the location is the end
+--[ 2022.11.01.11.33.11.694.0 ]--
+r 136                     pos.location.getJ() == pathEnd) {    //if the location is the end
+--[ 2022.11.01.11.33.12.641.0 ]--
+r 136                     pos.location.getJ() == pathEnd.) {    //if the location is the end
+--[ 2022.11.01.11.33.12.817.0 ]--
+r 136                     pos.location.getJ() == pathEnd.g) {    //if the location is the end
+--[ 2022.11.01.11.33.13.299.0 ]--
+r 136                     pos.location.getJ() == pathEnd.getJ) {    //if the location is the end
+--[ 2022.11.01.11.33.13.309.0 ]--
+r 136                     pos.location.getJ() == pathEnd.getJ()) {    //if the location is the end
+--[ 2022.11.01.11.33.27.056.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.01.11.34.51.638.0 ]--
+r 201         return e;        //from starting position to end
+--[ 2022.11.01.11.34.51.723.0 ]--
+r 201         return en;        //from starting position to end
+--[ 2022.11.01.11.34.51.797.0 ]--
+r 201         return end;        //from starting position to end
+--[ 2022.11.01.11.34.53.470.0 ]--
+r 201         return end.;        //from starting position to end
+--[ 2022.11.01.11.34.53.738.0 ]--
+r 201         return end.l;        //from starting position to end
+--[ 2022.11.01.11.34.54.635.0 ]--
+r 201         return end.location;        //from starting position to end
+--[ 2022.11.01.11.34.58.753.0 ]--
+r 201         return end.locatio;        //from starting position to end
+--[ 2022.11.01.11.34.59.244.0 ]--
+r 201         return end.locati;        //from starting position to end
+--[ 2022.11.01.11.34.59.332.0 ]--
+r 201         return end.locat;        //from starting position to end
+--[ 2022.11.01.11.34.59.411.0 ]--
+r 201         return end.loca;        //from starting position to end
+--[ 2022.11.01.11.34.59.495.0 ]--
+r 201         return end.loc;        //from starting position to end
+--[ 2022.11.01.11.34.59.579.0 ]--
+r 201         return end.lo;        //from starting position to end
+--[ 2022.11.01.11.34.59.664.0 ]--
+r 201         return end.l;        //from starting position to end
+--[ 2022.11.01.11.34.59.748.0 ]--
+r 201         return end.;        //from starting position to end
+--[ 2022.11.01.11.34.59.831.0 ]--
+r 201         return end;        //from starting position to end
+--[ 2022.11.01.11.34.59.914.0 ]--
+r 201         return en;        //from starting position to end
+--[ 2022.11.01.11.35.00.088.0 ]--
+r 201         return e;        //from starting position to end
+--[ 2022.11.01.11.35.00.265.0 ]--
+r 201         return ;        //from starting position to end
+--[ 2022.11.01.11.35.01.314.0 ]--
+r 201         return n;        //from starting position to end
+--[ 2022.11.01.11.35.01.515.0 ]--
+r 201         return nu;        //from starting position to end
+--[ 2022.11.01.11.35.01.711.0 ]--
+r 201         return nul;        //from starting position to end
+--[ 2022.11.01.11.35.01.828.0 ]--
+r 201         return null;        //from starting position to end
+--[ 2022.11.01.11.36.27.062.0 ]--
++ 61             
+--[ 2022.11.01.11.36.27.595.0 ]--
+r 61             /
+--[ 2022.11.01.11.36.27.728.0 ]--
+r 61             //
+--[ 2022.11.01.11.36.27.985.0 ]--
+r 61             // 
+--[ 2022.11.01.11.36.29.423.0 ]--
+r 61             // e
+--[ 2022.11.01.11.36.29.525.0 ]--
+r 61             // en
+--[ 2022.11.01.11.36.29.624.0 ]--
+r 61             // end
+--[ 2022.11.01.11.36.30.089.0 ]--
+r 61             // en
+--[ 2022.11.01.11.36.30.210.0 ]--
+r 61             // e
+--[ 2022.11.01.11.36.30.321.0 ]--
+r 61             // 
+--[ 2022.11.01.11.36.30.706.0 ]--
+r 61             // h
+--[ 2022.11.01.11.36.30.788.0 ]--
+r 61             // ha
+--[ 2022.11.01.11.36.30.929.0 ]--
+r 61             // hav
+--[ 2022.11.01.11.36.31.060.0 ]--
+r 61             // have
+--[ 2022.11.01.11.36.31.156.0 ]--
+r 61             // have 
+--[ 2022.11.01.11.36.31.381.0 ]--
+r 61             // have e
+--[ 2022.11.01.11.36.31.489.0 ]--
+r 61             // have en
+--[ 2022.11.01.11.36.31.601.0 ]--
+r 61             // have end
+--[ 2022.11.01.11.36.34.400.0 ]--
++ 62             
+--[ 2022.11.01.11.36.34.702.0 ]--
+r 62             /
+--[ 2022.11.01.11.36.34.834.0 ]--
+r 62             //
+--[ 2022.11.01.11.36.34.963.0 ]--
+r 62             // 
+--[ 2022.11.01.11.36.35.249.0 ]--
+r 62             // p
+--[ 2022.11.01.11.36.35.311.0 ]--
+r 62             // pu
+--[ 2022.11.01.11.36.35.519.0 ]--
+r 62             // pus
+--[ 2022.11.01.11.36.35.575.0 ]--
+r 62             // push
+--[ 2022.11.01.11.36.35.720.0 ]--
+r 62             // push 
+--[ 2022.11.01.11.36.35.914.0 ]--
+r 62             // push e
+--[ 2022.11.01.11.36.36.008.0 ]--
+r 62             // push en
+--[ 2022.11.01.11.36.36.128.0 ]--
+r 62             // push end
+--[ 2022.11.01.11.36.36.351.0 ]--
+r 62             // push end.
+--[ 2022.11.01.11.36.36.682.0 ]--
+r 62             // push end.p
+--[ 2022.11.01.11.36.36.982.0 ]--
+r 62             // push end.pr
+--[ 2022.11.01.11.36.37.095.0 ]--
+r 62             // push end.pre
+--[ 2022.11.01.11.36.37.626.0 ]--
+r 62             // push end.prev
+--[ 2022.11.01.11.36.37.846.0 ]--
+r 62             // push end.prev,
+--[ 2022.11.01.11.36.37.951.0 ]--
+r 62             // push end.prev, 
+--[ 2022.11.01.11.36.38.999.0 ]--
+r 62             // push end.prev, e
+--[ 2022.11.01.11.36.39.151.0 ]--
+r 62             // push end.prev, en
+--[ 2022.11.01.11.36.39.340.0 ]--
+r 62             // push end.prev, end
+--[ 2022.11.01.11.36.39.630.0 ]--
+r 62             // push end.prev, end.
+--[ 2022.11.01.11.36.39.905.0 ]--
+r 62             // push end.prev, end.p
+--[ 2022.11.01.11.36.40.026.0 ]--
+r 62             // push end.prev, end.pr
+--[ 2022.11.01.11.36.40.097.0 ]--
+r 62             // push end.prev, end.pre
+--[ 2022.11.01.11.36.40.478.0 ]--
+r 62             // push end.prev, end.prev
+--[ 2022.11.01.11.36.40.748.0 ]--
+r 62             // push end.prev, end.prev.
+--[ 2022.11.01.11.36.41.132.0 ]--
+r 62             // push end.prev, end.prev.p
+--[ 2022.11.01.11.36.41.266.0 ]--
+r 62             // push end.prev, end.prev.pr
+--[ 2022.11.01.11.36.41.347.0 ]--
+r 62             // push end.prev, end.prev.pre
+--[ 2022.11.01.11.36.41.605.0 ]--
+r 62             // push end.prev, end.prev.pref
+--[ 2022.11.01.11.36.41.961.0 ]--
+r 62             // push end.prev, end.prev.prefv
+--[ 2022.11.01.11.36.42.164.0 ]--
+r 62             // push end.prev, end.prev.pref
+--[ 2022.11.01.11.36.42.318.0 ]--
+r 62             // push end.prev, end.prev.pre
+--[ 2022.11.01.11.36.42.395.0 ]--
+r 62             // push end.prev, end.prev.prev
+--[ 2022.11.01.11.36.42.531.0 ]--
+r 62             // push end.prev, end.prev.preve
+--[ 2022.11.01.11.36.43.016.0 ]--
+r 62             // push end.prev, end.prev.prev
+--[ 2022.11.01.11.36.45.100.0 ]--
++ 63             
+--[ 2022.11.01.11.36.53.290.0 ]--
+r 63             P
+--[ 2022.11.01.11.36.53.549.0 ]--
+r 63             PF
+--[ 2022.11.01.11.36.54.250.0 ]--
+r 63             PFNode
+--[ 2022.11.01.11.36.55.015.0 ]--
+r 63             PFNode 
+--[ 2022.11.01.11.36.55.196.0 ]--
+r 63             PFNode c
+--[ 2022.11.01.11.36.55.273.0 ]--
+r 63             PFNode cu
+--[ 2022.11.01.11.36.55.440.0 ]--
+r 63             PFNode cur
+--[ 2022.11.01.11.36.55.547.0 ]--
+r 63             PFNode curr
+--[ 2022.11.01.11.36.55.650.0 ]--
+r 63             PFNode curre
+--[ 2022.11.01.11.36.55.796.0 ]--
+r 63             PFNode curren
+--[ 2022.11.01.11.36.55.864.0 ]--
+r 63             PFNode current
+--[ 2022.11.01.11.36.56.005.0 ]--
+r 63             PFNode current 
+--[ 2022.11.01.11.36.56.395.0 ]--
+r 63             PFNode current =
+--[ 2022.11.01.11.36.56.490.0 ]--
+r 63             PFNode current = 
+--[ 2022.11.01.11.36.57.075.0 ]--
+r 63             PFNode current = e
+--[ 2022.11.01.11.36.57.196.0 ]--
+r 63             PFNode current = en
+--[ 2022.11.01.11.36.57.261.0 ]--
+r 63             PFNode current = end
+--[ 2022.11.01.11.36.57.784.0 ]--
+r 63             PFNode current = end;
+--[ 2022.11.01.11.37.01.071.0 ]--
++ 64             
+--[ 2022.11.01.11.37.19.886.0 ]--
+r 64             i
+--[ 2022.11.01.11.37.19.995.0 ]--
+r 64             if
+--[ 2022.11.01.11.37.21.218.0 ]--
+r 64             if()
+--[ 2022.11.01.11.37.21.716.0 ]--
+r 64             if(c)
+--[ 2022.11.01.11.37.21.808.0 ]--
+r 64             if(cu)
+--[ 2022.11.01.11.37.21.949.0 ]--
+r 64             if(cur)
+--[ 2022.11.01.11.37.22.047.0 ]--
+r 64             if(curr)
+--[ 2022.11.01.11.37.22.184.0 ]--
+r 64             if(curre)
+--[ 2022.11.01.11.37.22.306.0 ]--
+r 64             if(curren)
+--[ 2022.11.01.11.37.22.361.0 ]--
+r 64             if(current)
+--[ 2022.11.01.11.37.22.633.0 ]--
+r 64             if(current )
+--[ 2022.11.01.11.37.22.851.0 ]--
+r 64             if(current =)
+--[ 2022.11.01.11.37.22.948.0 ]--
+r 64             if(current ==)
+--[ 2022.11.01.11.37.23.040.0 ]--
+r 64             if(current == )
+--[ 2022.11.01.11.37.23.366.0 ]--
+r 64             if(current == n)
+--[ 2022.11.01.11.37.23.530.0 ]--
+r 64             if(current == nu)
+--[ 2022.11.01.11.37.23.683.0 ]--
+r 64             if(current == nul)
+--[ 2022.11.01.11.37.23.808.0 ]--
+r 64             if(current == null)
+--[ 2022.11.01.11.37.24.927.0 ]--
+r 64             if(current == null) 
+--[ 2022.11.01.11.37.25.642.0 ]--
+r 64             if(current == null) r
+--[ 2022.11.01.11.37.25.708.0 ]--
+r 64             if(current == null) re
+--[ 2022.11.01.11.37.25.877.0 ]--
+r 64             if(current == null) ret
+--[ 2022.11.01.11.37.26.062.0 ]--
+r 64             if(current == null) retu
+--[ 2022.11.01.11.37.26.180.0 ]--
+r 64             if(current == null) retur
+--[ 2022.11.01.11.37.26.250.0 ]--
+r 64             if(current == null) return
+--[ 2022.11.01.11.37.26.454.0 ]--
+r 64             if(current == null) return;
+--[ 2022.11.01.11.37.31.043.0 ]--
+r 64             if(current == null) return; 
+--[ 2022.11.01.11.37.33.277.0 ]--
+r 64             if(current == null) return ; 
+--[ 2022.11.01.11.37.33.351.0 ]--
+r 64             if(current == null) return s; 
+--[ 2022.11.01.11.37.42.427.0 ]--
+r 64             if(current == null) return s; /
+--[ 2022.11.01.11.37.42.531.0 ]--
+r 64             if(current == null) return s; //
+--[ 2022.11.01.11.37.42.928.0 ]--
+r 64             if(current == null) return s; //r
+--[ 2022.11.01.11.37.42.993.0 ]--
+r 64             if(current == null) return s; //re
+--[ 2022.11.01.11.37.43.176.0 ]--
+r 64             if(current == null) return s; //ret
+--[ 2022.11.01.11.37.43.317.0 ]--
+r 64             if(current == null) return s; //retu
+--[ 2022.11.01.11.37.43.452.0 ]--
+r 64             if(current == null) return s; //retur
+--[ 2022.11.01.11.37.43.514.0 ]--
+r 64             if(current == null) return s; //return
+--[ 2022.11.01.11.37.43.634.0 ]--
+r 64             if(current == null) return s; //return 
+--[ 2022.11.01.11.37.43.782.0 ]--
+r 64             if(current == null) return s; //return t
+--[ 2022.11.01.11.37.43.861.0 ]--
+r 64             if(current == null) return s; //return th
+--[ 2022.11.01.11.37.43.926.0 ]--
+r 64             if(current == null) return s; //return the
+--[ 2022.11.01.11.37.44.025.0 ]--
+r 64             if(current == null) return s; //return the 
+--[ 2022.11.01.11.37.44.193.0 ]--
+r 64             if(current == null) return s; //return the e
+--[ 2022.11.01.11.37.44.277.0 ]--
+r 64             if(current == null) return s; //return the em
+--[ 2022.11.01.11.37.44.429.0 ]--
+r 64             if(current == null) return s; //return the emp
+--[ 2022.11.01.11.37.44.566.0 ]--
+r 64             if(current == null) return s; //return the empt
+--[ 2022.11.01.11.37.44.671.0 ]--
+r 64             if(current == null) return s; //return the empty
+--[ 2022.11.01.11.37.44.752.0 ]--
+r 64             if(current == null) return s; //return the empty 
+--[ 2022.11.01.11.37.44.990.0 ]--
+r 64             if(current == null) return s; //return the empty s
+--[ 2022.11.01.11.37.45.153.0 ]--
+r 64             if(current == null) return s; //return the empty st
+--[ 2022.11.01.11.37.45.262.0 ]--
+r 64             if(current == null) return s; //return the empty sta
+--[ 2022.11.01.11.37.45.424.0 ]--
+r 64             if(current == null) return s; //return the empty stac
+--[ 2022.11.01.11.37.45.506.0 ]--
+r 64             if(current == null) return s; //return the empty stack
+--[ 2022.11.01.11.37.46.306.0 ]--
++ 65             
+--[ 2022.11.01.11.37.52.420.0 ]--
+r 65             s
+--[ 2022.11.01.11.37.52.530.0 ]--
+r 65             s.
+--[ 2022.11.01.11.37.52.715.0 ]--
+r 65             s.p
+--[ 2022.11.01.11.37.52.799.0 ]--
+r 65             s.pu
+--[ 2022.11.01.11.37.52.964.0 ]--
+r 65             s.pus
+--[ 2022.11.01.11.37.53.032.0 ]--
+r 65             s.push
+--[ 2022.11.01.11.37.53.772.0 ]--
+r 65             s.push()
+--[ 2022.11.01.11.37.55.929.0 ]--
+r 65             s.push(c)
+--[ 2022.11.01.11.37.56.014.0 ]--
+r 65             s.push(cu)
+--[ 2022.11.01.11.37.56.160.0 ]--
+r 65             s.push(cur)
+--[ 2022.11.01.11.37.56.274.0 ]--
+r 65             s.push(curr)
+--[ 2022.11.01.11.37.56.638.0 ]--
+r 65             s.push(curre)
+--[ 2022.11.01.11.37.56.766.0 ]--
+r 65             s.push(curren)
+--[ 2022.11.01.11.37.56.845.0 ]--
+r 65             s.push(current)
+--[ 2022.11.01.11.37.58.286.0 ]--
+r 65             s.push(current);
+--[ 2022.11.01.11.37.58.537.0 ]--
++ 66             
+--[ 2022.11.01.11.38.00.415.0 ]--
+r 66             c
+--[ 2022.11.01.11.38.00.519.0 ]--
+r 66             cu
+--[ 2022.11.01.11.38.00.675.0 ]--
+r 66             cur
+--[ 2022.11.01.11.38.00.790.0 ]--
+r 66             curr
+--[ 2022.11.01.11.38.00.893.0 ]--
+r 66             curre
+--[ 2022.11.01.11.38.01.045.0 ]--
+r 66             curren
+--[ 2022.11.01.11.38.01.113.0 ]--
+r 66             current
+--[ 2022.11.01.11.38.02.220.0 ]--
+r 66             current 
+--[ 2022.11.01.11.38.02.349.0 ]--
+r 66             current =
+--[ 2022.11.01.11.38.02.483.0 ]--
+r 66             current = 
+--[ 2022.11.01.11.38.02.700.0 ]--
+r 66             current = c
+--[ 2022.11.01.11.38.02.774.0 ]--
+r 66             current = cu
+--[ 2022.11.01.11.38.02.957.0 ]--
+r 66             current = cur
+--[ 2022.11.01.11.38.03.074.0 ]--
+r 66             current = curr
+--[ 2022.11.01.11.38.03.175.0 ]--
+r 66             current = curre
+--[ 2022.11.01.11.38.03.312.0 ]--
+r 66             current = curren
+--[ 2022.11.01.11.38.03.395.0 ]--
+r 66             current = current
+--[ 2022.11.01.11.38.03.600.0 ]--
+r 66             current = current.
+--[ 2022.11.01.11.38.04.068.0 ]--
+r 66             current = current.p
+--[ 2022.11.01.11.38.04.656.0 ]--
+r 66             current = current.previous
+--[ 2022.11.01.11.38.05.279.0 ]--
+r 66             current = current.previous;
+--[ 2022.11.01.11.38.09.006.0 ]--
++ 65             
+--[ 2022.11.01.11.38.09.561.0 ]--
+r 65             w
+--[ 2022.11.01.11.38.09.668.0 ]--
+r 65             wh
+--[ 2022.11.01.11.38.09.742.0 ]--
+r 65             whi
+--[ 2022.11.01.11.38.09.916.0 ]--
+r 65             whil
+--[ 2022.11.01.11.38.10.028.0 ]--
+r 65             while
+--[ 2022.11.01.11.38.10.527.0 ]--
+r 65             while 
+--[ 2022.11.01.11.38.10.967.0 ]--
+r 65             while
+--[ 2022.11.01.11.38.11.304.0 ]--
+r 65             while()
+--[ 2022.11.01.11.38.11.480.0 ]--
+r 65             while(c)
+--[ 2022.11.01.11.38.11.682.0 ]--
+r 65             while(cu)
+--[ 2022.11.01.11.38.11.938.0 ]--
+r 65             while(cur)
+--[ 2022.11.01.11.38.12.508.0 ]--
+r 65             while(curr)
+--[ 2022.11.01.11.38.12.665.0 ]--
+r 65             while(curre)
+--[ 2022.11.01.11.38.12.767.0 ]--
+r 65             while(curren)
+--[ 2022.11.01.11.38.12.892.0 ]--
+r 65             while(current)
+--[ 2022.11.01.11.38.13.035.0 ]--
+r 65             while(current )
+--[ 2022.11.01.11.38.13.394.0 ]--
+r 65             while(current !)
+--[ 2022.11.01.11.38.13.668.0 ]--
+r 65             while(current !=)
+--[ 2022.11.01.11.38.14.004.0 ]--
+r 65             while(current != )
+--[ 2022.11.01.11.38.14.316.0 ]--
+r 65             while(current != n)
+--[ 2022.11.01.11.38.14.466.0 ]--
+r 65             while(current != nu)
+--[ 2022.11.01.11.38.14.612.0 ]--
+r 65             while(current != nul)
+--[ 2022.11.01.11.38.14.716.0 ]--
+r 65             while(current != null)
+--[ 2022.11.01.11.38.19.582.0 ]--
+- 64
+--[ 2022.11.01.11.38.20.971.0 ]--
+r 64             while(current != null) 
+--[ 2022.11.01.11.38.21.192.0 ]--
+r 64             while(current != null) {
+--[ 2022.11.01.11.38.24.556.0 ]--
++ 67             
+--[ 2022.11.01.11.38.24.963.0 ]--
+r 67             }
+--[ 2022.11.01.11.38.24.969.0 ]--
+r 65                 s.push(current);
+--[ 2022.11.01.11.38.24.975.0 ]--
+r 66                 current = current.previous;
+--[ 2022.11.01.11.38.29.651.0 ]--
+r 68             /s.push(new PFNode(null, null, 0));
+--[ 2022.11.01.11.38.29.759.0 ]--
+r 68             //s.push(new PFNode(null, null, 0));
+--[ 2022.11.01.11.39.20.287.0 ]--
+r 59         public Iterable<PFNode> neighbors() { 
+--[ 2022.11.01.11.39.20.622.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   
+--[ 2022.11.01.11.39.20.846.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   /
+--[ 2022.11.01.11.39.20.960.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //
+--[ 2022.11.01.11.39.21.596.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //a
+--[ 2022.11.01.11.39.21.868.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //am
+--[ 2022.11.01.11.39.22.025.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //ame
+--[ 2022.11.01.11.39.22.093.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //amer
+--[ 2022.11.01.11.39.22.269.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //ameri
+--[ 2022.11.01.11.39.22.347.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //americ
+--[ 2022.11.01.11.39.22.532.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //america
+--[ 2022.11.01.11.39.22.592.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american
+--[ 2022.11.01.11.39.22.690.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american 
+--[ 2022.11.01.11.39.22.794.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american s
+--[ 2022.11.01.11.39.22.961.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american sp
+--[ 2022.11.01.11.39.23.096.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american spe
+--[ 2022.11.01.11.39.23.207.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american spel
+--[ 2022.11.01.11.39.23.346.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american spell
+--[ 2022.11.01.11.39.23.457.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american spelli
+--[ 2022.11.01.11.39.23.603.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american spellin
+--[ 2022.11.01.11.39.23.742.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american spelling
+--[ 2022.11.01.11.39.23.887.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american spelling.
+--[ 2022.11.01.11.39.23.992.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american spelling..
+--[ 2022.11.01.11.39.24.111.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american spelling...
+--[ 2022.11.01.11.39.24.212.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american spelling....
+--[ 2022.11.01.11.39.24.985.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american spelling...
+--[ 2022.11.01.11.39.26.628.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american spelling... 
+--[ 2022.11.01.11.39.27.008.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american spelling... :
+--[ 2022.11.01.11.39.27.630.0 ]--
+r 59         public Iterable<PFNode> neighbors() {   //american spelling... :(
+--[ 2022.11.01.11.39.57.359.0 ]--
++ 208         
+--[ 2022.11.01.11.40.21.543.0 ]--
+r 208         Stack<PFNode> s = new Stack<>();
+--[ 2022.11.01.11.40.23.266.0 ]--
+r 208         Stack<PFNode>  = new Stack<>();
+--[ 2022.11.01.11.40.36.709.0 ]--
+r 208         Stack<PFNode> s = new Stack<>();
+--[ 2022.11.01.11.40.38.618.0 ]--
++ 209         
+--[ 2022.11.01.11.40.44.798.0 ]--
+r 209         n
+--[ 2022.11.01.11.40.44.876.0 ]--
+r 209         ne
+--[ 2022.11.01.11.40.45.012.0 ]--
+r 209         nei
+--[ 2022.11.01.11.40.45.168.0 ]--
+r 209         neig
+--[ 2022.11.01.11.40.46.794.0 ]--
+r 209         neigh
+--[ 2022.11.01.11.40.47.155.0 ]--
+r 209         neighb
+--[ 2022.11.01.11.40.47.234.0 ]--
+r 209         neighbo
+--[ 2022.11.01.11.40.47.354.0 ]--
+r 209         neighbor
+--[ 2022.11.01.11.40.48.323.0 ]--
+r 209         neighbors
+--[ 2022.11.01.11.40.51.328.0 ]--
+r 209         neighbors()
+--[ 2022.11.01.11.40.55.087.0 ]--
+r 209         
+--[ 2022.11.01.11.40.57.068.0 ]--
+r 208         Stack<PFNode> s = neighbors()
+--[ 2022.11.01.11.40.58.785.0 ]--
+r 208         Stack<PFNode> s = neighbors();
+--[ 2022.11.01.11.41.18.695.0 ]--
+r 208         Stack<PFNode> s = Pneighbors();
+--[ 2022.11.01.11.41.18.849.0 ]--
+r 208         Stack<PFNode> s = PFneighbors();
+--[ 2022.11.01.11.41.19.105.0 ]--
+r 208         Stack<PFNode> s = PFNneighbors();
+--[ 2022.11.01.11.41.19.888.0 ]--
+r 208         Stack<PFNode> s = PFNoneighbors();
+--[ 2022.11.01.11.41.19.986.0 ]--
+r 208         Stack<PFNode> s = PFNodneighbors();
+--[ 2022.11.01.11.41.20.160.0 ]--
+r 208         Stack<PFNode> s = PFNodeneighbors();
+--[ 2022.11.01.11.41.20.685.0 ]--
+r 208         Stack<PFNode> s = PFNode:neighbors();
+--[ 2022.11.01.11.41.20.784.0 ]--
+r 208         Stack<PFNode> s = PFNode::neighbors();
+--[ 2022.11.01.11.41.20.925.0 ]--
+r 208         Stack<PFNode> s = PFNode:::neighbors();
+--[ 2022.11.01.11.41.21.363.0 ]--
+r 208         Stack<PFNode> s = PFNode::neighbors();
+--[ 2022.11.01.11.41.27.007.0 ]--
+r 208         Stack<PFNode> s = nneighbors();
+--[ 2022.11.01.11.41.27.080.0 ]--
+r 208         Stack<PFNode> s = neneighbors();
+--[ 2022.11.01.11.41.27.174.0 ]--
+r 208         Stack<PFNode> s = newneighbors();
+--[ 2022.11.01.11.41.27.317.0 ]--
+r 208         Stack<PFNode> s = new neighbors();
+--[ 2022.11.01.11.41.27.603.0 ]--
+r 208         Stack<PFNode> s = new Sneighbors();
+--[ 2022.11.01.11.41.27.837.0 ]--
+r 208         Stack<PFNode> s = new Stneighbors();
+--[ 2022.11.01.11.41.28.027.0 ]--
+r 208         Stack<PFNode> s = new Staneighbors();
+--[ 2022.11.01.11.41.28.678.0 ]--
+r 208         Stack<PFNode> s = new Stackneighbors();
+--[ 2022.11.01.11.41.28.689.0 ]--
+r 208         Stack<PFNode> s = new Stack();
+--[ 2022.11.01.11.41.28.701.0 ]--
+r 208         Stack<PFNode> s = new Stack<>();
+--[ 2022.11.01.11.41.31.301.0 ]--
++ 209         
+--[ 2022.11.01.11.41.32.549.0 ]--
+r 209         s
+--[ 2022.11.01.11.41.32.635.0 ]--
+r 209         s.
+--[ 2022.11.01.11.41.33.272.0 ]--
+r 209         s.n
+--[ 2022.11.01.11.41.34.339.0 ]--
+r 209         s.ne
+--[ 2022.11.01.11.41.34.419.0 ]--
+r 209         s.nei
+--[ 2022.11.01.11.41.34.823.0 ]--
+r 209         s.neig
+--[ 2022.11.01.11.41.34.934.0 ]--
+r 209         s.neigh
+--[ 2022.11.01.11.41.35.736.0 ]--
+r 209         s.neighb
+--[ 2022.11.01.11.41.35.838.0 ]--
+r 209         s.neighbo
+--[ 2022.11.01.11.41.35.945.0 ]--
+r 209         s.neighbor
+--[ 2022.11.01.11.41.36.123.0 ]--
+r 209         s.neighbors
+--[ 2022.11.01.11.41.36.970.0 ]--
+r 209         s.neighbors()
+--[ 2022.11.01.11.41.37.324.0 ]--
+r 209         s.neighbors();
+--[ 2022.11.01.11.41.42.025.0 ]--
+r 209         sneighbors();
+--[ 2022.11.01.11.41.42.243.0 ]--
+r 209         s neighbors();
+--[ 2022.11.01.11.41.42.362.0 ]--
+r 209         s =neighbors();
+--[ 2022.11.01.11.41.42.486.0 ]--
+r 209         s = neighbors();
+--[ 2022.11.01.11.42.09.268.0 ]--
+r 209         s = eneighbors();
+--[ 2022.11.01.11.42.09.342.0 ]--
+r 209         s = enneighbors();
+--[ 2022.11.01.11.42.09.458.0 ]--
+r 209         s = endneighbors();
+--[ 2022.11.01.11.42.09.630.0 ]--
+r 209         s = end.neighbors();
+--[ 2022.11.01.11.42.28.585.0 ]--
+r 208         I<PFNode> s = new Stack<>();
+--[ 2022.11.01.11.42.28.773.0 ]--
+r 208         It<PFNode> s = new Stack<>();
+--[ 2022.11.01.11.42.28.904.0 ]--
+r 208         Ite<PFNode> s = new Stack<>();
+--[ 2022.11.01.11.42.28.973.0 ]--
+r 208         Iter<PFNode> s = new Stack<>();
+--[ 2022.11.01.11.42.29.146.0 ]--
+r 208         Itera<PFNode> s = new Stack<>();
+--[ 2022.11.01.11.42.29.320.0 ]--
+r 208         Iterab<PFNode> s = new Stack<>();
+--[ 2022.11.01.11.42.29.438.0 ]--
+r 208         Iterabl<PFNode> s = new Stack<>();
+--[ 2022.11.01.11.42.29.553.0 ]--
+r 208         Iterable<PFNode> s = new Stack<>();
+--[ 2022.11.01.11.42.44.449.0 ]--
+r 210 
+--[ 2022.11.01.11.43.25.954.0 ]--
+r 207         public Iterable<Coord> getPathSolution() {
+--[ 2022.11.01.11.43.27.613.0 ]--
+r 207     public Iterable<Coord> getPathSolution() {
+r 210         
+--[ 2022.11.01.11.44.48.695.0 ]--
+r 65                 s.push(current.);
+--[ 2022.11.01.11.44.49.220.0 ]--
+r 65                 s.push(current.l);
+--[ 2022.11.01.11.44.49.599.0 ]--
+r 65                 s.push(current.location);
+--[ 2022.11.01.11.45.07.439.0 ]--
+r 65                 s.push(current.l);
+--[ 2022.11.01.11.45.07.951.0 ]--
+r 65                 s.push(current);
+--[ 2022.11.01.11.45.32.465.0 ]--
+r 208         Iterable<PFNode>  = new Stack<>();
+--[ 2022.11.01.11.45.32.569.0 ]--
+r 208         Iterable<PFNode> i = new Stack<>();
+--[ 2022.11.01.11.45.34.087.0 ]--
+r 208         Iterable<C> i = new Stack<>();
+--[ 2022.11.01.11.45.34.559.0 ]--
+r 208         Iterable<Co> i = new Stack<>();
+--[ 2022.11.01.11.45.34.657.0 ]--
+r 208         Iterable<Coo> i = new Stack<>();
+--[ 2022.11.01.11.45.34.736.0 ]--
+r 208         Iterable<Coor> i = new Stack<>();
+--[ 2022.11.01.11.45.34.930.0 ]--
+r 208         Iterable<Coord> i = new Stack<>();
+--[ 2022.11.01.11.45.37.221.0 ]--
+r 209          = end.neighbors();
+--[ 2022.11.01.11.45.37.290.0 ]--
+r 209         i = end.neighbors();
+--[ 2022.11.01.11.45.59.476.0 ]--
++ 132         
+--[ 2022.11.01.11.46.00.378.0 ]--
++ 132                     Stack<PFNode> s = new Stack<>();
+r 133 
+--[ 2022.11.01.11.46.00.401.0 ]--
+r 132         Stack<PFNode> s = new Stack<>();
+--[ 2022.11.01.11.46.02.697.0 ]--
+r 132         Stack<C> s = new Stack<>();
+--[ 2022.11.01.11.46.02.929.0 ]--
+r 132         Stack<Co> s = new Stack<>();
+--[ 2022.11.01.11.46.03.055.0 ]--
+r 132         Stack<Coo> s = new Stack<>();
+--[ 2022.11.01.11.46.03.185.0 ]--
+r 132         Stack<Coor> s = new Stack<>();
+--[ 2022.11.01.11.46.03.357.0 ]--
+r 132         Stack<Coord> s = new Stack<>();
+--[ 2022.11.01.11.46.53.721.0 ]--
+- 132
+--[ 2022.11.01.11.47.12.108.0 ]--
++ 210                 public Iterable<PFNode> neighbors() {   //american spelling... :(
++ 211             Stack<PFNode> s = new Stack<>();
++ 212             // have end
++ 213             // push end.prev, end.prev.prev
++ 214             PFNode current = end;
++ 215             while(current != null) {
++ 216                 s.push(current);
++ 217                 current = current.previous;
++ 218             }
++ 219             //s.push(new PFNode(null, null, 0));
++ 220             return s;
+r 221         }
+--[ 2022.11.01.11.47.12.142.0 ]--
+r 210         public Iterable<PFNode> neighbors() {   //american spelling... :(
+--[ 2022.11.01.11.47.14.548.0 ]--
+- 210
+--[ 2022.11.01.11.47.16.435.0 ]--
+r 210         Stack<PFNode> s = new Stack<>();
+--[ 2022.11.01.11.47.18.018.0 ]--
+- 210
+--[ 2022.11.01.11.47.20.233.0 ]--
+r 214                 .push(current);
+--[ 2022.11.01.11.47.20.326.0 ]--
+r 214                 i.push(current);
+--[ 2022.11.01.11.47.22.478.0 ]--
+r 218             return ;
+--[ 2022.11.01.11.47.22.572.0 ]--
+r 218             return i;
+--[ 2022.11.01.11.47.24.290.0 ]--
+r 213             while(current. != null) {
+--[ 2022.11.01.11.47.24.552.0 ]--
+r 213             while(current.l != null) {
+--[ 2022.11.01.11.47.24.823.0 ]--
+r 213             while(current.location != null) {
+--[ 2022.11.01.11.47.26.915.0 ]--
+r 214                 i.push(currentl);
+--[ 2022.11.01.11.47.27.178.0 ]--
+r 214                 i.push(currentl );
+--[ 2022.11.01.11.47.27.691.0 ]--
+r 214                 i.push(currentl);
+--[ 2022.11.01.11.47.27.794.0 ]--
+r 214                 i.push(current);
+--[ 2022.11.01.11.47.28.125.0 ]--
+r 214                 i.push(current.);
+--[ 2022.11.01.11.47.30.109.0 ]--
+r 214                 i.push(current.location);
+--[ 2022.11.01.11.47.31.451.0 ]--
+r 213             while(current. != null) {
+--[ 2022.11.01.11.47.31.567.0 ]--
+r 213             while(current != null) {
+--[ 2022.11.01.11.47.36.851.0 ]--
+- 210
+r 210 
+--[ 2022.11.01.11.47.37.594.0 ]--
+- 210
+--[ 2022.11.01.11.47.48.977.0 ]--
+r 212                 i..push(current.location);
+--[ 2022.11.01.11.47.49.225.0 ]--
+r 212                 i.i.push(current.location);
+--[ 2022.11.01.11.47.51.359.0 ]--
+r 212                 i.i.pus(current.location);
+--[ 2022.11.01.11.47.51.477.0 ]--
+r 212                 i.i.pu(current.location);
+--[ 2022.11.01.11.47.51.604.0 ]--
+r 212                 i.i.p(current.location);
+--[ 2022.11.01.11.47.51.724.0 ]--
+r 212                 i.i.(current.location);
+--[ 2022.11.01.11.47.51.856.0 ]--
+r 212                 i.i(current.location);
+--[ 2022.11.01.11.47.51.989.0 ]--
+r 212                 i.(current.location);
+--[ 2022.11.01.11.47.53.282.0 ]--
+r 212                 i.i(current.location);
+--[ 2022.11.01.11.47.53.472.0 ]--
+r 212                 i.in(current.location);
+--[ 2022.11.01.11.47.53.662.0 ]--
+r 212                 i.ins(current.location);
+--[ 2022.11.01.11.47.53.839.0 ]--
+r 212                 i.inse(current.location);
+--[ 2022.11.01.11.47.53.953.0 ]--
+r 212                 i.inser(current.location);
+--[ 2022.11.01.11.47.54.152.0 ]--
+r 212                 i.insert(current.location);
+--[ 2022.11.01.11.48.24.534.0 ]--
+r 212                 i.(current.location);
+--[ 2022.11.01.11.48.24.959.0 ]--
+r 212                 i.i.push(current.location);
+--[ 2022.11.01.11.48.25.831.0 ]--
+r 212                 i.push(current.location);
+--[ 2022.11.01.11.48.27.962.0 ]--
+r 209         S<Coord> i = new Stack<>();
+--[ 2022.11.01.11.48.28.202.0 ]--
+r 209         St<Coord> i = new Stack<>();
+--[ 2022.11.01.11.48.28.328.0 ]--
+r 209         Sta<Coord> i = new Stack<>();
+--[ 2022.11.01.11.48.28.517.0 ]--
+r 209         Stac<Coord> i = new Stack<>();
+--[ 2022.11.01.11.48.28.610.0 ]--
+r 209         Stack<Coord> i = new Stack<>();
+--[ 2022.11.01.11.48.34.378.0 ]--
+- 219
+--[ 2022.11.01.11.48.34.732.0 ]--
+- 218
+r 218          }
+--[ 2022.11.01.11.48.35.689.0 ]--
+r 218 }
+--[ 2022.11.01.11.48.36.768.0 ]--
+r 218     }
+--[ 2022.11.01.11.48.37.721.0 ]--
+r 218     
+--[ 2022.11.01.11.48.42.657.0 ]--
+r 217     }
+--[ 2022.11.01.11.48.49.672.0 ]--
+r 216         return i;
+--[ 2022.11.01.11.48.50.498.0 ]--
+- 214
+r 214             }//s.push(new PFNode(null, null, 0));
+--[ 2022.11.01.11.48.51.376.0 ]--
++ 214             }
+r 215             //s.push(new PFNode(null, null, 0));
+--[ 2022.11.01.11.48.52.511.0 ]--
+- 214
+r 214             }//s.push(new PFNode(null, null, 0));
+--[ 2022.11.01.11.48.53.053.0 ]--
++ 214             }
+r 215             //s.push(new PFNode(null, null, 0));
+--[ 2022.11.01.11.48.57.468.0 ]--
+r 215         //s.push(new PFNode(null, null, 0));
+--[ 2022.11.01.11.49.08.879.0 ]--
+r 210         PFNode current = end;
+--[ 2022.11.01.11.49.09.734.0 ]--
+r 211         while(current != null) {
+--[ 2022.11.01.11.49.10.541.0 ]--
+r 212             i.push(current.location);
+--[ 2022.11.01.11.49.11.323.0 ]--
+r 213             current = current.previous;
+--[ 2022.11.01.11.49.12.113.0 ]--
+r 214         }
+--[ 2022.11.01.11.49.28.461.0 ]--
+r 218 
+--[ 2022.11.01.11.49.29.232.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.01.11.50.19.718.0 ]--
++ 125         
+--[ 2022.11.01.11.50.27.109.0 ]--
+r 125         s
+--[ 2022.11.01.11.50.27.273.0 ]--
+r 125         se
+--[ 2022.11.01.11.50.27.406.0 ]--
+r 125         sea
+--[ 2022.11.01.11.50.27.496.0 ]--
+r 125         sear
+--[ 2022.11.01.11.50.27.777.0 ]--
+r 125         searc
+--[ 2022.11.01.11.50.28.025.0 ]--
+r 125         searchSize
+--[ 2022.11.01.11.50.28.470.0 ]--
+r 125         searchSize 
+--[ 2022.11.01.11.50.28.681.0 ]--
+r 125         searchSize =
+--[ 2022.11.01.11.50.28.806.0 ]--
+r 125         searchSize = 
+--[ 2022.11.01.11.50.28.959.0 ]--
+r 125         searchSize = 0
+--[ 2022.11.01.11.50.29.454.0 ]--
+r 125         searchSize = 0;
+--[ 2022.11.01.11.50.29.744.0 ]--
++ 126         
+--[ 2022.11.01.11.50.30.111.0 ]--
+r 126         p
+--[ 2022.11.01.11.50.30.207.0 ]--
+r 126         pa
+--[ 2022.11.01.11.50.30.292.0 ]--
+r 126         pat
+--[ 2022.11.01.11.50.30.376.0 ]--
+r 126         path
+--[ 2022.11.01.11.50.30.739.0 ]--
+r 126         pathF
+--[ 2022.11.01.11.50.31.282.0 ]--
+r 126         pathFound
+--[ 2022.11.01.11.50.32.016.0 ]--
+r 126         pathFound 
+--[ 2022.11.01.11.50.32.144.0 ]--
+r 126         pathFound =
+--[ 2022.11.01.11.50.32.254.0 ]--
+r 126         pathFound = 
+--[ 2022.11.01.11.50.32.567.0 ]--
+r 126         pathFound = f
+--[ 2022.11.01.11.50.32.664.0 ]--
+r 126         pathFound = fa
+--[ 2022.11.01.11.50.32.803.0 ]--
+r 126         pathFound = fal
+--[ 2022.11.01.11.50.32.939.0 ]--
+r 126         pathFound = fals
+--[ 2022.11.01.11.50.33.080.0 ]--
+r 126         pathFound = falst
+--[ 2022.11.01.11.50.33.541.0 ]--
+r 126         pathFound = fals
+--[ 2022.11.01.11.50.33.620.0 ]--
+r 126         pathFound = false
+--[ 2022.11.01.11.50.33.764.0 ]--
+r 126         pathFound = falsel
+--[ 2022.11.01.11.50.34.174.0 ]--
+r 126         pathFound = false
+--[ 2022.11.01.11.50.34.462.0 ]--
+r 126         pathFound = false;
+--[ 2022.11.01.11.50.44.342.0 ]--
++ 127         
+--[ 2022.11.01.11.50.44.785.0 ]--
+r 127         p
+--[ 2022.11.01.11.50.44.901.0 ]--
+r 127         pa
+--[ 2022.11.01.11.50.45.002.0 ]--
+r 127         pat
+--[ 2022.11.01.11.50.45.096.0 ]--
+r 127         path
+--[ 2022.11.01.11.50.46.035.0 ]--
+r 127         pathS
+--[ 2022.11.01.11.50.46.283.0 ]--
+r 127         pathStart
+--[ 2022.11.01.11.50.46.973.0 ]--
+r 127         pathStart 
+--[ 2022.11.01.11.50.47.169.0 ]--
+r 127         pathStart =
+--[ 2022.11.01.11.50.47.281.0 ]--
+r 127         pathStart = 
+--[ 2022.11.01.11.50.47.488.0 ]--
+r 127         pathStart = n
+--[ 2022.11.01.11.50.47.663.0 ]--
+r 127         pathStart = nu
+--[ 2022.11.01.11.50.47.793.0 ]--
+r 127         pathStart = nul
+--[ 2022.11.01.11.50.47.932.0 ]--
+r 127         pathStart = null
+--[ 2022.11.01.11.50.48.087.0 ]--
++ 128         
+--[ 2022.11.01.11.50.48.106.0 ]--
+r 128                 
+--[ 2022.11.01.11.50.49.324.0 ]--
+- 128
+--[ 2022.11.01.11.50.49.444.0 ]--
+r 127         pathStart = nul
+--[ 2022.11.01.11.50.50.285.0 ]--
+r 127         pathStart = null
+--[ 2022.11.01.11.50.50.562.0 ]--
+r 127         pathStart = null;
+--[ 2022.11.01.11.50.50.788.0 ]--
++ 128         
+--[ 2022.11.01.11.50.51.164.0 ]--
+r 128         p
+--[ 2022.11.01.11.50.51.225.0 ]--
+r 128         pa
+--[ 2022.11.01.11.50.52.347.0 ]--
+r 128         pathEnd
+--[ 2022.11.01.11.50.53.017.0 ]--
+r 128         pathEnd 
+--[ 2022.11.01.11.50.53.190.0 ]--
+r 128         pathEnd =
+--[ 2022.11.01.11.50.53.275.0 ]--
+r 128         pathEnd = 
+--[ 2022.11.01.11.50.53.470.0 ]--
+r 128         pathEnd = n
+--[ 2022.11.01.11.50.54.120.0 ]--
+r 128         pathEnd = nu
+--[ 2022.11.01.11.50.54.276.0 ]--
+r 128         pathEnd = nul
+--[ 2022.11.01.11.50.54.421.0 ]--
+r 128         pathEnd = null
+--[ 2022.11.01.11.50.54.557.0 ]--
+r 128         pathEnd = null;
+--[ 2022.11.01.11.50.55.039.0 ]--
+r 128         pathEnd = null; 
+--[ 2022.11.01.11.50.55.959.0 ]--
++ 129         
+--[ 2022.11.01.11.51.04.035.0 ]--
+r 129         s
+--[ 2022.11.01.11.51.04.174.0 ]--
+r 129         st
+--[ 2022.11.01.11.51.04.305.0 ]--
+r 129         sta
+--[ 2022.11.01.11.51.04.385.0 ]--
+r 129         star
+--[ 2022.11.01.11.51.04.558.0 ]--
+r 129         start
+--[ 2022.11.01.11.51.04.823.0 ]--
+r 129         start 
+--[ 2022.11.01.11.51.05.012.0 ]--
+r 129         start =
+--[ 2022.11.01.11.51.05.086.0 ]--
+r 129         start = 
+--[ 2022.11.01.11.51.05.253.0 ]--
+r 129         start = n
+--[ 2022.11.01.11.51.05.429.0 ]--
+r 129         start = nu
+--[ 2022.11.01.11.51.05.573.0 ]--
+r 129         start = nul
+--[ 2022.11.01.11.51.05.686.0 ]--
+r 129         start = null
+--[ 2022.11.01.11.51.05.917.0 ]--
+r 129         start = null;
+--[ 2022.11.01.11.51.06.104.0 ]--
++ 130         
+--[ 2022.11.01.11.51.06.387.0 ]--
+r 130         e
+--[ 2022.11.01.11.51.06.475.0 ]--
+r 130         en
+--[ 2022.11.01.11.51.06.601.0 ]--
+r 130         end
+--[ 2022.11.01.11.51.06.803.0 ]--
+r 130         end 
+--[ 2022.11.01.11.51.06.977.0 ]--
+r 130         end =
+--[ 2022.11.01.11.51.07.065.0 ]--
+r 130         end = 
+--[ 2022.11.01.11.51.07.552.0 ]--
+r 130         end = n
+--[ 2022.11.01.11.51.07.736.0 ]--
+r 130         end = nu
+--[ 2022.11.01.11.51.07.912.0 ]--
+r 130         end = nul
+--[ 2022.11.01.11.51.08.052.0 ]--
+r 130         end = null
+--[ 2022.11.01.11.51.08.397.0 ]--
++ 131         
+--[ 2022.11.01.11.51.08.414.0 ]--
+r 131                 
+--[ 2022.11.01.11.51.09.361.0 ]--
+- 131
+--[ 2022.11.01.11.51.09.711.0 ]--
+r 130         end = null;
+--[ 2022.11.01.11.51.09.913.0 ]--
++ 131         
+--[ 2022.11.01.11.51.10.405.0 ]--
+r 131         h
+--[ 2022.11.01.11.51.10.599.0 ]--
+r 131         hu
+--[ 2022.11.01.11.51.11.065.0 ]--
+r 131         h
+--[ 2022.11.01.11.51.11.279.0 ]--
+r 131         he
+--[ 2022.11.01.11.51.11.369.0 ]--
+r 131         heu
+--[ 2022.11.01.11.51.11.625.0 ]--
+r 131         heuristic
+--[ 2022.11.01.11.51.12.152.0 ]--
+r 131         heuristic 
+--[ 2022.11.01.11.51.12.363.0 ]--
+r 131         heuristic =
+--[ 2022.11.01.11.51.12.495.0 ]--
+r 131         heuristic = 
+--[ 2022.11.01.11.51.13.159.0 ]--
+r 131         heuristic = 1
+--[ 2022.11.01.11.51.13.272.0 ]--
+r 131         heuristic = 1;
+--[ 2022.11.01.11.51.13.572.0 ]--
++ 132         
+--[ 2022.11.01.11.51.31.341.0 ]--
++ 132         
+--[ 2022.11.01.11.51.31.905.0 ]--
++ 132                 wasSearchedA = new boolean[N][N];
++ 133 
++ 134         for(int i = 0; i < N; i ++){
++ 135             for(int j = 0; j < N; j++) {
++ 136                 wasSearchedA[i][j] = false;
++ 137             }
+r 138         }
+--[ 2022.11.01.11.51.31.919.0 ]--
+r 132         wasSearchedA = new boolean[N][N];
+--[ 2022.11.01.11.51.34.496.0 ]--
+r 133     
+--[ 2022.11.01.11.51.34.952.0 ]--
+r 133         
+--[ 2022.11.01.11.51.42.026.0 ]--
+- 132
+--[ 2022.11.01.11.51.42.426.0 ]--
+- 132
+--[ 2022.11.01.11.51.43.231.0 ]--
++ 132         
+--[ 2022.11.01.11.51.51.659.0 ]--
+r 128         pathEnd = null;
+r 138 
+--[ 2022.11.01.11.51.52.424.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.01.11.52.02.135.0 ]--
+r 125 //        searchSize = 0;
+r 126 //        pathFound = false;
+r 127 //        pathStart = null;
+r 128 //        pathEnd = null;
+r 129 //        start = null;
+r 130 //        end = null;
+r 131 //        heuristic = 1;
+r 132 //        
+r 133 //        for(int i = 0; i < N; i ++){
+r 134 //            for(int j = 0; j < N; j++) {
+r 135 //                wasSearchedA[i][j] = false;
+r 136 //            }
+r 137 //        }
+--[ 2022.11.01.11.52.05.740.0 ]--
+r 132 //
