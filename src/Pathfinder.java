@@ -60,16 +60,30 @@ public class Pathfinder {
             return s;
         }
     }
-
-    public Pathfinder(Terrain terrain) {
-    }
+    Terrain map;
+    int N;
+    boolean[][] wasSearchedA = new boolean[N][N];
     Coord pathStart=null;
+    PFNode start = null;
+
     Coord pathEnd=null;
+    PFNode end = null;
     float heuristic = 1;
     boolean pathFound=false;
+    int searchSize = 0;
+    public Pathfinder(Terrain terrain) {
+        map = terrain;
+        N = map.getN();
+        for(int i = 0; i < N; i ++){
+            for(int j = 0; j < N; j++) {
+                wasSearchedA[i][j] = false;
+            }
+        }
+    }
     public void setPathStart(Coord loc) {
         if(loc==null) throw new IllegalArgumentException("Illegal Arguement");
         pathStart=loc;
+        start = new PFNode(pathStart, null, 0);
     }
 
     public Coord getPathStart() { // this function is a little redundant if we
@@ -80,6 +94,8 @@ public class Pathfinder {
     public void setPathEnd(Coord loc) {
         if(loc==null) throw new IllegalArgumentException("Illegal Arguement");
         pathEnd=loc;
+        end = new PFNode(pathEnd, null, 0);
+
     }
 
     public Coord getPathEnd() {
@@ -100,33 +116,41 @@ public class Pathfinder {
 
     public void computePath() {
         // make the priorety queue
-        Terrain map = new Terrain("maze232_0.png.emap");
+        //Terrain map = new Terrain("maze232_0.png.emap");
         MinPQ<PFNode> PQ = new MinPQ<>();
-        PFNode start = new PFNode(pathStart, null, 0);
         PQ.insert(start);
+        searchSize++;           //when something is inserted, increase this var
+        wasSearchedA[start.location.getI()][start.location.getJ()] = true;
         while (!pathFound) {
             PFNode location = PQ.delMin();
+
+            if (location == null) return;          // location must exist
 
             if (location.location == pathEnd) {    //if the location is the end
                 pathFound = true;
                 return;
             }
 
-            if (location == null) return;
-
             Coord[] neighbourList = checkNeighbour(location.location);  //give all the neighbours
+
             float previousCost = location.cost;
             for (int i = 0; i < 4; i++) {
                 float cost = map.computeTravelCost(location.location, neighbourList[i]);
+                // if neighbour is invalid, move on to the next neighbour
+                if(!neighbourEdgeCases(location, neighbourList[i])) {
+                    continue;  //check neighbour edge cases
+                }
                 PFNode temp = new PFNode(neighbourList[i], location, cost);
                 PQ.insert(temp);
+                searchSize++;           //when something is inserted, increase this var
+                wasSearchedA[temp.location.getI()][temp.location.getJ()] = true;
             }
         }
     }
 
     private Coord[] checkNeighbour(Coord loc){
-        int x = loc.getI();   //row
-        int y = loc.getJ();   //col
+//        int x = loc.getI();   //row
+//        int y = loc.getJ();   //col
 
         Coord[] neighbourList = new Coord[4];
         neighbourList[0] = loc.add(0, 1);   //up
@@ -134,10 +158,23 @@ public class Pathfinder {
         neighbourList[2] = loc.add(0, -1);  //down
         neighbourList[3] = loc.add(1, 0);   //right
 
-        //edge cases
+        //edge cases in other function
 
         return neighbourList;
 
+    }
+
+    private boolean neighbourEdgeCases(PFNode loc, Coord neighbour){
+        // neighbour can't be...
+
+        // off the board
+        int N = map.getN(); // this is the board size
+        if(neighbour.getI() >= N || neighbour.getI() < 0 ||         // I has to be within the board range
+            neighbour.getJ() >= N || neighbour.getJ() < 0) {        // J has to be within the board range
+            return false;
+        }
+        // a previously searched node
+        return !(wasSearched(neighbour)); // we don't want a node that was seen before
     }
 
     public boolean foundPath() {
@@ -145,18 +182,18 @@ public class Pathfinder {
     }
 
     public float getPathCost() {
-        return 0;
+        return end.cost;
     }
 
     public int getSearchSize() {
-        return 0;
+        return searchSize;
     }
 
     public Iterable<Coord> getPathSolution() {
-        return null;
+        return null;        //from starting position to end
     }
 
     public boolean wasSearched(Coord loc) {
-        return false;
+        return (wasSearchedA[loc.getI()][loc.getJ()]);     // return true if was searched
     }
 }

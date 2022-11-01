@@ -1321,6 +1321,1489 @@ r 56     Coord pathEnd = null;
 + 55     
 --[ 2022.10.25.11.43.51.682.0 ]--
 + 85         
+--[ 2022.10.27.11.28.29.746.0 ]--
+NewLogger: P04_Pathfinding
+Version: 1.5
+--[ 2022.10.27.11.28.30.136.0 ]--
+InitTree:
+/out/production/P04_Pathfinding/.donotlog
+/out/production/P04_Pathfinding/algs4.jar
+/out/production/P04_Pathfinding/stdlib.jar
+/out/production/P04_Pathfinding/Coord.class
+/out/production/P04_Pathfinding/png2emap.py
+/out/production/P04_Pathfinding/Walker.class
+/out/production/P04_Pathfinding/ramp.png.emap
+/out/production/P04_Pathfinding/Terrain.class
+/out/production/P04_Pathfinding/ramp2.png.emap
+/out/production/P04_Pathfinding/ramp3.png.emap
+/out/production/P04_Pathfinding/mazeAB.png.emap
+/out/production/P04_Pathfinding/usa128.png.emap
+/out/production/P04_Pathfinding/usa256.png.emap
+/out/production/P04_Pathfinding/Pathfinder.class
+/out/production/P04_Pathfinding/usa1024.png.emap
+/out/production/P04_Pathfinding/maze32_0.png.emap
+/out/production/P04_Pathfinding/maze32_1.png.emap
+/out/production/P04_Pathfinding/maze232_0.png.emap
+/out/production/P04_Pathfinding/maze320_0.png.emap
+/out/production/P04_Pathfinding/mazeBrain.png.emap
+/out/production/P04_Pathfinding/TerrainEditor.class
+/out/production/P04_Pathfinding/Pathfinder$PFNode.class
+/out/production/P04_Pathfinding/PathfinderVisualizer.class
+/out/production/P04_Pathfinding/InteractivePathfinderVisualizer.class
+/src/algs4.jar
+/src/Coord.java
+/src/stdlib.jar
+/src/Walker.java
+/src/Terrain.java
+/src/Pathfinder.java
+/src/TerrainEditor.java
+/src/PathfinderVisualizer.java
+/src/InteractivePathfinderVisualizer.java
+/.git/info/exclude
+/.git/logs/refs/heads/main
+/.git/logs/refs/remotes/origin/HEAD
+/.git/logs/refs/remotes/origin/main
+/.git/logs/HEAD
+/.git/refs/heads/main
+/.git/refs/remotes/origin/HEAD
+/.git/refs/remotes/origin/main
+/.git/hooks/update.sample
+/.git/hooks/pre-push.sample
+/.git/hooks/commit-msg.sample
+/.git/hooks/pre-commit.sample
+/.git/hooks/pre-rebase.sample
+/.git/hooks/post-update.sample
+/.git/hooks/pre-receive.sample
+/.git/hooks/applypatch-msg.sample
+/.git/hooks/pre-applypatch.sample
+/.git/hooks/pre-merge-commit.sample
+/.git/hooks/push-to-checkout.sample
+/.git/hooks/fsmonitor-watchman.sample
+/.git/hooks/prepare-commit-msg.sample
+/.git/objects/00/83268a14a16b4a5dd867518f78733391a45c17
+/.git/objects/02/b01225b71d3414a2e2cc73cafd334173831774
+/.git/objects/08/03327110344bdd9225216d43717854bdcb5a02
+/.git/objects/0a/0cc74c3c69529bc0b35efec4b33b4122f3f9d2
+/.git/objects/0a/223ed78fd4ba9e3c29d48824487e673a123de6
+/.git/objects/11/f974299e37fea0743352c5bb44bd670176a9c4
+/.git/objects/12/b0c09257d01178df8b7f1060740432172d7b42
+/.git/objects/14/98d3ed54fd6d24a517dbb6edfdb89592a3a42f
+/.git/objects/1d/9870f3870280622cc38ff3a0db5d362720a2c9
+/.git/objects/21/86213986a340219401746588209691c3a095a9
+/.git/objects/28/3bac315169d5f131ab61d9a482b571b798e7e1
+/.git/objects/29/3bba6c1d610b4ce86b15d1a807bfd9512e1e31
+/.git/objects/2e/c358f7bcf4f758b64b2f2d516d8aadd28268c4
+/.git/objects/2f/8959443fe58250b1251ba5223cef6fae049f6a
+/.git/objects/31/0e1d1baa102c6827797e192b38e3f6d8629fc6
+/.git/objects/31/fd9bbe5bb6e815ef3de6539321474dc6aec3b3
+/.git/objects/35/21629ecf5199e7d9a5a177d2937d17e36b73d3
+/.git/objects/36/bd4febfa8552f3cead1307339c48c6a2c9afb9
+/.git/objects/3e/7c188a1be72d5f1cce5cdf5779924b039be66a
+/.git/objects/44/3d1398732fb006321a93e89dc6ccbcc76cefb6
+/.git/objects/46/58c672f584d326af787728f4e52bb379ffbf98
+/.git/objects/4a/25ed2698823ce5825bc66c5a5c767c54af7731
+/.git/objects/54/d71d3d486b9af299988fade384c5fb18962bc9
+/.git/objects/56/c7b9737bf41d32b2b80dfaaba4b83b3237caae
+/.git/objects/5d/7b147a2b1a70bc90f896e209482051cac3b3e0
+/.git/objects/67/ddd10fe349dc2acf922eea2b4a3e4fa5ea9429
+/.git/objects/68/5ce9f76ca15d09cf6e1be3e02b1a75ed9ad67d
+/.git/objects/68/bcf84de8d9b44303a410eaa15011500fbc87dc
+/.git/objects/6b/9b0a44c59f31c1431e5570954d90fdd726418d
+/.git/objects/6c/246424f93893cd073f3d1bd7f636fcdf2a8f6b
+/.git/objects/6c/f072a973f0e9b5df5708bc22f87d48cea5f3c0
+/.git/objects/6e/43436847378f923cf6d07ac36edb0b7c6d94b6
+/.git/objects/6f/21b8c406d74ee4404188aab137e27a3ad825af
+/.git/objects/6f/f8fa664f641464a3c3a5680c2fc82cef12381f
+/.git/objects/77/2704d8527483dc9bd3881838b5ae736e6a3080
+/.git/objects/7f/1d432fbe858693e07e0f8841e84c792af2031d
+/.git/objects/85/ce4526c7499f9d59944e1e006278d669c09343
+/.git/objects/88/ecd90b14e8bd5850f801f539c4edeec367a1ad
+/.git/objects/90/c179d86e49e8f9cb01f9f441c21477b64b8cd8
+/.git/objects/93/a9ff49344da6ca9b0bc1754a35a8642b385561
+/.git/objects/96/3aff0b633cf34ac705e22de6d5f7052727ebd4
+/.git/objects/9a/6474cc575269218262e5befaf996589b4b0725
+/.git/objects/a1/68398a440f4c5345b3b3565e9f86f87edab677
+/.git/objects/a8/e2b1bf7684eb227f451507d3a2426bfe896c8f
+/.git/objects/a9/cfc582bac4e2f77cb3a782cce2276797e3cf6d
+/.git/objects/b2/3b264149f35fafc61fc64e209a58ec653e8560
+/.git/objects/b9/b281651bbdd7a26d9a588cfec35c0470aa921b
+/.git/objects/be/bbdf2844f2f1e3a5f33e187b312baa769c280a
+/.git/objects/c0/6c06bae75f4eadb6f3b484daaf0df95379fea0
+/.git/objects/c1/c4ebd69aa9312836630aa6b99ca0252ee2f0ae
+/.git/objects/c3/e53b84164752b49157a170c31cc7533f5d2fee
+/.git/objects/c9/37f78182ddde0206560e0e602788143fdb5b9d
+/.git/objects/ca/9a474fc415e206e1d701688a299fa1b8bbd628
+/.git/objects/d0/a590a1e82da3c72a9484491b61e6bccaf4b6e3
+/.git/objects/d0/d5683a4b63386ff54b787640fcf8c1e9ce605b
+/.git/objects/d1/bab8cd923b7e91662049128ad2665d98da3e78
+/.git/objects/d1/cbca8c4639e7e89c458a3c273f0acebd9ebe1a
+/.git/objects/d6/81f37c2ad71d1a24bfccf5c039cb90a8b74b6e
+/.git/objects/de/8b77f039b60bc7ef5ca03a85e9712c734fb3c0
+/.git/objects/e7/0c3da4a581efea1f3c3cecbcadf932c80ee641
+/.git/objects/ea/f2034dc4702cda5cdea9276aa329109efd76f1
+/.git/objects/eb/02039079a5e73413c80696c73153fca1810484
+/.git/objects/f1/3b51941ba05149023344e796411aa0c6a438cb
+/.git/objects/fc/cd7f38f6769c6fc941db1b04fa52f06088c55b
+/.git/objects/pack/pack-b4e0115436e87889784e14152f6d0d80dd73fe34.idx
+/.git/objects/pack/pack-b4e0115436e87889784e14152f6d0d80dd73fe34.pack
+/.git/HEAD
+/.git/index
+/.git/config
+/.git/ORIG_HEAD
+/.git/FETCH_HEAD
+/.git/description
+/.git/packed-refs
+/.git/COMMIT_EDITMSG
+/.log/history.log
+/.idea/shelf/Uncommitted_changes_before_Update_at_10_25_22,_11_54_AM_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_10_25_22__11_54_AM__Default_.xml
+/.idea/copyright/profiles_settings.xml
+/.idea/libraries/algs4.xml
+/.idea/libraries/stdlib.xml
+/.idea/.name
+/.idea/vcs.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/compiler.xml
+/.idea/workspace.xml
+/.idea/uiDesigner.xml
+/tests/.donotlog
+/tests/png2emap.py
+/tests/ramp.png.emap
+/tests/ramp2.png.emap
+/tests/ramp3.png.emap
+/tests/mazeAB.png.emap
+/tests/usa128.png.emap
+/tests/usa256.png.emap
+/tests/usa1024.png.emap
+/tests/maze32_0.png.emap
+/tests/maze32_1.png.emap
+/tests/maze232_0.png.emap
+/tests/maze320_0.png.emap
+/tests/mazeBrain.png.emap
+/.cos265
+/readme.html
+/P04_Pathfinding.iml
+
+--[ 2022.10.27.11.28.30.137.0 ]--
+InitFile: /src/TerrainEditor.java
+/**
+ * The following class provides some simple terrain editing functions.
+ */
+public class TerrainEditor {
+    private static float rndRadius(float d) {
+        return (float)StdRandom.uniform(-d,d);
+    }
+
+    private static float getFractalHeight(int i, int j, float dh, Terrain terrain, boolean[] isset) {
+        int N = terrain.getN();
+        dh = Math.max(-64, Math.min(255+64, dh));   // allow the height to go just a bit out of range
+        if(!isset[i + j * N]) {
+            isset[i + j * N] = true;
+            terrain.setHeight(i, j, dh);
+        }
+        return terrain.getHeight(i,j);
+    }
+
+    private static void setFractalHeights(int i0, int j0, int i1, int j1, Terrain terrain, boolean[] isset) {
+        int id = i1-i0;
+        int jd = j1-j0;
+        int i01 = (i0+i1)/2;
+        int j01 = (j0+j1)/2;
+
+        if(id <= 1 && jd <= 1) return;
+
+        float h00 = getFractalHeight(i0,j0,32,terrain,isset);
+        float h01 = getFractalHeight(i0,j1,32,terrain,isset);
+        float h10 = getFractalHeight(i1,j0,32,terrain,isset);
+        float h11 = getFractalHeight(i1,j1,32,terrain,isset);
+
+        float d = (float)(Math.sqrt((i1-i0)*(i1-i0) + (j1-j0)*(j1-j0)) * 0.5);
+
+        float d0001 = (h00 + h01) / 2 + rndRadius(d);
+        float d0010 = (h00 + h10) / 2 + rndRadius(d);
+        float d1101 = (h11 + h01) / 2 + rndRadius(d);
+        float d1110 = (h11 + h10) / 2 + rndRadius(d);
+
+        float h0001 = getFractalHeight(i0, j01, d0001, terrain,isset);
+        float h0010 = getFractalHeight(i01, j0, d0010, terrain,isset);
+        float h1101 = getFractalHeight(i01, j1, d1101, terrain,isset);
+        float h1110 = getFractalHeight(i1, j01, d1110, terrain,isset);
+
+        float dm = (float)((h0001 + h0010 + h1101 + h1110) / 4.0);
+        float hm = getFractalHeight(i01, j01, dm, terrain,isset);
+
+        if(id > 1 && jd > 1) {
+            setFractalHeights(i0, j0, i01, j01, terrain, isset);
+            setFractalHeights(i01, j0, i1, j01, terrain, isset);
+            setFractalHeights(i0, j01, i01, j1, terrain, isset);
+            setFractalHeights(i01, j01, i1, j1, terrain, isset);
+        } else if(jd > 1) {
+            setFractalHeights(i0, j0, i1, j01, terrain, isset);
+            setFractalHeights(i0, j01, i1, j1, terrain, isset);
+        } else {
+            setFractalHeights(i0, j0, i01, j1, terrain, isset);
+            setFractalHeights(i01, j0, i1, j1, terrain, isset);
+        }
+    }
+
+    public static void setFractalHeights(Terrain terrain) {
+        int N = terrain.getN();
+        boolean[] isset = new boolean[N*N];
+        setFractalHeights(0, 0, N - 1, N - 1, terrain, isset);
+    }
+
+    public static void smoothHeights(Terrain terrain) {
+        int N = terrain.getN();
+        int radius = (int)Math.ceil(Math.sqrt(N*N/2.0f));
+        smoothHeights(N/2, N/2, radius, false, terrain);
+    }
+
+    public static void smoothHeights(int ic, int jc, int radius, boolean fallOff, Terrain terrain) {
+        final int N = terrain.getN();
+        final int w = 2*radius+1;
+        float[] s = new float[w*w];
+        for(int ia = -radius; ia <= radius; ia++) {
+            int i = ic + ia;
+            if(i < 0 || i >= N) continue;
+            for(int ja = -radius; ja <= radius; ja++) {
+                int j = jc + ja;
+                if(j < 0 || j >= N) continue;
+                int sidx = (ia+radius) + (ja+radius)*w;
+
+                float m = computeEffect(i, j, ic, jc, radius, fallOff, N);
+                if(m <= 0.0000001) {
+                    s[sidx] = terrain.getHeight(i,j);
+                    continue;
+                }
+                float h = 0;
+                int c = 0;
+                if(i > 0 && j > 0) {
+                    h += terrain.getHeight(i-1,j-1);
+                    c += 1;
+                }
+                if(i < N-1 && j > 0) {
+                    h += terrain.getHeight(i+1,j-1);
+                    c += 1;
+                }
+                if(i > 0 && j < N-1) {
+                    h += terrain.getHeight(i-1,j+1);
+                    c += 1;
+                }
+                if(i < N-1 && j < N-1) {
+                    h += terrain.getHeight(i+1,j+1);
+                    c += 1;
+                }
+                if(i > 0) {
+                    h += terrain.getHeight(i-1,j);
+                    c += 1;
+                }
+                if(j > 0) {
+                    h += terrain.getHeight(i,j-1);
+                    c += 1;
+                }
+                if(i < N-1) {
+                    h += terrain.getHeight(i+1,j);
+                    c += 1;
+                }
+                if(j < N-1) {
+                    h += terrain.getHeight(i,j+1);
+                    c += 1;
+                }
+                s[sidx] = (1-m) * terrain.getHeight(i,j) + m * h / c;
+            }
+        }
+        for(int ia = -radius; ia <= radius; ia++) {
+            int i = ic + ia;
+            if(i < 0 || i >= N) continue;
+            for(int ja = -radius; ja <= radius; ja++) {
+                int j = jc + ja;
+                if(j < 0 || j >= N) continue;
+                int sidx = (ia+radius) + (ja+radius)*w;
+                terrain.setHeight(i, j, s[sidx]);
+            }
+        }
+    }
+
+    public static void clampHeights(Terrain terrain) {
+        int N = terrain.getN();
+        for(int i = 0; i < N; i++) {
+            for(int j = 0; j < N; j++) {
+                terrain.setHeight(i, j, Math.max(0, Math.min(255, terrain.getHeight(i, j))));
+            }
+        }
+    }
+
+    private static float computeEffect(int i, int j, int ic, int jc, int radius, boolean fallOff, int N) {
+        if(i < 0 || j < 0 || i >= N || j >= N) return 0;
+        if(!fallOff) return 1;
+        int d2 = (ic-i)*(ic-i)+(jc-j)*(jc-j);
+        if(d2 > radius*radius) return 0;
+        return ((float)radius - (float)Math.sqrt(d2)) / (float)radius;
+    }
+
+    public static void addHeight(int i, int j, int radius, float add, Terrain terrain) {
+        final int N = terrain.getN();
+        for(int ja = -radius; ja <= radius; ja++) {
+            int r = j + ja;
+            if(r < 0 || r >= N) continue;
+            for(int ia = -radius; ia <= radius; ia++) {
+                int c = i + ia;
+                if(c < 0 || c >= N) continue;
+                float v = add * computeEffect(c, r, i, j, radius, true, N);
+                float h = terrain.getHeight(c, r) + v;
+                h = Math.max(0, Math.min(255, h));
+                terrain.setHeight(c, r, h);
+            }
+        }
+    }
+}
+
+--[ 2022.10.27.11.28.30.137.1 ]--
+InitFile: /src/InteractivePathfinderVisualizer.java
+import java.awt.event.KeyEvent;
+//kate was here
+/**
+ * InteractivePathfinderVisualizer visualizes the terrain and the computed
+ * path and allows the user to change parameters of the Pathfinder.  Below
+ * is a list of commands and what they do.  Note: some of the commands
+ * modify the properties of the path finder and some modify the terrain.
+ *
+ * Command        Action                                      Terrain
+ * C              clear path
+ * space          recompute path
+ * S/E            set start/end location to mouse
+ * left/right     halve/double path search heuristic value
+ * 0/1            set path search heuristic to 0 or 1
+ * W              start a walker to show the path
+ * R              randomly generate a new terrain                *
+ * M              smooths terrain under mouse                    *
+ * shift+M        smooths all terrain                            *
+ * up/down        increase/decrease terrain under mouse          *
+ */
+
+public class InteractivePathfinderVisualizer {
+    private final static int DELAY = 10;
+
+    // sets how many redraws it should take for the walker to reach its destination
+    private final static float STEPS_TO_WALK = 100.0f;
+
+    // for convenience, here are the emap files that are located under heightmaps/ folder
+    // the python script in that folder converts png files to emap. \
+    // you can use it to create your own maps to test your code
+    private final static String[] emaps = {
+            "maze32_0.png.emap",    // 0   (32x32 maze)
+            "maze32_1.png.emap",    // 1   (another 32x32 maze)
+            "maze232_0.png.emap",   // 2   (232x232 maze)
+            "maze320_0.png.emap",   // 3   (same as maze32_0, only scaled up by 10x)
+            "mazeAB.png.emap",      // 4   (a maze from a site no longer online :( )
+            "mazeBrain.png.emap",   // 5   (...)
+            "ramp.png.emap",        // 6   (some tests)
+            "ramp2.png.emap",       // 7   (...)
+            "ramp3.png.emap",       // 8   (...)
+            "usa128.png.emap",      // 9   (elevation map of USA from https://bananas.openttd.org/en/heightmap/)
+            "usa256.png.emap",      // 10  (same as usa128, only higher resolution)
+            "usa1024.png.emap",     // 11  (same as usa128, only higher resolution
+    };
+
+    private final static String emapFilename = emaps[2];        // change index to load a different elevation map
+
+
+
+    public static void main(String[] args) {
+        Terrain terrain = new Terrain(emapFilename);
+        Pathfinder pf = new Pathfinder(terrain);
+        int N = terrain.getN();
+
+        StdDraw.show(0);
+
+        // set default starting and ending locations
+        pf.setPathStart(new Coord(1, 1));
+        pf.setPathEnd(new Coord(N-3, N-3));
+
+        // find a path
+        pf.resetPath();
+        pf.computePath();
+
+        PathfinderVisualizer.draw(terrain, pf, null, N);
+        StdDraw.show(DELAY);
+
+        // prevent repeated applications
+        boolean keyboardR = false;
+        boolean keyboardM = false;
+
+        Walker walker = null;
+
+        while(true) {
+            boolean recompute = false;
+            boolean redraw = false;
+
+            // mouse location on map
+            int mouseI = (int) ((StdDraw.mouseX()-24) / 464 * N);
+            int mouseJ = (int) ((464 - (StdDraw.mouseY()-36)) / 464 * N);
+            boolean isMouseOnMap = (mouseI >=0 && mouseI < N && mouseJ >= 0 && mouseJ < N);
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_LEFT) || StdDraw.isKeyPressed(KeyEvent.VK_RIGHT)) {
+                boolean keyboardLeft = StdDraw.isKeyPressed(KeyEvent.VK_LEFT);
+                float m = keyboardLeft ? 0.5f : 2.0f;
+                float h = pf.getHeuristic() * m;
+                h = Math.max(1.0f/1024.0f, Math.min(1048576.0f, h));
+                pf.setHeuristic(h);
+                recompute = true;
+            }
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_0) || StdDraw.isKeyPressed(KeyEvent.VK_1)) {
+                boolean keyboard0 = StdDraw.isKeyPressed(KeyEvent.VK_0);
+                float h = keyboard0 ? 0 : 1;
+                pf.setHeuristic(h);
+                recompute = true;
+            }
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_C)) {
+                pf.resetPath();
+                walker = null;
+                redraw = true;
+            }
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_R) && !keyboardR) {
+                TerrainEditor.setFractalHeights(terrain);
+                TerrainEditor.clampHeights(terrain);
+                recompute = true;
+            }
+            keyboardR = StdDraw.isKeyPressed(KeyEvent.VK_R);
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_M)) {
+                if(StdDraw.isKeyPressed(KeyEvent.VK_SHIFT)) {
+                    if(!keyboardM) {
+                        TerrainEditor.smoothHeights(terrain);
+                        recompute = true;
+                    }
+                } else {
+                    TerrainEditor.smoothHeights(mouseI, mouseJ, N / 20, true, terrain);
+                    recompute = true;
+                }
+            }
+            keyboardM = StdDraw.isKeyPressed(KeyEvent.VK_M);
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_SPACE)) {
+                recompute = true;
+            }
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_UP) || StdDraw.isKeyPressed(KeyEvent.VK_DOWN)) {
+                boolean keyboardUp = StdDraw.isKeyPressed(KeyEvent.VK_UP);
+                float add = keyboardUp ? 8.0f : -8.0f;
+                TerrainEditor.addHeight(mouseI, mouseJ, N / 20, add, terrain);
+                recompute = true;
+            }
+
+            if(isMouseOnMap && StdDraw.isKeyPressed(KeyEvent.VK_S)) {
+                pf.setPathStart(new Coord(mouseI, mouseJ));
+                recompute = true;
+            }
+
+            if(isMouseOnMap && StdDraw.isKeyPressed(KeyEvent.VK_E)) {
+                pf.setPathEnd(new Coord(mouseI, mouseJ));
+                recompute = true;
+            }
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_W)) {
+                Iterable<Coord> path = pf.getPathSolution();
+                if(path != null) {
+                    walker = new Walker(terrain, pf.getPathSolution());
+                }
+            }
+
+            if(walker != null) {
+                if(walker.doneWalking()) {
+                    walker = null;
+                } else {
+                    walker.advance(pf.getPathCost() / STEPS_TO_WALK);
+                }
+                redraw = true;
+            }
+
+            if(recompute) {
+                walker = null;
+                pf.resetPath();
+                if(pf.getPathStart() != null && pf.getPathEnd() != null) {
+                    pf.computePath();
+                }
+                redraw = true;
+            }
+
+            if(redraw) {
+                PathfinderVisualizer.draw(terrain, pf, walker, N);
+                StdDraw.show(DELAY);
+            } else {
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException e) {
+                    /* do nothing */
+                }
+            }
+        }
+    }
+}
+
+--[ 2022.10.27.11.28.30.137.2 ]--
+InitFile: /.cos265
+
+
+--[ 2022.10.27.11.28.30.137.3 ]--
+InitFile: /src/Coord.java
+/**
+ * Coordinates is an immutable type that store the tuple (i, j)
+ */
+public final class Coord {
+    private final int i;
+    private final int j;
+
+    public Coord(int i, int j) {
+        this.i = i;
+        this.j = j;
+    }
+
+    public int getI() { return i; }
+    public int getJ() { return j; }
+
+    public boolean isInBounds(int minI, int minJ, int maxI, int maxJ) {
+        return i >= minI && j >= minJ && i <= maxI && j <= maxJ;
+    }
+    public boolean isInBounds(Coord min, Coord max) {
+        return i >= min.i && i <= max.i && j >= min.j && j <= max.j;
+    }
+
+    public Coord add(int addI, int addJ) {
+        return new Coord(i + addI, j + addJ);
+    }
+    public Coord add(Coord that) { return new Coord(i + that.i, j + that.j); }
+
+    public String toString() { return "(" + i + "," + j + ")"; }
+
+    public boolean equals(Object o) {
+        if(this == o) return true;
+        if(o == null) return false;
+        if(o.getClass() != this.getClass()) return false;
+        Coord that = (Coord) o;
+        if(this.i != that.i) return false;
+        if(this.j != that.j) return false;
+        return true;
+    }
+}
+
+--[ 2022.10.27.11.28.30.137.4 ]--
+InitFile: /P04_Pathfinding.iml
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/.log" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="algs4" level="project" />
+    <orderEntry type="library" name="stdlib" level="project" />
+  </component>
+</module>
+
+--[ 2022.10.27.11.28.30.138.0 ]--
+InitFile: /src/PathfinderVisualizer.java
+/**
+ * PathfinderVisualizer visualizes the terrain and found path.
+ */
+
+import java.awt.Color;
+import java.awt.Font;
+
+public class PathfinderVisualizer {
+
+    // delay in milliseconds (controls animation speed)
+    private final static int DELAY = 100;
+
+    // color for different elevations.  must be in ascending order!
+    private final static int[][] elevationColors = {
+            // h    r   g   b   where h=height, r=red, g=green, b=blue
+            {  0,   0,  0,  0},
+            {  2,   0,  0,160},
+            {  4,   0,224,224},
+            { 16, 192,192,  0},
+            { 64,  16,255, 16},
+            {128,  32,224, 32},
+            {192, 128,128,  8},
+            {224, 164,164,164},
+            {255, 255,255,255}
+    };
+
+    private final static Color cStart    = new Color(128, 128, 255);
+    private final static Color cEnd      = new Color(255, 128, 128);
+    private final static Color cSolution = new Color(255, 128, 255);
+    private final static Color cSearched = new Color(128,   0, 128);
+
+    // linearly interpolating between the corresponding rgb values
+    private static Color colorLERP(float v1, int r0, int g0, int b0, int r1, int g1, int b1) {
+        v1 = Math.max(0.0f, Math.min(1.0f, v1));
+        float v0 = 1.0f - v1;
+        int r = (int)(v0 * r0 + v1 * r1);
+        int g = (int)(v0 * g0 + v1 * g1);
+        int b = (int)(v0 * b0 + v1 * b1);
+        return new Color(r, g, b);
+    }
+    private static Color colorLERP(float v1, Color c0, Color c1) {
+        v1 = Math.max(0.0f, Math.min(1.0f, v1));
+        float v0 = 1.0f - v1;
+        int r = (int)(v0 * c0.getRed()   + v1 * c1.getRed());
+        int g = (int)(v0 * c0.getGreen() + v1 * c1.getGreen());
+        int b = (int)(v0 * c0.getBlue()  + v1 * c1.getBlue());
+        int a = (int)(v0 * c0.getAlpha() + v1 * c1.getAlpha());
+        return new Color(r, g, b, a);
+    }
+
+    // returns color for given height
+    private static Color height2Color(int h) {
+        h = Math.max(0, Math.min(255, h));
+
+        int[] ec0 = elevationColors[0];  // default lower bound
+        int[] ec1 = elevationColors[1];  // default upper bound
+
+        // find upper bound while updating lower bound
+        for(int i = 1; i < elevationColors.length; i++) {
+            ec1 = elevationColors[i];
+            if(h >= ec0[0] && h <= ec1[0]) break;
+            ec0 = ec1;
+        }
+
+        int h0=ec0[0], r0=ec0[1], g0=ec0[2], b0=ec0[3];
+        int h1=ec1[0], r1=ec1[1], g1=ec1[2], b1=ec1[3];
+        float v1 = ((float)(h - h0)) / ((float)(h1 - h0));
+
+        return colorLERP(v1, r0, g0, b0, r1, g1, b1);
+    }
+
+    private static void drawCircle(int i, int j, int N, double rad) {
+        int c = (int)((i+0.5f) * 464.0f / N);
+        int r = (int)((j+0.5f) * 464.0f / N);
+        StdDraw.circle(c + 24, 464 - r + 36, rad);
+    }
+    public static void drawCircle(Coord loc, int N, double rad) {
+        drawCircle(loc.getI(), loc.getJ(), N, rad);
+    }
+
+    private static void drawPath(Iterable<Coord> path, int N) {
+        boolean first = true;
+        int c0 = 0, r0 = 0;
+        for (Coord loc : path) {
+            int c1 = (int)((loc.getI()+0.5f) * 464.0f / N);
+            int r1 = (int)((loc.getJ()+0.5f) * 464.0f / N);
+            if(!first) {
+                StdDraw.line(c0 + 24, 464 - r0 + 36, c1 + 24, 464 - r1 + 36);
+            }
+            first = false;
+            c0 = c1; r0 = r1;
+        }
+    }
+
+    // draw N-by-N pathfinding map
+    public static void draw(Terrain terrain, Pathfinder pf, Walker walker, int N) {
+        StdDraw.clear();
+        StdDraw.setXscale(0, 512);
+        StdDraw.setYscale(0, 512);
+        StdDraw.setPenColor(StdDraw.BLACK);
+        StdDraw.filledSquare(256, 256 + 12, 464 / 2);
+
+        // draw terrain
+        for(int row = 0; row < 464; row++) {
+            int j = (int)((float)row/464.0f * N);
+            for(int col = 0; col < 464; col++) {
+                int i = (int)((float)col/464.0f * N);
+                Coord loc = new Coord(i,j);
+                Color c = height2Color(terrain.getHeight(loc));
+                if(pf.wasSearched(loc)) {
+                    c = colorLERP(0.50f, c, cSearched);
+                }
+                StdDraw.setPenColor(c);
+                StdDraw.filledSquare(col + 24, 464 - row + 36, 1);
+            }
+        }
+
+        // draw path start
+        if(pf.getPathStart() != null) {
+            StdDraw.setPenColor(StdDraw.BLACK);
+            StdDraw.setPenRadius(0.006);
+            drawCircle(pf.getPathStart(), N, 4.0);
+
+            StdDraw.setPenColor(cStart);
+            StdDraw.setPenRadius(0.002);
+            drawCircle(pf.getPathStart(), N, 4.0);
+        }
+
+        // draw path end
+        if(pf.getPathEnd() != null) {
+            StdDraw.setPenColor(StdDraw.BLACK);
+            StdDraw.setPenRadius(0.006);
+            drawCircle(pf.getPathEnd(), N, 4.0);
+
+            StdDraw.setPenColor(cEnd);
+            StdDraw.setPenRadius(0.002);
+            drawCircle(pf.getPathEnd(), N, 4.0);
+        }
+
+        // draw found path
+        if(pf.foundPath()) {
+            StdDraw.setPenColor(StdDraw.BLACK);
+            StdDraw.setPenRadius(0.006);
+            drawPath(pf.getPathSolution(), N);
+
+            StdDraw.setPenColor(cSolution);
+            StdDraw.setPenRadius(0.002);
+            drawPath(pf.getPathSolution(), N);
+        }
+
+        // draw walker
+        if(walker != null) {
+            Coord loc = walker.getLocation();
+            StdDraw.setPenColor(StdDraw.BLACK);
+            StdDraw.setPenRadius(0.006);
+            PathfinderVisualizer.drawCircle(loc, N, 2.0);
+
+            StdDraw.setPenColor(StdDraw.WHITE);
+            StdDraw.setPenRadius(0.002);
+            PathfinderVisualizer.drawCircle(loc, N, 2.0);
+        }
+
+        // write status text
+        StdDraw.setFont(new Font("SansSerif", Font.PLAIN, 12));
+        StdDraw.setPenColor(StdDraw.BLACK);
+        StdDraw.text(96, 12, "heuristic: " + pf.getHeuristic());
+        if(pf.foundPath()) StdDraw.text(256, 12, "path: " + pf.getPathCost());
+        else               StdDraw.text(256, 12, "no path found");
+        StdDraw.text(512-96, 12, "searched: " + pf.getSearchSize() + " (" + (int)(100.0f * pf.getSearchSize() / (N*N)) + "%)");
+    }
+}
+
+--[ 2022.10.27.11.28.30.138.1 ]--
+InitFile: /src/Pathfinder.java
+import java.lang.IndexOutOfBoundsException;
+import java.lang.IllegalArgumentException;
+
+/**
+ * Pathfinder uses A* search to find a near optimal path
+ * between to locations with given terrain.
+ */
+//hiiiiiiiiiiii
+    //this is Makayla...
+public class Pathfinder {
+
+    /**
+     * PFNode will be the key for MinPQ (used in computePath())
+     */
+    private class PFNode implements Comparable<PFNode> {
+        // loc: the location of the PFNode
+        // fromNode: how did we get here? (linked list back to start)
+        public PFNode(Coord loc, PFNode fromNode) {
+           Coord location=loc;
+           PFNode previous=fromNode;
+           int cost=0;
+        }
+
+        // compares this with that, used to find minimum cost PFNode
+        public int compareTo(PFNode that) {
+            return this.compareTo(that);
+        }
+
+        // returns the cost to travel from starting point to this
+        // via the fromNode chain
+        public float getCost(float heuristic) {
+
+            return 0;
+        }
+
+        // returns if this PFNode is still valid
+        public boolean isValid() {
+            return false;
+        }
+
+        // invalidates the PFNode
+        public void invalidate() {
+        }
+
+        // returns if the PFNode has been used
+        public boolean isUsed() {
+            return true;
+        }
+
+        // uses the PFNode
+        public void use() { }
+
+        // returns an Iterable of PFNodes that surround this
+        public Iterable<PFNode> neighbors() {
+            Stack<PFNode> s = new Stack<>();
+            s.push(new PFNode(null, null));
+            return s;
+        }
+    }
+
+    public Pathfinder(Terrain terrain) {
+    }
+    Coord pathStart=null;
+    Coord pathEnd=null;
+    float heuristic = 1;
+    boolean pathFound=false;
+    public void setPathStart(Coord loc) {
+        if(loc==null) throw new IllegalArgumentException("Illegal Arguement");
+        pathStart=loc;
+    }
+
+    public Coord getPathStart() { // this function is a little redundant if we
+                                  // just have a global var for it anyway...
+        return pathStart;
+    }
+
+    public void setPathEnd(Coord loc) {
+        if(loc==null) throw new IllegalArgumentException("Illegal Arguement");
+        pathEnd=loc;
+    }
+
+    public Coord getPathEnd() {
+        return pathEnd;
+    }
+
+    public void setHeuristic(float v) {
+        heuristic=v;
+    }
+
+    public float getHeuristic() {
+        return heuristic;
+    }
+
+    //cleans out the queues ??
+    public void resetPath() {
+    }
+
+    public void computePath() {
+        // make the priorety queue
+        // use a binary heap?
+        Coord front = getPathStart(); // front queue item will be the start of the path
+        int row = pathStart.getI(); // returns row
+        int col = pathStart.getJ(); // returns col
+        // I think we should implement BinomialMinPQ.java here for our priority queue implementation?
+        // I'm open to change though
+    }
+
+    public boolean foundPath() {
+        return pathFound;
+    }
+
+    public float getPathCost() {
+        return 0;
+    }
+
+    public int getSearchSize() {
+        return 0;
+    }
+
+    public Iterable<Coord> getPathSolution() {
+        return null;
+    }
+
+    public boolean wasSearched(Coord loc) {
+        return false;
+    }
+}
+
+--[ 2022.10.27.11.28.30.138.2 ]--
+InitFile: /src/Walker.java
+import java.util.Iterator;
+
+/**
+ * Walker takes an Iterable of Coords and simulates an individual
+ * walking along the path over the given Terrain
+ */
+public class Walker {
+
+    // terrain: the Terrain the Walker traverses
+    // path: the sequence of Coords the Walker follows
+    public Walker(Terrain terrain, Iterable<Coord> path) {
+    }
+
+    // returns the Walker's current location
+    public Coord getLocation() {
+        return null;
+    }
+
+    // returns true if Walker has reached the end Coord (last in path)
+    public boolean doneWalking() {
+        return true;
+    }
+
+    // advances the Walker along path
+    // byTime: how long the Walker should traverse (may be any non-negative value)
+    public void advance(float byTime) {
+    }
+
+}
+
+--[ 2022.10.27.11.28.30.138.3 ]--
+InitFile: /src/Terrain.java
+import java.lang.IndexOutOfBoundsException;
+
+/**
+ * Terrain stores elevations for map and computes distance and
+ * cost in traversing the terrain.
+ */
+
+public class Terrain {
+    private int N;
+    private int[][] heights;
+
+    public Terrain(int N) {
+        this.N = N;
+        this.heights = new int[N][N];
+    }
+
+    public Terrain(int[][] heights) {
+        this.N = heights.length;
+        this.heights = heights;
+    }
+
+    public Terrain(String emapfile) {
+        In in = new In(emapfile);
+        this.N = in.readInt();
+        this.heights = new int[N][N];
+        for (int j = 0; j < N; j++) {
+            for (int i = 0; i < N; i++) {
+                this.heights[i][j] = in.readInt();
+            }
+        }
+    }
+
+    public int getN() {
+        return N;
+    }
+
+    public void setHeight(int i, int j, int h) {
+        if(i < 0 || j < 0 || i >= N || j >= N)
+            throw new IndexOutOfBoundsException("i and j must be in [0,N)");
+        heights[i][j] = h;
+    }
+    public void setHeight(int i, int j, float h) {
+        setHeight(i, j, (int) h);
+    }
+    public void setHeight(Coord loc, int h) {
+        setHeight(loc.getI(), loc.getJ(), h);
+    }
+    public void setHeight(Coord loc, float h) {
+        setHeight(loc.getI(), loc.getJ(), h);
+    }
+
+    public int getHeight(int i, int j) {
+        if(i < 0 || j < 0 || i >= N || j >= N)
+            throw new IndexOutOfBoundsException("i and j must be in [0,N)");
+        return heights[i][j];
+    }
+    public int getHeight(Coord loc) {
+        return getHeight(loc.getI(), loc.getJ());
+    }
+
+    // computes distance between (i0,j0) and (i1,j1) as the crow flies
+    public float computeDistance(int i0, int j0, int i1, int j1) {
+        return (float)Math.sqrt((i0 - i1) * (i0 - i1) + (j0 - j1) * (j0 - j1));
+    }
+    public float computeDistance(Coord c0, Coord c1) {
+        return computeDistance(c0.getI(), c0.getJ(), c1.getI(), c1.getJ());
+    }
+
+    public float computeTravelCost(int i0, int j0, int i1, int j1) {
+        float h0 = getHeight(i0, j0), h1 = getHeight(i1, j1);
+        float climb = (float)Math.pow(Math.abs(h0 - h1) * 1000.0, 1.5);
+        float dist = computeDistance(i0,j0, i1,j1);
+        return (1.0f + climb) * dist;
+    }
+    public float computeTravelCost(Coord c0, Coord c1) {
+        return computeTravelCost(c0.getI(), c0.getJ(), c1.getI(), c1.getJ());
+    }
+    public float computeTravelCost(Iterable<Coord> cs) {
+        Coord c0 = null;
+        float cost = 0.0f;
+        for(Coord c1 : cs) {
+            if(c0 != null) cost += computeTravelCost(c0, c1);
+            c0 = c1;
+        }
+        return cost;
+    }
+}
+
+--[ 2022.10.29.13.11.44.282.0 ]--
+:/src/Pathfinder.java
+r 18         public PFNode() {
+--[ 2022.10.29.13.11.49.754.0 ]--
+r 19            Coord location;
+--[ 2022.10.29.13.11.52.243.0 ]--
+r 20            PFNode previous;
+--[ 2022.10.29.13.11.53.907.0 ]--
++ 23         
+--[ 2022.10.29.13.11.54.795.0 ]--
+r 23         n
+--[ 2022.10.29.13.11.54.840.0 ]--
+r 23         ne
+--[ 2022.10.29.13.11.54.958.0 ]--
+r 23         new
+--[ 2022.10.29.13.11.56.757.0 ]--
+r 23         ne
+--[ 2022.10.29.13.11.56.864.0 ]--
+r 23         n
+--[ 2022.10.29.13.11.56.997.0 ]--
+r 23         
+--[ 2022.10.29.13.11.57.470.0 ]--
+r 23         P
+--[ 2022.10.29.13.11.57.655.0 ]--
+r 23         PF
+--[ 2022.10.29.13.11.58.209.0 ]--
+r 23         PFNode
+--[ 2022.10.29.13.11.59.661.0 ]--
+r 23         PFNode 
+--[ 2022.10.29.13.12.00.049.0 ]--
+r 23         PFNode f
+--[ 2022.10.29.13.12.00.109.0 ]--
+r 23         PFNode fi
+--[ 2022.10.29.13.12.00.233.0 ]--
+r 23         PFNode fir
+--[ 2022.10.29.13.12.00.421.0 ]--
+r 23         PFNode firs
+--[ 2022.10.29.13.12.00.538.0 ]--
+r 23         PFNode first
+--[ 2022.10.29.13.12.00.782.0 ]--
+r 23         PFNode first 
+--[ 2022.10.29.13.12.00.985.0 ]--
+r 23         PFNode first ¿
+--[ 2022.10.29.13.12.01.088.0 ]--
+r 23         PFNode first ¿ 
+--[ 2022.10.29.13.12.01.805.0 ]--
+r 23         PFNode first ¿
+--[ 2022.10.29.13.12.01.914.0 ]--
+r 23         PFNode first 
+--[ 2022.10.29.13.12.03.777.0 ]--
+r 23         PFNode first =
+--[ 2022.10.29.13.12.03.848.0 ]--
+r 23         PFNode first = 
+--[ 2022.10.29.13.12.06.040.0 ]--
+r 23         PFNode first = n
+--[ 2022.10.29.13.12.06.096.0 ]--
+r 23         PFNode first = ne
+--[ 2022.10.29.13.12.06.224.0 ]--
+r 23         PFNode first = new
+--[ 2022.10.29.13.12.06.384.0 ]--
+r 23         PFNode first = new 
+--[ 2022.10.29.13.12.06.867.0 ]--
+r 23         PFNode first = new P
+--[ 2022.10.29.13.12.06.995.0 ]--
+r 23         PFNode first = new PF
+--[ 2022.10.29.13.12.07.597.0 ]--
+r 23         PFNode first = new PFNode
+--[ 2022.10.29.13.12.07.625.0 ]--
+r 23         PFNode first = new PFNode()
+--[ 2022.10.29.13.12.08.620.0 ]--
+r 23         PFNode first = new PFNode();
+--[ 2022.10.29.13.12.09.267.0 ]--
++ 24         
+--[ 2022.10.29.13.12.09.787.0 ]--
+r 24         f
+--[ 2022.10.29.13.12.09.877.0 ]--
+r 24         fi
+--[ 2022.10.29.13.12.09.981.0 ]--
+r 24         fir
+--[ 2022.10.29.13.12.10.139.0 ]--
+r 24         firs
+--[ 2022.10.29.13.12.10.280.0 ]--
+r 24         first
+--[ 2022.10.29.13.12.10.393.0 ]--
+r 24         first.
+--[ 2022.10.29.13.12.10.602.0 ]--
+r 24         first.l
+--[ 2022.10.29.13.12.10.766.0 ]--
+r 24         first.lo
+--[ 2022.10.29.13.12.10.867.0 ]--
+r 24         first.loc
+--[ 2022.10.29.13.12.11.061.0 ]--
+r 24         first.loca
+--[ 2022.10.29.13.12.11.128.0 ]--
+r 24         first.locat
+--[ 2022.10.29.13.12.11.252.0 ]--
+r 24         first.locati
+--[ 2022.10.29.13.12.11.323.0 ]--
+r 24         first.locatio
+--[ 2022.10.29.13.12.11.498.0 ]--
+r 24         first.location
+--[ 2022.10.29.13.12.11.647.0 ]--
+r 24         first.location 
+--[ 2022.10.29.13.12.12.028.0 ]--
+r 24         first.location =
+--[ 2022.10.29.13.12.12.096.0 ]--
+r 24         first.location = 
+--[ 2022.10.29.13.12.17.022.0 ]--
+r 24         first.location = C
+--[ 2022.10.29.13.12.17.379.0 ]--
+r 24         first.location = Co
+--[ 2022.10.29.13.12.17.514.0 ]--
+r 24         first.location = Coo
+--[ 2022.10.29.13.12.17.564.0 ]--
+r 24         first.location = Coor
+--[ 2022.10.29.13.12.17.736.0 ]--
+r 24         first.location = Coord
+--[ 2022.10.29.13.12.18.903.0 ]--
+r 24         first.location = Coord 
+--[ 2022.10.29.13.12.19.482.0 ]--
+r 24         first.location = Coord
+--[ 2022.10.29.13.12.19.627.0 ]--
+r 24         first.location = Coor
+--[ 2022.10.29.13.12.20.474.0 ]--
+r 24         first.location = Coord
+--[ 2022.10.29.13.12.23.366.0 ]--
+r 24         first.location = Coord;
+--[ 2022.10.29.13.12.25.222.0 ]--
+r 24         first.location = Coord ;
+--[ 2022.10.29.13.12.26.476.0 ]--
+r 24         first.location = Coord c;
+--[ 2022.10.29.13.12.30.572.0 ]--
++ 23         
+--[ 2022.10.29.13.12.31.518.0 ]--
+r 23         C
+--[ 2022.10.29.13.12.31.690.0 ]--
+r 23         Co
+--[ 2022.10.29.13.12.31.838.0 ]--
+r 23         Coo
+--[ 2022.10.29.13.12.31.900.0 ]--
+r 23         Coor
+--[ 2022.10.29.13.12.32.137.0 ]--
+r 23         Coord
+--[ 2022.10.29.13.12.32.793.0 ]--
+r 23         Coord 
+--[ 2022.10.29.13.12.32.933.0 ]--
+r 23         Coord c
+--[ 2022.10.29.13.12.34.511.0 ]--
+r 23         Coord c 
+--[ 2022.10.29.13.12.34.618.0 ]--
+r 23         Coord c =
+--[ 2022.10.29.13.12.34.714.0 ]--
+r 23         Coord c = 
+--[ 2022.10.29.13.12.41.723.0 ]--
+r 23         Coord c = n
+--[ 2022.10.29.13.12.41.801.0 ]--
+r 23         Coord c = ne
+--[ 2022.10.29.13.12.41.881.0 ]--
+r 23         Coord c = new
+--[ 2022.10.29.13.12.42.045.0 ]--
+r 23         Coord c = new 
+--[ 2022.10.29.13.12.42.966.0 ]--
+r 23         Coord c = new c
+--[ 2022.10.29.13.12.43.042.0 ]--
+r 23         Coord c = new co
+--[ 2022.10.29.13.12.43.189.0 ]--
+r 23         Coord c = new cor
+--[ 2022.10.29.13.12.43.378.0 ]--
+r 23         Coord c = new cord
+--[ 2022.10.29.13.12.44.054.0 ]--
+r 23         Coord c = new cor
+--[ 2022.10.29.13.12.44.185.0 ]--
+r 23         Coord c = new co
+--[ 2022.10.29.13.12.44.335.0 ]--
+r 23         Coord c = new c
+--[ 2022.10.29.13.12.44.440.0 ]--
+r 23         Coord c = new 
+--[ 2022.10.29.13.12.44.941.0 ]--
+r 23         Coord c = new C
+--[ 2022.10.29.13.12.45.734.0 ]--
+r 23         Coord c = new Coord
+--[ 2022.10.29.13.12.45.746.0 ]--
+r 23         Coord c = new Coord()
+--[ 2022.10.29.13.12.46.909.0 ]--
+r 23         Coord c = new Coord();
+--[ 2022.10.29.13.12.54.127.0 ]--
+r 23         Coord c = new Coord(1);
+--[ 2022.10.29.13.12.54.340.0 ]--
+r 23         Coord c = new Coord(1,);
+--[ 2022.10.29.13.12.54.444.0 ]--
+r 23         Coord c = new Coord(1,2);
+--[ 2022.10.29.13.14.03.794.0 ]--
+r 23         Coord c = new Coord();
+--[ 2022.10.29.13.14.04.093.0 ]--
+r 23         Coord c = new Coord()
+--[ 2022.10.29.13.14.04.476.0 ]--
+r 23         Coord c = new C
+--[ 2022.10.29.13.14.04.602.0 ]--
+r 23         Coord c = new 
+--[ 2022.10.29.13.14.04.750.0 ]--
+r 23         Coord c = new cord
+--[ 2022.10.29.13.14.05.050.0 ]--
+r 23         Coord c = 
+--[ 2022.10.29.13.14.05.165.0 ]--
+r 23         
+--[ 2022.10.29.13.14.05.295.0 ]--
+- 23
+--[ 2022.10.29.13.14.05.867.0 ]--
+r 24         first.location = Coord;
+--[ 2022.10.29.13.14.06.189.0 ]--
+r 24         first.location = Coord
+--[ 2022.10.29.13.14.06.317.0 ]--
+r 24         first.location = Coor
+--[ 2022.10.29.13.14.06.435.0 ]--
+r 24         first.location = Coord 
+--[ 2022.10.29.13.14.06.666.0 ]--
+r 24         
+--[ 2022.10.29.13.14.06.750.0 ]--
+- 24
+--[ 2022.10.29.13.14.06.884.0 ]--
+r 23         PFNode first = new PFNode()
+--[ 2022.10.29.13.14.07.174.0 ]--
+r 23         PFNode first = new PF
+--[ 2022.10.29.13.14.07.364.0 ]--
+r 23         PFNode first 
+--[ 2022.10.29.13.14.07.515.0 ]--
+r 23         PFNode first ¿ 
+--[ 2022.10.29.13.14.07.712.0 ]--
+r 23         PFNode
+--[ 2022.10.29.13.14.07.877.0 ]--
+r 23         PF
+--[ 2022.10.29.13.14.08.260.0 ]--
+r 23         
+--[ 2022.10.29.13.14.08.577.0 ]--
+r 23         new
+--[ 2022.10.29.13.14.08.949.0 ]--
+r 23         
+--[ 2022.10.29.13.14.09.197.0 ]--
+- 23
+--[ 2022.10.29.13.14.09.889.0 ]--
+r 20            PFNode previous=fromNode;
+--[ 2022.10.29.13.14.10.585.0 ]--
+r 19            Coord location=loc;
+--[ 2022.10.29.13.14.11.313.0 ]--
+r 18         public PFNode(Coord loc, PFNode fromNode) {
+--[ 2022.10.29.13.24.49.989.0 ]--
+r 23     
+--[ 2022.10.29.13.24.50.267.0 ]--
+r 23         
+--[ 2022.10.29.13.24.50.753.0 ]--
+r 23         T
+--[ 2022.10.29.13.24.50.979.0 ]--
+r 23         Te
+--[ 2022.10.29.13.24.51.156.0 ]--
+r 23         Ter
+--[ 2022.10.29.13.24.51.283.0 ]--
+r 23         Terr
+--[ 2022.10.29.13.24.52.050.0 ]--
+r 23         Terrain
+--[ 2022.10.29.13.24.52.349.0 ]--
+r 23         Terrain.
+--[ 2022.10.29.13.24.52.703.0 ]--
+r 23         Terrain.c
+--[ 2022.10.29.13.24.53.065.0 ]--
+r 23         Terrain.co
+--[ 2022.10.29.13.24.53.204.0 ]--
+r 23         Terrain.com
+--[ 2022.10.29.13.24.53.465.0 ]--
+r 23         Terrain.comp
+--[ 2022.10.29.13.24.53.545.0 ]--
+r 23         Terrain.compu
+--[ 2022.10.29.13.24.53.648.0 ]--
+r 23         Terrain.comput
+--[ 2022.10.29.13.24.53.867.0 ]--
+r 23         Terrain.compute
+--[ 2022.10.29.13.24.54.350.0 ]--
+r 23         Terrain.computeT
+--[ 2022.10.29.13.24.54.531.0 ]--
+r 23         Terrain.computeTr
+--[ 2022.10.29.13.24.54.678.0 ]--
+r 23         Terrain.computeTra
+--[ 2022.10.29.13.24.54.867.0 ]--
+r 23         Terrain.computeTrav
+--[ 2022.10.29.13.24.55.052.0 ]--
+r 23         Terrain.computeTrave
+--[ 2022.10.29.13.24.55.140.0 ]--
+r 23         Terrain.computeTravel
+--[ 2022.10.29.13.24.55.455.0 ]--
+r 23         Terrain.computeTravelC
+--[ 2022.10.29.13.24.55.615.0 ]--
+r 23         Terrain.computeTravelCo
+--[ 2022.10.29.13.24.55.696.0 ]--
+r 23         Terrain.computeTravelCos
+--[ 2022.10.29.13.24.55.861.0 ]--
+r 23         Terrain.computeTravelCost
+--[ 2022.10.29.13.24.57.515.0 ]--
+r 23         Terrain.computeTravelCost 
+--[ 2022.10.29.13.24.58.646.0 ]--
+r 23         Terrain.computeTravelCost
+--[ 2022.10.29.13.24.59.146.0 ]--
+r 23         Terrain.computeTravelCost()
+--[ 2022.10.29.13.25.00.105.0 ]--
+r 23         Terrain.computeTravelCost();
+--[ 2022.10.29.13.25.01.039.0 ]--
+r 23         Terrain.computeTravelCost()
+--[ 2022.10.29.13.25.01.209.0 ]--
+r 23         Terrain.computeTravelCost(
+--[ 2022.10.29.13.25.01.992.0 ]--
+r 23         Terrain.computeTravelCost(C
+--[ 2022.10.29.13.25.02.270.0 ]--
+r 23         Terrain.computeTravelCost(Co
+--[ 2022.10.29.13.25.03.259.0 ]--
+r 23         Terrain.computeTravelCost(Coo
+--[ 2022.10.29.13.25.03.368.0 ]--
+r 23         Terrain.computeTravelCost(Coor
+--[ 2022.10.29.13.25.03.554.0 ]--
+r 23         Terrain.computeTravelCost(Coord
+--[ 2022.10.29.13.25.04.005.0 ]--
+r 23         Terrain.computeTravelCost(Coord,
+--[ 2022.10.29.13.25.04.265.0 ]--
+r 23         Terrain.computeTravelCost(Coord, 
+--[ 2022.10.29.13.25.04.915.0 ]--
+r 23         Terrain.computeTravelCost(Coord, C
+--[ 2022.10.29.13.25.05.126.0 ]--
+r 23         Terrain.computeTravelCost(Coord, Co
+--[ 2022.10.29.13.25.05.540.0 ]--
+r 23         Terrain.computeTravelCost(Coord, C
+--[ 2022.10.29.13.25.06.030.0 ]--
+r 23         Terrain.computeTravelCost(Coord, 
+--[ 2022.10.29.13.25.06.324.0 ]--
+r 23         Terrain.computeTravelCost(Coord,
+--[ 2022.10.29.13.25.06.814.0 ]--
+r 23         Terrain.computeTravelCost(Coord
+--[ 2022.10.29.13.25.06.899.0 ]--
+r 23         Terrain.computeTravelCost(Coor
+--[ 2022.10.29.13.25.06.983.0 ]--
+r 23         Terrain.computeTravelCost(Coo
+--[ 2022.10.29.13.25.07.066.0 ]--
+r 23         Terrain.computeTravelCost(Co
+--[ 2022.10.29.13.25.07.150.0 ]--
+r 23         Terrain.computeTravelCost(C
+--[ 2022.10.29.13.25.07.234.0 ]--
+r 23         Terrain.computeTravelCost(
+--[ 2022.10.29.13.25.07.317.0 ]--
+r 23         Terrain.computeTravelCost
+--[ 2022.10.29.13.25.07.400.0 ]--
+r 23         Terrain.computeTravelCos
+--[ 2022.10.29.13.25.07.483.0 ]--
+r 23         Terrain.computeTravelCo
+--[ 2022.10.29.13.25.07.566.0 ]--
+r 23         Terrain.computeTravelC
+--[ 2022.10.29.13.25.07.650.0 ]--
+r 23         Terrain.computeTravel
+--[ 2022.10.29.13.25.07.733.0 ]--
+r 23         Terrain.computeTrave
+--[ 2022.10.29.13.25.07.817.0 ]--
+r 23         Terrain.computeTrav
+--[ 2022.10.29.13.25.07.900.0 ]--
+r 23         Terrain.computeTra
+--[ 2022.10.29.13.25.07.983.0 ]--
+r 23         Terrain.computeTr
+--[ 2022.10.29.13.25.08.067.0 ]--
+r 23         Terrain.computeT
+--[ 2022.10.29.13.25.08.150.0 ]--
+r 23         Terrain.compute
+--[ 2022.10.29.13.25.08.233.0 ]--
+r 23         Terrain.comput
+--[ 2022.10.29.13.25.08.317.0 ]--
+r 23         Terrain.compu
+--[ 2022.10.29.13.25.08.400.0 ]--
+r 23         Terrain.comp
+--[ 2022.10.29.13.25.08.483.0 ]--
+r 23         Terrain.com
+--[ 2022.10.29.13.25.08.567.0 ]--
+r 23         Terrain.co
+--[ 2022.10.29.13.25.08.650.0 ]--
+r 23         Terrain.c
+--[ 2022.10.29.13.25.08.733.0 ]--
+r 23         Terrain.
+--[ 2022.10.29.13.25.08.817.0 ]--
+r 23         Terrain
+--[ 2022.10.29.13.25.08.899.0 ]--
+r 23         Terrai
+--[ 2022.10.29.13.25.08.983.0 ]--
+r 23         Terra
+--[ 2022.10.29.13.25.09.067.0 ]--
+r 23         Terr
+--[ 2022.10.29.13.25.09.232.0 ]--
+r 23         Ter
+--[ 2022.10.29.13.25.09.383.0 ]--
+r 23         Te
+--[ 2022.10.29.13.25.09.516.0 ]--
+r 23         T
+--[ 2022.10.29.13.25.09.651.0 ]--
+r 23         
+--[ 2022.10.29.13.25.10.572.0 ]--
+r 23         c
+--[ 2022.10.29.13.25.10.653.0 ]--
+r 23         co
+--[ 2022.10.29.13.25.10.793.0 ]--
+r 23         coo
+--[ 2022.10.29.13.25.10.861.0 ]--
+r 23         coom
+--[ 2022.10.29.13.25.11.026.0 ]--
+r 23         coomp
+--[ 2022.10.29.13.25.11.132.0 ]--
+r 23         coompu
+--[ 2022.10.29.13.25.11.245.0 ]--
+r 23         coomput
+--[ 2022.10.29.13.25.11.733.0 ]--
+r 23         coompu
+--[ 2022.10.29.13.25.11.844.0 ]--
+r 23         coomp
+--[ 2022.10.29.13.25.11.982.0 ]--
+r 23         coom
+--[ 2022.10.29.13.25.12.109.0 ]--
+r 23         coo
+--[ 2022.10.29.13.25.12.238.0 ]--
+r 23         co
+--[ 2022.10.29.13.25.12.638.0 ]--
+r 23         com
+--[ 2022.10.29.13.25.12.848.0 ]--
+r 23         comp
+--[ 2022.10.29.13.25.12.891.0 ]--
+r 23         compu
+--[ 2022.10.29.13.25.12.987.0 ]--
+r 23         comput
+--[ 2022.10.29.13.25.13.597.0 ]--
+r 23         compute
+--[ 2022.10.29.13.25.14.294.0 ]--
+r 23         computeT
+--[ 2022.10.29.13.25.14.464.0 ]--
+r 23         computeTr
+--[ 2022.10.29.13.25.14.663.0 ]--
+r 23         computeTra
+--[ 2022.10.29.13.25.15.027.0 ]--
+r 23         computeTrav
+--[ 2022.10.29.13.25.15.297.0 ]--
+r 23         computeTrave
+--[ 2022.10.29.13.25.15.379.0 ]--
+r 23         computeTravel
+--[ 2022.10.29.13.25.15.710.0 ]--
+r 23         computeTrave
+--[ 2022.10.29.13.25.16.210.0 ]--
+r 23         computeTrav
+--[ 2022.10.29.13.25.16.290.0 ]--
+r 23         computeTra
+--[ 2022.10.29.13.25.16.374.0 ]--
+r 23         computeTr
+--[ 2022.10.29.13.25.16.458.0 ]--
+r 23         computeT
+--[ 2022.10.29.13.25.16.542.0 ]--
+r 23         compute
+--[ 2022.10.29.13.25.16.625.0 ]--
+r 23         comput
+--[ 2022.10.29.13.25.16.709.0 ]--
+r 23         compu
+--[ 2022.10.29.13.25.16.792.0 ]--
+r 23         comp
+--[ 2022.10.29.13.25.16.875.0 ]--
+r 23         com
+--[ 2022.10.29.13.25.17.122.0 ]--
+r 23         co
+--[ 2022.10.29.13.25.17.279.0 ]--
+r 23         c
+--[ 2022.10.29.13.25.17.428.0 ]--
+r 23         
+--[ 2022.10.29.13.33.44.903.0 ]--
+r 23 
 --[ 2022.10.29.13.46.34.843.0 ]--
 + 103 <<<<<<< HEAD
 + 104         // use a binary heap?
@@ -1608,3 +3091,3498 @@ UpdateTree (AD): 27 0
 UpdateTree (AD): 1 0
 + /.idea/shelf/Uncommitted_changes_before_Update_at_10_29_22__13_46__Default_.xml
 
+--[ 2022.10.29.13.50.39.694.0 ]--
++ 18         Coord location;
++ 19         PFNode previous;
++ 20         float cost;
+r 21         public PFNode(Coord loc, PFNode fromNode, float newCost) {
+r 22            location=loc;
+r 23            previous=fromNode;
+r 24            cost=newCost;
+r 59             s.push(new PFNode(null, null, 0));
++ 103         Terrain map = new Terrain("maze232_0.png.emap");
++ 104         MinPQ<PFNode> PQ = new MinPQ<>();
++ 105         PFNode start = new PFNode(pathStart, null, 0);
++ 106         PQ.insert(start);
++ 107         while (!pathFound) {
++ 108             PFNode location = PQ.delMin();
++ 109 
++ 110             if (location.location == pathEnd) {    //if the location is the end
++ 111                 pathFound = true;
++ 112                 return;
++ 113             }
++ 114 
++ 115             if (location == null) return;
++ 116 
++ 117             Coord[] neighbourList = checkNeighbour(location.location);  //give all the neighbours
++ 118             float previousCost = location.cost;
++ 119             for (int i = 0; i < 4; i++) {
++ 120                 float cost = map.computeTravelCost(location.location, neighbourList[i]);
++ 121                 PFNode temp = new PFNode(neighbourList[i], location, cost);
++ 122                 PQ.insert(temp);
++ 123             }
++ 124         }
++ 125     }
++ 126 
++ 127     private Coord[] checkNeighbour(Coord loc){
++ 128         int x = loc.getI();   //row
++ 129         int y = loc.getJ();   //col
++ 130 
++ 131         Coord[] neighbourList = new Coord[4];
++ 132         neighbourList[0] = loc.add(0, 1);   //up
++ 133         neighbourList[1] = loc.add(-1, 0);  //left
++ 134         neighbourList[2] = loc.add(0, -1);  //down
+r 135         neighbourList[3] = loc.add(1, 0);   //right
+r 136 
+r 137         //edge cases
+r 138 
+r 139         return neighbourList;
+r 140 
+--[ 2022.11.01.10.04.20.479.0 ]--
++ 65         
+--[ 2022.11.01.10.04.20.488.0 ]--
+UpdateTree (AD): 10 0
++ /.git/objects/1c/657c45ac423a783f740b198b8c2fb38ee7f1b9
++ /.git/objects/22/d1da271c9ad5057fed4e6702f0c556345d4b1e
++ /.git/objects/39/122c7c3262ceff1338c9cc29fd32418783debf
++ /.git/objects/3d/dd471797ab3fd4fdaa9102e86d087b9c85ae6c
++ /.git/objects/6b/5cf7797e750cc6bfa17f8e214898cc20423a3f
++ /.git/objects/71/411d71fbf4bcfaa03b646fa35c27d996f9d52e
++ /.git/objects/a9/7e1ab2919f0342e08b4871f42597fc25cba4ac
++ /.git/objects/df/ab375b6db323649427d9b468018424e7b318ad
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_29_22,_1_50_PM_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_10_29_22__1_50_PM__Default_.xml
+
+--[ 2022.11.01.10.04.24.770.0 ]--
+r 65         T
+--[ 2022.11.01.10.04.25.016.0 ]--
+r 65         Te
+--[ 2022.11.01.10.04.25.168.0 ]--
+r 65         Ter
+--[ 2022.11.01.10.04.25.292.0 ]--
+r 65         Terr
+--[ 2022.11.01.10.04.25.472.0 ]--
+r 65         Terra
+--[ 2022.11.01.10.04.25.579.0 ]--
+r 65         Terrai
+--[ 2022.11.01.10.04.25.706.0 ]--
+r 65         Terrain
+--[ 2022.11.01.10.04.25.867.0 ]--
+r 65         Terrain 
+--[ 2022.11.01.10.04.29.794.0 ]--
+r 65         Terrain m
+--[ 2022.11.01.10.04.29.864.0 ]--
+r 65         Terrain ma
+--[ 2022.11.01.10.04.30.021.0 ]--
+r 65         Terrain map
+--[ 2022.11.01.10.04.31.350.0 ]--
+r 65         Terrain map 
+--[ 2022.11.01.10.04.31.499.0 ]--
+r 65         Terrain map =
+--[ 2022.11.01.10.04.31.613.0 ]--
+r 65         Terrain map = 
+--[ 2022.11.01.10.04.31.912.0 ]--
+r 65         Terrain map = t
+--[ 2022.11.01.10.04.32.105.0 ]--
+r 65         Terrain map = te
+--[ 2022.11.01.10.04.32.308.0 ]--
+r 65         Terrain map = ter
+--[ 2022.11.01.10.04.32.432.0 ]--
+r 65         Terrain map = terr
+--[ 2022.11.01.10.04.32.574.0 ]--
+r 65         Terrain map = terra
+--[ 2022.11.01.10.04.32.707.0 ]--
+r 65         Terrain map = terrai
+--[ 2022.11.01.10.04.32.860.0 ]--
+r 65         Terrain map = terrain
+--[ 2022.11.01.10.04.33.133.0 ]--
+r 65         Terrain map = terrain;
+--[ 2022.11.01.10.04.36.171.0 ]--
+r 65          map = terrain;
+--[ 2022.11.01.10.04.36.875.0 ]--
+r 65         map = terrain;
+--[ 2022.11.01.10.04.38.499.0 ]--
+r 63     
+--[ 2022.11.01.10.04.39.244.0 ]--
+r 63     T
+--[ 2022.11.01.10.04.39.479.0 ]--
+r 63     Te
+--[ 2022.11.01.10.04.39.662.0 ]--
+r 63     Ter
+--[ 2022.11.01.10.04.39.782.0 ]--
+r 63     Terr
+--[ 2022.11.01.10.04.39.964.0 ]--
+r 63     Terra
+--[ 2022.11.01.10.04.40.063.0 ]--
+r 63     Terrai
+--[ 2022.11.01.10.04.40.180.0 ]--
+r 63     Terrain
+--[ 2022.11.01.10.04.40.511.0 ]--
+r 63     Terrain 
+--[ 2022.11.01.10.04.41.196.0 ]--
+r 63     Terrain m
+--[ 2022.11.01.10.04.41.355.0 ]--
+r 63     Terrain ma
+--[ 2022.11.01.10.04.41.707.0 ]--
+r 63     Terrain map
+--[ 2022.11.01.10.04.42.287.0 ]--
+r 63     Terrain map;
+--[ 2022.11.01.10.04.49.620.0 ]--
+r 104         /Terrain map = new Terrain("maze232_0.png.emap");
+--[ 2022.11.01.10.04.49.789.0 ]--
+r 104         //Terrain map = new Terrain("maze232_0.png.emap");
+--[ 2022.11.01.10.06.34.949.0 ]--
++ 107         
+--[ 2022.11.01.10.06.35.436.0 ]--
+r 107         /
+--[ 2022.11.01.10.06.35.549.0 ]--
+r 107         //
+--[ 2022.11.01.10.06.38.333.0 ]--
+r 107         //P
+--[ 2022.11.01.10.06.38.675.0 ]--
+r 107         //PF
+--[ 2022.11.01.10.06.39.015.0 ]--
+r 107         //PFN
+--[ 2022.11.01.10.06.39.333.0 ]--
+r 107         //PFNo
+--[ 2022.11.01.10.06.39.707.0 ]--
+r 107         //PFNod
+--[ 2022.11.01.10.06.39.866.0 ]--
+r 107         //PFNode
+--[ 2022.11.01.10.06.40.200.0 ]--
+r 107         //PFNode 
+--[ 2022.11.01.10.06.40.830.0 ]--
+r 107         //PFNode e
+--[ 2022.11.01.10.06.40.931.0 ]--
+r 107         //PFNode en
+--[ 2022.11.01.10.06.41.019.0 ]--
+r 107         //PFNode end
+--[ 2022.11.01.10.06.43.606.0 ]--
+r 107         /PFNode end
+--[ 2022.11.01.10.06.43.693.0 ]--
+r 107         PFNode end
+--[ 2022.11.01.10.06.44.956.0 ]--
+r 107         PFNode end 
+--[ 2022.11.01.10.06.45.078.0 ]--
+r 107         PFNode end =
+--[ 2022.11.01.10.06.45.209.0 ]--
+r 107         PFNode end = 
+--[ 2022.11.01.10.06.45.546.0 ]--
+r 107         PFNode end = s
+--[ 2022.11.01.10.06.45.736.0 ]--
+r 107         PFNode end = st
+--[ 2022.11.01.10.06.45.841.0 ]--
+r 107         PFNode end = sta
+--[ 2022.11.01.10.06.45.930.0 ]--
+r 107         PFNode end = star
+--[ 2022.11.01.10.06.46.109.0 ]--
+r 107         PFNode end = start
+--[ 2022.11.01.10.06.46.704.0 ]--
+r 107         PFNode end = start;
+--[ 2022.11.01.10.07.46.970.0 ]--
++ 68     
+--[ 2022.11.01.10.07.47.675.0 ]--
+r 68     P
+--[ 2022.11.01.10.07.47.908.0 ]--
+r 68     PF
+--[ 2022.11.01.10.07.52.222.0 ]--
+r 68     PFN
+--[ 2022.11.01.10.07.52.492.0 ]--
+r 68     PFNo
+--[ 2022.11.01.10.07.52.626.0 ]--
+r 68     PFNod
+--[ 2022.11.01.10.07.52.745.0 ]--
+r 68     PFNode
+--[ 2022.11.01.10.07.52.946.0 ]--
+r 68     PFNode 
+--[ 2022.11.01.10.07.53.300.0 ]--
+r 68     PFNode s
+--[ 2022.11.01.10.07.53.643.0 ]--
+r 68     PFNode st
+--[ 2022.11.01.10.07.53.817.0 ]--
+r 68     PFNode sta
+--[ 2022.11.01.10.07.53.895.0 ]--
+r 68     PFNode star
+--[ 2022.11.01.10.07.54.241.0 ]--
+r 68     PFNode start
+--[ 2022.11.01.10.07.58.719.0 ]--
+r 68     PFNode start;
+--[ 2022.11.01.10.08.14.079.0 ]--
+r 107         
+--[ 2022.11.01.10.08.19.293.0 ]--
+r 68     PFNode start = new PFNode(pathStart, null, 0);
+--[ 2022.11.01.10.08.31.025.0 ]--
+r 68     
+--[ 2022.11.01.10.08.34.426.0 ]--
++ 74         
+--[ 2022.11.01.10.08.35.547.0 ]--
+r 74         PFNode start = new PFNode(pathStart, null, 0);
+--[ 2022.11.01.10.08.39.065.0 ]--
+r 74          start = new PFNode(pathStart, null, 0);
+--[ 2022.11.01.10.08.40.090.0 ]--
+r 74         start = new PFNode(pathStart, null, 0);
+--[ 2022.11.01.10.08.42.441.0 ]--
++ 68     
+--[ 2022.11.01.10.08.43.355.0 ]--
+r 68     P
+--[ 2022.11.01.10.08.43.589.0 ]--
+r 68     PF
+--[ 2022.11.01.10.08.44.007.0 ]--
+r 68     PFN
+--[ 2022.11.01.10.08.44.228.0 ]--
+r 68     PFNo
+--[ 2022.11.01.10.08.44.311.0 ]--
+r 68     PFNod
+--[ 2022.11.01.10.08.44.479.0 ]--
+r 68     PFNode
+--[ 2022.11.01.10.08.44.654.0 ]--
+r 68     PFNode 
+--[ 2022.11.01.10.08.44.915.0 ]--
+r 68     PFNode s
+--[ 2022.11.01.10.08.45.076.0 ]--
+r 68     PFNode st
+--[ 2022.11.01.10.08.45.201.0 ]--
+r 68     PFNode sta
+--[ 2022.11.01.10.08.45.275.0 ]--
+r 68     PFNode star
+--[ 2022.11.01.10.08.45.444.0 ]--
+r 68     PFNode start
+--[ 2022.11.01.10.08.45.572.0 ]--
+r 68     PFNode start;
+--[ 2022.11.01.10.08.51.606.0 ]--
+r 68     PFNode start ;
+--[ 2022.11.01.10.08.51.716.0 ]--
+r 68     PFNode start =;
+--[ 2022.11.01.10.08.51.877.0 ]--
+r 68     PFNode start = ;
+--[ 2022.11.01.10.08.52.180.0 ]--
+r 68     PFNode start = n;
+--[ 2022.11.01.10.08.52.383.0 ]--
+r 68     PFNode start = nu;
+--[ 2022.11.01.10.08.52.559.0 ]--
+r 68     PFNode start = nul;
+--[ 2022.11.01.10.08.52.673.0 ]--
+r 68     PFNode start = null;
+--[ 2022.11.01.10.08.58.093.0 ]--
+- 76
+--[ 2022.11.01.10.08.59.099.0 ]--
++ 75                 pathStart=loc;
+r 76 start = new PFNode(pathStart, null, 0);
+--[ 2022.11.01.10.08.59.120.0 ]--
+r 75         pathStart=loc;
+r 76         start = new PFNode(pathStart, null, 0);
+--[ 2022.11.01.10.09.10.934.0 ]--
++ 87         
+--[ 2022.11.01.10.09.11.101.0 ]--
++ 87                 start = new PFNode(pathStart, null, 0);
+r 88 
+--[ 2022.11.01.10.09.11.115.0 ]--
+r 87         start = new PFNode(pathStart, null, 0);
+--[ 2022.11.01.10.09.12.594.0 ]--
+r 87         e = new PFNode(pathStart, null, 0);
+--[ 2022.11.01.10.09.12.685.0 ]--
+r 87         en = new PFNode(pathStart, null, 0);
+--[ 2022.11.01.10.09.12.791.0 ]--
+r 87         end = new PFNode(pathStart, null, 0);
+--[ 2022.11.01.10.09.15.628.0 ]--
+r 87         end = new PFNode(pathStar, null, 0);
+--[ 2022.11.01.10.09.15.761.0 ]--
+r 87         end = new PFNode(pathSta, null, 0);
+--[ 2022.11.01.10.09.15.897.0 ]--
+r 87         end = new PFNode(pathSt, null, 0);
+--[ 2022.11.01.10.09.16.029.0 ]--
+r 87         end = new PFNode(pathS, null, 0);
+--[ 2022.11.01.10.09.16.170.0 ]--
+r 87         end = new PFNode(path, null, 0);
+--[ 2022.11.01.10.09.16.594.0 ]--
+r 87         end = new PFNode(pathE, null, 0);
+--[ 2022.11.01.10.09.16.832.0 ]--
+r 87         end = new PFNode(pathEn, null, 0);
+--[ 2022.11.01.10.09.16.929.0 ]--
+r 87         end = new PFNode(pathEnd, null, 0);
+--[ 2022.11.01.10.09.20.798.0 ]--
++ 71     
+--[ 2022.11.01.10.09.21.420.0 ]--
+r 71     P
+--[ 2022.11.01.10.09.21.525.0 ]--
+r 71     PF
+--[ 2022.11.01.10.09.21.937.0 ]--
+r 71     PFN
+--[ 2022.11.01.10.09.22.574.0 ]--
+r 71     PFNo
+--[ 2022.11.01.10.09.22.666.0 ]--
+r 71     PFNod
+--[ 2022.11.01.10.09.22.843.0 ]--
+r 71     PFNode
+--[ 2022.11.01.10.09.23.092.0 ]--
+r 71     PFNode 
+--[ 2022.11.01.10.09.23.372.0 ]--
+r 71     PFNode e
+--[ 2022.11.01.10.09.23.461.0 ]--
+r 71     PFNode en
+--[ 2022.11.01.10.09.23.576.0 ]--
+r 71     PFNode end
+--[ 2022.11.01.10.09.23.746.0 ]--
+r 71     PFNode end 
+--[ 2022.11.01.10.09.23.977.0 ]--
+r 71     PFNode end =
+--[ 2022.11.01.10.09.24.112.0 ]--
+r 71     PFNode end = 
+--[ 2022.11.01.10.09.24.271.0 ]--
+r 71     PFNode end = n
+--[ 2022.11.01.10.09.24.466.0 ]--
+r 71     PFNode end = nu
+--[ 2022.11.01.10.09.24.615.0 ]--
+r 71     PFNode end = nul
+--[ 2022.11.01.10.09.24.730.0 ]--
+r 71     PFNode end = null
+--[ 2022.11.01.10.09.24.847.0 ]--
+r 71     PFNode end = null;
+--[ 2022.11.01.10.09.31.839.0 ]--
+- 113
+--[ 2022.11.01.10.09.32.177.0 ]--
+- 112
+--[ 2022.11.01.10.09.40.114.0 ]--
+r 154         return ;
+--[ 2022.11.01.10.09.40.456.0 ]--
+r 154         return e;
+--[ 2022.11.01.10.09.40.550.0 ]--
+r 154         return en;
+--[ 2022.11.01.10.09.40.667.0 ]--
+r 154         return end;
+--[ 2022.11.01.10.09.41.292.0 ]--
+r 154         return end.;
+--[ 2022.11.01.10.09.41.739.0 ]--
+r 154         return end.c;
+--[ 2022.11.01.10.09.41.883.0 ]--
+r 154         return end.co;
+--[ 2022.11.01.10.09.42.137.0 ]--
+r 154         return end.cos;
+--[ 2022.11.01.10.09.42.311.0 ]--
+r 154         return end.cost;
+--[ 2022.11.01.10.09.51.689.0 ]--
+r 69 
+--[ 2022.11.01.10.10.29.627.0 ]--
++ 113         
+--[ 2022.11.01.10.10.33.935.0 ]--
+r 113         s
+--[ 2022.11.01.10.10.34.455.0 ]--
+r 113         se
+--[ 2022.11.01.10.10.34.633.0 ]--
+r 113         sea
+--[ 2022.11.01.10.10.34.739.0 ]--
+r 113         sear
+--[ 2022.11.01.10.10.35.024.0 ]--
+r 113         searc
+--[ 2022.11.01.10.10.35.126.0 ]--
+r 113         search
+--[ 2022.11.01.10.10.35.752.0 ]--
+r 113         searchS
+--[ 2022.11.01.10.10.35.949.0 ]--
+r 113         searchSi
+--[ 2022.11.01.10.10.36.104.0 ]--
+r 113         searchSiz
+--[ 2022.11.01.10.10.36.215.0 ]--
+r 113         searchSize
+--[ 2022.11.01.10.10.37.163.0 ]--
+r 113         searchSize+
+--[ 2022.11.01.10.10.37.270.0 ]--
+r 113         searchSize++
+--[ 2022.11.01.10.10.37.530.0 ]--
+r 113         searchSize++;
+--[ 2022.11.01.10.10.41.458.0 ]--
++ 74     
+--[ 2022.11.01.10.10.43.486.0 ]--
+r 74     i
+--[ 2022.11.01.10.10.43.688.0 ]--
+r 74     int
+--[ 2022.11.01.10.10.43.862.0 ]--
+r 74     int 
+--[ 2022.11.01.10.10.44.135.0 ]--
+r 74     int s
+--[ 2022.11.01.10.10.44.222.0 ]--
+r 74     int se
+--[ 2022.11.01.10.10.44.392.0 ]--
+r 74     int sea
+--[ 2022.11.01.10.10.44.461.0 ]--
+r 74     int sear
+--[ 2022.11.01.10.10.45.091.0 ]--
+r 74     int searchSize
+--[ 2022.11.01.10.10.45.983.0 ]--
+r 74     int searchSize 
+--[ 2022.11.01.10.10.46.068.0 ]--
+r 74     int searchSize =
+--[ 2022.11.01.10.10.46.212.0 ]--
+r 74     int searchSize = 
+--[ 2022.11.01.10.10.46.485.0 ]--
+r 74     int searchSize = 0
+--[ 2022.11.01.10.10.46.740.0 ]--
+r 74     int searchSize = 0;
+--[ 2022.11.01.10.12.52.252.0 ]--
+r 160         return ;
+--[ 2022.11.01.10.12.52.733.0 ]--
+r 160         return s;
+--[ 2022.11.01.10.12.53.011.0 ]--
+r 160         return sea;
+--[ 2022.11.01.10.12.53.069.0 ]--
+r 160         return sear;
+--[ 2022.11.01.10.12.53.631.0 ]--
+r 160         return searchSize;
+--[ 2022.11.01.10.12.57.962.0 ]--
+r 114         searchSize++;   
+--[ 2022.11.01.10.12.58.149.0 ]--
+r 114         searchSize++;       
+--[ 2022.11.01.10.12.58.299.0 ]--
+r 114         searchSize++;           
+--[ 2022.11.01.10.12.58.491.0 ]--
+r 114         searchSize++;           /
+--[ 2022.11.01.10.12.58.631.0 ]--
+r 114         searchSize++;           //
+--[ 2022.11.01.10.12.59.098.0 ]--
+r 114         searchSize++;           //w
+--[ 2022.11.01.10.12.59.160.0 ]--
+r 114         searchSize++;           //wh
+--[ 2022.11.01.10.12.59.309.0 ]--
+r 114         searchSize++;           //whe
+--[ 2022.11.01.10.12.59.405.0 ]--
+r 114         searchSize++;           //when
+--[ 2022.11.01.10.12.59.499.0 ]--
+r 114         searchSize++;           //when 
+--[ 2022.11.01.10.12.59.659.0 ]--
+r 114         searchSize++;           //when s
+--[ 2022.11.01.10.12.59.815.0 ]--
+r 114         searchSize++;           //when so
+--[ 2022.11.01.10.13.00.011.0 ]--
+r 114         searchSize++;           //when som
+--[ 2022.11.01.10.13.00.107.0 ]--
+r 114         searchSize++;           //when some
+--[ 2022.11.01.10.13.00.291.0 ]--
+r 114         searchSize++;           //when somet
+--[ 2022.11.01.10.13.00.332.0 ]--
+r 114         searchSize++;           //when someth
+--[ 2022.11.01.10.13.00.396.0 ]--
+r 114         searchSize++;           //when somethi
+--[ 2022.11.01.10.13.00.535.0 ]--
+r 114         searchSize++;           //when somethin
+--[ 2022.11.01.10.13.00.618.0 ]--
+r 114         searchSize++;           //when something
+--[ 2022.11.01.10.13.00.749.0 ]--
+r 114         searchSize++;           //when something 
+--[ 2022.11.01.10.13.00.858.0 ]--
+r 114         searchSize++;           //when something i
+--[ 2022.11.01.10.13.00.954.0 ]--
+r 114         searchSize++;           //when something is
+--[ 2022.11.01.10.13.01.037.0 ]--
+r 114         searchSize++;           //when something is 
+--[ 2022.11.01.10.13.01.177.0 ]--
+r 114         searchSize++;           //when something is i
+--[ 2022.11.01.10.13.01.346.0 ]--
+r 114         searchSize++;           //when something is in
+--[ 2022.11.01.10.13.01.412.0 ]--
+r 114         searchSize++;           //when something is ins
+--[ 2022.11.01.10.13.01.549.0 ]--
+r 114         searchSize++;           //when something is inse
+--[ 2022.11.01.10.13.01.649.0 ]--
+r 114         searchSize++;           //when something is inser
+--[ 2022.11.01.10.13.01.814.0 ]--
+r 114         searchSize++;           //when something is insert
+--[ 2022.11.01.10.13.01.978.0 ]--
+r 114         searchSize++;           //when something is inserte
+--[ 2022.11.01.10.13.02.195.0 ]--
+r 114         searchSize++;           //when something is inserted
+--[ 2022.11.01.10.13.02.305.0 ]--
+r 114         searchSize++;           //when something is inserted,
+--[ 2022.11.01.10.13.02.390.0 ]--
+r 114         searchSize++;           //when something is inserted, 
+--[ 2022.11.01.10.13.02.573.0 ]--
+r 114         searchSize++;           //when something is inserted, i
+--[ 2022.11.01.10.13.02.728.0 ]--
+r 114         searchSize++;           //when something is inserted, in
+--[ 2022.11.01.10.13.02.969.0 ]--
+r 114         searchSize++;           //when something is inserted, inc
+--[ 2022.11.01.10.13.03.231.0 ]--
+r 114         searchSize++;           //when something is inserted, incr
+--[ 2022.11.01.10.13.03.243.0 ]--
+r 114         searchSize++;           //when something is inserted, incre
+--[ 2022.11.01.10.13.03.398.0 ]--
+r 114         searchSize++;           //when something is inserted, increa
+--[ 2022.11.01.10.13.03.614.0 ]--
+r 114         searchSize++;           //when something is inserted, increas
+--[ 2022.11.01.10.13.03.719.0 ]--
+r 114         searchSize++;           //when something is inserted, increase
+--[ 2022.11.01.10.13.03.922.0 ]--
+r 114         searchSize++;           //when something is inserted, increase 
+--[ 2022.11.01.10.13.04.094.0 ]--
+r 114         searchSize++;           //when something is inserted, increase t
+--[ 2022.11.01.10.13.04.166.0 ]--
+r 114         searchSize++;           //when something is inserted, increase th
+--[ 2022.11.01.10.13.04.229.0 ]--
+r 114         searchSize++;           //when something is inserted, increase thi
+--[ 2022.11.01.10.13.04.273.0 ]--
+r 114         searchSize++;           //when something is inserted, increase this
+--[ 2022.11.01.10.13.05.814.0 ]--
+r 114         searchSize++;           //when something is inserted, increase this 
+--[ 2022.11.01.10.13.06.049.0 ]--
+r 114         searchSize++;           //when something is inserted, increase this v
+--[ 2022.11.01.10.13.06.195.0 ]--
+r 114         searchSize++;           //when something is inserted, increase this va
+--[ 2022.11.01.10.13.06.244.0 ]--
+r 114         searchSize++;           //when something is inserted, increase this var
+--[ 2022.11.01.10.15.11.791.0 ]--
+r 164         return nul;
+--[ 2022.11.01.10.15.11.939.0 ]--
+r 164         return nu;
+--[ 2022.11.01.10.15.12.078.0 ]--
+r 164         return n;
+--[ 2022.11.01.10.15.12.504.0 ]--
+r 164         return ;
+--[ 2022.11.01.10.15.13.576.0 ]--
+r 164         return s;
+--[ 2022.11.01.10.15.13.844.0 ]--
+r 164         return st;
+--[ 2022.11.01.10.15.14.445.0 ]--
+r 164         return s;
+--[ 2022.11.01.10.15.14.555.0 ]--
+r 164         return ;
+--[ 2022.11.01.10.15.14.679.0 ]--
+r 164         return;
+--[ 2022.11.01.10.15.15.219.0 ]--
+r 164         return ;
+--[ 2022.11.01.10.15.16.749.0 ]--
+r 164         return s;
+--[ 2022.11.01.10.15.16.881.0 ]--
+r 164         return st;
+--[ 2022.11.01.10.15.17.032.0 ]--
+r 164         return sta;
+--[ 2022.11.01.10.15.17.101.0 ]--
+r 164         return star;
+--[ 2022.11.01.10.15.17.276.0 ]--
+r 164         return start;
+--[ 2022.11.01.10.15.17.465.0 ]--
+r 164         return start.;
+--[ 2022.11.01.10.15.17.726.0 ]--
+r 164         return start.l;
+--[ 2022.11.01.10.15.17.879.0 ]--
+r 164         return start.lo;
+--[ 2022.11.01.10.15.18.030.0 ]--
+r 164         return start.loc;
+--[ 2022.11.01.10.15.18.213.0 ]--
+r 164         return start.loca;
+--[ 2022.11.01.10.15.18.296.0 ]--
+r 164         return start.locat;
+--[ 2022.11.01.10.15.18.452.0 ]--
+r 164         return start.locati;
+--[ 2022.11.01.10.15.18.535.0 ]--
+r 164         return start.locatio;
+--[ 2022.11.01.10.15.18.702.0 ]--
+r 164         return start.location;
+--[ 2022.11.01.10.15.23.150.0 ]--
+r 164         return start.location;  
+--[ 2022.11.01.10.15.23.278.0 ]--
+r 164         return start.location;      
+--[ 2022.11.01.10.15.23.782.0 ]--
+r 164         return start.location;      /
+--[ 2022.11.01.10.15.23.939.0 ]--
+r 164         return start.location;      //
+--[ 2022.11.01.10.15.24.246.0 ]--
+r 164         return start.location;      // 
+--[ 2022.11.01.10.15.24.401.0 ]--
+r 164         return start.location;      // w
+--[ 2022.11.01.10.15.24.495.0 ]--
+r 164         return start.location;      // wi
+--[ 2022.11.01.10.15.24.650.0 ]--
+r 164         return start.location;      // wil
+--[ 2022.11.01.10.15.24.774.0 ]--
+r 164         return start.location;      // will
+--[ 2022.11.01.10.15.24.858.0 ]--
+r 164         return start.location;      // will 
+--[ 2022.11.01.10.15.24.975.0 ]--
+r 164         return start.location;      // will i
+--[ 2022.11.01.10.15.25.114.0 ]--
+r 164         return start.location;      // will it
+--[ 2022.11.01.10.15.25.284.0 ]--
+r 164         return start.location;      // will ite
+--[ 2022.11.01.10.15.25.360.0 ]--
+r 164         return start.location;      // will iter
+--[ 2022.11.01.10.15.25.591.0 ]--
+r 164         return start.location;      // will itera
+--[ 2022.11.01.10.15.25.648.0 ]--
+r 164         return start.location;      // will iterat
+--[ 2022.11.01.10.15.25.843.0 ]--
+r 164         return start.location;      // will iterati
+--[ 2022.11.01.10.15.26.214.0 ]--
+r 164         return start.location;      // will iterat
+--[ 2022.11.01.10.15.26.296.0 ]--
+r 164         return start.location;      // will iterate
+--[ 2022.11.01.10.15.26.389.0 ]--
+r 164         return start.location;      // will iterate 
+--[ 2022.11.01.10.15.26.564.0 ]--
+r 164         return start.location;      // will iterate f
+--[ 2022.11.01.10.15.26.755.0 ]--
+r 164         return start.location;      // will iterate fr
+--[ 2022.11.01.10.15.27.069.0 ]--
+r 164         return start.location;      // will iterate f
+--[ 2022.11.01.10.15.27.197.0 ]--
+r 164         return start.location;      // will iterate 
+--[ 2022.11.01.10.15.45.873.0 ]--
+r 164         return start.location;      // will iterate fr
+--[ 2022.11.01.10.15.46.085.0 ]--
+r 164         return start.location;      // will iterat
+--[ 2022.11.01.10.15.46.272.0 ]--
+r 164         return start.location;      // will iterati
+--[ 2022.11.01.10.15.46.457.0 ]--
+r 164         return start.location;      
+--[ 2022.11.01.10.15.46.592.0 ]--
+r 164         return start.location;
+--[ 2022.11.01.10.15.46.992.0 ]--
+r 164         return;
+--[ 2022.11.01.10.15.47.182.0 ]--
+r 164         return st;
+--[ 2022.11.01.10.15.47.878.0 ]--
+r 164         return ;
+--[ 2022.11.01.10.15.48.327.0 ]--
+r 164         return null;
+--[ 2022.11.01.10.15.51.184.0 ]--
+r 164         return null;    
+--[ 2022.11.01.10.15.51.327.0 ]--
+r 164         return null;        
+--[ 2022.11.01.10.15.51.988.0 ]--
+r 164         return null;        /
+--[ 2022.11.01.10.15.52.094.0 ]--
+r 164         return null;        //
+--[ 2022.11.01.10.15.54.647.0 ]--
+r 164         return null;        //f
+--[ 2022.11.01.10.15.54.809.0 ]--
+r 164         return null;        //fr
+--[ 2022.11.01.10.15.54.903.0 ]--
+r 164         return null;        //fro
+--[ 2022.11.01.10.15.55.051.0 ]--
+r 164         return null;        //from
+--[ 2022.11.01.10.15.55.159.0 ]--
+r 164         return null;        //from 
+--[ 2022.11.01.10.15.55.264.0 ]--
+r 164         return null;        //from s
+--[ 2022.11.01.10.15.55.382.0 ]--
+r 164         return null;        //from st
+--[ 2022.11.01.10.15.55.547.0 ]--
+r 164         return null;        //from sta
+--[ 2022.11.01.10.15.55.625.0 ]--
+r 164         return null;        //from star
+--[ 2022.11.01.10.15.55.800.0 ]--
+r 164         return null;        //from start
+--[ 2022.11.01.10.15.56.036.0 ]--
+r 164         return null;        //from starti
+--[ 2022.11.01.10.15.56.177.0 ]--
+r 164         return null;        //from startin
+--[ 2022.11.01.10.15.56.263.0 ]--
+r 164         return null;        //from starting
+--[ 2022.11.01.10.15.56.314.0 ]--
+r 164         return null;        //from starting 
+--[ 2022.11.01.10.15.56.468.0 ]--
+r 164         return null;        //from starting p
+--[ 2022.11.01.10.15.56.617.0 ]--
+r 164         return null;        //from starting po
+--[ 2022.11.01.10.15.56.749.0 ]--
+r 164         return null;        //from starting pos
+--[ 2022.11.01.10.15.56.877.0 ]--
+r 164         return null;        //from starting posi
+--[ 2022.11.01.10.15.57.047.0 ]--
+r 164         return null;        //from starting posit
+--[ 2022.11.01.10.15.57.139.0 ]--
+r 164         return null;        //from starting positi
+--[ 2022.11.01.10.15.57.223.0 ]--
+r 164         return null;        //from starting positio
+--[ 2022.11.01.10.15.57.432.0 ]--
+r 164         return null;        //from starting position
+--[ 2022.11.01.10.15.57.555.0 ]--
+r 164         return null;        //from starting position 
+--[ 2022.11.01.10.15.57.634.0 ]--
+r 164         return null;        //from starting position t
+--[ 2022.11.01.10.15.57.737.0 ]--
+r 164         return null;        //from starting position to
+--[ 2022.11.01.10.15.57.855.0 ]--
+r 164         return null;        //from starting position to 
+--[ 2022.11.01.10.15.57.971.0 ]--
+r 164         return null;        //from starting position to e
+--[ 2022.11.01.10.15.58.089.0 ]--
+r 164         return null;        //from starting position to en
+--[ 2022.11.01.10.15.58.170.0 ]--
+r 164         return null;        //from starting position to end
+--[ 2022.11.01.10.16.05.248.0 ]--
+r 168         return false;   
+--[ 2022.11.01.10.16.37.921.0 ]--
++ 75     
+--[ 2022.11.01.10.16.41.094.0 ]--
+r 75     C
+--[ 2022.11.01.10.16.41.385.0 ]--
+r 75     Co
+--[ 2022.11.01.10.16.41.515.0 ]--
+r 75     Cor
+--[ 2022.11.01.10.16.42.057.0 ]--
+r 75     Co
+--[ 2022.11.01.10.16.42.342.0 ]--
+r 75     Coo
+--[ 2022.11.01.10.16.42.447.0 ]--
+r 75     Coor
+--[ 2022.11.01.10.16.42.621.0 ]--
+r 75     Coord
+--[ 2022.11.01.10.16.43.507.0 ]--
+r 75     Coord[]
+--[ 2022.11.01.10.16.44.713.0 ]--
+r 75     Coord[] 
+--[ 2022.11.01.10.16.45.981.0 ]--
+r 75     Coord[]  
+--[ 2022.11.01.10.16.46.517.0 ]--
+r 75     Coord[] 
+--[ 2022.11.01.10.16.47.054.0 ]--
+r 75     Coord[] w
+--[ 2022.11.01.10.16.47.231.0 ]--
+r 75     Coord[] wa
+--[ 2022.11.01.10.16.47.309.0 ]--
+r 75     Coord[] was
+--[ 2022.11.01.10.16.47.591.0 ]--
+r 75     Coord[] wasS
+--[ 2022.11.01.10.16.47.719.0 ]--
+r 75     Coord[] wasSe
+--[ 2022.11.01.10.16.47.908.0 ]--
+r 75     Coord[] wasSea
+--[ 2022.11.01.10.16.47.933.0 ]--
+r 75     Coord[] wasSear
+--[ 2022.11.01.10.16.49.118.0 ]--
+r 75     Coord[] wasSearc
+--[ 2022.11.01.10.16.49.393.0 ]--
+r 75     Coord[] wasSearch
+--[ 2022.11.01.10.16.49.462.0 ]--
+r 75     Coord[] wasSearche
+--[ 2022.11.01.10.16.49.623.0 ]--
+r 75     Coord[] wasSearched
+--[ 2022.11.01.10.16.50.164.0 ]--
+r 75     Coord[] wasSearchedA
+--[ 2022.11.01.10.16.53.286.0 ]--
+r 75     Coord[] wasSearchedA 
+--[ 2022.11.01.10.16.53.485.0 ]--
+r 75     Coord[] wasSearchedA =
+--[ 2022.11.01.10.16.53.602.0 ]--
+r 75     Coord[] wasSearchedA = 
+--[ 2022.11.01.10.16.54.121.0 ]--
+r 75     Coord[] wasSearchedA =
+--[ 2022.11.01.10.16.54.223.0 ]--
+r 75     Coord[] wasSearchedA 
+--[ 2022.11.01.10.16.56.283.0 ]--
+r 75     Coord[] wasSearchedA
+--[ 2022.11.01.10.17.03.364.0 ]--
+r 75     
+--[ 2022.11.01.10.17.39.027.0 ]--
+r 169         return false;       
+--[ 2022.11.01.10.17.39.380.0 ]--
+r 169         return false;           
+--[ 2022.11.01.10.17.39.930.0 ]--
+r 169         return false;          
+--[ 2022.11.01.10.17.40.084.0 ]--
+r 169         return false;         
+--[ 2022.11.01.10.17.40.249.0 ]--
+r 169         return false;        
+--[ 2022.11.01.10.17.40.446.0 ]--
+r 169         return false;       
+--[ 2022.11.01.10.17.40.842.0 ]--
+r 169         return false;       /
+--[ 2022.11.01.10.17.40.940.0 ]--
+r 169         return false;       //
+--[ 2022.11.01.10.17.44.393.0 ]--
+r 169         return false;       //a
+--[ 2022.11.01.10.17.44.598.0 ]--
+r 169         return false;       //ar
+--[ 2022.11.01.10.17.44.699.0 ]--
+r 169         return false;       //arr
+--[ 2022.11.01.10.17.45.060.0 ]--
+r 169         return false;       //arra
+--[ 2022.11.01.10.17.45.211.0 ]--
+r 169         return false;       //array
+--[ 2022.11.01.10.17.45.288.0 ]--
+r 169         return false;       //array 
+--[ 2022.11.01.10.17.45.751.0 ]--
+r 169         return false;       //array
+--[ 2022.11.01.10.17.46.113.0 ]--
+r 169         return false;       //array?
+--[ 2022.11.01.10.17.46.262.0 ]--
+r 169         return false;       //array? 
+--[ 2022.11.01.10.17.46.440.0 ]--
+r 169         return false;       //array? l
+--[ 2022.11.01.10.17.46.594.0 ]--
+r 169         return false;       //array? li
+--[ 2022.11.01.10.17.46.746.0 ]--
+r 169         return false;       //array? lin
+--[ 2022.11.01.10.17.46.904.0 ]--
+r 169         return false;       //array? link
+--[ 2022.11.01.10.17.47.015.0 ]--
+r 169         return false;       //array? linke
+--[ 2022.11.01.10.17.47.197.0 ]--
+r 169         return false;       //array? linked
+--[ 2022.11.01.10.17.47.331.0 ]--
+r 169         return false;       //array? linked 
+--[ 2022.11.01.10.17.47.494.0 ]--
+r 169         return false;       //array? linked l
+--[ 2022.11.01.10.17.47.654.0 ]--
+r 169         return false;       //array? linked li
+--[ 2022.11.01.10.17.47.730.0 ]--
+r 169         return false;       //array? linked lis
+--[ 2022.11.01.10.17.47.876.0 ]--
+r 169         return false;       //array? linked list
+--[ 2022.11.01.10.17.48.140.0 ]--
+r 169         return false;       //array? linked list?
+--[ 2022.11.01.10.19.11.920.0 ]--
+r 124             
+--[ 2022.11.01.10.19.12.572.0 ]--
+- 123
+--[ 2022.11.01.10.19.12.981.0 ]--
+- 123
+--[ 2022.11.01.10.19.14.527.0 ]--
++ 119             
+--[ 2022.11.01.10.19.14.897.0 ]--
+r 119             if (location == null) return;
+--[ 2022.11.01.10.19.15.739.0 ]--
++ 120             
+--[ 2022.11.01.10.19.19.912.0 ]--
+r 119             if (location == null) return;   
+--[ 2022.11.01.10.19.20.041.0 ]--
+r 119             if (location == null) return;       
+--[ 2022.11.01.10.19.20.653.0 ]--
+r 119             if (location == null) return;           
+--[ 2022.11.01.10.19.20.872.0 ]--
+r 119             if (location == null) return;           .
+--[ 2022.11.01.10.19.21.001.0 ]--
+r 119             if (location == null) return;           ..
+--[ 2022.11.01.10.19.21.495.0 ]--
+r 119             if (location == null) return;           .
+--[ 2022.11.01.10.19.21.606.0 ]--
+r 119             if (location == null) return;           
+--[ 2022.11.01.10.19.22.066.0 ]--
+r 119             if (location == null) return;           /
+--[ 2022.11.01.10.19.22.704.0 ]--
+r 119             if (location == null) return;           //
+--[ 2022.11.01.10.19.23.311.0 ]--
+r 119             if (location == null) return;           /
+--[ 2022.11.01.10.19.23.418.0 ]--
+r 119             if (location == null) return;           
+--[ 2022.11.01.10.19.23.764.0 ]--
+r 119             if (location == null) return;          
+--[ 2022.11.01.10.19.24.048.0 ]--
+r 119             if (location == null) return;          /
+--[ 2022.11.01.10.19.24.198.0 ]--
+r 119             if (location == null) return;          //
+--[ 2022.11.01.10.19.24.480.0 ]--
+r 119             if (location == null) return;          // 
+--[ 2022.11.01.10.19.24.614.0 ]--
+r 119             if (location == null) return;          // l
+--[ 2022.11.01.10.19.24.781.0 ]--
+r 119             if (location == null) return;          // lo
+--[ 2022.11.01.10.19.24.862.0 ]--
+r 119             if (location == null) return;          // loc
+--[ 2022.11.01.10.19.25.041.0 ]--
+r 119             if (location == null) return;          // loca
+--[ 2022.11.01.10.19.25.112.0 ]--
+r 119             if (location == null) return;          // locat
+--[ 2022.11.01.10.19.25.219.0 ]--
+r 119             if (location == null) return;          // locati
+--[ 2022.11.01.10.19.25.298.0 ]--
+r 119             if (location == null) return;          // locatio
+--[ 2022.11.01.10.19.25.480.0 ]--
+r 119             if (location == null) return;          // location
+--[ 2022.11.01.10.19.25.546.0 ]--
+r 119             if (location == null) return;          // location 
+--[ 2022.11.01.10.19.25.711.0 ]--
+r 119             if (location == null) return;          // location m
+--[ 2022.11.01.10.19.25.888.0 ]--
+r 119             if (location == null) return;          // location mu
+--[ 2022.11.01.10.19.25.945.0 ]--
+r 119             if (location == null) return;          // location mus
+--[ 2022.11.01.10.19.26.048.0 ]--
+r 119             if (location == null) return;          // location must
+--[ 2022.11.01.10.19.26.183.0 ]--
+r 119             if (location == null) return;          // location must 
+--[ 2022.11.01.10.19.26.248.0 ]--
+r 119             if (location == null) return;          // location must e
+--[ 2022.11.01.10.19.26.528.0 ]--
+r 119             if (location == null) return;          // location must ex
+--[ 2022.11.01.10.19.26.695.0 ]--
+r 119             if (location == null) return;          // location must exi
+--[ 2022.11.01.10.19.26.785.0 ]--
+r 119             if (location == null) return;          // location must exis
+--[ 2022.11.01.10.19.26.957.0 ]--
+r 119             if (location == null) return;          // location must exist
+--[ 2022.11.01.10.19.58.519.0 ]--
+r 137 //        int x = loc.getI();   //row
+r 138 //        int y = loc.getJ();   //col
+--[ 2022.11.01.10.20.03.677.0 ]--
+r 137         int x = loc.getI();   //row
+--[ 2022.11.01.10.20.05.674.0 ]--
+r 138         int y = loc.getJ();   //col
+--[ 2022.11.01.10.20.06.862.0 ]--
+r 139 //
+--[ 2022.11.01.10.20.07.252.0 ]--
+r 140 //        Coord[] neighbourList = new Coord[4];
+--[ 2022.11.01.10.20.07.636.0 ]--
+r 141 //        neighbourList[0] = loc.add(0, 1);   //up
+--[ 2022.11.01.10.20.10.069.0 ]--
+r 139 
+--[ 2022.11.01.10.20.10.216.0 ]--
+r 140         Coord[] neighbourList = new Coord[4];
+--[ 2022.11.01.10.20.10.336.0 ]--
+r 141         neighbourList[0] = loc.add(0, 1);   //up
+--[ 2022.11.01.10.20.16.384.0 ]--
+r 137 //        int x = loc.getI();   //row
+r 138 //        int y = loc.getJ();   //col
+--[ 2022.11.01.10.21.35.513.0 ]--
++ 142         
+--[ 2022.11.01.10.21.36.889.0 ]--
+r 142         l
+--[ 2022.11.01.10.21.37.084.0 ]--
+r 142         lo
+--[ 2022.11.01.10.21.37.193.0 ]--
+r 142         loc
+--[ 2022.11.01.10.21.37.720.0 ]--
+r 142         loca
+--[ 2022.11.01.10.21.37.845.0 ]--
+r 142         locat
+--[ 2022.11.01.10.21.37.981.0 ]--
+r 142         locati
+--[ 2022.11.01.10.21.38.064.0 ]--
+r 142         locatio
+--[ 2022.11.01.10.21.38.219.0 ]--
+r 142         location
+--[ 2022.11.01.10.21.38.491.0 ]--
+r 142         location.
+--[ 2022.11.01.10.21.38.802.0 ]--
+r 142         location.p
+--[ 2022.11.01.10.21.38.928.0 ]--
+r 142         location.pr
+--[ 2022.11.01.10.21.39.007.0 ]--
+r 142         location.pre
+--[ 2022.11.01.10.21.39.265.0 ]--
+r 142         location.prev
+--[ 2022.11.01.10.21.39.368.0 ]--
+r 142         location.previ
+--[ 2022.11.01.10.21.39.464.0 ]--
+r 142         location.previo
+--[ 2022.11.01.10.21.39.608.0 ]--
+r 142         location.previou
+--[ 2022.11.01.10.21.39.667.0 ]--
+r 142         location.previous
+--[ 2022.11.01.10.21.51.267.0 ]--
+r 142 
+--[ 2022.11.01.10.21.51.745.0 ]--
+- 142
+--[ 2022.11.01.10.21.56.691.0 ]--
++ 151     
+--[ 2022.11.01.10.21.56.805.0 ]--
++ 151     
+--[ 2022.11.01.10.21.57.583.0 ]--
+r 152     p
+--[ 2022.11.01.10.21.57.695.0 ]--
+r 152     pr
+--[ 2022.11.01.10.21.57.772.0 ]--
+r 152     pri
+--[ 2022.11.01.10.21.58.115.0 ]--
+r 152     priv
+--[ 2022.11.01.10.21.58.299.0 ]--
+r 152     priva
+--[ 2022.11.01.10.21.58.353.0 ]--
+r 152     privat
+--[ 2022.11.01.10.21.58.538.0 ]--
+r 152     private
+--[ 2022.11.01.10.21.59.192.0 ]--
+r 152     private 
+--[ 2022.11.01.10.22.07.630.0 ]--
+r 152     private b
+--[ 2022.11.01.10.22.07.731.0 ]--
+r 152     private bo
+--[ 2022.11.01.10.22.07.866.0 ]--
+r 152     private boo
+--[ 2022.11.01.10.22.08.167.0 ]--
+r 152     private bool
+--[ 2022.11.01.10.22.08.364.0 ]--
+r 152     private boole
+--[ 2022.11.01.10.22.08.513.0 ]--
+r 152     private boolea
+--[ 2022.11.01.10.22.08.627.0 ]--
+r 152     private boolean
+--[ 2022.11.01.10.22.08.915.0 ]--
+r 152     private boolean 
+--[ 2022.11.01.10.22.15.250.0 ]--
+r 152     private boolean n
+--[ 2022.11.01.10.22.15.443.0 ]--
+r 152     private boolean ne
+--[ 2022.11.01.10.22.15.537.0 ]--
+r 152     private boolean nei
+--[ 2022.11.01.10.22.15.681.0 ]--
+r 152     private boolean neig
+--[ 2022.11.01.10.22.16.226.0 ]--
+r 152     private boolean neigh
+--[ 2022.11.01.10.22.16.610.0 ]--
+r 152     private boolean neighb
+--[ 2022.11.01.10.22.16.747.0 ]--
+r 152     private boolean neighbo
+--[ 2022.11.01.10.22.16.856.0 ]--
+r 152     private boolean neighbou
+--[ 2022.11.01.10.22.16.935.0 ]--
+r 152     private boolean neighbour
+--[ 2022.11.01.10.22.17.321.0 ]--
+r 152     private boolean neighbour 
+--[ 2022.11.01.10.22.17.644.0 ]--
+r 152     private boolean neighbour
+--[ 2022.11.01.10.22.17.948.0 ]--
+r 152     private boolean neighbourE
+--[ 2022.11.01.10.22.18.251.0 ]--
+r 152     private boolean neighbourEd
+--[ 2022.11.01.10.22.18.473.0 ]--
+r 152     private boolean neighbourEdg
+--[ 2022.11.01.10.22.18.641.0 ]--
+r 152     private boolean neighbourEdge
+--[ 2022.11.01.10.22.21.403.0 ]--
+r 152     private boolean neighbourEdgeC
+--[ 2022.11.01.10.22.21.684.0 ]--
+r 152     private boolean neighbourEdgeCa
+--[ 2022.11.01.10.22.21.830.0 ]--
+r 152     private boolean neighbourEdgeCas
+--[ 2022.11.01.10.22.22.018.0 ]--
+r 152     private boolean neighbourEdgeCase
+--[ 2022.11.01.10.22.22.178.0 ]--
+r 152     private boolean neighbourEdgeCases
+--[ 2022.11.01.10.22.23.498.0 ]--
+r 152     private boolean neighbourEdgeCases()
+--[ 2022.11.01.10.22.24.315.0 ]--
+r 152     private boolean neighbourEdgeCases(P)
+--[ 2022.11.01.10.22.24.475.0 ]--
+r 152     private boolean neighbourEdgeCases(PF)
+--[ 2022.11.01.10.22.24.837.0 ]--
+r 152     private boolean neighbourEdgeCases(PFN)
+--[ 2022.11.01.10.22.25.212.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNo)
+--[ 2022.11.01.10.22.25.484.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNod)
+--[ 2022.11.01.10.22.25.652.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode)
+--[ 2022.11.01.10.22.26.190.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode )
+--[ 2022.11.01.10.22.27.446.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode l)
+--[ 2022.11.01.10.22.27.608.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode lo)
+--[ 2022.11.01.10.22.27.726.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc)
+--[ 2022.11.01.10.22.30.859.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc){}
+--[ 2022.11.01.10.22.31.098.0 ]--
++ 152     private boolean neighbourEdgeCases(PFNode loc){
+r 153     }
+--[ 2022.11.01.10.22.31.116.0 ]--
++ 153         
+--[ 2022.11.01.10.22.35.123.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc,){
+--[ 2022.11.01.10.22.47.219.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, ){
+--[ 2022.11.01.10.22.47.505.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, c){
+--[ 2022.11.01.10.22.47.629.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, co){
+--[ 2022.11.01.10.22.47.808.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, cor){
+--[ 2022.11.01.10.22.47.948.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, corr){
+--[ 2022.11.01.10.22.48.334.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, cor){
+--[ 2022.11.01.10.22.48.434.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, co){
+--[ 2022.11.01.10.22.48.715.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, coo){
+--[ 2022.11.01.10.22.48.849.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, coor){
+--[ 2022.11.01.10.22.49.168.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, coo){
+--[ 2022.11.01.10.22.49.279.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, co){
+--[ 2022.11.01.10.22.49.394.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, c){
+--[ 2022.11.01.10.22.49.489.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, ){
+--[ 2022.11.01.10.22.49.857.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, C){
+--[ 2022.11.01.10.22.50.136.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Co){
+--[ 2022.11.01.10.22.50.244.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Coo){
+--[ 2022.11.01.10.22.50.330.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Coor){
+--[ 2022.11.01.10.22.50.658.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Coord){
+--[ 2022.11.01.10.22.51.321.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Coord ){
+--[ 2022.11.01.10.22.51.493.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Coord n){
+--[ 2022.11.01.10.22.51.673.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Coord ne){
+--[ 2022.11.01.10.22.51.764.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Coord nei){
+--[ 2022.11.01.10.22.51.921.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Coord neig){
+--[ 2022.11.01.10.22.52.042.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Coord neigh){
+--[ 2022.11.01.10.22.52.838.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Coord neighb){
+--[ 2022.11.01.10.22.52.913.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Coord neighbo){
+--[ 2022.11.01.10.22.53.017.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Coord neighbor){
+--[ 2022.11.01.10.22.53.435.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Coord neighbo){
+--[ 2022.11.01.10.22.53.624.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Coord neighbou){
+--[ 2022.11.01.10.22.53.671.0 ]--
+r 152     private boolean neighbourEdgeCases(PFNode loc, Coord neighbour){
+--[ 2022.11.01.10.22.58.096.0 ]--
+r 153         r
+--[ 2022.11.01.10.22.58.181.0 ]--
+r 153         re
+--[ 2022.11.01.10.22.58.298.0 ]--
+r 153         ret
+--[ 2022.11.01.10.22.58.383.0 ]--
+r 153         retu
+--[ 2022.11.01.10.22.58.537.0 ]--
+r 153         retur
+--[ 2022.11.01.10.22.58.629.0 ]--
+r 153         return
+--[ 2022.11.01.10.22.58.780.0 ]--
+r 153         return 
+--[ 2022.11.01.10.22.59.198.0 ]--
+r 153         return f
+--[ 2022.11.01.10.22.59.351.0 ]--
+r 153         return fa
+--[ 2022.11.01.10.22.59.461.0 ]--
+r 153         return fal
+--[ 2022.11.01.10.22.59.549.0 ]--
+r 153         return fals
+--[ 2022.11.01.10.22.59.647.0 ]--
+r 153         return false
+--[ 2022.11.01.10.22.59.834.0 ]--
+r 153         return false;
+--[ 2022.11.01.10.23.11.146.0 ]--
++ 127             
+--[ 2022.11.01.10.23.11.887.0 ]--
+r 127             neighbourEdgeCases
+--[ 2022.11.01.10.23.15.087.0 ]--
+r 127             ineighbourEdgeCases
+--[ 2022.11.01.10.23.15.158.0 ]--
+r 127             ifneighbourEdgeCases
+--[ 2022.11.01.10.23.15.899.0 ]--
+r 127             ineighbourEdgeCases
+--[ 2022.11.01.10.23.16.011.0 ]--
+r 127             neighbourEdgeCases
+--[ 2022.11.01.10.23.16.500.0 ]--
++ 127             
+--[ 2022.11.01.10.23.17.700.0 ]--
+r 127             f
+--[ 2022.11.01.10.23.17.794.0 ]--
+r 127             fo
+--[ 2022.11.01.10.23.17.884.0 ]--
+r 127             for
+--[ 2022.11.01.10.23.18.890.0 ]--
+r 127             for()
+--[ 2022.11.01.10.23.21.529.0 ]--
+r 127             for(i)
+--[ 2022.11.01.10.23.21.678.0 ]--
+r 127             for(in)
+--[ 2022.11.01.10.23.21.825.0 ]--
+r 127             for(int)
+--[ 2022.11.01.10.23.21.906.0 ]--
+r 127             for(int )
+--[ 2022.11.01.10.23.22.092.0 ]--
+r 127             for(int i)
+--[ 2022.11.01.10.23.22.571.0 ]--
+r 127             for(int i )
+--[ 2022.11.01.10.23.22.854.0 ]--
+r 127             for(int i =)
+--[ 2022.11.01.10.23.23.101.0 ]--
+r 127             for(int i = )
+--[ 2022.11.01.10.23.23.257.0 ]--
+r 127             for(int i = 0)
+--[ 2022.11.01.10.23.25.131.0 ]--
+r 127             for(int i = 0) 
+--[ 2022.11.01.10.23.25.218.0 ]--
+r 127             for(int i = 0) /
+--[ 2022.11.01.10.23.25.324.0 ]--
+r 127             for(int i = 0) //
+--[ 2022.11.01.10.23.26.541.0 ]--
+r 127             for(int i = 0) // 
+--[ 2022.11.01.10.23.27.163.0 ]--
+r 127             for(int i = 0) // c
+--[ 2022.11.01.10.23.27.259.0 ]--
+r 127             for(int i = 0) // ch
+--[ 2022.11.01.10.23.27.369.0 ]--
+r 127             for(int i = 0) // che
+--[ 2022.11.01.10.23.27.561.0 ]--
+r 127             for(int i = 0) // chec
+--[ 2022.11.01.10.23.27.910.0 ]--
+r 127             for(int i = 0) // check
+--[ 2022.11.01.10.23.28.052.0 ]--
+r 127             for(int i = 0) // check 
+--[ 2022.11.01.10.23.28.196.0 ]--
+r 127             for(int i = 0) // check a
+--[ 2022.11.01.10.23.28.308.0 ]--
+r 127             for(int i = 0) // check al
+--[ 2022.11.01.10.23.28.431.0 ]--
+r 127             for(int i = 0) // check all
+--[ 2022.11.01.10.23.28.504.0 ]--
+r 127             for(int i = 0) // check all 
+--[ 2022.11.01.10.23.28.883.0 ]--
+r 127             for(int i = 0) // check all n
+--[ 2022.11.01.10.23.28.997.0 ]--
+r 127             for(int i = 0) // check all ne
+--[ 2022.11.01.10.23.29.100.0 ]--
+r 127             for(int i = 0) // check all nei
+--[ 2022.11.01.10.23.29.226.0 ]--
+r 127             for(int i = 0) // check all neig
+--[ 2022.11.01.10.23.29.317.0 ]--
+r 127             for(int i = 0) // check all neigh
+--[ 2022.11.01.10.23.30.017.0 ]--
+r 127             for(int i = 0) // check all neighb
+--[ 2022.11.01.10.23.30.084.0 ]--
+r 127             for(int i = 0) // check all neighbo
+--[ 2022.11.01.10.23.30.147.0 ]--
+r 127             for(int i = 0) // check all neighbou
+--[ 2022.11.01.10.23.30.287.0 ]--
+r 127             for(int i = 0) // check all neighbour
+--[ 2022.11.01.10.23.30.469.0 ]--
+r 127             for(int i = 0) // check all neighbours
+--[ 2022.11.01.10.23.32.838.0 ]--
+r 127             for(int i = 0) // check all neighbours 
+--[ 2022.11.01.10.23.50.153.0 ]--
+- 127
+r 127 
+--[ 2022.11.01.10.23.52.270.0 ]--
++ 132                 
+--[ 2022.11.01.10.23.53.809.0 ]--
+- 132
+--[ 2022.11.01.10.23.56.192.0 ]--
++ 131                 
+--[ 2022.11.01.10.23.56.782.0 ]--
++ 131                             for(int i = 0) // check all neighbours 
+r 132             neighbourEdgeCases
+--[ 2022.11.01.10.23.56.798.0 ]--
+r 131                 for(int i = 0) // check all neighbours 
+r 132                     neighbourEdgeCases
+--[ 2022.11.01.10.23.59.008.0 ]--
+- 131
+--[ 2022.11.01.10.24.00.431.0 ]--
+r 131                     neighbourEdgeCases 
+--[ 2022.11.01.10.24.00.577.0 ]--
+r 131                     neighbourEdgeCases /
+--[ 2022.11.01.10.24.00.684.0 ]--
+r 131                     neighbourEdgeCases //
+--[ 2022.11.01.10.24.01.311.0 ]--
+r 131                     neighbourEdgeCases //c
+--[ 2022.11.01.10.24.01.398.0 ]--
+r 131                     neighbourEdgeCases //ch
+--[ 2022.11.01.10.24.01.499.0 ]--
+r 131                     neighbourEdgeCases //che
+--[ 2022.11.01.10.24.01.704.0 ]--
+r 131                     neighbourEdgeCases //chec
+--[ 2022.11.01.10.24.01.780.0 ]--
+r 131                     neighbourEdgeCases //check
+--[ 2022.11.01.10.24.01.881.0 ]--
+r 131                     neighbourEdgeCases //check 
+--[ 2022.11.01.10.24.03.077.0 ]--
+r 131                     neighbourEdgeCases //check n
+--[ 2022.11.01.10.24.03.198.0 ]--
+r 131                     neighbourEdgeCases //check ne
+--[ 2022.11.01.10.24.03.275.0 ]--
+r 131                     neighbourEdgeCases //check nei
+--[ 2022.11.01.10.24.03.404.0 ]--
+r 131                     neighbourEdgeCases //check neig
+--[ 2022.11.01.10.24.03.671.0 ]--
+r 131                     neighbourEdgeCases //check neigh
+--[ 2022.11.01.10.24.04.004.0 ]--
+r 131                     neighbourEdgeCases //check neighb
+--[ 2022.11.01.10.24.04.109.0 ]--
+r 131                     neighbourEdgeCases //check neighbo
+--[ 2022.11.01.10.24.04.182.0 ]--
+r 131                     neighbourEdgeCases //check neighbou
+--[ 2022.11.01.10.24.04.328.0 ]--
+r 131                     neighbourEdgeCases //check neighbour
+--[ 2022.11.01.10.24.04.498.0 ]--
+r 131                     neighbourEdgeCases //check neighbour 
+--[ 2022.11.01.10.24.09.207.0 ]--
+r 131                     neighbourEdgeCases //check neighbour e
+--[ 2022.11.01.10.24.09.372.0 ]--
+r 131                     neighbourEdgeCases //check neighbour ed
+--[ 2022.11.01.10.24.09.690.0 ]--
+r 131                     neighbourEdgeCases //check neighbour edg
+--[ 2022.11.01.10.24.09.815.0 ]--
+r 131                     neighbourEdgeCases //check neighbour edge
+--[ 2022.11.01.10.24.10.029.0 ]--
+r 131                     neighbourEdgeCases //check neighbour edge 
+--[ 2022.11.01.10.24.10.114.0 ]--
+r 131                     neighbourEdgeCases //check neighbour edge c
+--[ 2022.11.01.10.24.10.326.0 ]--
+r 131                     neighbourEdgeCases //check neighbour edge ca
+--[ 2022.11.01.10.24.10.451.0 ]--
+r 131                     neighbourEdgeCases //check neighbour edge cas
+--[ 2022.11.01.10.24.10.604.0 ]--
+r 131                     neighbourEdgeCases //check neighbour edge case
+--[ 2022.11.01.10.24.10.752.0 ]--
+r 131                     neighbourEdgeCases //check neighbour edge cases
+--[ 2022.11.01.10.24.12.977.0 ]--
+r 131                     neighbourEdgeCases  //check neighbour edge cases
+--[ 2022.11.01.10.24.14.622.0 ]--
+r 131                 neighbourEdgeCases  //check neighbour edge cases
+--[ 2022.11.01.10.24.17.205.0 ]--
+r 131                 ineighbourEdgeCases  //check neighbour edge cases
+--[ 2022.11.01.10.24.17.263.0 ]--
+r 131                 ifneighbourEdgeCases  //check neighbour edge cases
+--[ 2022.11.01.10.24.18.179.0 ]--
+r 131                 if(neighbourEdgeCases  //check neighbour edge cases
+--[ 2022.11.01.10.24.23.891.0 ]--
+r 131                 if(neighbourEdgeCases)  //check neighbour edge cases
+--[ 2022.11.01.10.24.25.869.0 ]--
+r 131                 if(neighbourEdgeCases)   //check neighbour edge cases
+--[ 2022.11.01.10.24.46.227.0 ]--
+r 131                 if(!neighbourEdgeCases)   //check neighbour edge cases
+--[ 2022.11.01.10.24.49.817.0 ]--
+r 131                 if(!neighbourEdgeCases())   //check neighbour edge cases
+--[ 2022.11.01.10.24.52.618.0 ]--
+r 131                 if(!neighbourEdgeCases()) c  //check neighbour edge cases
+--[ 2022.11.01.10.24.52.710.0 ]--
+r 131                 if(!neighbourEdgeCases()) co  //check neighbour edge cases
+--[ 2022.11.01.10.24.52.829.0 ]--
+r 131                 if(!neighbourEdgeCases()) con  //check neighbour edge cases
+--[ 2022.11.01.10.24.53.109.0 ]--
+r 131                 if(!neighbourEdgeCases()) cont  //check neighbour edge cases
+--[ 2022.11.01.10.24.53.213.0 ]--
+r 131                 if(!neighbourEdgeCases()) conti  //check neighbour edge cases
+--[ 2022.11.01.10.24.53.338.0 ]--
+r 131                 if(!neighbourEdgeCases()) contin  //check neighbour edge cases
+--[ 2022.11.01.10.24.53.522.0 ]--
+r 131                 if(!neighbourEdgeCases()) continu  //check neighbour edge cases
+--[ 2022.11.01.10.24.53.609.0 ]--
+r 131                 if(!neighbourEdgeCases()) continue  //check neighbour edge cases
+--[ 2022.11.01.10.24.54.811.0 ]--
+r 131                 if(!neighbourEdgeCases()) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.24.57.720.0 ]--
+r 131                 if(!neighbourEdgeCases(l)) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.24.57.894.0 ]--
+r 131                 if(!neighbourEdgeCases(lo)) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.24.58.021.0 ]--
+r 131                 if(!neighbourEdgeCases(loc)) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.24.58.510.0 ]--
+r 131                 if(!neighbourEdgeCases(loca)) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.24.58.794.0 ]--
+r 131                 if(!neighbourEdgeCases(locat)) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.24.58.895.0 ]--
+r 131                 if(!neighbourEdgeCases(locati)) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.24.58.963.0 ]--
+r 131                 if(!neighbourEdgeCases(locatio)) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.24.59.153.0 ]--
+r 131                 if(!neighbourEdgeCases(location)) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.24.59.447.0 ]--
+r 131                 if(!neighbourEdgeCases(location,)) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.24.59.548.0 ]--
+r 131                 if(!neighbourEdgeCases(location, )) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.25.03.156.0 ]--
+r 131                 if(!neighbourEdgeCases(location, n)) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.25.03.269.0 ]--
+r 131                 if(!neighbourEdgeCases(location, ne)) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.25.03.348.0 ]--
+r 131                 if(!neighbourEdgeCases(location, nei)) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.25.03.477.0 ]--
+r 131                 if(!neighbourEdgeCases(location, neig)) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.25.03.602.0 ]--
+r 131                 if(!neighbourEdgeCases(location, neigh)) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.25.04.164.0 ]--
+r 131                 if(!neighbourEdgeCases(location, neighbourList)) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.25.05.000.0 ]--
+r 131                 if(!neighbourEdgeCases(location, neighbourList[])) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.25.05.381.0 ]--
+r 131                 if(!neighbourEdgeCases(location, neighbourList[i])) continue;  //check neighbour edge cases
+--[ 2022.11.01.10.25.13.617.0 ]--
++ 132                 
+--[ 2022.11.01.10.25.13.905.0 ]--
+r 132                     
+--[ 2022.11.01.10.25.14.052.0 ]--
+r 132                         
+--[ 2022.11.01.10.25.14.199.0 ]--
+r 132                             
+--[ 2022.11.01.10.25.14.350.0 ]--
+r 132                                 
+--[ 2022.11.01.10.25.14.503.0 ]--
+r 132                                     
+--[ 2022.11.01.10.25.14.655.0 ]--
+r 132                                         
+--[ 2022.11.01.10.25.14.799.0 ]--
+r 132                                             
+--[ 2022.11.01.10.25.14.949.0 ]--
+r 132                                                 
+--[ 2022.11.01.10.25.15.079.0 ]--
+r 132                                                     
+--[ 2022.11.01.10.25.15.230.0 ]--
+r 132                                                         
+--[ 2022.11.01.10.25.15.377.0 ]--
+r 132                                                             
+--[ 2022.11.01.10.25.15.527.0 ]--
+r 132                                                                 
+--[ 2022.11.01.10.25.15.681.0 ]--
+r 132                                                                     
+--[ 2022.11.01.10.25.15.835.0 ]--
+r 132                                                                         
+--[ 2022.11.01.10.25.15.982.0 ]--
+r 132                                                                             
+--[ 2022.11.01.10.25.16.139.0 ]--
+r 132                                                                                 
+--[ 2022.11.01.10.25.16.803.0 ]--
+r 132                 
+--[ 2022.11.01.10.25.17.507.0 ]--
+r 132                     
+--[ 2022.11.01.10.25.17.996.0 ]--
+r 132                         
+--[ 2022.11.01.10.25.18.081.0 ]--
+r 132                             
+--[ 2022.11.01.10.25.18.164.0 ]--
+r 132                                 
+--[ 2022.11.01.10.25.18.248.0 ]--
+r 132                                     
+--[ 2022.11.01.10.25.18.332.0 ]--
+r 132                                         
+--[ 2022.11.01.10.25.18.416.0 ]--
+r 132                                             
+--[ 2022.11.01.10.25.18.500.0 ]--
+r 132                                                 
+--[ 2022.11.01.10.25.18.583.0 ]--
+r 132                                                     
+--[ 2022.11.01.10.25.18.667.0 ]--
+r 132                                                         
+--[ 2022.11.01.10.25.18.750.0 ]--
+r 132                                                             
+--[ 2022.11.01.10.25.18.833.0 ]--
+r 132                                                                 
+--[ 2022.11.01.10.25.18.917.0 ]--
+r 132                                                                     
+--[ 2022.11.01.10.25.19.000.0 ]--
+r 132                                                                         
+--[ 2022.11.01.10.25.19.083.0 ]--
+r 132                                                                             
+--[ 2022.11.01.10.25.19.167.0 ]--
+r 132                                                                                 
+--[ 2022.11.01.10.25.20.456.0 ]--
+r 132                                                                                 /
+--[ 2022.11.01.10.25.20.564.0 ]--
+r 132                                                                                 //
+--[ 2022.11.01.10.25.25.792.0 ]--
+r 132                                                                                 // 
+--[ 2022.11.01.10.25.29.799.0 ]--
+r 132                                                                                 // i
+--[ 2022.11.01.10.25.29.868.0 ]--
+r 132                                                                                 // if
+--[ 2022.11.01.10.25.29.987.0 ]--
+r 132                                                                                 // if 
+--[ 2022.11.01.10.25.33.219.0 ]--
+r 132                 // if 
+--[ 2022.11.01.10.25.33.311.0 ]--
+- 131
+r 131                 if(!neighbourEdgeCases(location, neighbourList[i])) continue;  //check neighbour edge cases// if 
+--[ 2022.11.01.10.25.33.442.0 ]--
+r 131                 if(!neighbourEdgeCases(location, neighbourList[i])) continue;  //check neighbour edge case// if 
+--[ 2022.11.01.10.25.34.826.0 ]--
+r 131                 if(!neighbourEdgeCases(location, neighbourList[i])) continue;  //check neighbour edge cases// if 
+--[ 2022.11.01.10.25.34.941.0 ]--
++ 131                 if(!neighbourEdgeCases(location, neighbourList[i])) continue;  //check neighbour edge cases
+r 132                 // if 
+--[ 2022.11.01.10.25.35.532.0 ]--
+r 132                     // if 
+--[ 2022.11.01.10.25.35.670.0 ]--
+r 132                         // if 
+--[ 2022.11.01.10.25.37.247.0 ]--
+r 132                         // if  
+--[ 2022.11.01.10.25.40.714.0 ]--
+r 132                         // if n 
+--[ 2022.11.01.10.25.40.821.0 ]--
+r 132                         // if ne 
+--[ 2022.11.01.10.25.40.934.0 ]--
+r 132                         // if nei 
+--[ 2022.11.01.10.25.41.024.0 ]--
+r 132                         // if neig 
+--[ 2022.11.01.10.25.41.126.0 ]--
+r 132                         // if neigh 
+--[ 2022.11.01.10.25.41.649.0 ]--
+r 132                         // if neighb 
+--[ 2022.11.01.10.25.41.727.0 ]--
+r 132                         // if neighbo 
+--[ 2022.11.01.10.25.41.794.0 ]--
+r 132                         // if neighbou 
+--[ 2022.11.01.10.25.41.892.0 ]--
+r 132                         // if neighbour 
+--[ 2022.11.01.10.25.42.012.0 ]--
+r 132                         // if neighbour  
+--[ 2022.11.01.10.25.42.147.0 ]--
+r 132                         // if neighbour i 
+--[ 2022.11.01.10.25.42.155.0 ]--
+r 132                         // if neighbour is 
+--[ 2022.11.01.10.25.42.315.0 ]--
+r 132                         // if neighbour is  
+--[ 2022.11.01.10.25.42.454.0 ]--
+r 132                         // if neighbour is v 
+--[ 2022.11.01.10.25.42.632.0 ]--
+r 132                         // if neighbour is va 
+--[ 2022.11.01.10.25.42.738.0 ]--
+r 132                         // if neighbour is val 
+--[ 2022.11.01.10.25.42.919.0 ]--
+r 132                         // if neighbour is vali 
+--[ 2022.11.01.10.25.43.142.0 ]--
+r 132                         // if neighbour is valic 
+--[ 2022.11.01.10.25.43.567.0 ]--
+r 132                         // if neighbour is vali 
+--[ 2022.11.01.10.25.43.648.0 ]--
+r 132                         // if neighbour is valid 
+--[ 2022.11.01.10.25.43.849.0 ]--
+r 132                         // if neighbour is valid, 
+--[ 2022.11.01.10.25.43.937.0 ]--
+r 132                         // if neighbour is valid,  
+--[ 2022.11.01.10.25.48.738.0 ]--
+r 132                         // if neighbour is valid, 
+--[ 2022.11.01.10.25.50.476.0 ]--
+r 132                         // if neighbour is ivalid, 
+--[ 2022.11.01.10.25.50.587.0 ]--
+r 132                         // if neighbour is invalid, 
+--[ 2022.11.01.10.25.51.706.0 ]--
+r 132                         // if neighbour is invalid,  
+--[ 2022.11.01.10.25.53.817.0 ]--
+r 132                         // if neighbour is invalid, m 
+--[ 2022.11.01.10.25.53.988.0 ]--
+r 132                         // if neighbour is invalid, mo 
+--[ 2022.11.01.10.25.54.108.0 ]--
+r 132                         // if neighbour is invalid, mov 
+--[ 2022.11.01.10.25.54.247.0 ]--
+r 132                         // if neighbour is invalid, move 
+--[ 2022.11.01.10.25.54.339.0 ]--
+r 132                         // if neighbour is invalid, move  
+--[ 2022.11.01.10.25.54.469.0 ]--
+r 132                         // if neighbour is invalid, move o 
+--[ 2022.11.01.10.25.54.586.0 ]--
+r 132                         // if neighbour is invalid, move on 
+--[ 2022.11.01.10.25.54.675.0 ]--
+r 132                         // if neighbour is invalid, move on  
+--[ 2022.11.01.10.25.54.804.0 ]--
+r 132                         // if neighbour is invalid, move on t 
+--[ 2022.11.01.10.25.54.870.0 ]--
+r 132                         // if neighbour is invalid, move on to 
+--[ 2022.11.01.10.25.54.961.0 ]--
+r 132                         // if neighbour is invalid, move on to  
+--[ 2022.11.01.10.25.55.080.0 ]--
+r 132                         // if neighbour is invalid, move on to t 
+--[ 2022.11.01.10.25.55.154.0 ]--
+r 132                         // if neighbour is invalid, move on to th 
+--[ 2022.11.01.10.25.55.250.0 ]--
+r 132                         // if neighbour is invalid, move on to the 
+--[ 2022.11.01.10.25.55.335.0 ]--
+r 132                         // if neighbour is invalid, move on to the  
+--[ 2022.11.01.10.25.55.485.0 ]--
+r 132                         // if neighbour is invalid, move on to the n 
+--[ 2022.11.01.10.25.55.548.0 ]--
+r 132                         // if neighbour is invalid, move on to the ne 
+--[ 2022.11.01.10.25.55.749.0 ]--
+r 132                         // if neighbour is invalid, move on to the nex 
+--[ 2022.11.01.10.25.55.924.0 ]--
+r 132                         // if neighbour is invalid, move on to the next 
+--[ 2022.11.01.10.25.55.997.0 ]--
+r 132                         // if neighbour is invalid, move on to the next  
+--[ 2022.11.01.10.25.56.140.0 ]--
+r 132                         // if neighbour is invalid, move on to the next n 
+--[ 2022.11.01.10.25.56.186.0 ]--
+r 132                         // if neighbour is invalid, move on to the next ne 
+--[ 2022.11.01.10.25.56.358.0 ]--
+r 132                         // if neighbour is invalid, move on to the next nei 
+--[ 2022.11.01.10.25.56.423.0 ]--
+r 132                         // if neighbour is invalid, move on to the next neig 
+--[ 2022.11.01.10.25.56.561.0 ]--
+r 132                         // if neighbour is invalid, move on to the next neigh 
+--[ 2022.11.01.10.25.56.796.0 ]--
+r 132                         // if neighbour is invalid, move on to the next neighb 
+--[ 2022.11.01.10.25.56.902.0 ]--
+r 132                         // if neighbour is invalid, move on to the next neighbo 
+--[ 2022.11.01.10.25.56.982.0 ]--
+r 132                         // if neighbour is invalid, move on to the next neighbor 
+--[ 2022.11.01.10.25.57.777.0 ]--
+r 132                         // if neighbour is invalid, move on to the next neighbo 
+--[ 2022.11.01.10.25.58.022.0 ]--
+r 132                         // if neighbour is invalid, move on to the next neighbou 
+--[ 2022.11.01.10.25.58.121.0 ]--
+r 132                         // if neighbour is invalid, move on to the next neighbour 
+--[ 2022.11.01.10.26.03.199.0 ]--
+- 132
+--[ 2022.11.01.10.26.04.485.0 ]--
++ 131                 
+--[ 2022.11.01.10.26.05.367.0 ]--
++ 131                                         // if neighbour is invalid, move on to the next neighbour 
+r 132 
+--[ 2022.11.01.10.26.05.375.0 ]--
+r 131                 // if neighbour is invalid, move on to the next neighbour 
+--[ 2022.11.01.10.26.06.261.0 ]--
+- 131
+r 131                 // if neighbour is invalid, move on to the next neighbour
+--[ 2022.11.01.10.26.11.551.0 ]--
++ 132                 if(!neighbourEdgeCases(location, neighbourList[i])) 
+r 133                     continue;  //check neighbour edge cases
+--[ 2022.11.01.10.26.11.600.0 ]--
+r 133                         continue;  //check neighbour edge cases
+--[ 2022.11.01.10.26.12.984.0 ]--
+r 133                     continue;  //check neighbour edge cases
+--[ 2022.11.01.10.26.16.695.0 ]--
+r 132                 if(!neighbourEdgeCases(location, neighbourList[i])) {
+--[ 2022.11.01.10.26.17.763.0 ]--
++ 134                     
+--[ 2022.11.01.10.26.18.403.0 ]--
+r 134                     }
+--[ 2022.11.01.10.26.18.445.0 ]--
+r 134                 }
+--[ 2022.11.01.10.26.25.549.0 ]--
+r 151         //edge cases 
+--[ 2022.11.01.10.26.25.706.0 ]--
+r 151         //edge cases i
+--[ 2022.11.01.10.26.25.885.0 ]--
+r 151         //edge cases in
+--[ 2022.11.01.10.26.25.973.0 ]--
+r 151         //edge cases in 
+--[ 2022.11.01.10.26.26.720.0 ]--
+r 151         //edge cases in o
+--[ 2022.11.01.10.26.26.812.0 ]--
+r 151         //edge cases in ot
+--[ 2022.11.01.10.26.26.917.0 ]--
+r 151         //edge cases in oth
+--[ 2022.11.01.10.26.26.979.0 ]--
+r 151         //edge cases in othe
+--[ 2022.11.01.10.26.27.058.0 ]--
+r 151         //edge cases in other
+--[ 2022.11.01.10.26.27.115.0 ]--
+r 151         //edge cases in other 
+--[ 2022.11.01.10.26.27.388.0 ]--
+r 151         //edge cases in other f
+--[ 2022.11.01.10.26.27.444.0 ]--
+r 151         //edge cases in other fu
+--[ 2022.11.01.10.26.27.605.0 ]--
+r 151         //edge cases in other fun
+--[ 2022.11.01.10.26.27.688.0 ]--
+r 151         //edge cases in other func
+--[ 2022.11.01.10.26.27.884.0 ]--
+r 151         //edge cases in other funct
+--[ 2022.11.01.10.26.27.936.0 ]--
+r 151         //edge cases in other functi
+--[ 2022.11.01.10.26.27.996.0 ]--
+r 151         //edge cases in other functio
+--[ 2022.11.01.10.26.28.165.0 ]--
+r 151         //edge cases in other function
+--[ 2022.11.01.10.26.30.683.0 ]--
++ 158         
+--[ 2022.11.01.10.26.35.292.0 ]--
+r 158         /
+--[ 2022.11.01.10.26.35.398.0 ]--
+r 158         //
+--[ 2022.11.01.10.26.36.320.0 ]--
+r 158         // 
+--[ 2022.11.01.10.26.38.652.0 ]--
+r 158         // w
+--[ 2022.11.01.10.26.38.706.0 ]--
+r 158         // we
+--[ 2022.11.01.10.26.38.852.0 ]--
+r 158         // we 
+--[ 2022.11.01.10.26.39.070.0 ]--
+r 158         // we c
+--[ 2022.11.01.10.26.39.234.0 ]--
+r 158         // we ca
+--[ 2022.11.01.10.26.39.363.0 ]--
+r 158         // we can
+--[ 2022.11.01.10.26.39.547.0 ]--
+r 158         // we can'
+--[ 2022.11.01.10.26.39.685.0 ]--
+r 158         // we can't
+--[ 2022.11.01.10.26.39.791.0 ]--
+r 158         // we can't 
+--[ 2022.11.01.10.26.39.993.0 ]--
+r 158         // we can't h
+--[ 2022.11.01.10.26.40.084.0 ]--
+r 158         // we can't ha
+--[ 2022.11.01.10.26.40.215.0 ]--
+r 158         // we can't hav
+--[ 2022.11.01.10.26.40.375.0 ]--
+r 158         // we can't have
+--[ 2022.11.01.10.26.40.540.0 ]--
+r 158         // we can't have 
+--[ 2022.11.01.10.26.40.804.0 ]--
+r 158         // we can't have
+--[ 2022.11.01.10.26.41.293.0 ]--
+r 158         // we can't hav
+--[ 2022.11.01.10.26.41.375.0 ]--
+r 158         // we can't ha
+--[ 2022.11.01.10.26.41.458.0 ]--
+r 158         // we can't h
+--[ 2022.11.01.10.26.41.542.0 ]--
+r 158         // we can't 
+--[ 2022.11.01.10.26.41.630.0 ]--
+r 158         // we can't
+--[ 2022.11.01.10.26.41.709.0 ]--
+r 158         // we can'
+--[ 2022.11.01.10.26.41.792.0 ]--
+r 158         // we can
+--[ 2022.11.01.10.26.41.875.0 ]--
+r 158         // we ca
+--[ 2022.11.01.10.26.41.958.0 ]--
+r 158         // we c
+--[ 2022.11.01.10.26.42.042.0 ]--
+r 158         // we 
+--[ 2022.11.01.10.26.42.125.0 ]--
+r 158         // we
+--[ 2022.11.01.10.26.42.208.0 ]--
+r 158         // w
+--[ 2022.11.01.10.26.42.399.0 ]--
+r 158         // 
+--[ 2022.11.01.10.26.42.862.0 ]--
+r 158         // n
+--[ 2022.11.01.10.26.42.984.0 ]--
+r 158         // ne
+--[ 2022.11.01.10.26.43.081.0 ]--
+r 158         // nei
+--[ 2022.11.01.10.26.43.186.0 ]--
+r 158         // neig
+--[ 2022.11.01.10.26.43.260.0 ]--
+r 158         // neigh
+--[ 2022.11.01.10.26.43.393.0 ]--
+r 158         // neight
+--[ 2022.11.01.10.26.43.741.0 ]--
+r 158         // neigh
+--[ 2022.11.01.10.26.43.856.0 ]--
+r 158         // neighb
+--[ 2022.11.01.10.26.43.984.0 ]--
+r 158         // neighbo
+--[ 2022.11.01.10.26.44.043.0 ]--
+r 158         // neighbou
+--[ 2022.11.01.10.26.44.143.0 ]--
+r 158         // neighbour
+--[ 2022.11.01.10.26.44.297.0 ]--
+r 158         // neighbour 
+--[ 2022.11.01.10.26.44.430.0 ]--
+r 158         // neighbour c
+--[ 2022.11.01.10.26.44.673.0 ]--
+r 158         // neighbour ca
+--[ 2022.11.01.10.26.44.798.0 ]--
+r 158         // neighbour can
+--[ 2022.11.01.10.26.44.850.0 ]--
+r 158         // neighbour can'
+--[ 2022.11.01.10.26.45.004.0 ]--
+r 158         // neighbour can't
+--[ 2022.11.01.10.26.45.083.0 ]--
+r 158         // neighbour can't 
+--[ 2022.11.01.10.26.45.274.0 ]--
+r 158         // neighbour can't b
+--[ 2022.11.01.10.26.45.447.0 ]--
+r 158         // neighbour can't be
+--[ 2022.11.01.10.26.45.925.0 ]--
+r 158         // neighbour can't be.
+--[ 2022.11.01.10.26.46.038.0 ]--
+r 158         // neighbour can't be..
+--[ 2022.11.01.10.26.46.175.0 ]--
+r 158         // neighbour can't be...
+--[ 2022.11.01.10.26.46.344.0 ]--
++ 159         
+--[ 2022.11.01.10.26.47.147.0 ]--
++ 159         
+--[ 2022.11.01.10.26.47.506.0 ]--
+r 160         /
+--[ 2022.11.01.10.26.47.652.0 ]--
+r 160         //
+--[ 2022.11.01.10.26.47.935.0 ]--
+r 160         // 
+--[ 2022.11.01.10.26.48.177.0 ]--
+r 160         // o
+--[ 2022.11.01.10.26.48.269.0 ]--
+r 160         // of
+--[ 2022.11.01.10.26.48.423.0 ]--
+r 160         // off
+--[ 2022.11.01.10.26.48.547.0 ]--
+r 160         // off 
+--[ 2022.11.01.10.26.48.664.0 ]--
+r 160         // off t
+--[ 2022.11.01.10.26.48.737.0 ]--
+r 160         // off th
+--[ 2022.11.01.10.26.48.799.0 ]--
+r 160         // off the
+--[ 2022.11.01.10.26.48.929.0 ]--
+r 160         // off the 
+--[ 2022.11.01.10.26.49.048.0 ]--
+r 160         // off the b
+--[ 2022.11.01.10.26.49.120.0 ]--
+r 160         // off the bo
+--[ 2022.11.01.10.26.49.262.0 ]--
+r 160         // off the boa
+--[ 2022.11.01.10.26.49.329.0 ]--
+r 160         // off the boar
+--[ 2022.11.01.10.26.49.531.0 ]--
+r 160         // off the board
+--[ 2022.11.01.10.26.49.766.0 ]--
++ 161         
+--[ 2022.11.01.10.26.50.099.0 ]--
++ 161         
+--[ 2022.11.01.10.26.50.418.0 ]--
+r 162         /
+--[ 2022.11.01.10.26.50.571.0 ]--
+r 162         //
+--[ 2022.11.01.10.26.51.344.0 ]--
+r 162         // 
+--[ 2022.11.01.10.26.52.858.0 ]--
+r 162         // a
+--[ 2022.11.01.10.26.52.944.0 ]--
+r 162         // a 
+--[ 2022.11.01.10.26.53.170.0 ]--
+r 162         // a p
+--[ 2022.11.01.10.26.53.364.0 ]--
+r 162         // a pr
+--[ 2022.11.01.10.26.53.449.0 ]--
+r 162         // a pre
+--[ 2022.11.01.10.26.53.849.0 ]--
+r 162         // a prev
+--[ 2022.11.01.10.26.54.040.0 ]--
+r 162         // a previ
+--[ 2022.11.01.10.26.54.138.0 ]--
+r 162         // a previo
+--[ 2022.11.01.10.26.54.236.0 ]--
+r 162         // a previou
+--[ 2022.11.01.10.26.54.365.0 ]--
+r 162         // a previous
+--[ 2022.11.01.10.26.54.563.0 ]--
+r 162         // a previousl
+--[ 2022.11.01.10.26.54.747.0 ]--
+r 162         // a previously
+--[ 2022.11.01.10.26.54.820.0 ]--
+r 162         // a previously 
+--[ 2022.11.01.10.26.55.003.0 ]--
+r 162         // a previously s
+--[ 2022.11.01.10.26.55.127.0 ]--
+r 162         // a previously se
+--[ 2022.11.01.10.26.55.287.0 ]--
+r 162         // a previously sea
+--[ 2022.11.01.10.26.55.363.0 ]--
+r 162         // a previously sear
+--[ 2022.11.01.10.26.55.623.0 ]--
+r 162         // a previously searc
+--[ 2022.11.01.10.26.55.696.0 ]--
+r 162         // a previously search
+--[ 2022.11.01.10.26.55.816.0 ]--
+r 162         // a previously searche
+--[ 2022.11.01.10.26.55.954.0 ]--
+r 162         // a previously searched
+--[ 2022.11.01.10.26.56.123.0 ]--
+r 162         // a previously searched 
+--[ 2022.11.01.10.26.57.094.0 ]--
+r 162         // a previously searched n
+--[ 2022.11.01.10.26.57.203.0 ]--
+r 162         // a previously searched no
+--[ 2022.11.01.10.26.57.356.0 ]--
+r 162         // a previously searched nod
+--[ 2022.11.01.10.26.57.541.0 ]--
+r 162         // a previously searched node
+--[ 2022.11.01.10.27.00.770.0 ]--
++ 163         
+--[ 2022.11.01.10.27.01.383.0 ]--
++ 163         
+--[ 2022.11.01.10.27.03.051.0 ]--
++ 161         
+--[ 2022.11.01.10.27.03.399.0 ]--
++ 161         
+--[ 2022.11.01.10.27.04.635.0 ]--
+r 162         /
+--[ 2022.11.01.10.27.04.767.0 ]--
+r 162         //
+--[ 2022.11.01.10.27.06.775.0 ]--
+r 162         /
+--[ 2022.11.01.10.27.06.905.0 ]--
+r 162         
+--[ 2022.11.01.10.27.07.042.0 ]--
+- 161
+--[ 2022.11.01.10.27.07.169.0 ]--
+- 161
+--[ 2022.11.01.10.27.23.881.0 ]--
+- 163
+--[ 2022.11.01.10.27.39.770.0 ]--
+r 163             
+--[ 2022.11.01.10.27.40.404.0 ]--
+r 163         
+--[ 2022.11.01.10.28.00.479.0 ]--
+r 163         i
+--[ 2022.11.01.10.28.00.619.0 ]--
+r 163         if
+--[ 2022.11.01.10.28.00.813.0 ]--
+r 163         if()
+--[ 2022.11.01.10.28.01.313.0 ]--
+r 163         if(w)
+--[ 2022.11.01.10.28.01.498.0 ]--
+r 163         if(wa)
+--[ 2022.11.01.10.28.01.577.0 ]--
+r 163         if(was)
+--[ 2022.11.01.10.28.02.111.0 ]--
+r 163         if(wasSearched)
+--[ 2022.11.01.10.28.02.122.0 ]--
+r 163         if(wasSearched())
+--[ 2022.11.01.10.28.02.909.0 ]--
+r 163         if(wasSearched(n))
+--[ 2022.11.01.10.28.03.021.0 ]--
+r 163         if(wasSearched(ne))
+--[ 2022.11.01.10.28.03.112.0 ]--
+r 163         if(wasSearched(nei))
+--[ 2022.11.01.10.28.03.206.0 ]--
+r 163         if(wasSearched(neig))
+--[ 2022.11.01.10.28.03.298.0 ]--
+r 163         if(wasSearched(neigh))
+--[ 2022.11.01.10.28.03.580.0 ]--
+r 163         if(wasSearched(neighb))
+--[ 2022.11.01.10.28.03.633.0 ]--
+r 163         if(wasSearched(neighbo))
+--[ 2022.11.01.10.28.03.795.0 ]--
+r 163         if(wasSearched(neighbor))
+--[ 2022.11.01.10.28.11.309.0 ]--
+r 163         if(wasSearched(neighbour))
+--[ 2022.11.01.10.28.14.077.0 ]--
+r 163         if(wasSearched(neighbour)) 
+--[ 2022.11.01.10.28.17.414.0 ]--
+r 163         if(wasSearched(neighbour)) r
+--[ 2022.11.01.10.28.17.523.0 ]--
+r 163         if(wasSearched(neighbour)) re
+--[ 2022.11.01.10.28.17.620.0 ]--
+r 163         if(wasSearched(neighbour)) ret
+--[ 2022.11.01.10.28.17.781.0 ]--
+r 163         if(wasSearched(neighbour)) retu
+--[ 2022.11.01.10.28.17.896.0 ]--
+r 163         if(wasSearched(neighbour)) retur
+--[ 2022.11.01.10.28.18.015.0 ]--
+r 163         if(wasSearched(neighbour)) return
+--[ 2022.11.01.10.28.18.132.0 ]--
+r 163         if(wasSearched(neighbour)) return 
+--[ 2022.11.01.10.28.18.289.0 ]--
+r 163         if(wasSearched(neighbour)) return f
+--[ 2022.11.01.10.28.18.396.0 ]--
+r 163         if(wasSearched(neighbour)) return fa
+--[ 2022.11.01.10.28.18.545.0 ]--
+r 163         if(wasSearched(neighbour)) return fal
+--[ 2022.11.01.10.28.18.595.0 ]--
+r 163         if(wasSearched(neighbour)) return fals
+--[ 2022.11.01.10.28.18.698.0 ]--
+r 163         if(wasSearched(neighbour)) return false
+--[ 2022.11.01.10.28.20.530.0 ]--
+r 164         return t;
+--[ 2022.11.01.10.28.20.665.0 ]--
+r 164         return tr;
+--[ 2022.11.01.10.28.20.772.0 ]--
+r 164         return tru;
+--[ 2022.11.01.10.28.20.848.0 ]--
+r 164         return true;
+--[ 2022.11.01.10.28.27.250.0 ]--
+r 163         if(wasSearched(neighbour)) return false;
+--[ 2022.11.01.10.28.34.132.0 ]--
+r 163         ifwasSearched(neighbour)) return false;
+--[ 2022.11.01.10.28.34.266.0 ]--
+r 163         iwasSearched(neighbour)) return false;
+--[ 2022.11.01.10.28.34.399.0 ]--
+r 163         wasSearched(neighbour)) return false;
+--[ 2022.11.01.10.28.34.919.0 ]--
+r 163         rwasSearched(neighbour)) return false;
+--[ 2022.11.01.10.28.34.992.0 ]--
+r 163         rewasSearched(neighbour)) return false;
+--[ 2022.11.01.10.28.35.125.0 ]--
+r 163         retwasSearched(neighbour)) return false;
+--[ 2022.11.01.10.28.35.201.0 ]--
+r 163         retuwasSearched(neighbour)) return false;
+--[ 2022.11.01.10.28.35.325.0 ]--
+r 163         returwasSearched(neighbour)) return false;
+--[ 2022.11.01.10.28.35.415.0 ]--
+r 163         returnwasSearched(neighbour)) return false;
+--[ 2022.11.01.10.28.35.529.0 ]--
+r 163         return wasSearched(neighbour)) return false;
+--[ 2022.11.01.10.28.39.586.0 ]--
+r 163         return wasSearched(neighbour));
+--[ 2022.11.01.10.28.40.226.0 ]--
+r 163         return wasSearched(neighbour);
+--[ 2022.11.01.10.28.41.519.0 ]--
++ 163         return 
+r 164         wasSearched(neighbour);
+--[ 2022.11.01.10.28.41.541.0 ]--
+r 164                 wasSearched(neighbour);
+--[ 2022.11.01.10.28.41.570.0 ]--
+r 164                 1wasSearched(neighbour);
+--[ 2022.11.01.10.28.41.634.0 ]--
++ 164                 1
+r 165                 wasSearched(neighbour);
+--[ 2022.11.01.10.28.41.645.0 ]--
+r 165         wasSearched(neighbour);
+--[ 2022.11.01.10.28.42.932.0 ]--
+- 164
+r 164                 1 wasSearched(neighbour);
+--[ 2022.11.01.10.28.43.070.0 ]--
+r 164                 1wasSearched(neighbour);
+--[ 2022.11.01.10.28.43.234.0 ]--
+r 164                 wasSearched(neighbour);
+--[ 2022.11.01.10.28.43.431.0 ]--
+- 163
+r 163         return wasSearched(neighbour);
+--[ 2022.11.01.10.28.43.577.0 ]--
+r 163         returnwasSearched(neighbour);
+--[ 2022.11.01.10.28.44.221.0 ]--
+r 163         return wasSearched(neighbour);
+--[ 2022.11.01.10.28.44.497.0 ]--
+r 163         return !wasSearched(neighbour);
+--[ 2022.11.01.10.28.45.778.0 ]--
+r 163         return !(wasSearched(neighbour);
+--[ 2022.11.01.10.28.47.857.0 ]--
+r 163         return !(wasSearched(neighbour));
+--[ 2022.11.01.10.28.54.154.0 ]--
+- 164
+--[ 2022.11.01.10.29.01.700.0 ]--
+r 163         return !(wasSearched(neighbour)); 
+--[ 2022.11.01.10.29.01.895.0 ]--
+r 163         return !(wasSearched(neighbour)); /
+--[ 2022.11.01.10.29.02.033.0 ]--
+r 163         return !(wasSearched(neighbour)); //
+--[ 2022.11.01.10.29.02.183.0 ]--
+r 163         return !(wasSearched(neighbour)); // 
+--[ 2022.11.01.10.29.02.369.0 ]--
+r 163         return !(wasSearched(neighbour)); // w
+--[ 2022.11.01.10.29.02.482.0 ]--
+r 163         return !(wasSearched(neighbour)); // we
+--[ 2022.11.01.10.29.02.649.0 ]--
+r 163         return !(wasSearched(neighbour)); // we 
+--[ 2022.11.01.10.29.02.839.0 ]--
+r 163         return !(wasSearched(neighbour)); // we d
+--[ 2022.11.01.10.29.02.908.0 ]--
+r 163         return !(wasSearched(neighbour)); // we do
+--[ 2022.11.01.10.29.03.030.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don
+--[ 2022.11.01.10.29.03.153.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don'
+--[ 2022.11.01.10.29.03.246.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't
+--[ 2022.11.01.10.29.03.342.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't 
+--[ 2022.11.01.10.29.03.563.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't w
+--[ 2022.11.01.10.29.03.730.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't wa
+--[ 2022.11.01.10.29.03.825.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't wan
+--[ 2022.11.01.10.29.03.940.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't wan 
+--[ 2022.11.01.10.29.03.993.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't wan t
+--[ 2022.11.01.10.29.04.332.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't wan 
+--[ 2022.11.01.10.29.04.415.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't wan
+--[ 2022.11.01.10.29.04.504.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want
+--[ 2022.11.01.10.29.04.572.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want 
+--[ 2022.11.01.10.29.04.730.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a
+--[ 2022.11.01.10.29.04.843.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a 
+--[ 2022.11.01.10.29.04.981.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a n
+--[ 2022.11.01.10.29.05.070.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a no
+--[ 2022.11.01.10.29.05.233.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a nod
+--[ 2022.11.01.10.29.05.404.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node
+--[ 2022.11.01.10.29.05.500.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node 
+--[ 2022.11.01.10.29.05.637.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node t
+--[ 2022.11.01.10.29.05.698.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node th
+--[ 2022.11.01.10.29.05.804.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node tha
+--[ 2022.11.01.10.29.05.870.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that
+--[ 2022.11.01.10.29.05.932.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that 
+--[ 2022.11.01.10.29.06.099.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that w
+--[ 2022.11.01.10.29.06.211.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that we
+--[ 2022.11.01.10.29.06.701.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that w
+--[ 2022.11.01.10.29.06.811.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that wa
+--[ 2022.11.01.10.29.07.054.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that was
+--[ 2022.11.01.10.29.07.218.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that was 
+--[ 2022.11.01.10.29.07.402.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that was s
+--[ 2022.11.01.10.29.07.545.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that was se
+--[ 2022.11.01.10.29.07.682.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that was see
+--[ 2022.11.01.10.29.07.771.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that was seen
+--[ 2022.11.01.10.29.07.856.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that was seen 
+--[ 2022.11.01.10.29.08.059.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that was seen b
+--[ 2022.11.01.10.29.08.222.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that was seen be
+--[ 2022.11.01.10.29.08.365.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that was seen bef
+--[ 2022.11.01.10.29.08.460.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that was seen befo
+--[ 2022.11.01.10.29.08.556.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that was seen befor
+--[ 2022.11.01.10.29.08.635.0 ]--
+r 163         return !(wasSearched(neighbour)); // we don't want a node that was seen before
+--[ 2022.11.01.10.30.07.477.0 ]--
+r 161         ma
+--[ 2022.11.01.10.30.08.102.0 ]--
+r 161         map
+--[ 2022.11.01.10.30.09.252.0 ]--
+r 161         ma
+--[ 2022.11.01.10.30.09.387.0 ]--
+r 161         m
+--[ 2022.11.01.10.30.09.509.0 ]--
+r 161         
+--[ 2022.11.01.10.30.10.215.0 ]--
+r 161         i
+--[ 2022.11.01.10.30.10.381.0 ]--
+r 161         in
+--[ 2022.11.01.10.30.10.494.0 ]--
+r 161         int
+--[ 2022.11.01.10.30.10.532.0 ]--
+r 161         int 
+--[ 2022.11.01.10.30.10.879.0 ]--
+r 161         int N
+--[ 2022.11.01.10.30.11.784.0 ]--
+r 161         int N 
+--[ 2022.11.01.10.30.11.934.0 ]--
+r 161         int N =
+--[ 2022.11.01.10.30.12.046.0 ]--
+r 161         int N = 
+--[ 2022.11.01.10.30.12.481.0 ]--
+r 161         int N = m
+--[ 2022.11.01.10.30.12.553.0 ]--
+r 161         int N = ma
+--[ 2022.11.01.10.30.12.835.0 ]--
+r 161         int N = map
+--[ 2022.11.01.10.30.14.646.0 ]--
+r 161         int N = map.getN
+--[ 2022.11.01.10.30.14.663.0 ]--
+r 161         int N = map;
+--[ 2022.11.01.10.30.14.673.0 ]--
+r 161         int N = map.getN
+--[ 2022.11.01.10.30.14.680.0 ]--
+r 161         int N = map.getN()
+--[ 2022.11.01.10.30.14.696.0 ]--
+r 161         int N = map.getN();
+--[ 2022.11.01.10.30.16.397.0 ]--
+r 161         int N = map.getN(); 
+--[ 2022.11.01.10.30.16.547.0 ]--
+r 161         int N = map.getN(); /
+--[ 2022.11.01.10.30.16.683.0 ]--
+r 161         int N = map.getN(); //
+--[ 2022.11.01.10.30.16.843.0 ]--
+r 161         int N = map.getN(); // 
+--[ 2022.11.01.10.30.17.085.0 ]--
+r 161         int N = map.getN(); // t
+--[ 2022.11.01.10.30.17.168.0 ]--
+r 161         int N = map.getN(); // th
+--[ 2022.11.01.10.30.17.274.0 ]--
+r 161         int N = map.getN(); // thi
+--[ 2022.11.01.10.30.17.285.0 ]--
+r 161         int N = map.getN(); // this
+--[ 2022.11.01.10.30.17.476.0 ]--
+r 161         int N = map.getN(); // this 
+--[ 2022.11.01.10.30.17.634.0 ]--
+r 161         int N = map.getN(); // this i
+--[ 2022.11.01.10.30.17.720.0 ]--
+r 161         int N = map.getN(); // this is
+--[ 2022.11.01.10.30.17.802.0 ]--
+r 161         int N = map.getN(); // this is 
+--[ 2022.11.01.10.30.18.149.0 ]--
+r 161         int N = map.getN(); // this is h
+--[ 2022.11.01.10.30.18.236.0 ]--
+r 161         int N = map.getN(); // this is he
+--[ 2022.11.01.10.30.18.482.0 ]--
+r 161         int N = map.getN(); // this is h
+--[ 2022.11.01.10.30.18.569.0 ]--
+r 161         int N = map.getN(); // this is 
+--[ 2022.11.01.10.30.18.735.0 ]--
+r 161         int N = map.getN(); // this is t
+--[ 2022.11.01.10.30.18.813.0 ]--
+r 161         int N = map.getN(); // this is th
+--[ 2022.11.01.10.30.18.903.0 ]--
+r 161         int N = map.getN(); // this is the
+--[ 2022.11.01.10.30.19.003.0 ]--
+r 161         int N = map.getN(); // this is the 
+--[ 2022.11.01.10.30.19.158.0 ]--
+r 161         int N = map.getN(); // this is the b
+--[ 2022.11.01.10.30.19.279.0 ]--
+r 161         int N = map.getN(); // this is the bo
+--[ 2022.11.01.10.30.19.413.0 ]--
+r 161         int N = map.getN(); // this is the boa
+--[ 2022.11.01.10.30.19.460.0 ]--
+r 161         int N = map.getN(); // this is the boar
+--[ 2022.11.01.10.30.19.665.0 ]--
+r 161         int N = map.getN(); // this is the board
+--[ 2022.11.01.10.30.19.804.0 ]--
+r 161         int N = map.getN(); // this is the board 
+--[ 2022.11.01.10.30.19.912.0 ]--
+r 161         int N = map.getN(); // this is the board s
+--[ 2022.11.01.10.30.20.046.0 ]--
+r 161         int N = map.getN(); // this is the board si
+--[ 2022.11.01.10.30.20.200.0 ]--
+r 161         int N = map.getN(); // this is the board siz
+--[ 2022.11.01.10.30.20.296.0 ]--
+r 161         int N = map.getN(); // this is the board size
+--[ 2022.11.01.10.30.21.236.0 ]--
++ 162         
+--[ 2022.11.01.10.30.28.183.0 ]--
+r 162         i
+--[ 2022.11.01.10.30.28.264.0 ]--
+r 162         if
+--[ 2022.11.01.10.30.31.163.0 ]--
+r 162         if 
+--[ 2022.11.01.10.30.32.051.0 ]--
+r 162         if
+--[ 2022.11.01.10.30.32.724.0 ]--
+r 162         if()
+--[ 2022.11.01.10.30.36.243.0 ]--
+r 162         if(n)
+--[ 2022.11.01.10.30.36.353.0 ]--
+r 162         if(ne)
+--[ 2022.11.01.10.30.36.441.0 ]--
+r 162         if(nei)
+--[ 2022.11.01.10.30.36.554.0 ]--
+r 162         if(neig)
+--[ 2022.11.01.10.30.36.656.0 ]--
+r 162         if(neigh)
+--[ 2022.11.01.10.30.37.210.0 ]--
+r 162         if(neighb)
+--[ 2022.11.01.10.30.37.301.0 ]--
+r 162         if(neighbo)
+--[ 2022.11.01.10.30.37.428.0 ]--
+r 162         if(neighbor)
+--[ 2022.11.01.10.30.37.787.0 ]--
+r 162         if(neighbo)
+--[ 2022.11.01.10.30.37.955.0 ]--
+r 162         if(neighbou)
+--[ 2022.11.01.10.30.38.021.0 ]--
+r 162         if(neighbour)
+--[ 2022.11.01.10.30.38.553.0 ]--
+r 162         if(neighbour.)
+--[ 2022.11.01.10.30.38.789.0 ]--
+r 162         if(neighbour.g)
+--[ 2022.11.01.10.30.38.931.0 ]--
+r 162         if(neighbour.ge)
+--[ 2022.11.01.10.30.39.089.0 ]--
+r 162         if(neighbour.get)
+--[ 2022.11.01.10.30.39.611.0 ]--
+r 162         if(neighbour.getI)
+--[ 2022.11.01.10.30.39.621.0 ]--
+r 162         if(neighbour.getI())
+--[ 2022.11.01.10.30.41.106.0 ]--
+r 162         if(neighbour.getI() )
+--[ 2022.11.01.10.30.41.849.0 ]--
+r 162         if(neighbour.getI() >)
+--[ 2022.11.01.10.30.47.657.0 ]--
+r 162         if(neighbour.getI() > )
+--[ 2022.11.01.10.30.47.911.0 ]--
+r 162         if(neighbour.getI() > N)
+--[ 2022.11.01.10.30.53.383.0 ]--
+r 162         if(neighbour.getI() > N )
+--[ 2022.11.01.10.30.54.129.0 ]--
+r 162         if(neighbour.getI() > N |)
+--[ 2022.11.01.10.30.54.266.0 ]--
+r 162         if(neighbour.getI() > N ||)
+--[ 2022.11.01.10.30.54.747.0 ]--
+r 162         if(neighbour.getI() > N || )
+--[ 2022.11.01.10.30.55.393.0 ]--
+r 162         if(neighbour.getI() > N || n)
+--[ 2022.11.01.10.30.55.575.0 ]--
+r 162         if(neighbour.getI() > N || ne)
+--[ 2022.11.01.10.30.55.660.0 ]--
+r 162         if(neighbour.getI() > N || nei)
+--[ 2022.11.01.10.30.55.772.0 ]--
+r 162         if(neighbour.getI() > N || neig)
+--[ 2022.11.01.10.30.55.859.0 ]--
+r 162         if(neighbour.getI() > N || neigh)
+--[ 2022.11.01.10.30.56.125.0 ]--
+r 162         if(neighbour.getI() > N || neighb)
+--[ 2022.11.01.10.30.56.229.0 ]--
+r 162         if(neighbour.getI() > N || neighbo)
+--[ 2022.11.01.10.30.56.362.0 ]--
+r 162         if(neighbour.getI() > N || neighbor)
+--[ 2022.11.01.10.30.57.085.0 ]--
+r 162         if(neighbour.getI() > N || neighbor.)
+--[ 2022.11.01.10.30.57.228.0 ]--
+r 162         if(neighbour.getI() > N || neighbor.g)
+--[ 2022.11.01.10.30.57.365.0 ]--
+r 162         if(neighbour.getI() > N || neighbor.ge)
+--[ 2022.11.01.10.30.57.473.0 ]--
+r 162         if(neighbour.getI() > N || neighbor.get)
+--[ 2022.11.01.10.30.57.834.0 ]--
+r 162         if(neighbour.getI() > N || neighbor.ge)
+--[ 2022.11.01.10.30.57.938.0 ]--
+r 162         if(neighbour.getI() > N || neighbor.g)
+--[ 2022.11.01.10.30.58.044.0 ]--
+r 162         if(neighbour.getI() > N || neighbor.)
+--[ 2022.11.01.10.30.58.160.0 ]--
+r 162         if(neighbour.getI() > N || neighbor)
+--[ 2022.11.01.10.30.58.274.0 ]--
+r 162         if(neighbour.getI() > N || neighbo)
+--[ 2022.11.01.10.30.58.803.0 ]--
+r 162         if(neighbour.getI() > N || neighbou)
+--[ 2022.11.01.10.30.58.882.0 ]--
+r 162         if(neighbour.getI() > N || neighbour)
+--[ 2022.11.01.10.30.59.419.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.)
+--[ 2022.11.01.10.30.59.668.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.g)
+--[ 2022.11.01.10.30.59.824.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.ge)
+--[ 2022.11.01.10.30.59.926.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.get)
+--[ 2022.11.01.10.31.00.527.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI)
+--[ 2022.11.01.10.31.00.536.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI())
+--[ 2022.11.01.10.31.01.773.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() )
+--[ 2022.11.01.10.31.02.269.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <)
+--[ 2022.11.01.10.31.03.449.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <0)
+--[ 2022.11.01.10.31.04.148.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <)
+--[ 2022.11.01.10.31.04.199.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() < )
+--[ 2022.11.01.10.31.04.653.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() < 0)
+--[ 2022.11.01.10.31.09.432.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0)
+--[ 2022.11.01.10.31.22.508.0 ]--
++ 162         if(neighbour.getI() > N || neighbour.getI() <= 0
+r 163         )
+--[ 2022.11.01.10.31.24.665.0 ]--
+r 163             )
+--[ 2022.11.01.10.31.25.641.0 ]--
+r 163             \)
+--[ 2022.11.01.10.31.25.746.0 ]--
+r 163             \\)
+--[ 2022.11.01.10.31.26.518.0 ]--
+r 163             \)
+--[ 2022.11.01.10.31.26.611.0 ]--
+r 163             )
+--[ 2022.11.01.10.31.29.348.0 ]--
+r 163             |)
+--[ 2022.11.01.10.31.29.501.0 ]--
+r 163             ||)
+--[ 2022.11.01.10.31.30.921.0 ]--
+r 163             |)
+--[ 2022.11.01.10.31.31.037.0 ]--
+r 163             )
+--[ 2022.11.01.10.31.32.699.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 
+--[ 2022.11.01.10.31.33.090.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 |
+--[ 2022.11.01.10.31.33.216.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||
+--[ 2022.11.01.10.31.34.994.0 ]--
+r 163             n)
+--[ 2022.11.01.10.31.35.102.0 ]--
+r 163             ne)
+--[ 2022.11.01.10.31.35.197.0 ]--
+r 163             nei)
+--[ 2022.11.01.10.31.35.988.0 ]--
+r 163             neighbour)
+--[ 2022.11.01.10.31.36.417.0 ]--
+r 163             neighbour.)
+--[ 2022.11.01.10.31.36.787.0 ]--
+r 163             neighbour.g)
+--[ 2022.11.01.10.31.37.636.0 ]--
+r 163             neighbour.getJ)
+--[ 2022.11.01.10.31.37.646.0 ]--
+r 163             neighbour.getJ())
+--[ 2022.11.01.10.31.38.573.0 ]--
+r 163             neighbour.getJ() )
+--[ 2022.11.01.10.31.39.046.0 ]--
+r 163             neighbour.getJ() <)
+--[ 2022.11.01.10.31.39.487.0 ]--
+r 163             neighbour.getJ() )
+--[ 2022.11.01.10.31.39.850.0 ]--
+r 163             neighbour.getJ() >)
+--[ 2022.11.01.10.31.40.146.0 ]--
+r 163             neighbour.getJ() > )
+--[ 2022.11.01.10.31.40.499.0 ]--
+r 163             neighbour.getJ() > N)
+--[ 2022.11.01.10.31.40.872.0 ]--
+r 163             neighbour.getJ() > N )
+--[ 2022.11.01.10.31.41.369.0 ]--
+r 163             neighbour.getJ() > N |)
+--[ 2022.11.01.10.31.41.493.0 ]--
+r 163             neighbour.getJ() > N ||)
+--[ 2022.11.01.10.31.41.848.0 ]--
+r 163             neighbour.getJ() > N || )
+--[ 2022.11.01.10.31.42.122.0 ]--
+r 163             neighbour.getJ() > N || n)
+--[ 2022.11.01.10.31.42.195.0 ]--
+r 163             neighbour.getJ() > N || ne)
+--[ 2022.11.01.10.31.42.321.0 ]--
+r 163             neighbour.getJ() > N || nei)
+--[ 2022.11.01.10.31.42.401.0 ]--
+r 163             neighbour.getJ() > N || neig)
+--[ 2022.11.01.10.31.42.650.0 ]--
+r 163             neighbour.getJ() > N || neighbour)
+--[ 2022.11.01.10.31.43.080.0 ]--
+r 163             neighbour.getJ() > N || neighbour.)
+--[ 2022.11.01.10.31.43.283.0 ]--
+r 163             neighbour.getJ() > N || neighbour.g)
+--[ 2022.11.01.10.31.44.020.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getI)
+--[ 2022.11.01.10.31.44.027.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getI())
+--[ 2022.11.01.10.31.46.230.0 ]--
+r 163             neighbour.getJ() > N || neighbour.get())
+--[ 2022.11.01.10.31.46.722.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ())
+--[ 2022.11.01.10.31.48.656.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() )
+--[ 2022.11.01.10.31.49.037.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <)
+--[ 2022.11.01.10.31.49.471.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <=)
+--[ 2022.11.01.10.31.49.887.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= )
+--[ 2022.11.01.10.31.49.985.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0)
+--[ 2022.11.01.10.31.53.494.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) 
+--[ 2022.11.01.10.31.55.287.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) r
+--[ 2022.11.01.10.31.55.311.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) re
+--[ 2022.11.01.10.31.55.537.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) ret
+--[ 2022.11.01.10.31.55.666.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) retu
+--[ 2022.11.01.10.31.55.762.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) retur
+--[ 2022.11.01.10.31.55.843.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) return
+--[ 2022.11.01.10.31.55.967.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) return 
+--[ 2022.11.01.10.31.56.111.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) return f
+--[ 2022.11.01.10.31.56.282.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) return fa
+--[ 2022.11.01.10.31.56.383.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) return fal
+--[ 2022.11.01.10.31.56.488.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) return fals
+--[ 2022.11.01.10.31.56.568.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) return false
+--[ 2022.11.01.10.31.57.636.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) return false;
+--[ 2022.11.01.10.31.58.214.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) return false; 
+--[ 2022.11.01.10.31.58.568.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) return false; }
+--[ 2022.11.01.10.32.01.279.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {return false; }
+--[ 2022.11.01.10.32.02.082.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) { return false; }
+--[ 2022.11.01.10.32.04.591.0 ]--
++ 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {
+r 164             return false; }
+--[ 2022.11.01.10.32.06.352.0 ]--
++ 164             return false; 
+r 165         }
+--[ 2022.11.01.10.32.11.939.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 || 
+--[ 2022.11.01.10.32.12.255.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||     
+--[ 2022.11.01.10.32.12.414.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         
+--[ 2022.11.01.10.32.12.923.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         /
+--[ 2022.11.01.10.32.13.055.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         //
+--[ 2022.11.01.10.32.13.525.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // 
+--[ 2022.11.01.10.32.14.370.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I
+--[ 2022.11.01.10.32.14.505.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I 
+--[ 2022.11.01.10.32.14.671.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I h
+--[ 2022.11.01.10.32.14.725.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I ha
+--[ 2022.11.01.10.32.14.845.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has
+--[ 2022.11.01.10.32.14.997.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has 
+--[ 2022.11.01.10.32.15.240.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has t
+--[ 2022.11.01.10.32.15.378.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to
+--[ 2022.11.01.10.32.15.528.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to 
+--[ 2022.11.01.10.32.15.674.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to b
+--[ 2022.11.01.10.32.15.848.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be
+--[ 2022.11.01.10.32.16.092.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be 
+--[ 2022.11.01.10.32.16.195.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be w
+--[ 2022.11.01.10.32.16.274.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be wi
+--[ 2022.11.01.10.32.16.415.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be wit
+--[ 2022.11.01.10.32.16.485.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be with
+--[ 2022.11.01.10.32.16.652.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be withi
+--[ 2022.11.01.10.32.16.784.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within
+--[ 2022.11.01.10.32.16.975.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within 
+--[ 2022.11.01.10.32.17.116.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within t
+--[ 2022.11.01.10.32.17.201.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within th
+--[ 2022.11.01.10.32.17.288.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within the
+--[ 2022.11.01.10.32.17.380.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within the 
+--[ 2022.11.01.10.32.17.537.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within the b
+--[ 2022.11.01.10.32.17.631.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within the bo
+--[ 2022.11.01.10.32.17.758.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within the boa
+--[ 2022.11.01.10.32.17.836.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within the boar
+--[ 2022.11.01.10.32.18.002.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within the board
+--[ 2022.11.01.10.32.18.185.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within the board 
+--[ 2022.11.01.10.32.18.506.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within the board r
+--[ 2022.11.01.10.32.18.647.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within the board ra
+--[ 2022.11.01.10.32.18.755.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within the board ran
+--[ 2022.11.01.10.32.18.848.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within the board rang
+--[ 2022.11.01.10.32.18.990.0 ]--
+r 162         if(neighbour.getI() > N || neighbour.getI() <= 0 ||         // I has to be within the board range
+--[ 2022.11.01.10.32.19.788.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {    
+--[ 2022.11.01.10.32.19.965.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        
+--[ 2022.11.01.10.32.20.300.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        /
+--[ 2022.11.01.10.32.20.427.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        //
+--[ 2022.11.01.10.32.20.764.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // 
+--[ 2022.11.01.10.32.20.983.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J
+--[ 2022.11.01.10.32.21.227.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J 
+--[ 2022.11.01.10.32.21.439.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J h
+--[ 2022.11.01.10.32.21.552.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J ha
+--[ 2022.11.01.10.32.21.635.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has
+--[ 2022.11.01.10.32.21.801.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has 
+--[ 2022.11.01.10.32.21.965.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has t
+--[ 2022.11.01.10.32.22.020.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to
+--[ 2022.11.01.10.32.22.098.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to 
+--[ 2022.11.01.10.32.22.237.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to b
+--[ 2022.11.01.10.32.22.410.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be
+--[ 2022.11.01.10.32.22.551.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be 
+--[ 2022.11.01.10.32.22.908.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be w
+--[ 2022.11.01.10.32.22.970.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be wi
+--[ 2022.11.01.10.32.23.122.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be wit
+--[ 2022.11.01.10.32.23.271.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be with
+--[ 2022.11.01.10.32.23.370.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withi
+--[ 2022.11.01.10.32.23.528.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be within
+--[ 2022.11.01.10.32.23.614.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing
+--[ 2022.11.01.10.32.23.750.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing 
+--[ 2022.11.01.10.32.24.307.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing t
+--[ 2022.11.01.10.32.24.376.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing th
+--[ 2022.11.01.10.32.24.453.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing the
+--[ 2022.11.01.10.32.24.555.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing the 
+--[ 2022.11.01.10.32.24.705.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing the b
+--[ 2022.11.01.10.32.24.783.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing the bo
+--[ 2022.11.01.10.32.24.921.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing the boa
+--[ 2022.11.01.10.32.24.984.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing the boar
+--[ 2022.11.01.10.32.25.166.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing the board
+--[ 2022.11.01.10.32.25.507.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing the board 
+--[ 2022.11.01.10.32.25.993.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing the board r
+--[ 2022.11.01.10.32.26.144.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing the board ra
+--[ 2022.11.01.10.32.26.271.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing the board ran
+--[ 2022.11.01.10.32.26.374.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing the board rang
+--[ 2022.11.01.10.32.26.485.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be withing the board range
+--[ 2022.11.01.10.32.28.504.0 ]--
+r 163             neighbour.getJ() > N || neighbour.getJ() <= 0) {        // J has to be within the board range
+--[ 2022.11.01.10.35.01.873.0 ]--
+r 162         if(neighbour.getI() >= N || neighbour.getI() <= 0 ||         // I has to be within the board range
+--[ 2022.11.01.10.35.02.995.0 ]--
+r 163             neighbour.getJ() >= N || neighbour.getJ() <= 0) {        // J has to be within the board range
+--[ 2022.11.01.10.35.05.265.0 ]--
+r 162         if(neighbour.getI() >= N || neighbour.getI() < 0 ||         // I has to be within the board range
+--[ 2022.11.01.10.35.06.630.0 ]--
+r 163             neighbour.getJ() >= N || neighbour.getJ() < 0) {        // J has to be within the board range
+--[ 2022.11.01.10.35.29.916.0 ]--
+r 187         return false;       
+--[ 2022.11.01.10.37.22.678.0 ]--
++ 75     
+--[ 2022.11.01.10.37.23.338.0 ]--
++ 75     
+--[ 2022.11.01.10.37.24.381.0 ]--
+r 76     b
+--[ 2022.11.01.10.37.24.548.0 ]--
+r 76     bo
+--[ 2022.11.01.10.37.24.604.0 ]--
+r 76     boo
+--[ 2022.11.01.10.37.24.788.0 ]--
+r 76     bool
+--[ 2022.11.01.10.37.24.885.0 ]--
+r 76     boole
+--[ 2022.11.01.10.37.24.993.0 ]--
+r 76     boolea
+--[ 2022.11.01.10.37.25.119.0 ]--
+r 76     boolean
+--[ 2022.11.01.10.37.25.790.0 ]--
+r 76     boolean[]
+--[ 2022.11.01.10.37.26.014.0 ]--
+r 76     boolean[][]
+--[ 2022.11.01.10.37.27.084.0 ]--
+r 76     boolean[][] 
+--[ 2022.11.01.10.37.28.521.0 ]--
+r 76     boolean[][] w
+--[ 2022.11.01.10.37.28.716.0 ]--
+r 76     boolean[][] wa
+--[ 2022.11.01.10.37.28.805.0 ]--
+r 76     boolean[][] was
+--[ 2022.11.01.10.37.29.782.0 ]--
+r 76     boolean[][] wass
+--[ 2022.11.01.10.37.29.933.0 ]--
+r 76     boolean[][] wasse
+--[ 2022.11.01.10.37.30.120.0 ]--
+r 76     boolean[][] wassea
+--[ 2022.11.01.10.37.30.215.0 ]--
+r 76     boolean[][] wassear
+--[ 2022.11.01.10.37.30.414.0 ]--
+r 76     boolean[][] wassea
+--[ 2022.11.01.10.37.30.530.0 ]--
+r 76     boolean[][] wasse
+--[ 2022.11.01.10.37.30.638.0 ]--
+r 76     boolean[][] wass
+--[ 2022.11.01.10.37.30.734.0 ]--
+r 76     boolean[][] was
+--[ 2022.11.01.10.37.31.453.0 ]--
+r 76     boolean[][] wasS
+--[ 2022.11.01.10.37.31.701.0 ]--
+r 76     boolean[][] wasSe
+--[ 2022.11.01.10.37.31.850.0 ]--
+r 76     boolean[][] wasSea
+--[ 2022.11.01.10.37.31.937.0 ]--
+r 76     boolean[][] wasSear
+--[ 2022.11.01.10.37.32.202.0 ]--
+r 76     boolean[][] wasSearc
+--[ 2022.11.01.10.37.32.338.0 ]--
+r 76     boolean[][] wasSearch
+--[ 2022.11.01.10.37.32.401.0 ]--
+r 76     boolean[][] wasSearche
+--[ 2022.11.01.10.37.32.533.0 ]--
+r 76     boolean[][] wasSearched
+--[ 2022.11.01.10.37.35.378.0 ]--
+r 76     boolean[][] wasSearched 
+--[ 2022.11.01.10.37.36.005.0 ]--
+r 76     boolean[][] wasSearched
+--[ 2022.11.01.10.37.36.563.0 ]--
+r 76     boolean[][] wasSearchedA
+--[ 2022.11.01.10.37.37.904.0 ]--
+r 76     boolean[][] wasSearchedA 
+--[ 2022.11.01.10.37.39.828.0 ]--
+r 76     boolean[][] wasSearchedA =
+--[ 2022.11.01.10.37.39.953.0 ]--
+r 76     boolean[][] wasSearchedA = 
+--[ 2022.11.01.10.37.42.446.0 ]--
+r 76     boolean[][] wasSearchedA = n
+--[ 2022.11.01.10.37.42.507.0 ]--
+r 76     boolean[][] wasSearchedA = ne
+--[ 2022.11.01.10.37.42.614.0 ]--
+r 76     boolean[][] wasSearchedA = new
+--[ 2022.11.01.10.37.43.202.0 ]--
+r 76     boolean[][] wasSearchedA = new 
+--[ 2022.11.01.10.37.44.534.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean
+--[ 2022.11.01.10.37.44.548.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[][]
+--[ 2022.11.01.10.37.45.651.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[M][]
+--[ 2022.11.01.10.37.46.110.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[][]
+--[ 2022.11.01.10.37.46.422.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[N][]
+--[ 2022.11.01.10.37.46.757.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArraySizeException][]
+--[ 2022.11.01.10.37.47.773.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArraySizeExceptio][]
+--[ 2022.11.01.10.37.48.039.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArraySizeExcepti][]
+--[ 2022.11.01.10.37.48.534.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArraySizeExcept][]
+--[ 2022.11.01.10.37.48.618.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArraySizeExcep][]
+--[ 2022.11.01.10.37.48.702.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArraySizeExce][]
+--[ 2022.11.01.10.37.48.786.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArraySizeExc][]
+--[ 2022.11.01.10.37.48.869.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArraySizeEx][]
+--[ 2022.11.01.10.37.48.954.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArraySizeE][]
+--[ 2022.11.01.10.37.49.038.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArraySize][]
+--[ 2022.11.01.10.37.49.121.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArraySiz][]
+--[ 2022.11.01.10.37.49.205.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArraySi][]
+--[ 2022.11.01.10.37.49.288.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArrayS][]
+--[ 2022.11.01.10.37.49.371.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArray][]
+--[ 2022.11.01.10.37.49.455.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArra][]
+--[ 2022.11.01.10.37.49.537.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeArr][]
+--[ 2022.11.01.10.37.49.621.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeAr][]
+--[ 2022.11.01.10.37.49.706.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[NegativeA][]
+--[ 2022.11.01.10.37.49.788.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[Negative][]
+--[ 2022.11.01.10.37.49.871.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[Negativ][]
+--[ 2022.11.01.10.37.49.954.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[Negati][]
+--[ 2022.11.01.10.37.50.037.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[Negat][]
+--[ 2022.11.01.10.37.50.121.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[Nega][]
+--[ 2022.11.01.10.37.50.294.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[Neg][]
+--[ 2022.11.01.10.37.50.455.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[Ne][]
+--[ 2022.11.01.10.37.50.589.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[N][]
+--[ 2022.11.01.10.37.50.972.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[][]
+--[ 2022.11.01.10.37.52.451.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[m][]
+--[ 2022.11.01.10.37.52.538.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[ma][]
+--[ 2022.11.01.10.37.52.613.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[mat][]
+--[ 2022.11.01.10.37.52.952.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[matp][]
+--[ 2022.11.01.10.37.53.205.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[matp.][]
+--[ 2022.11.01.10.37.53.399.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[matp.g][]
+--[ 2022.11.01.10.37.53.535.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[matp.ge][]
+--[ 2022.11.01.10.37.53.696.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[matp.get][]
+--[ 2022.11.01.10.37.54.694.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[matp.get()][]
+--[ 2022.11.01.10.37.54.909.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[matp.get(N)][]
+--[ 2022.11.01.10.37.58.702.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[map.get(N)][]
+--[ 2022.11.01.10.38.06.038.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[map.getN)][]
+--[ 2022.11.01.10.38.07.130.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[map.getN()][]
+--[ 2022.11.01.10.38.14.968.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[map.getN()][map.getN()]
+--[ 2022.11.01.10.38.19.266.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[map.getN()][map.getN()];
+--[ 2022.11.01.10.38.24.244.0 ]--
+r 76     boolean[][] wasSearchedA = new boolean[map.getN()][map.getN()]; 
+--[ 2022.11.01.10.39.01.654.0 ]--
++ 77     
+--[ 2022.11.01.10.39.04.472.0 ]--
+r 77     f
+--[ 2022.11.01.10.39.04.648.0 ]--
+r 77     fo
+--[ 2022.11.01.10.39.04.663.0 ]--
+r 77     for
+--[ 2022.11.01.10.39.05.695.0 ]--
+r 77     for 
+--[ 2022.11.01.10.39.06.077.0 ]--
+r 77     for ()
+--[ 2022.11.01.10.39.09.145.0 ]--
+r 77     for (I)
+--[ 2022.11.01.10.39.10.183.0 ]--
+r 77     for ()
+--[ 2022.11.01.10.39.10.881.0 ]--
+r 77     for (i)
+--[ 2022.11.01.10.39.11.045.0 ]--
+r 77     for (in)
+--[ 2022.11.01.10.39.11.140.0 ]--
+r 77     for (int)
+--[ 2022.11.01.10.39.11.221.0 ]--
+r 77     for (int )
+--[ 2022.11.01.10.39.11.349.0 ]--
+r 77     for (int i)
+--[ 2022.11.01.10.39.11.468.0 ]--
+r 77     for (int i )
+--[ 2022.11.01.10.39.12.150.0 ]--
+r 77     for (int i)
+--[ 2022.11.01.10.39.12.359.0 ]--
+r 77     for (int )
+--[ 2022.11.01.10.39.12.978.0 ]--
+r 77     for (int i)
+--[ 2022.11.01.10.39.13.097.0 ]--
+r 77     for (int i )
+--[ 2022.11.01.10.39.13.479.0 ]--
+r 77     for (int i =)
+--[ 2022.11.01.10.39.13.619.0 ]--
+r 77     for (int i = )
+--[ 2022.11.01.10.39.13.772.0 ]--
+r 77     for (int i = 0)
+--[ 2022.11.01.10.39.14.567.0 ]--
+r 77     for (int i = 0;)
+--[ 2022.11.01.10.39.14.669.0 ]--
+r 77     for (int i = 0; )
+--[ 2022.11.01.10.39.17.514.0 ]--
+r 77     for (int i = 0; i)
+--[ 2022.11.01.10.39.18.834.0 ]--
+r 77     for (int i = 0; i )
+--[ 2022.11.01.10.39.19.118.0 ]--
+r 77     for (int i = 0; i <)
+--[ 2022.11.01.10.39.20.431.0 ]--
+r 77     for (int i = 0; i < )
+--[ 2022.11.01.10.39.21.406.0 ]--
+r 77     for (int i = 0; i < N)
+--[ 2022.11.01.10.39.23.320.0 ]--
+r 77     for (int i = 0; i < N;)
+--[ 2022.11.01.10.39.23.421.0 ]--
+r 77     for (int i = 0; i < N; )
+--[ 2022.11.01.10.39.23.634.0 ]--
+r 77     for (int i = 0; i < N; i)
+--[ 2022.11.01.10.39.23.833.0 ]--
+r 77     for (int i = 0; i < N; i )
+--[ 2022.11.01.10.39.24.264.0 ]--
+r 77     for (int i = 0; i < N; i +)
+--[ 2022.11.01.10.39.24.416.0 ]--
+r 77     for (int i = 0; i < N; i ++)
+--[ 2022.11.01.10.39.30.164.0 ]--
++ 66         
+--[ 2022.11.01.10.39.31.656.0 ]--
+r 66         map.getN()
+--[ 2022.11.01.10.39.32.890.0 ]--
+r 66         map.getN();
+--[ 2022.11.01.10.39.35.381.0 ]--
+r 66         nmap.getN();
+--[ 2022.11.01.10.39.35.853.0 ]--
+r 66         map.getN();
+--[ 2022.11.01.10.39.36.185.0 ]--
+r 66         Nmap.getN();
+--[ 2022.11.01.10.39.36.436.0 ]--
+r 66         N map.getN();
+--[ 2022.11.01.10.39.36.570.0 ]--
+r 66         N =map.getN();
+--[ 2022.11.01.10.39.36.688.0 ]--
+r 66         N = map.getN();
+--[ 2022.11.01.10.39.38.100.0 ]--
++ 64     
+--[ 2022.11.01.10.39.38.512.0 ]--
+r 64     i
+--[ 2022.11.01.10.39.38.681.0 ]--
+r 64     in
+--[ 2022.11.01.10.39.38.725.0 ]--
+r 64     int
+--[ 2022.11.01.10.39.38.832.0 ]--
+r 64     int 
+--[ 2022.11.01.10.39.39.025.0 ]--
+r 64     int N
+--[ 2022.11.01.10.39.39.430.0 ]--
+r 64     int N;
+--[ 2022.11.01.10.39.43.154.0 ]--
+r 78     boolean[][] wasSearchedA = new boolean[N][map.getN()]; 
+--[ 2022.11.01.10.39.48.053.0 ]--
+r 78     boolean[][] wasSearchedA = new boolean[N][N]; 
+--[ 2022.11.01.10.39.51.937.0 ]--
+r 79     for (int i = 0; i < N; i ++){}
+--[ 2022.11.01.10.39.52.144.0 ]--
++ 79     for (int i = 0; i < N; i ++){
+r 80     }
+--[ 2022.11.01.10.39.52.167.0 ]--
++ 80         
+--[ 2022.11.01.10.39.54.962.0 ]--
+r 80         r
+--[ 2022.11.01.10.39.55.073.0 ]--
+r 80         re
+--[ 2022.11.01.10.39.55.151.0 ]--
+r 80         ret
+--[ 2022.11.01.10.39.55.248.0 ]--
+r 80         retu
+--[ 2022.11.01.10.39.55.357.0 ]--
+r 80         retur
+--[ 2022.11.01.10.39.55.413.0 ]--
+r 80         return
+--[ 2022.11.01.10.39.55.657.0 ]--
+r 80         return;
+--[ 2022.11.01.10.39.56.703.0 ]--
+r 80         return
+--[ 2022.11.01.10.39.56.815.0 ]--
+r 80         retur
+--[ 2022.11.01.10.39.56.926.0 ]--
+r 80         retu
+--[ 2022.11.01.10.39.57.041.0 ]--
+r 80         ret
+--[ 2022.11.01.10.39.57.165.0 ]--
+r 80         re
+--[ 2022.11.01.10.39.57.280.0 ]--
+r 80         r
+--[ 2022.11.01.10.39.58.429.0 ]--
+r 80         
+--[ 2022.11.01.10.40.05.412.0 ]--
+r 79     for (int in = 0; i < N; i ++){
+--[ 2022.11.01.10.40.05.522.0 ]--
+r 79     for (int ind = 0; i < N; i ++){
+--[ 2022.11.01.10.40.05.688.0 ]--
+r 79     for (int inde = 0; i < N; i ++){
+--[ 2022.11.01.10.40.05.918.0 ]--
+r 79     for (int index = 0; i < N; i ++){
+--[ 2022.11.01.10.40.07.429.0 ]--
+r 79     for (int  = 0; i < N; i ++){
+--[ 2022.11.01.10.40.08.483.0 ]--
+r 79     for (int i = 0; i < N; i ++){
+--[ 2022.11.01.10.40.08.671.0 ]--
+r 79     for (int in = 0; i < N; i ++){
+--[ 2022.11.01.10.40.08.768.0 ]--
+r 79     for (int ind = 0; i < N; i ++){
+--[ 2022.11.01.10.40.08.946.0 ]--
+r 79     for (int inde = 0; i < N; i ++){
+--[ 2022.11.01.10.40.09.170.0 ]--
+r 79     for (int index = 0; i < N; i ++){
+--[ 2022.11.01.10.40.12.726.0 ]--
+r 79     for (int index = 0; i < N;  ++){
+--[ 2022.11.01.10.40.12.976.0 ]--
+r 79     for (int index = 0; i < N; index ++){
+--[ 2022.11.01.10.40.14.215.0 ]--
+r 79     for (int index = 0;  < N; index ++){
+--[ 2022.11.01.10.40.14.307.0 ]--
+r 79     for (int index = 0; index < N; index ++){
+--[ 2022.11.01.10.40.18.579.0 ]--
+- 79
+- 79
+r 79 
+--[ 2022.11.01.10.40.20.022.0 ]--
+- 78
+r 78     boolean[][] wasSearchedA = new boolean[N][N];
+--[ 2022.11.01.10.40.24.329.0 ]--
++ 68         
+--[ 2022.11.01.10.40.25.145.0 ]--
++ 68             for (int index = 0; index < N; index ++){
++ 70     }
+--[ 2022.11.01.10.40.25.163.0 ]--
+r 68         for (int index = 0; index < N; index ++){
+r 69 
+r 70         }
+--[ 2022.11.01.10.40.29.454.0 ]--
+- 81
+--[ 2022.11.01.10.40.31.628.0 ]--
++ 65     
+--[ 2022.11.01.10.40.31.794.0 ]--
++ 65         boolean[][] wasSearchedA = new boolean[N][N];
+r 66 
+--[ 2022.11.01.10.40.31.807.0 ]--
+r 65     boolean[][] wasSearchedA = new boolean[N][N];
+--[ 2022.11.01.10.40.34.637.0 ]--
+- 67
+- 67
+- 67
+- 67
+- 68
+- 68
+--[ 2022.11.01.10.40.35.549.0 ]--
+- 66
+r 66     
+--[ 2022.11.01.10.40.36.411.0 ]--
+- 66
+--[ 2022.11.01.10.40.38.255.0 ]--
++ 74         public Pathfinder(Terrain terrain) {
++ 75         map = terrain;
++ 76         N = map.getN();
++ 77         for (int index = 0; index < N; index ++){
++ 78 
++ 79         }
+r 80     }
+--[ 2022.11.01.10.40.38.270.0 ]--
+r 74     public Pathfinder(Terrain terrain) {
+--[ 2022.11.01.10.40.40.966.0 ]--
+- 81
+--[ 2022.11.01.10.40.44.651.0 ]--
+r 78     
+--[ 2022.11.01.10.40.44.930.0 ]--
+r 78         
+--[ 2022.11.01.10.40.45.252.0 ]--
+r 78             
+--[ 2022.11.01.10.40.47.343.0 ]--
+r 77         for (int i = 0; index < N; index ++){
+--[ 2022.11.01.10.40.48.584.0 ]--
+r 77         for (int i = 0; i < N; index ++){
+--[ 2022.11.01.10.40.49.850.0 ]--
+r 77         for (int i = 0; i < N; i ++){
+--[ 2022.11.01.10.40.53.343.0 ]--
+r 77         for(int i = 0; i < N; i ++){
+--[ 2022.11.01.10.41.00.963.0 ]--
+r 78             f
+--[ 2022.11.01.10.41.01.094.0 ]--
+r 78             fo
+--[ 2022.11.01.10.41.01.136.0 ]--
+r 78             for
+--[ 2022.11.01.10.41.01.663.0 ]--
+r 78             for()
+--[ 2022.11.01.10.41.02.349.0 ]--
+r 78             for(i)
+--[ 2022.11.01.10.41.02.475.0 ]--
+r 78             for(in)
+--[ 2022.11.01.10.41.02.547.0 ]--
+r 78             for(int)
+--[ 2022.11.01.10.41.02.841.0 ]--
+r 78             for(int )
+--[ 2022.11.01.10.41.02.954.0 ]--
+r 78             for(int j)
+--[ 2022.11.01.10.41.03.243.0 ]--
+r 78             for(int j )
+--[ 2022.11.01.10.41.03.406.0 ]--
+r 78             for(int j =)
+--[ 2022.11.01.10.41.03.521.0 ]--
+r 78             for(int j = )
+--[ 2022.11.01.10.41.03.913.0 ]--
+r 78             for(int j = 0)
+--[ 2022.11.01.10.41.04.348.0 ]--
+r 78             for(int j = 0;)
+--[ 2022.11.01.10.41.04.523.0 ]--
+r 78             for(int j = 0; )
+--[ 2022.11.01.10.41.05.070.0 ]--
+r 78             for(int j = 0; j)
+--[ 2022.11.01.10.41.05.447.0 ]--
+r 78             for(int j = 0; j )
+--[ 2022.11.01.10.41.05.668.0 ]--
+r 78             for(int j = 0; j <)
+--[ 2022.11.01.10.41.05.836.0 ]--
+r 78             for(int j = 0; j < )
+--[ 2022.11.01.10.41.06.297.0 ]--
+r 78             for(int j = 0; j < N)
+--[ 2022.11.01.10.41.07.227.0 ]--
+r 78             for(int j = 0; j < N;)
+--[ 2022.11.01.10.41.07.397.0 ]--
+r 78             for(int j = 0; j < N; )
+--[ 2022.11.01.10.41.08.050.0 ]--
+r 78             for(int j = 0; j < N; j)
+--[ 2022.11.01.10.41.08.573.0 ]--
+r 78             for(int j = 0; j < N; j+)
+--[ 2022.11.01.10.41.08.718.0 ]--
+r 78             for(int j = 0; j < N; j++)
+--[ 2022.11.01.10.41.10.546.0 ]--
+r 78             for(int j = 0; j < N; j++) 
+--[ 2022.11.01.10.41.10.740.0 ]--
+r 78             for(int j = 0; j < N; j++) {
+--[ 2022.11.01.10.41.11.015.0 ]--
++ 79 
++ 80 }
+--[ 2022.11.01.10.41.11.027.0 ]--
+r 80             }
+--[ 2022.11.01.10.41.11.044.0 ]--
+r 79                 
+--[ 2022.11.01.10.41.12.909.0 ]--
+r 79                 b
+--[ 2022.11.01.10.41.13.095.0 ]--
+r 79                 bo
+--[ 2022.11.01.10.41.13.204.0 ]--
+r 79                 boo
+--[ 2022.11.01.10.41.14.244.0 ]--
+r 79                 bo
+--[ 2022.11.01.10.41.14.317.0 ]--
+r 79                 b
+--[ 2022.11.01.10.41.14.439.0 ]--
+r 79                 
+--[ 2022.11.01.10.41.14.530.0 ]--
+- 79
+--[ 2022.11.01.10.41.15.117.0 ]--
++ 79                 
+--[ 2022.11.01.10.41.15.716.0 ]--
+r 79                 w
+--[ 2022.11.01.10.41.15.885.0 ]--
+r 79                 wa
+--[ 2022.11.01.10.41.16.323.0 ]--
+r 79                 wasSearched
+--[ 2022.11.01.10.41.16.333.0 ]--
+r 79                 wasSearched()
+--[ 2022.11.01.10.41.18.387.0 ]--
+r 79                 wasSearched(
+--[ 2022.11.01.10.41.18.590.0 ]--
+r 79                 wasSearched
+--[ 2022.11.01.10.41.19.001.0 ]--
+r 79                 wasSearchedA
+--[ 2022.11.01.10.41.20.289.0 ]--
+r 79                 wasSearchedA 
+--[ 2022.11.01.10.41.22.925.0 ]--
+r 79                 wasSearchedA
+--[ 2022.11.01.10.41.23.529.0 ]--
+r 79                 wasSearchedA[]
+--[ 2022.11.01.10.41.24.480.0 ]--
+r 79                 wasSearchedA[i]
+--[ 2022.11.01.10.41.26.690.0 ]--
+r 79                 wasSearchedA[i][]
+--[ 2022.11.01.10.41.27.366.0 ]--
+r 79                 wasSearchedA[i][j]
+--[ 2022.11.01.10.41.28.463.0 ]--
+r 79                 wasSearchedA[i][j] 
+--[ 2022.11.01.10.41.28.616.0 ]--
+r 79                 wasSearchedA[i][j] =
+--[ 2022.11.01.10.41.28.865.0 ]--
+r 79                 wasSearchedA[i][j] = 
+--[ 2022.11.01.10.41.29.251.0 ]--
+r 79                 wasSearchedA[i][j] = f
+--[ 2022.11.01.10.41.29.400.0 ]--
+r 79                 wasSearchedA[i][j] = fa
+--[ 2022.11.01.10.41.29.500.0 ]--
+r 79                 wasSearchedA[i][j] = fal
+--[ 2022.11.01.10.41.29.581.0 ]--
+r 79                 wasSearchedA[i][j] = fals
+--[ 2022.11.01.10.41.29.685.0 ]--
+r 79                 wasSearchedA[i][j] = false
+--[ 2022.11.01.10.41.29.894.0 ]--
+r 79                 wasSearchedA[i][j] = false;
+--[ 2022.11.01.10.41.35.960.0 ]--
++ 194         
+--[ 2022.11.01.10.41.36.845.0 ]--
+r 194         i
+--[ 2022.11.01.10.41.36.951.0 ]--
+r 194         if
+--[ 2022.11.01.10.41.37.673.0 ]--
+r 194         if()
+--[ 2022.11.01.10.41.46.412.0 ]--
+r 194         if(w)
+--[ 2022.11.01.10.41.46.552.0 ]--
+r 194         if(wa)
+--[ 2022.11.01.10.41.46.641.0 ]--
+r 194         if(was)
+--[ 2022.11.01.10.41.47.496.0 ]--
+r 194         if(wasSearchedA)
+--[ 2022.11.01.10.41.48.457.0 ]--
+r 194         if(wasSearchedA[])
+--[ 2022.11.01.10.41.49.044.0 ]--
+r 194         if(wasSearchedA[l])
+--[ 2022.11.01.10.41.49.206.0 ]--
+r 194         if(wasSearchedA[lo])
+--[ 2022.11.01.10.41.49.369.0 ]--
+r 194         if(wasSearchedA[loc])
+--[ 2022.11.01.10.41.50.184.0 ]--
+r 194         if(wasSearchedA[loc.])
+--[ 2022.11.01.10.41.50.331.0 ]--
+r 194         if(wasSearchedA[loc.g])
+--[ 2022.11.01.10.41.50.471.0 ]--
+r 194         if(wasSearchedA[loc.ge])
+--[ 2022.11.01.10.41.50.567.0 ]--
+r 194         if(wasSearchedA[loc.get])
+--[ 2022.11.01.10.41.50.838.0 ]--
+r 194         if(wasSearchedA[loc.getI])
+--[ 2022.11.01.10.41.51.789.0 ]--
+r 194         if(wasSearchedA[loc.getI()])
+--[ 2022.11.01.10.41.53.028.0 ]--
+r 194         if(wasSearchedA[loc.getI()][])
+--[ 2022.11.01.10.41.53.555.0 ]--
+r 194         if(wasSearchedA[loc.getI()][l])
+--[ 2022.11.01.10.41.53.749.0 ]--
+r 194         if(wasSearchedA[loc.getI()][lco])
+--[ 2022.11.01.10.41.55.568.0 ]--
+r 194         if(wasSearchedA[loc.getI()][loc.getJ])
+--[ 2022.11.01.10.41.55.583.0 ]--
+r 194         if(wasSearchedA[loc.getI()][loc;])
+--[ 2022.11.01.10.41.55.598.0 ]--
+r 194         if(wasSearchedA[loc.getI()][loc.getJ])
+--[ 2022.11.01.10.41.55.609.0 ]--
+r 194         if(wasSearchedA[loc.getI()][loc.getJ()])
+--[ 2022.11.01.10.41.57.424.0 ]--
+r 194         if(wasSearchedA[loc.getI()][loc.getJ()] )
+--[ 2022.11.01.10.41.57.590.0 ]--
+r 194         if(wasSearchedA[loc.getI()][loc.getJ()] =)
+--[ 2022.11.01.10.41.57.717.0 ]--
+r 194         if(wasSearchedA[loc.getI()][loc.getJ()] ==)
+--[ 2022.11.01.10.41.57.860.0 ]--
+r 194         if(wasSearchedA[loc.getI()][loc.getJ()] == )
+--[ 2022.11.01.10.41.59.774.0 ]--
+r 194         if(wasSearchedA[loc.getI()][loc.getJ()] == t)
+--[ 2022.11.01.10.41.59.912.0 ]--
+r 194         if(wasSearchedA[loc.getI()][loc.getJ()] == tr)
+--[ 2022.11.01.10.42.00.008.0 ]--
+r 194         if(wasSearchedA[loc.getI()][loc.getJ()] == tru)
+--[ 2022.11.01.10.42.00.095.0 ]--
+r 194         if(wasSearchedA[loc.getI()][loc.getJ()] == true)
+--[ 2022.11.01.10.42.04.175.0 ]--
+r 194         rwasSearchedA[loc.getI()][loc.getJ()] == true)
+--[ 2022.11.01.10.42.04.281.0 ]--
+r 194         rewasSearchedA[loc.getI()][loc.getJ()] == true)
+--[ 2022.11.01.10.42.04.367.0 ]--
+r 194         retwasSearchedA[loc.getI()][loc.getJ()] == true)
+--[ 2022.11.01.10.42.04.463.0 ]--
+r 194         retuwasSearchedA[loc.getI()][loc.getJ()] == true)
+--[ 2022.11.01.10.42.04.589.0 ]--
+r 194         returwasSearchedA[loc.getI()][loc.getJ()] == true)
+--[ 2022.11.01.10.42.04.679.0 ]--
+r 194         returnwasSearchedA[loc.getI()][loc.getJ()] == true)
+--[ 2022.11.01.10.42.04.788.0 ]--
+r 194         return wasSearchedA[loc.getI()][loc.getJ()] == true)
+--[ 2022.11.01.10.42.07.269.0 ]--
+r 194         return wasSearchedA[loc.getI()][loc.getJ()]
+--[ 2022.11.01.10.42.07.850.0 ]--
+r 194         return wasSearchedA[loc.getI()][loc.getJ()];
+--[ 2022.11.01.10.42.12.173.0 ]--
+r 194         return !wasSearchedA[loc.getI()][loc.getJ()];
+--[ 2022.11.01.10.42.15.100.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()];
+--[ 2022.11.01.10.42.16.853.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);
+--[ 2022.11.01.10.42.17.941.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]); 
+--[ 2022.11.01.10.42.18.277.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     
+--[ 2022.11.01.10.42.18.633.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     /
+--[ 2022.11.01.10.42.18.751.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     //
+--[ 2022.11.01.10.42.19.232.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // 
+--[ 2022.11.01.10.42.19.370.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // r
+--[ 2022.11.01.10.42.19.432.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // re
+--[ 2022.11.01.10.42.19.603.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // ret
+--[ 2022.11.01.10.42.19.749.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // retu
+--[ 2022.11.01.10.42.19.873.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // retur
+--[ 2022.11.01.10.42.19.962.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return
+--[ 2022.11.01.10.42.20.053.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return 
+--[ 2022.11.01.10.42.20.180.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return t
+--[ 2022.11.01.10.42.20.348.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return tr
+--[ 2022.11.01.10.42.20.421.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return tru
+--[ 2022.11.01.10.42.20.547.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true
+--[ 2022.11.01.10.42.20.724.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true 
+--[ 2022.11.01.10.42.20.937.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true i
+--[ 2022.11.01.10.42.21.002.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true if
+--[ 2022.11.01.10.42.21.166.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true if 
+--[ 2022.11.01.10.42.22.487.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true if w
+--[ 2022.11.01.10.42.22.645.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true if wa
+--[ 2022.11.01.10.42.22.699.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true if was
+--[ 2022.11.01.10.42.22.830.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true if was 
+--[ 2022.11.01.10.42.22.955.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true if was s
+--[ 2022.11.01.10.42.23.309.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true if was se
+--[ 2022.11.01.10.42.23.417.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true if was sea
+--[ 2022.11.01.10.42.23.500.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true if was sear
+--[ 2022.11.01.10.42.23.751.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true if was searc
+--[ 2022.11.01.10.42.23.846.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true if was search
+--[ 2022.11.01.10.42.23.964.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true if was searche
+--[ 2022.11.01.10.42.24.102.0 ]--
+r 194         return !(wasSearchedA[loc.getI()][loc.getJ()]);     // return true if was searched
+--[ 2022.11.01.10.42.25.716.0 ]--
+r 194         return (wasSearchedA[loc.getI()][loc.getJ()]);     // return true if was searched
+--[ 2022.11.01.10.42.48.154.0 ]--
+r 195      
+--[ 2022.11.01.10.42.48.813.0 ]--
+- 195
+--[ 2022.11.01.10.43.01.590.0 ]--
++ 123         
+--[ 2022.11.01.10.43.03.452.0 ]--
+r 123         w
+--[ 2022.11.01.10.43.03.605.0 ]--
+r 123         wa
+--[ 2022.11.01.10.43.03.681.0 ]--
+r 123         was
+--[ 2022.11.01.10.43.04.170.0 ]--
+r 123         wasSearchedA
+--[ 2022.11.01.10.43.05.995.0 ]--
+r 123         wasSearchedA[]
+--[ 2022.11.01.10.43.07.567.0 ]--
+r 123         wasSearchedA[s]
+--[ 2022.11.01.10.43.07.769.0 ]--
+r 123         wasSearchedA[st]
+--[ 2022.11.01.10.43.07.939.0 ]--
+r 123         wasSearchedA[sta]
+--[ 2022.11.01.10.43.07.982.0 ]--
+r 123         wasSearchedA[star]
+--[ 2022.11.01.10.43.08.175.0 ]--
+r 123         wasSearchedA[start]
+--[ 2022.11.01.10.43.19.327.0 ]--
+r 123         wasSearchedA[start.]
+--[ 2022.11.01.10.43.19.488.0 ]--
+r 123         wasSearchedA[start.g]
+--[ 2022.11.01.10.43.20.566.0 ]--
+r 123         wasSearchedA[start.ge]
+--[ 2022.11.01.10.43.20.665.0 ]--
+r 123         wasSearchedA[start.get]
+--[ 2022.11.01.10.43.20.934.0 ]--
+r 123         wasSearchedA[start.getI]
+--[ 2022.11.01.10.43.22.491.0 ]--
+r 123         wasSearchedA[start.lgetI]
+--[ 2022.11.01.10.43.22.739.0 ]--
+r 123         wasSearchedA[start.logetI]
+--[ 2022.11.01.10.43.22.843.0 ]--
+r 123         wasSearchedA[start.locgetI]
+--[ 2022.11.01.10.43.23.540.0 ]--
+r 123         wasSearchedA[start.locationgetI]
+--[ 2022.11.01.10.43.23.549.0 ]--
+r 123         wasSearchedA[start.location]
+--[ 2022.11.01.10.43.24.506.0 ]--
+r 123         wasSearchedA[start.location.]
+--[ 2022.11.01.10.43.25.232.0 ]--
+r 123         wasSearchedA[start.location.getJ]
+--[ 2022.11.01.10.43.25.242.0 ]--
+r 123         wasSearchedA[start.location.getJ()]
+--[ 2022.11.01.10.43.26.817.0 ]--
+r 123         wasSearchedA[start.location.get()]
+--[ 2022.11.01.10.43.27.152.0 ]--
+r 123         wasSearchedA[start.location.getI()]
+--[ 2022.11.01.10.43.29.125.0 ]--
+r 123         wasSearchedA[start.location.getI()][]
+--[ 2022.11.01.10.43.29.775.0 ]--
+r 123         wasSearchedA[start.location.getI()][s]
+--[ 2022.11.01.10.43.29.907.0 ]--
+r 123         wasSearchedA[start.location.getI()][st]
+--[ 2022.11.01.10.43.30.083.0 ]--
+r 123         wasSearchedA[start.location.getI()][sta]
+--[ 2022.11.01.10.43.30.124.0 ]--
+r 123         wasSearchedA[start.location.getI()][star]
+--[ 2022.11.01.10.43.30.496.0 ]--
+r 123         wasSearchedA[start.location.getI()][start]
+--[ 2022.11.01.10.43.30.947.0 ]--
+r 123         wasSearchedA[start.location.getI()][start.]
+--[ 2022.11.01.10.43.31.171.0 ]--
+r 123         wasSearchedA[start.location.getI()][start.location]
+--[ 2022.11.01.10.43.32.300.0 ]--
+r 123         wasSearchedA[start.location.getI()][start.location.]
+--[ 2022.11.01.10.43.33.230.0 ]--
+r 123         wasSearchedA[start.location.getI()][start.location.getJ]
+--[ 2022.11.01.10.43.33.241.0 ]--
+r 123         wasSearchedA[start.location.getI()][start.location.getJ()]
+--[ 2022.11.01.10.43.36.934.0 ]--
+r 123         wasSearchedA[start.location.getI()][start.location.getJ()] 
+--[ 2022.11.01.10.43.37.168.0 ]--
+r 123         wasSearchedA[start.location.getI()][start.location.getJ()] =
+--[ 2022.11.01.10.43.37.255.0 ]--
+r 123         wasSearchedA[start.location.getI()][start.location.getJ()] = 
+--[ 2022.11.01.10.43.37.581.0 ]--
+r 123         wasSearchedA[start.location.getI()][start.location.getJ()] = t
+--[ 2022.11.01.10.43.37.720.0 ]--
+r 123         wasSearchedA[start.location.getI()][start.location.getJ()] = tr
+--[ 2022.11.01.10.43.37.766.0 ]--
+r 123         wasSearchedA[start.location.getI()][start.location.getJ()] = tru
+--[ 2022.11.01.10.43.37.947.0 ]--
+r 123         wasSearchedA[start.location.getI()][start.location.getJ()] = true
+--[ 2022.11.01.10.43.38.653.0 ]--
+r 123         wasSearchedA[start.location.getI()][start.location.getJ()] = true;
+--[ 2022.11.01.10.43.51.302.0 ]--
++ 145                 
+--[ 2022.11.01.10.43.51.438.0 ]--
++ 145                         searchSize++;           //when something is inserted, increase this var
+r 146         wasSearchedA[start.location.getI()][start.location.getJ()] = true;
+--[ 2022.11.01.10.43.51.453.0 ]--
+r 145                 searchSize++;           //when something is inserted, increase this var
+r 146                 wasSearchedA[start.location.getI()][start.location.getJ()] = true;
+--[ 2022.11.01.10.43.58.683.0 ]--
+r 146                 wasSearchedA[t.location.getI()][start.location.getJ()] = true;
+--[ 2022.11.01.10.43.58.791.0 ]--
+r 146                 wasSearchedA[te.location.getI()][start.location.getJ()] = true;
+--[ 2022.11.01.10.43.58.905.0 ]--
+r 146                 wasSearchedA[tem.location.getI()][start.location.getJ()] = true;
+--[ 2022.11.01.10.43.59.030.0 ]--
+r 146                 wasSearchedA[temp.location.getI()][start.location.getJ()] = true;
+--[ 2022.11.01.10.44.00.261.0 ]--
+r 146                 wasSearchedA[temp.location.getI()][t.location.getJ()] = true;
+--[ 2022.11.01.10.44.00.363.0 ]--
+r 146                 wasSearchedA[temp.location.getI()][te.location.getJ()] = true;
+--[ 2022.11.01.10.44.00.489.0 ]--
+r 146                 wasSearchedA[temp.location.getI()][tem.location.getJ()] = true;
+--[ 2022.11.01.10.44.00.602.0 ]--
+r 146                 wasSearchedA[temp.location.getI()][temp.location.getJ()] = true;
+--[ 2022.11.01.10.44.24.511.0 ]--
+r 128 
+r 166 
+r 169 
+r 174             return false;
