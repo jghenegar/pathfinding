@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50b83df3-15a9-4360-bde3-1e23007b18a2" name="Default" comment="got a path working--reset path gives errors">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_25_22,_11_54_AM_[Default]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_25_22__11_54_AM__Default_.xml" beforeDir="false" />
+    <list default="true" id="50b83df3-15a9-4360-bde3-1e23007b18a2" name="Default" comment="fixed reset path--hopefully--path isn't redrawn">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.log/history.log" beforeDir="false" afterPath="$PROJECT_DIR$/.log/history.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/P04_Pathfinding/Pathfinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P04_Pathfinding/Pathfinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P04_Pathfinding/Walker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P04_Pathfinding/Walker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/readme.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pathfinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pathfinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Walker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Walker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,10 @@
   </component>
   <component name="ProjectId" id="1iwYeHoVYqUfESIMNqB9GfLh0Bl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
@@ -221,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667317940095</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fixed reset path--hopefully--path isn't redrawn">
+      <created>1667672691362</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667672691362</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +261,8 @@
     <MESSAGE value="added info about getting i and j coordinates about the pathStart" />
     <MESSAGE value="lab nov 1 work--added many vars and edgecase function" />
     <MESSAGE value="got a path working--reset path gives errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="got a path working--reset path gives errors" />
+    <MESSAGE value="fixed reset path--hopefully--path isn't redrawn" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed reset path--hopefully--path isn't redrawn" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

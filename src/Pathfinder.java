@@ -93,6 +93,8 @@ public class Pathfinder {
     }
     public void setPathStart(Coord loc) {
         if(loc==null) throw new IllegalArgumentException("Illegal Arguement");
+        if(!loc.isInBounds(0, 0, N, N))
+            throw new IndexOutOfBoundsException("Start or end out of bounds");
         pathStart=loc;
         start = new PFNode(pathStart, null, 0);
     }
@@ -104,6 +106,8 @@ public class Pathfinder {
 
     public void setPathEnd(Coord loc) {
         if(loc==null) throw new IllegalArgumentException("Illegal Arguement");
+        if(!loc.isInBounds(0, 0, N, N))
+            throw new IndexOutOfBoundsException("Start or end out of bounds");
         pathEnd=loc;
         end = new PFNode(pathEnd, null, 0);
     }
@@ -128,7 +132,7 @@ public class Pathfinder {
         //pathEnd = null;
         //start = null;
         //end = null;
-        heuristic = 1;
+        //heuristic = 1;
 //
         for(int i = 0; i < N; i ++){
             for(int j = 0; j < N; j++) {
@@ -140,6 +144,9 @@ public class Pathfinder {
 
     public void computePath() {
         if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or end not set");
+        if(!pathStart.isInBounds(0, 0, N, N) || !pathEnd.isInBounds(0, 0, N, N))
+            throw new IndexOutOfBoundsException("Start or end out of bounds");
+
         // make the priorety queue
         //Terrain map = new Terrain("maze232_0.png.emap");
         MinPQ<PFNode> PQ = new MinPQ<>(PFNode::compareTo);
@@ -168,7 +175,10 @@ public class Pathfinder {
                     continue;  //check neighbour edge cases
                 }
 
-                float cost = map.computeTravelCost(pos.location, neighbourList[i]);
+                //talk to Dr. Denning
+                float cost; // = map.computeTravelCost(pos.location, neighbourList[i]);
+                cost = map.computeTravelCost(start.location, neighbourList[i]) + map.computeDistance(neighbourList[i], end.location);
+
 
                 PFNode temp = new PFNode(neighbourList[i], pos, cost);
                 PQ.insert(temp);
