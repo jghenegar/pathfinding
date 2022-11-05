@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50b83df3-15a9-4360-bde3-1e23007b18a2" name="Default" comment="lab nov 1 work--added many vars and edgecase function">
+    <list default="true" id="50b83df3-15a9-4360-bde3-1e23007b18a2" name="Default" comment="got a path working--reset path gives errors">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_25_22,_11_54_AM_[Default]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_25_22__11_54_AM__Default_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.log/history.log" beforeDir="false" afterPath="$PROJECT_DIR$/.log/history.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P04_Pathfinding/Pathfinder$PFNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P04_Pathfinding/Pathfinder$PFNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/P04_Pathfinding/Pathfinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P04_Pathfinding/Pathfinder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pathfinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pathfinder.java" afterDir="false" />
     </list>
@@ -26,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -35,11 +39,11 @@
   </component>
   <component name="ProjectId" id="1iwYeHoVYqUfESIMNqB9GfLh0Bl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -156,6 +160,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -209,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667313896192</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="got a path working--reset path gives errors">
+      <created>1667317940095</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667317940095</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,7 +248,8 @@
     <MESSAGE value="comments!" />
     <MESSAGE value="added info about getting i and j coordinates about the pathStart" />
     <MESSAGE value="lab nov 1 work--added many vars and edgecase function" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab nov 1 work--added many vars and edgecase function" />
+    <MESSAGE value="got a path working--reset path gives errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="got a path working--reset path gives errors" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

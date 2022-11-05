@@ -122,19 +122,19 @@ public class Pathfinder {
 
     //cleans out the queues ??
     public void resetPath() {
-//        searchSize = 0;
-//        pathFound = false;
-//        pathStart = null;
-//        pathEnd = null;
-//        start = null;
-//        end = null;
-//        heuristic = 1;
+        searchSize = 0;
+        pathFound = false;
+        //pathStart = null;
+        //pathEnd = null;
+        //start = null;
+        //end = null;
+        heuristic = 1;
 //
-//        for(int i = 0; i < N; i ++){
-//            for(int j = 0; j < N; j++) {
-//                wasSearchedA[i][j] = false;
-//            }
-//        }
+        for(int i = 0; i < N; i ++){
+            for(int j = 0; j < N; j++) {
+                wasSearchedA[i][j] = false;
+            }
+        }
 
     }
 
@@ -143,7 +143,6 @@ public class Pathfinder {
         // make the priorety queue
         //Terrain map = new Terrain("maze232_0.png.emap");
         MinPQ<PFNode> PQ = new MinPQ<>(PFNode::compareTo);
-
         PQ.insert(start);
         searchSize++;           //when something is inserted, increase this var
         wasSearchedA[start.location.getI()][start.location.getJ()] = true;
