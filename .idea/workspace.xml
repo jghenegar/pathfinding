@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50b83df3-15a9-4360-bde3-1e23007b18a2" name="Default" comment="ended saturday group work--filled out walker class">
+    <list default="true" id="50b83df3-15a9-4360-bde3-1e23007b18a2" name="Default" comment="added heuristic calculation to cost">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_11_45_AM_[Default]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_9_22_AM_[Default]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__11_45_AM__Default_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__9_22_AM__Default_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.log/history.log" beforeDir="false" afterPath="$PROJECT_DIR$/.log/history.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P04_Pathfinding/Pathfinder$PFNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P04_Pathfinding/Pathfinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pathfinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pathfinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +29,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -235,7 +243,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667676833020</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added heuristic calculation to cose">
+      <created>1667783310680</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667783310680</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added heuristic calculation to cost">
+      <created>1667783324208</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667783324208</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,7 +287,9 @@
     <MESSAGE value="got a path working--reset path gives errors" />
     <MESSAGE value="fixed reset path--hopefully--path isn't redrawn" />
     <MESSAGE value="ended saturday group work--filled out walker class" />
-    <option name="LAST_COMMIT_MESSAGE" value="ended saturday group work--filled out walker class" />
+    <MESSAGE value="added heuristic calculation to cose" />
+    <MESSAGE value="added heuristic calculation to cost" />
+    <option name="LAST_COMMIT_MESSAGE" value="added heuristic calculation to cost" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

@@ -52,7 +52,7 @@ public class Pathfinder {
             return true;
         }
 
-        // uses the PFNode
+        // uses the PFNode  //for what??
         public void use() { }
 
         // returns an Iterable of PFNodes that surround this
@@ -140,6 +140,7 @@ public class Pathfinder {
             }
         }
 
+
     }
 
     public void computePath() {
@@ -154,7 +155,7 @@ public class Pathfinder {
         searchSize++;           //when something is inserted, increase this var
         wasSearchedA[start.location.getI()][start.location.getJ()] = true;
         while (!pathFound) {
-            StdOut.println(PQ.min());
+            //StdOut.println(PQ.min());
             //if(PQ.isEmpty()) PQ.insert(start);
             PFNode pos = PQ.delMin();
 
@@ -163,6 +164,7 @@ public class Pathfinder {
             if (pos.location.getI() == pathEnd.getI() &&
                     pos.location.getJ() == pathEnd.getJ()) {    //if the location is the end
                 pathFound = true;
+                end.previous=pos;
                 return;
             }
 
@@ -177,10 +179,13 @@ public class Pathfinder {
 
                 //talk to Dr. Denning
                 float cost; // = map.computeTravelCost(pos.location, neighbourList[i]);
-                cost = map.computeTravelCost(start.location, neighbourList[i]) + map.computeDistance(neighbourList[i], end.location);
+                cost = map.computeTravelCost(start.location, neighbourList[i]) + map.computeDistance(neighbourList[i], end.location)*heuristic;
 
 
                 PFNode temp = new PFNode(neighbourList[i], pos, cost);
+//                StdOut.println("neighbor: "+neighbourList[i]);
+//                StdOut.println("pos: "+pos.location);
+//                StdOut.println("cost: "+cost);
                 PQ.insert(temp);
                 searchSize++;           //when something is inserted, increase this var
                 wasSearchedA[temp.location.getI()][temp.location.getJ()] = true;
@@ -201,7 +206,6 @@ public class Pathfinder {
         //edge cases in other function
 
         return neighbourList;
-
     }
 
     private boolean neighbourEdgeCases(PFNode loc, Coord neighbour){
@@ -236,6 +240,7 @@ public class Pathfinder {
             current = current.previous;
         }
         //s.push(new PFNode(null, null, 0));
+        for( Coord c : i) StdOut.println(c);
         return i;
     }
 
