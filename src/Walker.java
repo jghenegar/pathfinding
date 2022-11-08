@@ -12,49 +12,40 @@ public class Walker {
     Iterable<Coord> ourPath;
     Coord startLoc = null;
     Coord endLoc = null;
-
+    Iterator <Coord> iterator;
+    Coord current;
+    float money = 0;
 
     int pathLocs = 0;
     public Walker(Terrain terrain, Iterable<Coord> path) {
+        iterator = path.iterator();
+        current =iterator.next();
         map = terrain;
-        ourPath = path;
-        int idx = 0;
-        for( Coord c : ourPath) {
-            if(idx == 0) startLoc = c;
-            endLoc = c;
-        }
+
     }
 
 
     // returns the Walker's current location
     public Coord getLocation() {        //????
-        int idx = 0;
-        for( Coord c : ourPath) {
-            if(idx == pathLocs) return c;
-        }
-        return null;
+        return current;
     }
 
     // returns true if Walker has reached the end Coord (last in path)
     public boolean doneWalking() {
-        int idx = 0;
-        for( Coord c : ourPath) {
-            idx++;
-        }
-        return idx == pathLocs;
+        return !iterator.hasNext();
     }
 
     // advances the Walker along path
     // byTime: how long the Walker should traverse (may be any non-negative value)
     public void advance(float byTime) {
-        float totalTime = 0;
-        for( Coord c : ourPath) {
-            pathLocs++;
-                         // ourPath.cost;
-            totalTime += map.computeTravelCost(startLoc, c) + map.computeDistance(c, endLoc);
-
-            if(totalTime >= byTime) return;
+        money += byTime;
+        if (!doneWalking()) {
+            Coord next = iterator.next();
+            float cost = map.computeTravelCost(current, next);
+            if (cost <= money){
+                money-=cost;
+                current = next;
+            }
         }
     }
-
 }

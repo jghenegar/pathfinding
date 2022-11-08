@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50b83df3-15a9-4360-bde3-1e23007b18a2" name="Default" comment="computePath">
+    <list default="true" id="50b83df3-15a9-4360-bde3-1e23007b18a2" name="Default" comment="We fixed the cost - maybe the final???">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.log/history.log" beforeDir="false" afterPath="$PROJECT_DIR$/.log/history.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/P04_Pathfinding/Pathfinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P04_Pathfinding/Pathfinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P04_Pathfinding/Walker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P04_Pathfinding/Walker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pathfinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pathfinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Walker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Walker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667676833020</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="We fixed the cost - maybe the final???">
+      <created>1667921673857</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667921673857</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,7 +276,19 @@
     <MESSAGE value="got a path working--reset path gives errors" />
     <MESSAGE value="fixed reset path--hopefully--path isn't redrawn" />
     <MESSAGE value="ended saturday group work--filled out walker class" />
-    <option name="LAST_COMMIT_MESSAGE" value="ended saturday group work--filled out walker class" />
+    <MESSAGE value="computePath" />
+    <MESSAGE value="We fixed the cost - maybe the final???" />
+    <option name="LAST_COMMIT_MESSAGE" value="We fixed the cost - maybe the final???" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

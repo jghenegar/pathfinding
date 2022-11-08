@@ -128,12 +128,7 @@ public class Pathfinder {
     public void resetPath() {
         searchSize = 0;
         pathFound = false;
-        //pathStart = null;
-        //pathEnd = null;
-        //start = null;
-        //end = null;
-        //heuristic = 1;
-//
+
         for(int i = 0; i < N; i ++){
             for(int j = 0; j < N; j++) {
                 wasSearchedA[i][j] = false;
@@ -149,14 +144,12 @@ public class Pathfinder {
             throw new IndexOutOfBoundsException("Start or end out of bounds");
 
         // make the priorety queue
-        //Terrain map = new Terrain("maze232_0.png.emap");
         MinPQ<PFNode> PQ = new MinPQ<>(PFNode::compareTo);
         PQ.insert(start);
         searchSize++;           //when something is inserted, increase this var
         wasSearchedA[start.location.getI()][start.location.getJ()] = true;
         while (!pathFound) {
-            //StdOut.println(PQ.min());
-            //if(PQ.isEmpty()) PQ.insert(start);
+
             PFNode pos = PQ.delMin();
 
             if (pos == null) return;          // location must exist
@@ -164,7 +157,9 @@ public class Pathfinder {
             if (pos.location.getI() == pathEnd.getI() &&
                     pos.location.getJ() == pathEnd.getJ()) {    //if the location is the end
                 pathFound = true;
-                end.previous=pos;
+                //end.previous=pos;
+                end = pos;
+                //end.cost = end.previous.cost;
                 return;
             }
 
@@ -178,14 +173,11 @@ public class Pathfinder {
                 }
 
                 //talk to Dr. Denning
-                float cost; // = map.computeTravelCost(pos.location, neighbourList[i]);
-                //cost = map.computeTravelCost(start.location, neighbourList[i]) + map.computeDistance(neighbourList[i], end.location)*heuristic;
+                float cost;
                 cost = pos.cost + map.computeTravelCost(pos.location, neighbourList[i]);
 
                 PFNode temp = new PFNode(neighbourList[i], pos, cost);
-//                StdOut.println("neighbor: "+neighbourList[i]);
-//                StdOut.println("pos: "+pos.location);
-//                StdOut.println("cost: "+cost);
+
                 PQ.insert(temp);
                 searchSize++;           //when something is inserted, increase this var
                 wasSearchedA[temp.location.getI()][temp.location.getJ()] = true;
@@ -194,8 +186,6 @@ public class Pathfinder {
     }
 
     private Coord[] checkNeighbour(Coord loc){
-//        int x = loc.getI();   //row
-//        int y = loc.getJ();   //col
 
         Coord[] neighbourList = new Coord[4];
         neighbourList[0] = loc.add(0, 1);   //up
@@ -209,7 +199,6 @@ public class Pathfinder {
     }
 
     private boolean neighbourEdgeCases(PFNode loc, Coord neighbour){
-        // neighbour can't be...
 
         // off the board
         if(neighbour.getI() >= N || neighbour.getI() < 0 ||         // I has to be within the board range
@@ -239,8 +228,6 @@ public class Pathfinder {
             i.push(current.location);
             current = current.previous;
         }
-        //s.push(new PFNode(null, null, 0));
-        //for( Coord c : i) StdOut.println(c);
         return i;
     }
 
