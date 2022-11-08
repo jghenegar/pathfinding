@@ -26,8 +26,8 @@ public class Pathfinder {
 
         // compares this with that, used to find minimum cost PFNode
         public int compareTo(PFNode that) {
-            if(this.cost == that.cost) return 0;
-            if(this.cost < that.cost) return -1;
+            if(this.getCost(heuristic) == that.getCost(heuristic)) return 0;
+            if(this.getCost(heuristic) < that.getCost(heuristic)) return -1;
             return 1; // else this.cost > that.cost
         }
 
@@ -35,7 +35,7 @@ public class Pathfinder {
         // via the fromNode chain
         public float getCost(float heuristic) {
 
-            return 0;
+            return this.cost + heuristic * map.computeDistance(this.location,pathEnd);
         }
 
         // returns if this PFNode is still valid
@@ -179,8 +179,8 @@ public class Pathfinder {
 
                 //talk to Dr. Denning
                 float cost; // = map.computeTravelCost(pos.location, neighbourList[i]);
-                cost = map.computeTravelCost(start.location, neighbourList[i]) + map.computeDistance(neighbourList[i], end.location)*heuristic;
-
+                //cost = map.computeTravelCost(start.location, neighbourList[i]) + map.computeDistance(neighbourList[i], end.location)*heuristic;
+                cost = pos.cost + map.computeTravelCost(pos.location, neighbourList[i]);
 
                 PFNode temp = new PFNode(neighbourList[i], pos, cost);
 //                StdOut.println("neighbor: "+neighbourList[i]);
@@ -240,7 +240,7 @@ public class Pathfinder {
             current = current.previous;
         }
         //s.push(new PFNode(null, null, 0));
-        for( Coord c : i) StdOut.println(c);
+        //for( Coord c : i) StdOut.println(c);
         return i;
     }
 
