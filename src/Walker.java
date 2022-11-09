@@ -33,6 +33,8 @@ public class Walker {
 
     // advances the Walker along path
     // byTime: how long the Walker should traverse (may be any non-negative value)
+
+    //this is makayla
     public void advance(float byTime) {
         money += byTime;
         if (!doneWalking()) {
