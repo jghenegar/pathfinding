@@ -17995,3 +17995,2842 @@ r 57
 r 24 
 --[ 2022.11.08.11.51.13.202.0 ]--
 CompilationStatus (AEW): 0 0 0
+--[ 2022.11.08.12.36.04.548.0 ]--
+UpdateTree (AD): 14 0
++ /.git/objects/02/5399bcba1813c0d414a72d505baaa4bf308136
++ /.git/objects/2b/a45806e832a8add7c9587b18689939219e4a8d
++ /.git/objects/3c/f562ea665b687f904f0941c92f65ab3ff7f159
++ /.git/objects/54/22e7835af3d92e8b75b9666b8761cf3868eb81
++ /.git/objects/71/8b7c3be59244f6317ed689d2d61429dd2d9e24
++ /.git/objects/72/3de3f38fdb8e09b01a9dc479200c858e363b42
++ /.git/objects/7d/4056266653ae10080dc8aef8b758152495f3bd
++ /.git/objects/84/8b707ef91fc46dfe0430ea305c3d8796feb1d4
++ /.git/objects/a5/7117ae95b1283efc0cfb66de33370e0120b961
++ /.git/objects/b2/b39c205a493212c8568bfd802a52baca188e07
++ /.git/objects/c8/b0aad655d3d4a19e7e1e817ca62e630087604d
++ /.git/objects/d4/2ef2daaf1afa7a8f2faa2f871d69212b330ef3
++ /.git/objects/e6/061edc02fe82bffc169b2e81c9e0a25905df30
++ /.git/objects/ed/ceeee90fb8f342cb4b7184a546ae4d1635d31e
+
+--[ 2022.11.08.12.41.52.128.0 ]--
+DisposeComponent
+--[ 2022.11.08.13.37.57.829.0 ]--
+NewLogger: P04_Pathfinding
+Version: 1.5
+--[ 2022.11.08.13.37.57.897.0 ]--
+InitTree:
+/out/production/P04_Pathfinding/.donotlog
+/out/production/P04_Pathfinding/algs4.jar
+/out/production/P04_Pathfinding/stdlib.jar
+/out/production/P04_Pathfinding/Coord.class
+/out/production/P04_Pathfinding/png2emap.py
+/out/production/P04_Pathfinding/Walker.class
+/out/production/P04_Pathfinding/ramp.png.emap
+/out/production/P04_Pathfinding/Terrain.class
+/out/production/P04_Pathfinding/ramp2.png.emap
+/out/production/P04_Pathfinding/ramp3.png.emap
+/out/production/P04_Pathfinding/mazeAB.png.emap
+/out/production/P04_Pathfinding/usa128.png.emap
+/out/production/P04_Pathfinding/usa256.png.emap
+/out/production/P04_Pathfinding/Pathfinder.class
+/out/production/P04_Pathfinding/usa1024.png.emap
+/out/production/P04_Pathfinding/maze32_0.png.emap
+/out/production/P04_Pathfinding/maze32_1.png.emap
+/out/production/P04_Pathfinding/maze232_0.png.emap
+/out/production/P04_Pathfinding/maze320_0.png.emap
+/out/production/P04_Pathfinding/mazeBrain.png.emap
+/out/production/P04_Pathfinding/TerrainEditor.class
+/out/production/P04_Pathfinding/Pathfinder$PFNode.class
+/out/production/P04_Pathfinding/PathfinderVisualizer.class
+/out/production/P04_Pathfinding/InteractivePathfinderVisualizer.class
+/src/algs4.jar
+/src/Coord.java
+/src/stdlib.jar
+/src/Walker.java
+/src/Terrain.java
+/src/Pathfinder.java
+/src/TerrainEditor.java
+/src/PathfinderVisualizer.java
+/src/InteractivePathfinderVisualizer.java
+/.git/info/exclude
+/.git/logs/refs/heads/main
+/.git/logs/refs/remotes/origin/HEAD
+/.git/logs/refs/remotes/origin/main
+/.git/logs/HEAD
+/.git/refs/heads/main
+/.git/refs/remotes/origin/HEAD
+/.git/refs/remotes/origin/main
+/.git/hooks/update.sample
+/.git/hooks/pre-push.sample
+/.git/hooks/commit-msg.sample
+/.git/hooks/pre-commit.sample
+/.git/hooks/pre-rebase.sample
+/.git/hooks/post-update.sample
+/.git/hooks/pre-receive.sample
+/.git/hooks/applypatch-msg.sample
+/.git/hooks/pre-applypatch.sample
+/.git/hooks/pre-merge-commit.sample
+/.git/hooks/push-to-checkout.sample
+/.git/hooks/fsmonitor-watchman.sample
+/.git/hooks/prepare-commit-msg.sample
+/.git/objects/00/28f6cf29345754a9679653ab318dad00848fcc
+/.git/objects/00/83268a14a16b4a5dd867518f78733391a45c17
+/.git/objects/02/5399bcba1813c0d414a72d505baaa4bf308136
+/.git/objects/04/003c5022cc70a84704c36a38dd8b016d4e20d8
+/.git/objects/04/bb6dae9b8654b3db19237245abd95cc52eea5a
+/.git/objects/06/3f3ba7af074af990e0858941003d52f90a8ddf
+/.git/objects/07/c0ab7f1834978244dc63f883d812f6fdbb1105
+/.git/objects/08/03327110344bdd9225216d43717854bdcb5a02
+/.git/objects/0a/0cc74c3c69529bc0b35efec4b33b4122f3f9d2
+/.git/objects/0a/223ed78fd4ba9e3c29d48824487e673a123de6
+/.git/objects/10/d82d9736781858b91531527c7f68f1ffae5db8
+/.git/objects/11/f974299e37fea0743352c5bb44bd670176a9c4
+/.git/objects/15/110c8e8114f516d1087b8177016efaee699c0e
+/.git/objects/16/d25c86ed183a401811461ad743c2b8f9dd388a
+/.git/objects/19/8f86a451262bb58f20fec4b4372511d319cb1e
+/.git/objects/1c/657c45ac423a783f740b198b8c2fb38ee7f1b9
+/.git/objects/1c/c703fb0cda54ada1d307c7157c38a5190d2ded
+/.git/objects/1d/9870f3870280622cc38ff3a0db5d362720a2c9
+/.git/objects/21/86213986a340219401746588209691c3a095a9
+/.git/objects/22/d1da271c9ad5057fed4e6702f0c556345d4b1e
+/.git/objects/24/8489fbc17bcf13236128ea0fd2ee994f636820
+/.git/objects/28/3bac315169d5f131ab61d9a482b571b798e7e1
+/.git/objects/2a/47d993797ac5333b90a485b696a58535ce5439
+/.git/objects/2a/5fb95df6d2a5b3ce6bcfbffdc90d7b16aab79e
+/.git/objects/2a/dc58ac94fb9e14f7baf6129f9029b2f0094997
+/.git/objects/2b/a45806e832a8add7c9587b18689939219e4a8d
+/.git/objects/2e/c358f7bcf4f758b64b2f2d516d8aadd28268c4
+/.git/objects/2f/8959443fe58250b1251ba5223cef6fae049f6a
+/.git/objects/32/c7622d8e5963c3f061f3740db77a89cf622145
+/.git/objects/33/ebf301bb19589b3acf4d18d1fc9bd8f90302f4
+/.git/objects/34/f66485cbdaa8c5ab4a0f6e11e5a7aa302d34a3
+/.git/objects/36/bd4febfa8552f3cead1307339c48c6a2c9afb9
+/.git/objects/37/fd884f83880453314255ebaa5a9e59245f8225
+/.git/objects/38/61615438d7880ddb2702f8e4ae63014457a317
+/.git/objects/39/122c7c3262ceff1338c9cc29fd32418783debf
+/.git/objects/3c/25db340f5e10fa4adf8803fe4ccf8993e5d089
+/.git/objects/3c/f562ea665b687f904f0941c92f65ab3ff7f159
+/.git/objects/3d/4490f95a5bcea1f7bd61e99c7d13fd5a333069
+/.git/objects/3d/dd471797ab3fd4fdaa9102e86d087b9c85ae6c
+/.git/objects/3e/f86c5e4bb97d55cecf6be5439794247999a168
+/.git/objects/40/9f7767324847f8407f8a0bd923da9e37cd5ba5
+/.git/objects/40/eeb0332611984c7e3eba8af233a93b6140b0b6
+/.git/objects/41/6fb4499fa766e76d6e0a091f4695f29d828f31
+/.git/objects/44/770aa25b07d04618aeaecc14a0b140d3679a92
+/.git/objects/44/8a49b25290500c20ea42877653559b66df8c6f
+/.git/objects/45/a8b86f00e93b1be90a1d22146df2d6a3caf6a2
+/.git/objects/45/e1764b959c4cbda2c6525afa50fe1d71ec27a6
+/.git/objects/48/0a5866410a0ccefe58078a8aa72be87185ff7a
+/.git/objects/49/d6a74a87046e6d92d7453d56a4da013dee44ff
+/.git/objects/4a/8a7e94ef15c652876d37c198b011197a43fd7f
+/.git/objects/4b/8f8a5ff3fab8e9b692f908744fae2ebafa1fb4
+/.git/objects/4d/2561ee44cc53f604031c2563949bdaf3d3e983
+/.git/objects/4d/ca37619f7afe30f5759341d8fa0af2306ab0e8
+/.git/objects/4d/cb69a96070a9a43dbecb3633c0d78b5f452bfe
+/.git/objects/4e/aa13f18294efb6da8866bf432c82d69ffaef03
+/.git/objects/50/f45a016f7fced8aab734e782d5104b8f4c80f9
+/.git/objects/51/71c0012414ed51c376f9a040b86ab194726ab0
+/.git/objects/51/fc4da699f133d2cf248956f6ed0ba1b786a044
+/.git/objects/52/a3689e07aeb0da91dcc4f1674ecf8e883a5dd4
+/.git/objects/52/dfb844e56b4740730414317a5700eb42eb65cb
+/.git/objects/53/2dd563456b9839acf7ab51a48b7578f5e84890
+/.git/objects/54/22e7835af3d92e8b75b9666b8761cf3868eb81
+/.git/objects/55/e133c8e1aa563ba7414e9ae3501bf8306293b2
+/.git/objects/56/a30f7b4b81bc4cb587aef804f7bb6d57ee7402
+/.git/objects/56/c7b9737bf41d32b2b80dfaaba4b83b3237caae
+/.git/objects/57/48b108bdc945c49a7a22525e7f115334cb1314
+/.git/objects/57/511791f8f91048243e35bfab8aa2761b156dde
+/.git/objects/59/2924217ceef0af0475da8e3fd26ffd79ee1636
+/.git/objects/59/631287f07bbd6e06894075d7a1b44ef1bd90d2
+/.git/objects/5c/937c9043a091861a38c78c25b96971ed0fa3cf
+/.git/objects/5d/7b147a2b1a70bc90f896e209482051cac3b3e0
+/.git/objects/5e/b47a0270a254163e69347234ef3e32ffa8196e
+/.git/objects/63/9247c31506cb0912cd3a04f869de6ac3ae8f31
+/.git/objects/66/cac0def9077c483f8b403da0322603b318e347
+/.git/objects/68/5025073ac6b980ab26461833cdd4d57cbe4d2d
+/.git/objects/68/5ce9f76ca15d09cf6e1be3e02b1a75ed9ad67d
+/.git/objects/68/bcf84de8d9b44303a410eaa15011500fbc87dc
+/.git/objects/69/3726db3ef50e4169e4be9b4e44eba783b9cf4e
+/.git/objects/6b/5cf7797e750cc6bfa17f8e214898cc20423a3f
+/.git/objects/6b/9b0a44c59f31c1431e5570954d90fdd726418d
+/.git/objects/6c/0c1cd3b149f82d53081e46f16d9b4c0778ed39
+/.git/objects/6c/96547c8ef8de16e2de147e419cdb285c2338f7
+/.git/objects/6e/43436847378f923cf6d07ac36edb0b7c6d94b6
+/.git/objects/6f/21b8c406d74ee4404188aab137e27a3ad825af
+/.git/objects/6f/f8fa664f641464a3c3a5680c2fc82cef12381f
+/.git/objects/70/00a92635bb17bbab9f5a67c75eab860d629510
+/.git/objects/71/411d71fbf4bcfaa03b646fa35c27d996f9d52e
+/.git/objects/71/69f333330f9eb416e7a23c1978bbc5383e647f
+/.git/objects/71/8b7c3be59244f6317ed689d2d61429dd2d9e24
+/.git/objects/72/3de3f38fdb8e09b01a9dc479200c858e363b42
+/.git/objects/75/d68fec2458056dd28490bada3e7369980dd5bb
+/.git/objects/77/2c2443f28eeaa14aab9192fc1e1336285a79bd
+/.git/objects/7b/f2e2ecc7a23ed44ce201ab61479b5d8272b096
+/.git/objects/7d/4056266653ae10080dc8aef8b758152495f3bd
+/.git/objects/7f/1d432fbe858693e07e0f8841e84c792af2031d
+/.git/objects/7f/b0d4d339e78998d525baf7d47c1bb8a7ee05de
+/.git/objects/81/08f16f60245eccd076995743ba7086d4b115e8
+/.git/objects/81/415deddeaf54572c1897620ff4219df0bccf6c
+/.git/objects/81/e26b8ef428538d41fe2e53761c4a2ff2fe2a44
+/.git/objects/82/528c5345342624def75844dd8a31204045753c
+/.git/objects/82/b448ba408d5bd16b7d1b4e0fbb1cb963716b62
+/.git/objects/83/522c90c28c4ba160ed3046a6a5905cb183a539
+/.git/objects/84/8b707ef91fc46dfe0430ea305c3d8796feb1d4
+/.git/objects/85/ce4526c7499f9d59944e1e006278d669c09343
+/.git/objects/86/7961a56865efb049234525b508a86e39ffaef5
+/.git/objects/88/ac3d554c1525fc3af12a75e7eea9633797539a
+/.git/objects/88/ecd90b14e8bd5850f801f539c4edeec367a1ad
+/.git/objects/89/3706a2f044a6f0b091ca5f7d025b760da7333f
+/.git/objects/89/822e5fc2c3af2bca9c12d47887f8efdaee7f82
+/.git/objects/8a/ddb3b2f6de9b99de7882a6c54afc5707148f06
+/.git/objects/8c/9d4b1873c2d88d47e50ec454cfd4a1b1721930
+/.git/objects/8e/c252e0c1073064bcbe08f8689b8cbe1342736c
+/.git/objects/90/c179d86e49e8f9cb01f9f441c21477b64b8cd8
+/.git/objects/93/99693ca0d9a029c8600b559c5f8d65b15be400
+/.git/objects/93/d5051103f0c8443eab1976abf55a49cc97ee92
+/.git/objects/94/1093dccbd5639beac4ed4054e6cf8cdd050332
+/.git/objects/96/3aff0b633cf34ac705e22de6d5f7052727ebd4
+/.git/objects/97/c44ec1687705aeb5ee0aa2b1cbad1179f746d5
+/.git/objects/99/839bd028637ee81b90280ab4f6d97bb361fd71
+/.git/objects/99/fbe8592bd1173d7acdaa688ecb8a97db5a5efa
+/.git/objects/99/fc95060d508a3b5990b31df2ec2b5d565dfcaa
+/.git/objects/9a/6474cc575269218262e5befaf996589b4b0725
+/.git/objects/9c/942eab62590f7b6444544ad772d0bb7167f322
+/.git/objects/a1/8511806924333139ebf4a97a83d77f2ac48d01
+/.git/objects/a1/879cf9a504ff7d227fbfc8294c609b6ae9bd65
+/.git/objects/a2/60a0876851af8bbc28ad400b1586217be8fe03
+/.git/objects/a4/7c692b9b4fbb71a39539b15bcd2bf492217a92
+/.git/objects/a4/d5a6c600953fe04426632ac0b50b4b5d4d6908
+/.git/objects/a5/0eb03dbd999d211f1034524a6ce3818f1bdd66
+/.git/objects/a5/142198d6b3120089f3d851541e0b10d8efa7cf
+/.git/objects/a5/7117ae95b1283efc0cfb66de33370e0120b961
+/.git/objects/a5/c96ae3c6227dc41e4ec78126f6331112f18d28
+/.git/objects/a8/e2b1bf7684eb227f451507d3a2426bfe896c8f
+/.git/objects/a9/2d59b25dd7bdc458db4b725287454a1c619e84
+/.git/objects/a9/7e1ab2919f0342e08b4871f42597fc25cba4ac
+/.git/objects/ac/a2f8e9f5950db5f31c7bb1f615f4fc2d4890ca
+/.git/objects/af/707a72403e3776c7701e1681e9a296cc09aca2
+/.git/objects/b0/bf2ea1c47c8cc8e3c10953087303b0025347c8
+/.git/objects/b1/070269314cf7e2b017b0e9a9dd7e3af561a5f7
+/.git/objects/b1/e9ade5eac403da8ae2ba2a99cb5af4ac73915a
+/.git/objects/b2/b39c205a493212c8568bfd802a52baca188e07
+/.git/objects/b5/5d5ed3cbb57c3a6758ee802b48920d49febb12
+/.git/objects/b9/b281651bbdd7a26d9a588cfec35c0470aa921b
+/.git/objects/ba/116b5ece3017ea4724ad2e4361d365d3d95fc9
+/.git/objects/bb/9cca75463a2416b6f63b0c593ce8b56ac2b5ae
+/.git/objects/be/bbdf2844f2f1e3a5f33e187b312baa769c280a
+/.git/objects/bf/d803b8e3653af5834138691ea8521bcaa694d7
+/.git/objects/c0/6c06bae75f4eadb6f3b484daaf0df95379fea0
+/.git/objects/c1/c4ebd69aa9312836630aa6b99ca0252ee2f0ae
+/.git/objects/c3/e53b84164752b49157a170c31cc7533f5d2fee
+/.git/objects/c8/b0aad655d3d4a19e7e1e817ca62e630087604d
+/.git/objects/c9/112ca068e4052c8245428dad540e98e4d69b43
+/.git/objects/ca/4786ad1779b80376aae29530d0b4d596d611c8
+/.git/objects/cc/67a514baf96f57a38399f88f1f9b471c4b80e4
+/.git/objects/cd/5da4c8fba2eb39aace10ad59a84be6d094862d
+/.git/objects/d0/d5683a4b63386ff54b787640fcf8c1e9ce605b
+/.git/objects/d1/bab8cd923b7e91662049128ad2665d98da3e78
+/.git/objects/d1/cbca8c4639e7e89c458a3c273f0acebd9ebe1a
+/.git/objects/d3/d32b967de156edc27801ba14be357843fe177c
+/.git/objects/d4/2ef2daaf1afa7a8f2faa2f871d69212b330ef3
+/.git/objects/d5/6256d1ccc25e303ee98b3d210a64d4ccd118f5
+/.git/objects/d6/81f37c2ad71d1a24bfccf5c039cb90a8b74b6e
+/.git/objects/d9/f4832f0f54dfc6980b047b8aa4cf9fdc5cde5a
+/.git/objects/dc/db0ed7ca07e04a0fb94a472b9567071bebc448
+/.git/objects/de/8b77f039b60bc7ef5ca03a85e9712c734fb3c0
+/.git/objects/de/d95243454c5ccb19c6973f1f718c2e8e40db8c
+/.git/objects/df/ab375b6db323649427d9b468018424e7b318ad
+/.git/objects/e1/e318aa75ff9b48dd606aa987e99241b499d6e5
+/.git/objects/e3/075924caece748fc9393a9431fc6f96788789f
+/.git/objects/e6/061edc02fe82bffc169b2e81c9e0a25905df30
+/.git/objects/e6/3fb5e8f967b239430ee1cb873a924e5c7f6ced
+/.git/objects/e6/85b45e5dde0ee4fe35d98b2a2ba7cd12ed0edc
+/.git/objects/e8/9172d27c03c8c0a93a38c06c0490aacd5f29ce
+/.git/objects/e8/dc27f913baf661d4a54e3148f14c0c1ee57b9e
+/.git/objects/ea/f2034dc4702cda5cdea9276aa329109efd76f1
+/.git/objects/ea/f5103c2fb9017feeed36e9db7966a7d2b2eb50
+/.git/objects/ed/ceeee90fb8f342cb4b7184a546ae4d1635d31e
+/.git/objects/ef/a8dc38a80f80feda5cbf609dbd341161780008
+/.git/objects/f1/3b51941ba05149023344e796411aa0c6a438cb
+/.git/objects/f4/543c8c5a79338bdce499ac4f7e3b2ac59671e6
+/.git/objects/f6/2cd8a206701d309f2385f03318986ac7dd993e
+/.git/objects/f6/8b304988210a2b1f45b6a6567a68231e82db64
+/.git/objects/fa/eb80803dbacc4c24beb796ea1cc6b9a53ab677
+/.git/objects/fc/cd7f38f6769c6fc941db1b04fa52f06088c55b
+/.git/objects/pack/pack-a8028aceec609664fcf34dccf2ce8153c8efc444.idx
+/.git/objects/pack/pack-a8028aceec609664fcf34dccf2ce8153c8efc444.pack
+/.git/HEAD
+/.git/index
+/.git/config
+/.git/ORIG_HEAD
+/.git/FETCH_HEAD
+/.git/description
+/.git/packed-refs
+/.git/REBASE_HEAD
+/.git/COMMIT_EDITMSG
+/.log/history.log
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_1_22,_13_02_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_5_22,_15_38_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_5_22,_15_38_[Default]/Pathfinder.class
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_6_22,_21_33_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_6_22,_21_33_[Default]/Pathfinder.class
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_7_22,_09_31_[Default]/history.log
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_7_22,_09_31_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_10_29_22,_13_46_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_5_22,_3_37_PM_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_6_22,_8_06_PM_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_6_22,_8_06_PM_[Default]/Pathfinder.class
+/.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_8_24_PM_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_1_22__13_02__Default_.xml
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_5_22__15_38__Default_.xml
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_6_22__21_33__Default_.xml
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_7_22__09_31__Default_.xml
+/.idea/shelf/Uncommitted_changes_before_Update_at_10_29_22__13_46__Default_.xml
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_5_22__3_37_PM__Default_.xml
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_6_22__8_06_PM__Default_.xml
+/.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__8_24_PM__Default_.xml
+/.idea/copyright/profiles_settings.xml
+/.idea/libraries/algs4.xml
+/.idea/libraries/stdlib.xml
+/.idea/.name
+/.idea/vcs.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/compiler.xml
+/.idea/workspace.xml
+/.idea/uiDesigner.xml
+/tests/.donotlog
+/tests/png2emap.py
+/tests/ramp.png.emap
+/tests/ramp2.png.emap
+/tests/ramp3.png.emap
+/tests/mazeAB.png.emap
+/tests/usa128.png.emap
+/tests/usa256.png.emap
+/tests/usa1024.png.emap
+/tests/maze32_0.png.emap
+/tests/maze32_1.png.emap
+/tests/maze232_0.png.emap
+/tests/maze320_0.png.emap
+/tests/mazeBrain.png.emap
+/.cos265
+/.DS_Store
+/P04_Pathfinding.iml
+/P04_Pathfinding.zip
+
+--[ 2022.11.08.13.37.57.898.0 ]--
+InitFile: /src/InteractivePathfinderVisualizer.java
+import java.awt.event.KeyEvent;
+//kate was here
+/**
+ * InteractivePathfinderVisualizer visualizes the terrain and the computed
+ * path and allows the user to change parameters of the Pathfinder.  Below
+ * is a list of commands and what they do.  Note: some of the commands
+ * modify the properties of the path finder and some modify the terrain.
+ *
+ * Command        Action                                      Terrain
+ * C              clear path
+ * space          recompute path
+ * S/E            set start/end location to mouse
+ * left/right     halve/double path search heuristic value
+ * 0/1            set path search heuristic to 0 or 1
+ * W              start a walker to show the path
+ * R              randomly generate a new terrain                *
+ * M              smooths terrain under mouse                    *
+ * shift+M        smooths all terrain                            *
+ * up/down        increase/decrease terrain under mouse          *
+ */
+
+public class InteractivePathfinderVisualizer {
+    private final static int DELAY = 10;
+
+    // sets how many redraws it should take for the walker to reach its destination
+    private final static float STEPS_TO_WALK = 100.0f;
+
+    // for convenience, here are the emap files that are located under heightmaps/ folder
+    // the python script in that folder converts png files to emap. \
+    // you can use it to create your own maps to test your code
+    private final static String[] emaps = {
+            "maze32_0.png.emap",    // 0   (32x32 maze)
+            "maze32_1.png.emap",    // 1   (another 32x32 maze)
+            "maze232_0.png.emap",   // 2   (232x232 maze)
+            "maze320_0.png.emap",   // 3   (same as maze32_0, only scaled up by 10x)
+            "mazeAB.png.emap",      // 4   (a maze from a site no longer online :( )
+            "mazeBrain.png.emap",   // 5   (...)
+            "ramp.png.emap",        // 6   (some tests)
+            "ramp2.png.emap",       // 7   (...)
+            "ramp3.png.emap",       // 8   (...)
+            "usa128.png.emap",      // 9   (elevation map of USA from https://bananas.openttd.org/en/heightmap/)
+            "usa256.png.emap",      // 10  (same as usa128, only higher resolution)
+            "usa1024.png.emap",     // 11  (same as usa128, only higher resolution
+    };
+
+    private final static String emapFilename = emaps[2];        // change index to load a different elevation map
+
+
+
+    public static void main(String[] args) {
+        Terrain terrain = new Terrain(emapFilename);
+        Pathfinder pf = new Pathfinder(terrain);
+        int N = terrain.getN();
+
+        StdDraw.show(0);
+
+        // set default starting and ending locations
+        pf.setPathStart(new Coord(1, 1));
+        pf.setPathEnd(new Coord(N-3, N-3));
+
+        // find a path
+        pf.resetPath();
+        pf.computePath();
+
+        PathfinderVisualizer.draw(terrain, pf, null, N);
+        StdDraw.show(DELAY);
+
+        // prevent repeated applications
+        boolean keyboardR = false;
+        boolean keyboardM = false;
+
+        Walker walker = null;
+
+        while(true) {
+            boolean recompute = false;
+            boolean redraw = false;
+
+            // mouse location on map
+            int mouseI = (int) ((StdDraw.mouseX()-24) / 464 * N);
+            int mouseJ = (int) ((464 - (StdDraw.mouseY()-36)) / 464 * N);
+            boolean isMouseOnMap = (mouseI >=0 && mouseI < N && mouseJ >= 0 && mouseJ < N);
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_LEFT) || StdDraw.isKeyPressed(KeyEvent.VK_RIGHT)) {
+                boolean keyboardLeft = StdDraw.isKeyPressed(KeyEvent.VK_LEFT);
+                float m = keyboardLeft ? 0.5f : 2.0f;
+                float h = pf.getHeuristic() * m;
+                h = Math.max(1.0f/1024.0f, Math.min(1048576.0f, h));
+                pf.setHeuristic(h);
+                recompute = true;
+            }
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_0) || StdDraw.isKeyPressed(KeyEvent.VK_1)) {
+                boolean keyboard0 = StdDraw.isKeyPressed(KeyEvent.VK_0);
+                float h = keyboard0 ? 0 : 1;
+                pf.setHeuristic(h);
+                recompute = true;
+            }
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_C)) {
+                pf.resetPath();
+                walker = null;
+                redraw = true;
+            }
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_R) && !keyboardR) {
+                TerrainEditor.setFractalHeights(terrain);
+                TerrainEditor.clampHeights(terrain);
+                recompute = true;
+            }
+            keyboardR = StdDraw.isKeyPressed(KeyEvent.VK_R);
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_M)) {
+                if(StdDraw.isKeyPressed(KeyEvent.VK_SHIFT)) {
+                    if(!keyboardM) {
+                        TerrainEditor.smoothHeights(terrain);
+                        recompute = true;
+                    }
+                } else {
+                    TerrainEditor.smoothHeights(mouseI, mouseJ, N / 20, true, terrain);
+                    recompute = true;
+                }
+            }
+            keyboardM = StdDraw.isKeyPressed(KeyEvent.VK_M);
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_SPACE)) {
+                recompute = true;
+            }
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_UP) || StdDraw.isKeyPressed(KeyEvent.VK_DOWN)) {
+                boolean keyboardUp = StdDraw.isKeyPressed(KeyEvent.VK_UP);
+                float add = keyboardUp ? 8.0f : -8.0f;
+                TerrainEditor.addHeight(mouseI, mouseJ, N / 20, add, terrain);
+                recompute = true;
+            }
+
+            if(isMouseOnMap && StdDraw.isKeyPressed(KeyEvent.VK_S)) {
+                pf.setPathStart(new Coord(mouseI, mouseJ));
+                recompute = true;
+            }
+
+            if(isMouseOnMap && StdDraw.isKeyPressed(KeyEvent.VK_E)) {
+                pf.setPathEnd(new Coord(mouseI, mouseJ));
+                recompute = true;
+            }
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_W)) {
+                Iterable<Coord> path = pf.getPathSolution();
+                if(path != null) {
+                    walker = new Walker(terrain, pf.getPathSolution());
+                }
+            }
+
+            if(walker != null) {
+                if(walker.doneWalking()) {
+                    walker = null;
+                } else {
+                    walker.advance(pf.getPathCost() / STEPS_TO_WALK);
+                }
+                redraw = true;
+            }
+
+            if(recompute) {
+                walker = null;
+                pf.resetPath();
+                if(pf.getPathStart() != null && pf.getPathEnd() != null) {
+                    pf.computePath();
+                }
+                redraw = true;
+            }
+
+            if(redraw) {
+                PathfinderVisualizer.draw(terrain, pf, walker, N);
+                StdDraw.show(DELAY);
+            } else {
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException e) {
+                    /* do nothing */
+                }
+            }
+        }
+    }
+}
+
+--[ 2022.11.08.13.37.57.899.0 ]--
+InitFile: /.cos265
+
+
+--[ 2022.11.08.13.37.57.899.1 ]--
+InitFile: /.DS_Store
+   Bud1                                                               	      ocblob                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               @      �                                        @      �                                          @      �                                          @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              	    o u tIlocblob      A   .������      P 0 4 _ P a t h f i n d i n g . i m lIlocblob      �   .������      s r cIlocblob     �   .������      s r cbwspblob   �bplist00�]ShowStatusBar[ShowToolbar[ShowTabView_ContainerShowSidebar\WindowBounds[ShowSidebar		_{{535, 718}, {920, 377}}	#/;R_klmno�                            �    s r cvSrnlong       t e s t sIlocblob     �   .������      t e s t sbwspblob   �bplist00�]ShowStatusBar[ShowToolbar[ShowTabView_ContainerShowSidebar\WindowBounds[ShowSidebar		_{{535, 718}, {920, 377}}	#/;R_klmno�                            �    t e s t sicvpblob  �bplist00�	
+_backgroundColorBlue[gridSpacingXtextSize_backgroundColorRed^backgroundType_backgroundColorGreen[gridOffsetX[gridOffsetY_scrollPositionY\showItemInfo_viewOptionsVersion_scrollPositionX]labelOnBottomYarrangeByXiconSize_showIconPreview#?�      #@K      #@(       #        #@R@                    	Tnone#@P      	  + A M V k z � � � � � � � �"+4=?HQRcdir                           s    t e s t svSrnlong                                       @      �                                          @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   E                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         DSDB                                 `          �                                        @      �                                          @      �                                          @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+
+--[ 2022.11.08.13.37.57.900.0 ]--
+InitFile: /src/Walker.java
+import java.util.Iterator;
+
+/**
+ * Walker takes an Iterable of Coords and simulates an individual
+ * walking along the path over the given Terrain
+ */
+public class Walker {
+
+    // terrain: the Terrain the Walker traverses
+    // path: the sequence of Coords the Walker follows
+    Terrain map;
+    Iterable<Coord> ourPath;
+    Coord startLoc = null;
+    Coord endLoc = null;
+    Iterator <Coord> iterator;
+    Coord current;
+    float money = 0;
+
+    int pathLocs = 0;
+    public Walker(Terrain terrain, Iterable<Coord> path) {
+        iterator = path.iterator();
+        current =iterator.next();
+        map = terrain;
+
+    }
+
+
+    // returns the Walker's current location
+    public Coord getLocation() {        //????
+        return current;
+    }
+
+    // returns true if Walker has reached the end Coord (last in path)
+    public boolean doneWalking() {
+        return !iterator.hasNext();
+    }
+
+    // advances the Walker along path
+    // byTime: how long the Walker should traverse (may be any non-negative value)
+    public void advance(float byTime) {
+        money += byTime;
+        if (!doneWalking()) {
+            Coord next = iterator.next();
+            float cost = map.computeTravelCost(current, next);
+            if (cost <= money){
+                money-=cost;
+                current = next;
+            }
+        }
+    }
+}
+
+--[ 2022.11.08.13.37.57.900.1 ]--
+InitFile: /src/Pathfinder.java
+import java.lang.IndexOutOfBoundsException;
+import java.lang.IllegalArgumentException;
+
+/**
+ * Pathfinder uses A* search to find a near optimal path
+ * between to locations with given terrain.
+ */
+//hiiiiiiiiiiii
+    //this is Makayla...
+public class Pathfinder {
+
+    /**
+     * PFNode will be the key for MinPQ (used in computePath())
+     */
+    private class PFNode implements Comparable<PFNode> {
+        // loc: the location of the PFNode
+        // fromNode: how did we get here? (linked list back to start)
+        Coord location;
+        PFNode previous;
+        float cost;
+        public PFNode(Coord loc, PFNode fromNode, float newCost) {
+           location=loc;
+           previous=fromNode;
+           cost=newCost;
+        }
+
+        // compares this with that, used to find minimum cost PFNode
+        public int compareTo(PFNode that) {
+            if(this.getCost(heuristic) == that.getCost(heuristic)) return 0;
+            if(this.getCost(heuristic) < that.getCost(heuristic)) return -1;
+            return 1; // else this.cost > that.cost
+        }
+
+        // returns the cost to travel from starting point to this
+        // via the fromNode chain
+        public float getCost(float heuristic) {
+
+            return this.cost + heuristic * map.computeDistance(this.location,pathEnd);
+        }
+
+        // returns if this PFNode is still valid
+        public boolean isValid() {
+            return false;
+        }
+
+        // invalidates the PFNode
+        public void invalidate() {
+        }
+
+        // returns if the PFNode has been used
+        public boolean isUsed() {
+            return true;
+        }
+
+        // uses the PFNode  //for what??
+        public void use() { }
+
+        // returns an Iterable of PFNodes that surround this
+        public Iterable<PFNode> neighbors() {   //american spelling... :(
+            Stack<PFNode> s = new Stack<>();
+            // have end
+            // push end.prev, end.prev.prev
+            PFNode current = end;
+            while(current != null) {
+                s.push(current);
+                current = current.previous;
+            }
+            //s.push(new PFNode(null, null, 0));
+            return s;
+        }
+    }
+    Terrain map;
+    int N;
+    Coord pathStart=null;
+    PFNode start = null;
+
+    Coord pathEnd=null;
+    PFNode end = null;
+    float heuristic = 1;
+    boolean pathFound=false;
+    int searchSize = 0;
+    boolean[][] wasSearchedA;
+    public Pathfinder(Terrain terrain) {
+        map = terrain;
+        N = map.getN();
+        wasSearchedA = new boolean[N][N];
+
+        for(int i = 0; i < N; i ++){
+            for(int j = 0; j < N; j++) {
+                wasSearchedA[i][j] = false;
+            }
+        }
+    }
+    public void setPathStart(Coord loc) {
+        if(loc==null) throw new IllegalArgumentException("Illegal Arguement");
+        if(!loc.isInBounds(0, 0, N, N))
+            throw new IndexOutOfBoundsException("Start or end out of bounds");
+        pathStart=loc;
+        start = new PFNode(pathStart, null, 0);
+    }
+
+    public Coord getPathStart() { // this function is a little redundant if we
+                                  // just have a global var for it anyway...
+        return pathStart;
+    }
+
+    public void setPathEnd(Coord loc) {
+        if(loc==null) throw new IllegalArgumentException("Illegal Arguement");
+        if(!loc.isInBounds(0, 0, N, N))
+            throw new IndexOutOfBoundsException("Start or end out of bounds");
+        pathEnd=loc;
+        end = new PFNode(pathEnd, null, 0);
+    }
+
+    public Coord getPathEnd() {
+        return pathEnd;
+    }
+
+    public void setHeuristic(float v) {
+        heuristic=v;
+    }
+
+    public float getHeuristic() {
+        return heuristic;
+    }
+
+    //cleans out the queues ??
+    public void resetPath() {
+        searchSize = 0;
+        pathFound = false;
+
+        for(int i = 0; i < N; i ++){
+            for(int j = 0; j < N; j++) {
+                wasSearchedA[i][j] = false;
+            }
+        }
+
+
+    }
+
+    public void computePath() {
+        if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or end not set");
+        if(!pathStart.isInBounds(0, 0, N, N) || !pathEnd.isInBounds(0, 0, N, N))
+            throw new IndexOutOfBoundsException("Start or end out of bounds");
+
+        // make the priorety queue
+        MinPQ<PFNode> PQ = new MinPQ<>(PFNode::compareTo);
+        PQ.insert(start);
+        searchSize++;           //when something is inserted, increase this var
+        wasSearchedA[start.location.getI()][start.location.getJ()] = true;
+        while (!pathFound) {
+
+            PFNode pos = PQ.delMin();
+
+            if (pos == null) return;          // location must exist
+
+            if (pos.location.getI() == pathEnd.getI() &&
+                    pos.location.getJ() == pathEnd.getJ()) {    //if the location is the end
+                pathFound = true;
+                //end.previous=pos;
+                end = pos;
+                //end.cost = end.previous.cost;
+                return;
+            }
+
+            Coord[] neighbourList = checkNeighbour(pos.location);  //give all the neighbours
+
+            //float previousCost = location.cost;
+            for (int i = 0; i < 4; i++) {
+                // if neighbour is invalid, move on to the next neighbour
+                if(!neighbourEdgeCases(pos, neighbourList[i])) {
+                    continue;  //check neighbour edge cases
+                }
+
+                //talk to Dr. Denning
+                float cost;
+                cost = pos.cost + map.computeTravelCost(pos.location, neighbourList[i]);
+
+                PFNode temp = new PFNode(neighbourList[i], pos, cost);
+
+                PQ.insert(temp);
+                searchSize++;           //when something is inserted, increase this var
+                wasSearchedA[temp.location.getI()][temp.location.getJ()] = true;
+            }
+        }
+    }
+
+    private Coord[] checkNeighbour(Coord loc){
+
+        Coord[] neighbourList = new Coord[4];
+        neighbourList[0] = loc.add(0, 1);   //up
+        neighbourList[1] = loc.add(-1, 0);  //left
+        neighbourList[2] = loc.add(0, -1);  //down
+        neighbourList[3] = loc.add(1, 0);   //right
+
+        //edge cases in other function
+
+        return neighbourList;
+    }
+
+    private boolean neighbourEdgeCases(PFNode loc, Coord neighbour){
+
+        // off the board
+        if(neighbour.getI() >= N || neighbour.getI() < 0 ||         // I has to be within the board range
+            neighbour.getJ() >= N || neighbour.getJ() < 0) {        // J has to be within the board range
+            return false;
+        }
+        // a previously searched node
+        return !(wasSearched(neighbour)); // we don't want a node that was seen before
+    }
+
+    public boolean foundPath() {
+        return pathFound;
+    }
+
+    public float getPathCost() {
+        return end.cost;
+    }
+
+    public int getSearchSize() {
+        return searchSize;
+    }
+
+    public Iterable<Coord> getPathSolution() {
+        Stack<Coord> i = new Stack<>();
+        PFNode current = end;
+        while(current != null) {
+            i.push(current.location);
+            current = current.previous;
+        }
+        return i;
+    }
+
+
+    public boolean wasSearched(Coord loc) {
+        return (wasSearchedA[loc.getI()][loc.getJ()]);     // return true if was searched
+    }
+}
+
+--[ 2022.11.08.13.37.57.900.2 ]--
+InitFile: /src/Coord.java
+/**
+ * Coordinates is an immutable type that store the tuple (i, j)
+ */
+public final class Coord {
+    private final int i;
+    private final int j;
+
+    public Coord(int i, int j) {
+        this.i = i;
+        this.j = j;
+    }
+
+    public int getI() { return i; }
+    public int getJ() { return j; }
+
+    public boolean isInBounds(int minI, int minJ, int maxI, int maxJ) {
+        return i >= minI && j >= minJ && i <= maxI && j <= maxJ;
+    }
+    public boolean isInBounds(Coord min, Coord max) {
+        return i >= min.i && i <= max.i && j >= min.j && j <= max.j;
+    }
+
+    public Coord add(int addI, int addJ) {
+        return new Coord(i + addI, j + addJ);
+    }
+    public Coord add(Coord that) { return new Coord(i + that.i, j + that.j); }
+
+    public String toString() { return "(" + i + "," + j + ")"; }
+
+    public boolean equals(Object o) {
+        if(this == o) return true;
+        if(o == null) return false;
+        if(o.getClass() != this.getClass()) return false;
+        Coord that = (Coord) o;
+        if(this.i != that.i) return false;
+        if(this.j != that.j) return false;
+        return true;
+    }
+}
+
+--[ 2022.11.08.13.37.57.900.3 ]--
+InitFile: /src/Terrain.java
+import java.lang.IndexOutOfBoundsException;
+
+/**
+ * Terrain stores elevations for map and computes distance and
+ * cost in traversing the terrain.
+ */
+
+public class Terrain {
+    private int N;
+    private int[][] heights;
+
+    public Terrain(int N) {
+        this.N = N;
+        this.heights = new int[N][N];
+    }
+
+    public Terrain(int[][] heights) {
+        this.N = heights.length;
+        this.heights = heights;
+    }
+
+    public Terrain(String emapfile) {
+        In in = new In(emapfile);
+        this.N = in.readInt();
+        this.heights = new int[N][N];
+        for (int j = 0; j < N; j++) {
+            for (int i = 0; i < N; i++) {
+                this.heights[i][j] = in.readInt();
+            }
+        }
+    }
+
+    public int getN() {
+        return N;
+    }
+
+    public void setHeight(int i, int j, int h) {
+        if(i < 0 || j < 0 || i >= N || j >= N)
+            throw new IndexOutOfBoundsException("i and j must be in [0,N)");
+        heights[i][j] = h;
+    }
+    public void setHeight(int i, int j, float h) {
+        setHeight(i, j, (int) h);
+    }
+    public void setHeight(Coord loc, int h) {
+        setHeight(loc.getI(), loc.getJ(), h);
+    }
+    public void setHeight(Coord loc, float h) {
+        setHeight(loc.getI(), loc.getJ(), h);
+    }
+
+    public int getHeight(int i, int j) {
+        if(i < 0 || j < 0 || i >= N || j >= N)
+            throw new IndexOutOfBoundsException("i and j must be in [0,N)");
+        return heights[i][j];
+    }
+    public int getHeight(Coord loc) {
+        return getHeight(loc.getI(), loc.getJ());
+    }
+
+    // computes distance between (i0,j0) and (i1,j1) as the crow flies
+    public float computeDistance(int i0, int j0, int i1, int j1) {
+        return (float)Math.sqrt((i0 - i1) * (i0 - i1) + (j0 - j1) * (j0 - j1));
+    }
+    public float computeDistance(Coord c0, Coord c1) {
+        return computeDistance(c0.getI(), c0.getJ(), c1.getI(), c1.getJ());
+    }
+
+    public float computeTravelCost(int i0, int j0, int i1, int j1) {
+        float h0 = getHeight(i0, j0), h1 = getHeight(i1, j1);
+        float climb = (float)Math.pow(Math.abs(h0 - h1) * 1000.0, 1.5);
+        float dist = computeDistance(i0,j0, i1,j1);
+        return (1.0f + climb) * dist;
+    }
+    public float computeTravelCost(Coord c0, Coord c1) {
+        return computeTravelCost(c0.getI(), c0.getJ(), c1.getI(), c1.getJ());
+    }
+    public float computeTravelCost(Iterable<Coord> cs) {
+        Coord c0 = null;
+        float cost = 0.0f;
+        for(Coord c1 : cs) {
+            if(c0 != null) cost += computeTravelCost(c0, c1);
+            c0 = c1;
+        }
+        return cost;
+    }
+}
+
+--[ 2022.11.08.13.37.57.901.0 ]--
+InitFile: /P04_Pathfinding.iml
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/.log" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="algs4" level="project" />
+    <orderEntry type="library" name="stdlib" level="project" />
+  </component>
+</module>
+
+--[ 2022.11.08.13.37.57.901.1 ]--
+InitFile: /src/TerrainEditor.java
+/**
+ * The following class provides some simple terrain editing functions.
+ */
+public class TerrainEditor {
+    private static float rndRadius(float d) {
+        return (float)StdRandom.uniform(-d,d);
+    }
+
+    private static float getFractalHeight(int i, int j, float dh, Terrain terrain, boolean[] isset) {
+        int N = terrain.getN();
+        dh = Math.max(-64, Math.min(255+64, dh));   // allow the height to go just a bit out of range
+        if(!isset[i + j * N]) {
+            isset[i + j * N] = true;
+            terrain.setHeight(i, j, dh);
+        }
+        return terrain.getHeight(i,j);
+    }
+
+    private static void setFractalHeights(int i0, int j0, int i1, int j1, Terrain terrain, boolean[] isset) {
+        int id = i1-i0;
+        int jd = j1-j0;
+        int i01 = (i0+i1)/2;
+        int j01 = (j0+j1)/2;
+
+        if(id <= 1 && jd <= 1) return;
+
+        float h00 = getFractalHeight(i0,j0,32,terrain,isset);
+        float h01 = getFractalHeight(i0,j1,32,terrain,isset);
+        float h10 = getFractalHeight(i1,j0,32,terrain,isset);
+        float h11 = getFractalHeight(i1,j1,32,terrain,isset);
+
+        float d = (float)(Math.sqrt((i1-i0)*(i1-i0) + (j1-j0)*(j1-j0)) * 0.5);
+
+        float d0001 = (h00 + h01) / 2 + rndRadius(d);
+        float d0010 = (h00 + h10) / 2 + rndRadius(d);
+        float d1101 = (h11 + h01) / 2 + rndRadius(d);
+        float d1110 = (h11 + h10) / 2 + rndRadius(d);
+
+        float h0001 = getFractalHeight(i0, j01, d0001, terrain,isset);
+        float h0010 = getFractalHeight(i01, j0, d0010, terrain,isset);
+        float h1101 = getFractalHeight(i01, j1, d1101, terrain,isset);
+        float h1110 = getFractalHeight(i1, j01, d1110, terrain,isset);
+
+        float dm = (float)((h0001 + h0010 + h1101 + h1110) / 4.0);
+        float hm = getFractalHeight(i01, j01, dm, terrain,isset);
+
+        if(id > 1 && jd > 1) {
+            setFractalHeights(i0, j0, i01, j01, terrain, isset);
+            setFractalHeights(i01, j0, i1, j01, terrain, isset);
+            setFractalHeights(i0, j01, i01, j1, terrain, isset);
+            setFractalHeights(i01, j01, i1, j1, terrain, isset);
+        } else if(jd > 1) {
+            setFractalHeights(i0, j0, i1, j01, terrain, isset);
+            setFractalHeights(i0, j01, i1, j1, terrain, isset);
+        } else {
+            setFractalHeights(i0, j0, i01, j1, terrain, isset);
+            setFractalHeights(i01, j0, i1, j1, terrain, isset);
+        }
+    }
+
+    public static void setFractalHeights(Terrain terrain) {
+        int N = terrain.getN();
+        boolean[] isset = new boolean[N*N];
+        setFractalHeights(0, 0, N - 1, N - 1, terrain, isset);
+    }
+
+    public static void smoothHeights(Terrain terrain) {
+        int N = terrain.getN();
+        int radius = (int)Math.ceil(Math.sqrt(N*N/2.0f));
+        smoothHeights(N/2, N/2, radius, false, terrain);
+    }
+
+    public static void smoothHeights(int ic, int jc, int radius, boolean fallOff, Terrain terrain) {
+        final int N = terrain.getN();
+        final int w = 2*radius+1;
+        float[] s = new float[w*w];
+        for(int ia = -radius; ia <= radius; ia++) {
+            int i = ic + ia;
+            if(i < 0 || i >= N) continue;
+            for(int ja = -radius; ja <= radius; ja++) {
+                int j = jc + ja;
+                if(j < 0 || j >= N) continue;
+                int sidx = (ia+radius) + (ja+radius)*w;
+
+                float m = computeEffect(i, j, ic, jc, radius, fallOff, N);
+                if(m <= 0.0000001) {
+                    s[sidx] = terrain.getHeight(i,j);
+                    continue;
+                }
+                float h = 0;
+                int c = 0;
+                if(i > 0 && j > 0) {
+                    h += terrain.getHeight(i-1,j-1);
+                    c += 1;
+                }
+                if(i < N-1 && j > 0) {
+                    h += terrain.getHeight(i+1,j-1);
+                    c += 1;
+                }
+                if(i > 0 && j < N-1) {
+                    h += terrain.getHeight(i-1,j+1);
+                    c += 1;
+                }
+                if(i < N-1 && j < N-1) {
+                    h += terrain.getHeight(i+1,j+1);
+                    c += 1;
+                }
+                if(i > 0) {
+                    h += terrain.getHeight(i-1,j);
+                    c += 1;
+                }
+                if(j > 0) {
+                    h += terrain.getHeight(i,j-1);
+                    c += 1;
+                }
+                if(i < N-1) {
+                    h += terrain.getHeight(i+1,j);
+                    c += 1;
+                }
+                if(j < N-1) {
+                    h += terrain.getHeight(i,j+1);
+                    c += 1;
+                }
+                s[sidx] = (1-m) * terrain.getHeight(i,j) + m * h / c;
+            }
+        }
+        for(int ia = -radius; ia <= radius; ia++) {
+            int i = ic + ia;
+            if(i < 0 || i >= N) continue;
+            for(int ja = -radius; ja <= radius; ja++) {
+                int j = jc + ja;
+                if(j < 0 || j >= N) continue;
+                int sidx = (ia+radius) + (ja+radius)*w;
+                terrain.setHeight(i, j, s[sidx]);
+            }
+        }
+    }
+
+    public static void clampHeights(Terrain terrain) {
+        int N = terrain.getN();
+        for(int i = 0; i < N; i++) {
+            for(int j = 0; j < N; j++) {
+                terrain.setHeight(i, j, Math.max(0, Math.min(255, terrain.getHeight(i, j))));
+            }
+        }
+    }
+
+    private static float computeEffect(int i, int j, int ic, int jc, int radius, boolean fallOff, int N) {
+        if(i < 0 || j < 0 || i >= N || j >= N) return 0;
+        if(!fallOff) return 1;
+        int d2 = (ic-i)*(ic-i)+(jc-j)*(jc-j);
+        if(d2 > radius*radius) return 0;
+        return ((float)radius - (float)Math.sqrt(d2)) / (float)radius;
+    }
+
+    public static void addHeight(int i, int j, int radius, float add, Terrain terrain) {
+        final int N = terrain.getN();
+        for(int ja = -radius; ja <= radius; ja++) {
+            int r = j + ja;
+            if(r < 0 || r >= N) continue;
+            for(int ia = -radius; ia <= radius; ia++) {
+                int c = i + ia;
+                if(c < 0 || c >= N) continue;
+                float v = add * computeEffect(c, r, i, j, radius, true, N);
+                float h = terrain.getHeight(c, r) + v;
+                h = Math.max(0, Math.min(255, h));
+                terrain.setHeight(c, r, h);
+            }
+        }
+    }
+}
+
+--[ 2022.11.08.13.37.57.901.2 ]--
+InitFile: /src/PathfinderVisualizer.java
+/**
+ * PathfinderVisualizer visualizes the terrain and found path.
+ */
+
+import java.awt.Color;
+import java.awt.Font;
+
+public class PathfinderVisualizer {
+
+    // delay in milliseconds (controls animation speed)
+    private final static int DELAY = 100;
+
+    // color for different elevations.  must be in ascending order!
+    private final static int[][] elevationColors = {
+            // h    r   g   b   where h=height, r=red, g=green, b=blue
+            {  0,   0,  0,  0},
+            {  2,   0,  0,160},
+            {  4,   0,224,224},
+            { 16, 192,192,  0},
+            { 64,  16,255, 16},
+            {128,  32,224, 32},
+            {192, 128,128,  8},
+            {224, 164,164,164},
+            {255, 255,255,255}
+    };
+
+    private final static Color cStart    = new Color(128, 128, 255);
+    private final static Color cEnd      = new Color(255, 128, 128);
+    private final static Color cSolution = new Color(255, 128, 255);
+    private final static Color cSearched = new Color(128,   0, 128);
+
+    // linearly interpolating between the corresponding rgb values
+    private static Color colorLERP(float v1, int r0, int g0, int b0, int r1, int g1, int b1) {
+        v1 = Math.max(0.0f, Math.min(1.0f, v1));
+        float v0 = 1.0f - v1;
+        int r = (int)(v0 * r0 + v1 * r1);
+        int g = (int)(v0 * g0 + v1 * g1);
+        int b = (int)(v0 * b0 + v1 * b1);
+        return new Color(r, g, b);
+    }
+    private static Color colorLERP(float v1, Color c0, Color c1) {
+        v1 = Math.max(0.0f, Math.min(1.0f, v1));
+        float v0 = 1.0f - v1;
+        int r = (int)(v0 * c0.getRed()   + v1 * c1.getRed());
+        int g = (int)(v0 * c0.getGreen() + v1 * c1.getGreen());
+        int b = (int)(v0 * c0.getBlue()  + v1 * c1.getBlue());
+        int a = (int)(v0 * c0.getAlpha() + v1 * c1.getAlpha());
+        return new Color(r, g, b, a);
+    }
+
+    // returns color for given height
+    private static Color height2Color(int h) {
+        h = Math.max(0, Math.min(255, h));
+
+        int[] ec0 = elevationColors[0];  // default lower bound
+        int[] ec1 = elevationColors[1];  // default upper bound
+
+        // find upper bound while updating lower bound
+        for(int i = 1; i < elevationColors.length; i++) {
+            ec1 = elevationColors[i];
+            if(h >= ec0[0] && h <= ec1[0]) break;
+            ec0 = ec1;
+        }
+
+        int h0=ec0[0], r0=ec0[1], g0=ec0[2], b0=ec0[3];
+        int h1=ec1[0], r1=ec1[1], g1=ec1[2], b1=ec1[3];
+        float v1 = ((float)(h - h0)) / ((float)(h1 - h0));
+
+        return colorLERP(v1, r0, g0, b0, r1, g1, b1);
+    }
+
+    private static void drawCircle(int i, int j, int N, double rad) {
+        int c = (int)((i+0.5f) * 464.0f / N);
+        int r = (int)((j+0.5f) * 464.0f / N);
+        StdDraw.circle(c + 24, 464 - r + 36, rad);
+    }
+    public static void drawCircle(Coord loc, int N, double rad) {
+        drawCircle(loc.getI(), loc.getJ(), N, rad);
+    }
+
+    private static void drawPath(Iterable<Coord> path, int N) {
+        boolean first = true;
+        int c0 = 0, r0 = 0;
+        for (Coord loc : path) {
+            int c1 = (int)((loc.getI()+0.5f) * 464.0f / N);
+            int r1 = (int)((loc.getJ()+0.5f) * 464.0f / N);
+            if(!first) {
+                StdDraw.line(c0 + 24, 464 - r0 + 36, c1 + 24, 464 - r1 + 36);
+            }
+            first = false;
+            c0 = c1; r0 = r1;
+        }
+    }
+
+    // draw N-by-N pathfinding map
+    public static void draw(Terrain terrain, Pathfinder pf, Walker walker, int N) {
+        StdDraw.clear();
+        StdDraw.setXscale(0, 512);
+        StdDraw.setYscale(0, 512);
+        StdDraw.setPenColor(StdDraw.BLACK);
+        StdDraw.filledSquare(256, 256 + 12, 464 / 2);
+
+        // draw terrain
+        for(int row = 0; row < 464; row++) {
+            int j = (int)((float)row/464.0f * N);
+            for(int col = 0; col < 464; col++) {
+                int i = (int)((float)col/464.0f * N);
+                Coord loc = new Coord(i,j);
+                Color c = height2Color(terrain.getHeight(loc));
+                if(pf.wasSearched(loc)) {
+                    c = colorLERP(0.50f, c, cSearched);
+                }
+                StdDraw.setPenColor(c);
+                StdDraw.filledSquare(col + 24, 464 - row + 36, 1);
+            }
+        }
+
+        // draw path start
+        if(pf.getPathStart() != null) {
+            StdDraw.setPenColor(StdDraw.BLACK);
+            StdDraw.setPenRadius(0.006);
+            drawCircle(pf.getPathStart(), N, 4.0);
+
+            StdDraw.setPenColor(cStart);
+            StdDraw.setPenRadius(0.002);
+            drawCircle(pf.getPathStart(), N, 4.0);
+        }
+
+        // draw path end
+        if(pf.getPathEnd() != null) {
+            StdDraw.setPenColor(StdDraw.BLACK);
+            StdDraw.setPenRadius(0.006);
+            drawCircle(pf.getPathEnd(), N, 4.0);
+
+            StdDraw.setPenColor(cEnd);
+            StdDraw.setPenRadius(0.002);
+            drawCircle(pf.getPathEnd(), N, 4.0);
+        }
+
+        // draw found path
+        if(pf.foundPath()) {
+            StdDraw.setPenColor(StdDraw.BLACK);
+            StdDraw.setPenRadius(0.006);
+            drawPath(pf.getPathSolution(), N);
+
+            StdDraw.setPenColor(cSolution);
+            StdDraw.setPenRadius(0.002);
+            drawPath(pf.getPathSolution(), N);
+        }
+
+        // draw walker
+        if(walker != null) {
+            Coord loc = walker.getLocation();
+            StdDraw.setPenColor(StdDraw.BLACK);
+            StdDraw.setPenRadius(0.006);
+            PathfinderVisualizer.drawCircle(loc, N, 2.0);
+
+            StdDraw.setPenColor(StdDraw.WHITE);
+            StdDraw.setPenRadius(0.002);
+            PathfinderVisualizer.drawCircle(loc, N, 2.0);
+        }
+
+        // write status text
+        StdDraw.setFont(new Font("SansSerif", Font.PLAIN, 12));
+        StdDraw.setPenColor(StdDraw.BLACK);
+        StdDraw.text(96, 12, "heuristic: " + pf.getHeuristic());
+        if(pf.foundPath()) StdDraw.text(256, 12, "path: " + pf.getPathCost());
+        else               StdDraw.text(256, 12, "no path found");
+        StdDraw.text(512-96, 12, "searched: " + pf.getSearchSize() + " (" + (int)(100.0f * pf.getSearchSize() / (N*N)) + "%)");
+    }
+}
+
+--[ 2022.11.08.13.38.02.511.0 ]--
+UpdateTree (AD): 0 1
+- /.idea/shelf/Uncommitted_changes_before_Update_at_11_1_22,_13_02_[Default]/shelved.patch
+
+--[ 2022.11.08.13.38.02.518.0 ]--
+UpdateTree (AD): 1 1
+- /.idea/shelf/Uncommitted_changes_before_Update_at_11_1_22,_13_02_[Default]/shelved.patch
++ /.idea/shelf/Uncommitted_changes_before_Update_at_11_1_22,_13_02_[Default]/shelved.patch
+
+--[ 2022.11.08.13.38.17.840.0 ]--
+UpdateTree (AD): 0 1
+- /.idea/shelf/Uncommitted_changes_before_Update_at_11_1_22__13_02__Default_.xml
+
+--[ 2022.11.08.13.40.00.667.0 ]--
+:/src/Walker.java
+r 19     
+--[ 2022.11.08.13.40.01.465.0 ]--
+- 18
+--[ 2022.11.08.13.40.44.203.0 ]--
+r 12 //    Iterable<Coord> ourPath;
+r 13 //    Coord startLoc = null;
+r 14 //    Coord endLoc = null;
+--[ 2022.11.08.13.40.57.639.0 ]--
+- 12
+- 12
+r 12 
+--[ 2022.11.08.13.40.58.271.0 ]--
+- 12
+--[ 2022.11.08.13.41.25.073.0 ]--
+r 15 
+--[ 2022.11.08.14.11.38.595.0 ]--
+DisposeComponent
+--[ 2022.11.08.17.46.07.771.0 ]--
+NewLogger: P04_Pathfinding
+Version: 1.5
+--[ 2022.11.08.17.46.07.837.0 ]--
+InitTree:
+/out/production/P04_Pathfinding/.donotlog
+/out/production/P04_Pathfinding/algs4.jar
+/out/production/P04_Pathfinding/stdlib.jar
+/out/production/P04_Pathfinding/Coord.class
+/out/production/P04_Pathfinding/png2emap.py
+/out/production/P04_Pathfinding/Walker.class
+/out/production/P04_Pathfinding/ramp.png.emap
+/out/production/P04_Pathfinding/Terrain.class
+/out/production/P04_Pathfinding/ramp2.png.emap
+/out/production/P04_Pathfinding/ramp3.png.emap
+/out/production/P04_Pathfinding/mazeAB.png.emap
+/out/production/P04_Pathfinding/usa128.png.emap
+/out/production/P04_Pathfinding/usa256.png.emap
+/out/production/P04_Pathfinding/Pathfinder.class
+/out/production/P04_Pathfinding/usa1024.png.emap
+/out/production/P04_Pathfinding/maze32_0.png.emap
+/out/production/P04_Pathfinding/maze32_1.png.emap
+/out/production/P04_Pathfinding/maze232_0.png.emap
+/out/production/P04_Pathfinding/maze320_0.png.emap
+/out/production/P04_Pathfinding/mazeBrain.png.emap
+/out/production/P04_Pathfinding/TerrainEditor.class
+/out/production/P04_Pathfinding/Pathfinder$PFNode.class
+/out/production/P04_Pathfinding/PathfinderVisualizer.class
+/out/production/P04_Pathfinding/InteractivePathfinderVisualizer.class
+/src/algs4.jar
+/src/Coord.java
+/src/stdlib.jar
+/src/Walker.java
+/src/Terrain.java
+/src/Pathfinder.java
+/src/TerrainEditor.java
+/src/PathfinderVisualizer.java
+/src/InteractivePathfinderVisualizer.java
+/.git/info/exclude
+/.git/logs/refs/heads/main
+/.git/logs/refs/remotes/origin/HEAD
+/.git/logs/refs/remotes/origin/main
+/.git/logs/HEAD
+/.git/refs/heads/main
+/.git/refs/remotes/origin/HEAD
+/.git/refs/remotes/origin/main
+/.git/hooks/update.sample
+/.git/hooks/pre-push.sample
+/.git/hooks/commit-msg.sample
+/.git/hooks/pre-commit.sample
+/.git/hooks/pre-rebase.sample
+/.git/hooks/post-update.sample
+/.git/hooks/pre-receive.sample
+/.git/hooks/applypatch-msg.sample
+/.git/hooks/pre-applypatch.sample
+/.git/hooks/pre-merge-commit.sample
+/.git/hooks/push-to-checkout.sample
+/.git/hooks/fsmonitor-watchman.sample
+/.git/hooks/prepare-commit-msg.sample
+/.git/objects/00/28f6cf29345754a9679653ab318dad00848fcc
+/.git/objects/00/83268a14a16b4a5dd867518f78733391a45c17
+/.git/objects/02/5399bcba1813c0d414a72d505baaa4bf308136
+/.git/objects/04/003c5022cc70a84704c36a38dd8b016d4e20d8
+/.git/objects/04/bb6dae9b8654b3db19237245abd95cc52eea5a
+/.git/objects/06/3f3ba7af074af990e0858941003d52f90a8ddf
+/.git/objects/07/c0ab7f1834978244dc63f883d812f6fdbb1105
+/.git/objects/08/03327110344bdd9225216d43717854bdcb5a02
+/.git/objects/0a/0cc74c3c69529bc0b35efec4b33b4122f3f9d2
+/.git/objects/0a/223ed78fd4ba9e3c29d48824487e673a123de6
+/.git/objects/10/d82d9736781858b91531527c7f68f1ffae5db8
+/.git/objects/11/f974299e37fea0743352c5bb44bd670176a9c4
+/.git/objects/15/110c8e8114f516d1087b8177016efaee699c0e
+/.git/objects/16/d25c86ed183a401811461ad743c2b8f9dd388a
+/.git/objects/19/8f86a451262bb58f20fec4b4372511d319cb1e
+/.git/objects/1c/657c45ac423a783f740b198b8c2fb38ee7f1b9
+/.git/objects/1c/c703fb0cda54ada1d307c7157c38a5190d2ded
+/.git/objects/1d/9870f3870280622cc38ff3a0db5d362720a2c9
+/.git/objects/21/86213986a340219401746588209691c3a095a9
+/.git/objects/22/d1da271c9ad5057fed4e6702f0c556345d4b1e
+/.git/objects/24/8489fbc17bcf13236128ea0fd2ee994f636820
+/.git/objects/28/3bac315169d5f131ab61d9a482b571b798e7e1
+/.git/objects/2a/47d993797ac5333b90a485b696a58535ce5439
+/.git/objects/2a/5fb95df6d2a5b3ce6bcfbffdc90d7b16aab79e
+/.git/objects/2a/dc58ac94fb9e14f7baf6129f9029b2f0094997
+/.git/objects/2b/a45806e832a8add7c9587b18689939219e4a8d
+/.git/objects/2e/c358f7bcf4f758b64b2f2d516d8aadd28268c4
+/.git/objects/2f/8959443fe58250b1251ba5223cef6fae049f6a
+/.git/objects/32/c7622d8e5963c3f061f3740db77a89cf622145
+/.git/objects/33/ebf301bb19589b3acf4d18d1fc9bd8f90302f4
+/.git/objects/34/f66485cbdaa8c5ab4a0f6e11e5a7aa302d34a3
+/.git/objects/36/bd4febfa8552f3cead1307339c48c6a2c9afb9
+/.git/objects/37/fd884f83880453314255ebaa5a9e59245f8225
+/.git/objects/38/61615438d7880ddb2702f8e4ae63014457a317
+/.git/objects/39/122c7c3262ceff1338c9cc29fd32418783debf
+/.git/objects/3c/25db340f5e10fa4adf8803fe4ccf8993e5d089
+/.git/objects/3c/f562ea665b687f904f0941c92f65ab3ff7f159
+/.git/objects/3d/4490f95a5bcea1f7bd61e99c7d13fd5a333069
+/.git/objects/3d/dd471797ab3fd4fdaa9102e86d087b9c85ae6c
+/.git/objects/3e/f86c5e4bb97d55cecf6be5439794247999a168
+/.git/objects/40/9f7767324847f8407f8a0bd923da9e37cd5ba5
+/.git/objects/40/eeb0332611984c7e3eba8af233a93b6140b0b6
+/.git/objects/41/6fb4499fa766e76d6e0a091f4695f29d828f31
+/.git/objects/44/770aa25b07d04618aeaecc14a0b140d3679a92
+/.git/objects/44/8a49b25290500c20ea42877653559b66df8c6f
+/.git/objects/45/a8b86f00e93b1be90a1d22146df2d6a3caf6a2
+/.git/objects/45/e1764b959c4cbda2c6525afa50fe1d71ec27a6
+/.git/objects/48/0a5866410a0ccefe58078a8aa72be87185ff7a
+/.git/objects/49/d6a74a87046e6d92d7453d56a4da013dee44ff
+/.git/objects/4a/8a7e94ef15c652876d37c198b011197a43fd7f
+/.git/objects/4b/8f8a5ff3fab8e9b692f908744fae2ebafa1fb4
+/.git/objects/4d/2561ee44cc53f604031c2563949bdaf3d3e983
+/.git/objects/4d/ca37619f7afe30f5759341d8fa0af2306ab0e8
+/.git/objects/4d/cb69a96070a9a43dbecb3633c0d78b5f452bfe
+/.git/objects/4e/aa13f18294efb6da8866bf432c82d69ffaef03
+/.git/objects/50/f45a016f7fced8aab734e782d5104b8f4c80f9
+/.git/objects/51/71c0012414ed51c376f9a040b86ab194726ab0
+/.git/objects/51/fc4da699f133d2cf248956f6ed0ba1b786a044
+/.git/objects/52/a3689e07aeb0da91dcc4f1674ecf8e883a5dd4
+/.git/objects/52/dfb844e56b4740730414317a5700eb42eb65cb
+/.git/objects/53/2dd563456b9839acf7ab51a48b7578f5e84890
+/.git/objects/54/22e7835af3d92e8b75b9666b8761cf3868eb81
+/.git/objects/55/e133c8e1aa563ba7414e9ae3501bf8306293b2
+/.git/objects/56/a30f7b4b81bc4cb587aef804f7bb6d57ee7402
+/.git/objects/56/c7b9737bf41d32b2b80dfaaba4b83b3237caae
+/.git/objects/57/48b108bdc945c49a7a22525e7f115334cb1314
+/.git/objects/57/511791f8f91048243e35bfab8aa2761b156dde
+/.git/objects/59/2924217ceef0af0475da8e3fd26ffd79ee1636
+/.git/objects/59/631287f07bbd6e06894075d7a1b44ef1bd90d2
+/.git/objects/5c/937c9043a091861a38c78c25b96971ed0fa3cf
+/.git/objects/5d/7b147a2b1a70bc90f896e209482051cac3b3e0
+/.git/objects/5e/b47a0270a254163e69347234ef3e32ffa8196e
+/.git/objects/63/9247c31506cb0912cd3a04f869de6ac3ae8f31
+/.git/objects/66/cac0def9077c483f8b403da0322603b318e347
+/.git/objects/68/5025073ac6b980ab26461833cdd4d57cbe4d2d
+/.git/objects/68/5ce9f76ca15d09cf6e1be3e02b1a75ed9ad67d
+/.git/objects/68/bcf84de8d9b44303a410eaa15011500fbc87dc
+/.git/objects/69/3726db3ef50e4169e4be9b4e44eba783b9cf4e
+/.git/objects/6b/5cf7797e750cc6bfa17f8e214898cc20423a3f
+/.git/objects/6b/9b0a44c59f31c1431e5570954d90fdd726418d
+/.git/objects/6c/0c1cd3b149f82d53081e46f16d9b4c0778ed39
+/.git/objects/6c/96547c8ef8de16e2de147e419cdb285c2338f7
+/.git/objects/6e/43436847378f923cf6d07ac36edb0b7c6d94b6
+/.git/objects/6f/21b8c406d74ee4404188aab137e27a3ad825af
+/.git/objects/6f/f8fa664f641464a3c3a5680c2fc82cef12381f
+/.git/objects/70/00a92635bb17bbab9f5a67c75eab860d629510
+/.git/objects/71/411d71fbf4bcfaa03b646fa35c27d996f9d52e
+/.git/objects/71/69f333330f9eb416e7a23c1978bbc5383e647f
+/.git/objects/71/8b7c3be59244f6317ed689d2d61429dd2d9e24
+/.git/objects/72/3de3f38fdb8e09b01a9dc479200c858e363b42
+/.git/objects/75/d68fec2458056dd28490bada3e7369980dd5bb
+/.git/objects/77/2c2443f28eeaa14aab9192fc1e1336285a79bd
+/.git/objects/7b/f2e2ecc7a23ed44ce201ab61479b5d8272b096
+/.git/objects/7d/4056266653ae10080dc8aef8b758152495f3bd
+/.git/objects/7f/1d432fbe858693e07e0f8841e84c792af2031d
+/.git/objects/7f/b0d4d339e78998d525baf7d47c1bb8a7ee05de
+/.git/objects/81/08f16f60245eccd076995743ba7086d4b115e8
+/.git/objects/81/415deddeaf54572c1897620ff4219df0bccf6c
+/.git/objects/81/e26b8ef428538d41fe2e53761c4a2ff2fe2a44
+/.git/objects/82/528c5345342624def75844dd8a31204045753c
+/.git/objects/82/b448ba408d5bd16b7d1b4e0fbb1cb963716b62
+/.git/objects/83/522c90c28c4ba160ed3046a6a5905cb183a539
+/.git/objects/84/8b707ef91fc46dfe0430ea305c3d8796feb1d4
+/.git/objects/85/ce4526c7499f9d59944e1e006278d669c09343
+/.git/objects/86/7961a56865efb049234525b508a86e39ffaef5
+/.git/objects/88/ac3d554c1525fc3af12a75e7eea9633797539a
+/.git/objects/88/ecd90b14e8bd5850f801f539c4edeec367a1ad
+/.git/objects/89/3706a2f044a6f0b091ca5f7d025b760da7333f
+/.git/objects/89/822e5fc2c3af2bca9c12d47887f8efdaee7f82
+/.git/objects/8a/ddb3b2f6de9b99de7882a6c54afc5707148f06
+/.git/objects/8c/9d4b1873c2d88d47e50ec454cfd4a1b1721930
+/.git/objects/8e/c252e0c1073064bcbe08f8689b8cbe1342736c
+/.git/objects/90/c179d86e49e8f9cb01f9f441c21477b64b8cd8
+/.git/objects/93/99693ca0d9a029c8600b559c5f8d65b15be400
+/.git/objects/93/d5051103f0c8443eab1976abf55a49cc97ee92
+/.git/objects/94/1093dccbd5639beac4ed4054e6cf8cdd050332
+/.git/objects/96/3aff0b633cf34ac705e22de6d5f7052727ebd4
+/.git/objects/97/c44ec1687705aeb5ee0aa2b1cbad1179f746d5
+/.git/objects/99/839bd028637ee81b90280ab4f6d97bb361fd71
+/.git/objects/99/fbe8592bd1173d7acdaa688ecb8a97db5a5efa
+/.git/objects/99/fc95060d508a3b5990b31df2ec2b5d565dfcaa
+/.git/objects/9a/6474cc575269218262e5befaf996589b4b0725
+/.git/objects/9c/942eab62590f7b6444544ad772d0bb7167f322
+/.git/objects/a1/8511806924333139ebf4a97a83d77f2ac48d01
+/.git/objects/a1/879cf9a504ff7d227fbfc8294c609b6ae9bd65
+/.git/objects/a2/60a0876851af8bbc28ad400b1586217be8fe03
+/.git/objects/a4/7c692b9b4fbb71a39539b15bcd2bf492217a92
+/.git/objects/a4/d5a6c600953fe04426632ac0b50b4b5d4d6908
+/.git/objects/a5/0eb03dbd999d211f1034524a6ce3818f1bdd66
+/.git/objects/a5/142198d6b3120089f3d851541e0b10d8efa7cf
+/.git/objects/a5/7117ae95b1283efc0cfb66de33370e0120b961
+/.git/objects/a5/c96ae3c6227dc41e4ec78126f6331112f18d28
+/.git/objects/a8/e2b1bf7684eb227f451507d3a2426bfe896c8f
+/.git/objects/a9/2d59b25dd7bdc458db4b725287454a1c619e84
+/.git/objects/a9/7e1ab2919f0342e08b4871f42597fc25cba4ac
+/.git/objects/ac/a2f8e9f5950db5f31c7bb1f615f4fc2d4890ca
+/.git/objects/af/707a72403e3776c7701e1681e9a296cc09aca2
+/.git/objects/b0/bf2ea1c47c8cc8e3c10953087303b0025347c8
+/.git/objects/b1/070269314cf7e2b017b0e9a9dd7e3af561a5f7
+/.git/objects/b1/e9ade5eac403da8ae2ba2a99cb5af4ac73915a
+/.git/objects/b2/b39c205a493212c8568bfd802a52baca188e07
+/.git/objects/b5/5d5ed3cbb57c3a6758ee802b48920d49febb12
+/.git/objects/b9/b281651bbdd7a26d9a588cfec35c0470aa921b
+/.git/objects/ba/116b5ece3017ea4724ad2e4361d365d3d95fc9
+/.git/objects/bb/9cca75463a2416b6f63b0c593ce8b56ac2b5ae
+/.git/objects/be/bbdf2844f2f1e3a5f33e187b312baa769c280a
+/.git/objects/bf/d803b8e3653af5834138691ea8521bcaa694d7
+/.git/objects/c0/6c06bae75f4eadb6f3b484daaf0df95379fea0
+/.git/objects/c1/c4ebd69aa9312836630aa6b99ca0252ee2f0ae
+/.git/objects/c3/e53b84164752b49157a170c31cc7533f5d2fee
+/.git/objects/c8/b0aad655d3d4a19e7e1e817ca62e630087604d
+/.git/objects/c9/112ca068e4052c8245428dad540e98e4d69b43
+/.git/objects/ca/4786ad1779b80376aae29530d0b4d596d611c8
+/.git/objects/cc/67a514baf96f57a38399f88f1f9b471c4b80e4
+/.git/objects/cd/5da4c8fba2eb39aace10ad59a84be6d094862d
+/.git/objects/d0/d5683a4b63386ff54b787640fcf8c1e9ce605b
+/.git/objects/d1/bab8cd923b7e91662049128ad2665d98da3e78
+/.git/objects/d1/cbca8c4639e7e89c458a3c273f0acebd9ebe1a
+/.git/objects/d3/d32b967de156edc27801ba14be357843fe177c
+/.git/objects/d4/2ef2daaf1afa7a8f2faa2f871d69212b330ef3
+/.git/objects/d5/6256d1ccc25e303ee98b3d210a64d4ccd118f5
+/.git/objects/d6/81f37c2ad71d1a24bfccf5c039cb90a8b74b6e
+/.git/objects/d9/f4832f0f54dfc6980b047b8aa4cf9fdc5cde5a
+/.git/objects/dc/db0ed7ca07e04a0fb94a472b9567071bebc448
+/.git/objects/de/8b77f039b60bc7ef5ca03a85e9712c734fb3c0
+/.git/objects/de/d95243454c5ccb19c6973f1f718c2e8e40db8c
+/.git/objects/df/ab375b6db323649427d9b468018424e7b318ad
+/.git/objects/e1/e318aa75ff9b48dd606aa987e99241b499d6e5
+/.git/objects/e3/075924caece748fc9393a9431fc6f96788789f
+/.git/objects/e6/061edc02fe82bffc169b2e81c9e0a25905df30
+/.git/objects/e6/3fb5e8f967b239430ee1cb873a924e5c7f6ced
+/.git/objects/e6/85b45e5dde0ee4fe35d98b2a2ba7cd12ed0edc
+/.git/objects/e8/9172d27c03c8c0a93a38c06c0490aacd5f29ce
+/.git/objects/e8/dc27f913baf661d4a54e3148f14c0c1ee57b9e
+/.git/objects/ea/f2034dc4702cda5cdea9276aa329109efd76f1
+/.git/objects/ea/f5103c2fb9017feeed36e9db7966a7d2b2eb50
+/.git/objects/ed/ceeee90fb8f342cb4b7184a546ae4d1635d31e
+/.git/objects/ef/a8dc38a80f80feda5cbf609dbd341161780008
+/.git/objects/f1/3b51941ba05149023344e796411aa0c6a438cb
+/.git/objects/f4/543c8c5a79338bdce499ac4f7e3b2ac59671e6
+/.git/objects/f6/2cd8a206701d309f2385f03318986ac7dd993e
+/.git/objects/f6/8b304988210a2b1f45b6a6567a68231e82db64
+/.git/objects/fa/eb80803dbacc4c24beb796ea1cc6b9a53ab677
+/.git/objects/fc/cd7f38f6769c6fc941db1b04fa52f06088c55b
+/.git/objects/pack/pack-a8028aceec609664fcf34dccf2ce8153c8efc444.idx
+/.git/objects/pack/pack-a8028aceec609664fcf34dccf2ce8153c8efc444.pack
+/.git/HEAD
+/.git/index
+/.git/config
+/.git/ORIG_HEAD
+/.git/FETCH_HEAD
+/.git/description
+/.git/packed-refs
+/.git/REBASE_HEAD
+/.git/COMMIT_EDITMSG
+/.log/history.log
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_5_22,_15_38_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_5_22,_15_38_[Default]/Pathfinder.class
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_6_22,_21_33_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_6_22,_21_33_[Default]/Pathfinder.class
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_7_22,_09_31_[Default]/history.log
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_7_22,_09_31_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_10_29_22,_13_46_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_5_22,_3_37_PM_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_6_22,_8_06_PM_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_6_22,_8_06_PM_[Default]/Pathfinder.class
+/.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22,_8_24_PM_[Default]/shelved.patch
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_5_22__15_38__Default_.xml
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_6_22__21_33__Default_.xml
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_7_22__09_31__Default_.xml
+/.idea/shelf/Uncommitted_changes_before_Update_at_10_29_22__13_46__Default_.xml
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_5_22__3_37_PM__Default_.xml
+/.idea/shelf/Uncommitted_changes_before_Update_at_11_6_22__8_06_PM__Default_.xml
+/.idea/shelf/Uncommitted_changes_before_Update_at_10_26_22__8_24_PM__Default_.xml
+/.idea/copyright/profiles_settings.xml
+/.idea/libraries/algs4.xml
+/.idea/libraries/stdlib.xml
+/.idea/.name
+/.idea/vcs.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/compiler.xml
+/.idea/workspace.xml
+/.idea/uiDesigner.xml
+/tests/.donotlog
+/tests/png2emap.py
+/tests/ramp.png.emap
+/tests/ramp2.png.emap
+/tests/ramp3.png.emap
+/tests/mazeAB.png.emap
+/tests/usa128.png.emap
+/tests/usa256.png.emap
+/tests/usa1024.png.emap
+/tests/maze32_0.png.emap
+/tests/maze32_1.png.emap
+/tests/maze232_0.png.emap
+/tests/maze320_0.png.emap
+/tests/mazeBrain.png.emap
+/.cos265
+/.DS_Store
+/P04_Pathfinding.iml
+/P04_Pathfinding.zip
+
+--[ 2022.11.08.17.46.07.837.1 ]--
+InitFile: /src/InteractivePathfinderVisualizer.java
+import java.awt.event.KeyEvent;
+//kate was here
+/**
+ * InteractivePathfinderVisualizer visualizes the terrain and the computed
+ * path and allows the user to change parameters of the Pathfinder.  Below
+ * is a list of commands and what they do.  Note: some of the commands
+ * modify the properties of the path finder and some modify the terrain.
+ *
+ * Command        Action                                      Terrain
+ * C              clear path
+ * space          recompute path
+ * S/E            set start/end location to mouse
+ * left/right     halve/double path search heuristic value
+ * 0/1            set path search heuristic to 0 or 1
+ * W              start a walker to show the path
+ * R              randomly generate a new terrain                *
+ * M              smooths terrain under mouse                    *
+ * shift+M        smooths all terrain                            *
+ * up/down        increase/decrease terrain under mouse          *
+ */
+
+public class InteractivePathfinderVisualizer {
+    private final static int DELAY = 10;
+
+    // sets how many redraws it should take for the walker to reach its destination
+    private final static float STEPS_TO_WALK = 100.0f;
+
+    // for convenience, here are the emap files that are located under heightmaps/ folder
+    // the python script in that folder converts png files to emap. \
+    // you can use it to create your own maps to test your code
+    private final static String[] emaps = {
+            "maze32_0.png.emap",    // 0   (32x32 maze)
+            "maze32_1.png.emap",    // 1   (another 32x32 maze)
+            "maze232_0.png.emap",   // 2   (232x232 maze)
+            "maze320_0.png.emap",   // 3   (same as maze32_0, only scaled up by 10x)
+            "mazeAB.png.emap",      // 4   (a maze from a site no longer online :( )
+            "mazeBrain.png.emap",   // 5   (...)
+            "ramp.png.emap",        // 6   (some tests)
+            "ramp2.png.emap",       // 7   (...)
+            "ramp3.png.emap",       // 8   (...)
+            "usa128.png.emap",      // 9   (elevation map of USA from https://bananas.openttd.org/en/heightmap/)
+            "usa256.png.emap",      // 10  (same as usa128, only higher resolution)
+            "usa1024.png.emap",     // 11  (same as usa128, only higher resolution
+    };
+
+    private final static String emapFilename = emaps[2];        // change index to load a different elevation map
+
+
+
+    public static void main(String[] args) {
+        Terrain terrain = new Terrain(emapFilename);
+        Pathfinder pf = new Pathfinder(terrain);
+        int N = terrain.getN();
+
+        StdDraw.show(0);
+
+        // set default starting and ending locations
+        pf.setPathStart(new Coord(1, 1));
+        pf.setPathEnd(new Coord(N-3, N-3));
+
+        // find a path
+        pf.resetPath();
+        pf.computePath();
+
+        PathfinderVisualizer.draw(terrain, pf, null, N);
+        StdDraw.show(DELAY);
+
+        // prevent repeated applications
+        boolean keyboardR = false;
+        boolean keyboardM = false;
+
+        Walker walker = null;
+
+        while(true) {
+            boolean recompute = false;
+            boolean redraw = false;
+
+            // mouse location on map
+            int mouseI = (int) ((StdDraw.mouseX()-24) / 464 * N);
+            int mouseJ = (int) ((464 - (StdDraw.mouseY()-36)) / 464 * N);
+            boolean isMouseOnMap = (mouseI >=0 && mouseI < N && mouseJ >= 0 && mouseJ < N);
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_LEFT) || StdDraw.isKeyPressed(KeyEvent.VK_RIGHT)) {
+                boolean keyboardLeft = StdDraw.isKeyPressed(KeyEvent.VK_LEFT);
+                float m = keyboardLeft ? 0.5f : 2.0f;
+                float h = pf.getHeuristic() * m;
+                h = Math.max(1.0f/1024.0f, Math.min(1048576.0f, h));
+                pf.setHeuristic(h);
+                recompute = true;
+            }
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_0) || StdDraw.isKeyPressed(KeyEvent.VK_1)) {
+                boolean keyboard0 = StdDraw.isKeyPressed(KeyEvent.VK_0);
+                float h = keyboard0 ? 0 : 1;
+                pf.setHeuristic(h);
+                recompute = true;
+            }
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_C)) {
+                pf.resetPath();
+                walker = null;
+                redraw = true;
+            }
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_R) && !keyboardR) {
+                TerrainEditor.setFractalHeights(terrain);
+                TerrainEditor.clampHeights(terrain);
+                recompute = true;
+            }
+            keyboardR = StdDraw.isKeyPressed(KeyEvent.VK_R);
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_M)) {
+                if(StdDraw.isKeyPressed(KeyEvent.VK_SHIFT)) {
+                    if(!keyboardM) {
+                        TerrainEditor.smoothHeights(terrain);
+                        recompute = true;
+                    }
+                } else {
+                    TerrainEditor.smoothHeights(mouseI, mouseJ, N / 20, true, terrain);
+                    recompute = true;
+                }
+            }
+            keyboardM = StdDraw.isKeyPressed(KeyEvent.VK_M);
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_SPACE)) {
+                recompute = true;
+            }
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_UP) || StdDraw.isKeyPressed(KeyEvent.VK_DOWN)) {
+                boolean keyboardUp = StdDraw.isKeyPressed(KeyEvent.VK_UP);
+                float add = keyboardUp ? 8.0f : -8.0f;
+                TerrainEditor.addHeight(mouseI, mouseJ, N / 20, add, terrain);
+                recompute = true;
+            }
+
+            if(isMouseOnMap && StdDraw.isKeyPressed(KeyEvent.VK_S)) {
+                pf.setPathStart(new Coord(mouseI, mouseJ));
+                recompute = true;
+            }
+
+            if(isMouseOnMap && StdDraw.isKeyPressed(KeyEvent.VK_E)) {
+                pf.setPathEnd(new Coord(mouseI, mouseJ));
+                recompute = true;
+            }
+
+            if(StdDraw.isKeyPressed(KeyEvent.VK_W)) {
+                Iterable<Coord> path = pf.getPathSolution();
+                if(path != null) {
+                    walker = new Walker(terrain, pf.getPathSolution());
+                }
+            }
+
+            if(walker != null) {
+                if(walker.doneWalking()) {
+                    walker = null;
+                } else {
+                    walker.advance(pf.getPathCost() / STEPS_TO_WALK);
+                }
+                redraw = true;
+            }
+
+            if(recompute) {
+                walker = null;
+                pf.resetPath();
+                if(pf.getPathStart() != null && pf.getPathEnd() != null) {
+                    pf.computePath();
+                }
+                redraw = true;
+            }
+
+            if(redraw) {
+                PathfinderVisualizer.draw(terrain, pf, walker, N);
+                StdDraw.show(DELAY);
+            } else {
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException e) {
+                    /* do nothing */
+                }
+            }
+        }
+    }
+}
+
+--[ 2022.11.08.17.46.07.838.0 ]--
+InitFile: /.cos265
+
+
+--[ 2022.11.08.17.46.07.838.1 ]--
+InitFile: /.DS_Store
+   Bud1                                                               	      ocblob                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               @      �                                        @      �                                          @      �                                          @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              	    o u tIlocblob      A   .������      P 0 4 _ P a t h f i n d i n g . i m lIlocblob      �   .������      s r cIlocblob     �   .������      s r cbwspblob   �bplist00�]ShowStatusBar[ShowToolbar[ShowTabView_ContainerShowSidebar\WindowBounds[ShowSidebar		_{{535, 718}, {920, 377}}	#/;R_klmno�                            �    s r cvSrnlong       t e s t sIlocblob     �   .������      t e s t sbwspblob   �bplist00�]ShowStatusBar[ShowToolbar[ShowTabView_ContainerShowSidebar\WindowBounds[ShowSidebar		_{{535, 718}, {920, 377}}	#/;R_klmno�                            �    t e s t sicvpblob  �bplist00�	
+_backgroundColorBlue[gridSpacingXtextSize_backgroundColorRed^backgroundType_backgroundColorGreen[gridOffsetX[gridOffsetY_scrollPositionY\showItemInfo_viewOptionsVersion_scrollPositionX]labelOnBottomYarrangeByXiconSize_showIconPreview#?�      #@K      #@(       #        #@R@                    	Tnone#@P      	  + A M V k z � � � � � � � �"+4=?HQRcdir                           s    t e s t svSrnlong                                       @      �                                          @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   E                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         DSDB                                 `          �                                        @      �                                          @      �                                          @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+
+--[ 2022.11.08.17.46.07.838.2 ]--
+InitFile: /src/Walker.java
+import java.util.Iterator;
+
+/**
+ * Walker takes an Iterable of Coords and simulates an individual
+ * walking along the path over the given Terrain
+ */
+public class Walker {
+
+    // terrain: the Terrain the Walker traverses
+    // path: the sequence of Coords the Walker follows
+    Terrain map;
+    Iterator <Coord> iterator;
+    Coord current;
+    float money = 0;
+
+    public Walker(Terrain terrain, Iterable<Coord> path) {
+        iterator = path.iterator();
+        current =iterator.next();
+        map = terrain;
+
+    }
+
+
+    // returns the Walker's current location
+    public Coord getLocation() {        //????
+        return current;
+    }
+
+    // returns true if Walker has reached the end Coord (last in path)
+    public boolean doneWalking() {
+        return !iterator.hasNext();
+    }
+
+    // advances the Walker along path
+    // byTime: how long the Walker should traverse (may be any non-negative value)
+    public void advance(float byTime) {
+        money += byTime;
+        if (!doneWalking()) {
+            Coord next = iterator.next();
+            float cost = map.computeTravelCost(current, next);
+            if (cost <= money){
+                money-=cost;
+                current = next;
+            }
+        }
+    }
+}
+
+--[ 2022.11.08.17.46.07.838.3 ]--
+InitFile: /src/Pathfinder.java
+import java.lang.IndexOutOfBoundsException;
+import java.lang.IllegalArgumentException;
+
+/**
+ * Pathfinder uses A* search to find a near optimal path
+ * between to locations with given terrain.
+ */
+//hiiiiiiiiiiii
+    //this is Makayla...
+public class Pathfinder {
+
+    /**
+     * PFNode will be the key for MinPQ (used in computePath())
+     */
+    private class PFNode implements Comparable<PFNode> {
+        // loc: the location of the PFNode
+        // fromNode: how did we get here? (linked list back to start)
+        Coord location;
+        PFNode previous;
+        float cost;
+        public PFNode(Coord loc, PFNode fromNode, float newCost) {
+           location=loc;
+           previous=fromNode;
+           cost=newCost;
+        }
+
+        // compares this with that, used to find minimum cost PFNode
+        public int compareTo(PFNode that) {
+            if(this.getCost(heuristic) == that.getCost(heuristic)) return 0;
+            if(this.getCost(heuristic) < that.getCost(heuristic)) return -1;
+            return 1; // else this.cost > that.cost
+        }
+
+        // returns the cost to travel from starting point to this
+        // via the fromNode chain
+        public float getCost(float heuristic) {
+
+            return this.cost + heuristic * map.computeDistance(this.location,pathEnd);
+        }
+
+        // returns if this PFNode is still valid
+        public boolean isValid() {
+            return false;
+        }
+
+        // invalidates the PFNode
+        public void invalidate() {
+        }
+
+        // returns if the PFNode has been used
+        public boolean isUsed() {
+            return true;
+        }
+
+        // uses the PFNode  //for what??
+        public void use() { }
+
+        // returns an Iterable of PFNodes that surround this
+        public Iterable<PFNode> neighbors() {   //american spelling... :(
+            Stack<PFNode> s = new Stack<>();
+            // have end
+            // push end.prev, end.prev.prev
+            PFNode current = end;
+            while(current != null) {
+                s.push(current);
+                current = current.previous;
+            }
+            //s.push(new PFNode(null, null, 0));
+            return s;
+        }
+    }
+    Terrain map;
+    int N;
+    Coord pathStart=null;
+    PFNode start = null;
+
+    Coord pathEnd=null;
+    PFNode end = null;
+    float heuristic = 1;
+    boolean pathFound=false;
+    int searchSize = 0;
+    boolean[][] wasSearchedA;
+    public Pathfinder(Terrain terrain) {
+        map = terrain;
+        N = map.getN();
+        wasSearchedA = new boolean[N][N];
+
+        for(int i = 0; i < N; i ++){
+            for(int j = 0; j < N; j++) {
+                wasSearchedA[i][j] = false;
+            }
+        }
+    }
+    public void setPathStart(Coord loc) {
+        if(loc==null) throw new IllegalArgumentException("Illegal Arguement");
+        if(!loc.isInBounds(0, 0, N, N))
+            throw new IndexOutOfBoundsException("Start or end out of bounds");
+        pathStart=loc;
+        start = new PFNode(pathStart, null, 0);
+    }
+
+    public Coord getPathStart() { // this function is a little redundant if we
+                                  // just have a global var for it anyway...
+        return pathStart;
+    }
+
+    public void setPathEnd(Coord loc) {
+        if(loc==null) throw new IllegalArgumentException("Illegal Arguement");
+        if(!loc.isInBounds(0, 0, N, N))
+            throw new IndexOutOfBoundsException("Start or end out of bounds");
+        pathEnd=loc;
+        end = new PFNode(pathEnd, null, 0);
+    }
+
+    public Coord getPathEnd() {
+        return pathEnd;
+    }
+
+    public void setHeuristic(float v) {
+        heuristic=v;
+    }
+
+    public float getHeuristic() {
+        return heuristic;
+    }
+
+    //cleans out the queues ??
+    public void resetPath() {
+        searchSize = 0;
+        pathFound = false;
+
+        for(int i = 0; i < N; i ++){
+            for(int j = 0; j < N; j++) {
+                wasSearchedA[i][j] = false;
+            }
+        }
+
+
+    }
+
+    public void computePath() {
+        if(pathStart == null || pathEnd == null) throw new IllegalArgumentException("Start or end not set");
+        if(!pathStart.isInBounds(0, 0, N, N) || !pathEnd.isInBounds(0, 0, N, N))
+            throw new IndexOutOfBoundsException("Start or end out of bounds");
+
+        // make the priorety queue
+        MinPQ<PFNode> PQ = new MinPQ<>(PFNode::compareTo);
+        PQ.insert(start);
+        searchSize++;           //when something is inserted, increase this var
+        wasSearchedA[start.location.getI()][start.location.getJ()] = true;
+        while (!pathFound) {
+
+            PFNode pos = PQ.delMin();
+
+            if (pos == null) return;          // location must exist
+
+            if (pos.location.getI() == pathEnd.getI() &&
+                    pos.location.getJ() == pathEnd.getJ()) {    //if the location is the end
+                pathFound = true;
+                //end.previous=pos;
+                end = pos;
+                //end.cost = end.previous.cost;
+                return;
+            }
+
+            Coord[] neighbourList = checkNeighbour(pos.location);  //give all the neighbours
+
+            //float previousCost = location.cost;
+            for (int i = 0; i < 4; i++) {
+                // if neighbour is invalid, move on to the next neighbour
+                if(!neighbourEdgeCases(pos, neighbourList[i])) {
+                    continue;  //check neighbour edge cases
+                }
+
+                //talk to Dr. Denning
+                float cost;
+                cost = pos.cost + map.computeTravelCost(pos.location, neighbourList[i]);
+
+                PFNode temp = new PFNode(neighbourList[i], pos, cost);
+
+                PQ.insert(temp);
+                searchSize++;           //when something is inserted, increase this var
+                wasSearchedA[temp.location.getI()][temp.location.getJ()] = true;
+            }
+        }
+    }
+
+    private Coord[] checkNeighbour(Coord loc){
+
+        Coord[] neighbourList = new Coord[4];
+        neighbourList[0] = loc.add(0, 1);   //up
+        neighbourList[1] = loc.add(-1, 0);  //left
+        neighbourList[2] = loc.add(0, -1);  //down
+        neighbourList[3] = loc.add(1, 0);   //right
+
+        //edge cases in other function
+
+        return neighbourList;
+    }
+
+    private boolean neighbourEdgeCases(PFNode loc, Coord neighbour){
+
+        // off the board
+        if(neighbour.getI() >= N || neighbour.getI() < 0 ||         // I has to be within the board range
+            neighbour.getJ() >= N || neighbour.getJ() < 0) {        // J has to be within the board range
+            return false;
+        }
+        // a previously searched node
+        return !(wasSearched(neighbour)); // we don't want a node that was seen before
+    }
+
+    public boolean foundPath() {
+        return pathFound;
+    }
+
+    public float getPathCost() {
+        return end.cost;
+    }
+
+    public int getSearchSize() {
+        return searchSize;
+    }
+
+    public Iterable<Coord> getPathSolution() {
+        Stack<Coord> i = new Stack<>();
+        PFNode current = end;
+        while(current != null) {
+            i.push(current.location);
+            current = current.previous;
+        }
+        return i;
+    }
+
+
+    public boolean wasSearched(Coord loc) {
+        return (wasSearchedA[loc.getI()][loc.getJ()]);     // return true if was searched
+    }
+}
+
+--[ 2022.11.08.17.46.07.839.0 ]--
+InitFile: /src/Coord.java
+/**
+ * Coordinates is an immutable type that store the tuple (i, j)
+ */
+public final class Coord {
+    private final int i;
+    private final int j;
+
+    public Coord(int i, int j) {
+        this.i = i;
+        this.j = j;
+    }
+
+    public int getI() { return i; }
+    public int getJ() { return j; }
+
+    public boolean isInBounds(int minI, int minJ, int maxI, int maxJ) {
+        return i >= minI && j >= minJ && i <= maxI && j <= maxJ;
+    }
+    public boolean isInBounds(Coord min, Coord max) {
+        return i >= min.i && i <= max.i && j >= min.j && j <= max.j;
+    }
+
+    public Coord add(int addI, int addJ) {
+        return new Coord(i + addI, j + addJ);
+    }
+    public Coord add(Coord that) { return new Coord(i + that.i, j + that.j); }
+
+    public String toString() { return "(" + i + "," + j + ")"; }
+
+    public boolean equals(Object o) {
+        if(this == o) return true;
+        if(o == null) return false;
+        if(o.getClass() != this.getClass()) return false;
+        Coord that = (Coord) o;
+        if(this.i != that.i) return false;
+        if(this.j != that.j) return false;
+        return true;
+    }
+}
+
+--[ 2022.11.08.17.46.07.839.1 ]--
+InitFile: /src/Terrain.java
+import java.lang.IndexOutOfBoundsException;
+
+/**
+ * Terrain stores elevations for map and computes distance and
+ * cost in traversing the terrain.
+ */
+
+public class Terrain {
+    private int N;
+    private int[][] heights;
+
+    public Terrain(int N) {
+        this.N = N;
+        this.heights = new int[N][N];
+    }
+
+    public Terrain(int[][] heights) {
+        this.N = heights.length;
+        this.heights = heights;
+    }
+
+    public Terrain(String emapfile) {
+        In in = new In(emapfile);
+        this.N = in.readInt();
+        this.heights = new int[N][N];
+        for (int j = 0; j < N; j++) {
+            for (int i = 0; i < N; i++) {
+                this.heights[i][j] = in.readInt();
+            }
+        }
+    }
+
+    public int getN() {
+        return N;
+    }
+
+    public void setHeight(int i, int j, int h) {
+        if(i < 0 || j < 0 || i >= N || j >= N)
+            throw new IndexOutOfBoundsException("i and j must be in [0,N)");
+        heights[i][j] = h;
+    }
+    public void setHeight(int i, int j, float h) {
+        setHeight(i, j, (int) h);
+    }
+    public void setHeight(Coord loc, int h) {
+        setHeight(loc.getI(), loc.getJ(), h);
+    }
+    public void setHeight(Coord loc, float h) {
+        setHeight(loc.getI(), loc.getJ(), h);
+    }
+
+    public int getHeight(int i, int j) {
+        if(i < 0 || j < 0 || i >= N || j >= N)
+            throw new IndexOutOfBoundsException("i and j must be in [0,N)");
+        return heights[i][j];
+    }
+    public int getHeight(Coord loc) {
+        return getHeight(loc.getI(), loc.getJ());
+    }
+
+    // computes distance between (i0,j0) and (i1,j1) as the crow flies
+    public float computeDistance(int i0, int j0, int i1, int j1) {
+        return (float)Math.sqrt((i0 - i1) * (i0 - i1) + (j0 - j1) * (j0 - j1));
+    }
+    public float computeDistance(Coord c0, Coord c1) {
+        return computeDistance(c0.getI(), c0.getJ(), c1.getI(), c1.getJ());
+    }
+
+    public float computeTravelCost(int i0, int j0, int i1, int j1) {
+        float h0 = getHeight(i0, j0), h1 = getHeight(i1, j1);
+        float climb = (float)Math.pow(Math.abs(h0 - h1) * 1000.0, 1.5);
+        float dist = computeDistance(i0,j0, i1,j1);
+        return (1.0f + climb) * dist;
+    }
+    public float computeTravelCost(Coord c0, Coord c1) {
+        return computeTravelCost(c0.getI(), c0.getJ(), c1.getI(), c1.getJ());
+    }
+    public float computeTravelCost(Iterable<Coord> cs) {
+        Coord c0 = null;
+        float cost = 0.0f;
+        for(Coord c1 : cs) {
+            if(c0 != null) cost += computeTravelCost(c0, c1);
+            c0 = c1;
+        }
+        return cost;
+    }
+}
+
+--[ 2022.11.08.17.46.07.839.2 ]--
+InitFile: /P04_Pathfinding.iml
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/.log" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="algs4" level="project" />
+    <orderEntry type="library" name="stdlib" level="project" />
+  </component>
+</module>
+
+--[ 2022.11.08.17.46.07.839.3 ]--
+InitFile: /src/TerrainEditor.java
+/**
+ * The following class provides some simple terrain editing functions.
+ */
+public class TerrainEditor {
+    private static float rndRadius(float d) {
+        return (float)StdRandom.uniform(-d,d);
+    }
+
+    private static float getFractalHeight(int i, int j, float dh, Terrain terrain, boolean[] isset) {
+        int N = terrain.getN();
+        dh = Math.max(-64, Math.min(255+64, dh));   // allow the height to go just a bit out of range
+        if(!isset[i + j * N]) {
+            isset[i + j * N] = true;
+            terrain.setHeight(i, j, dh);
+        }
+        return terrain.getHeight(i,j);
+    }
+
+    private static void setFractalHeights(int i0, int j0, int i1, int j1, Terrain terrain, boolean[] isset) {
+        int id = i1-i0;
+        int jd = j1-j0;
+        int i01 = (i0+i1)/2;
+        int j01 = (j0+j1)/2;
+
+        if(id <= 1 && jd <= 1) return;
+
+        float h00 = getFractalHeight(i0,j0,32,terrain,isset);
+        float h01 = getFractalHeight(i0,j1,32,terrain,isset);
+        float h10 = getFractalHeight(i1,j0,32,terrain,isset);
+        float h11 = getFractalHeight(i1,j1,32,terrain,isset);
+
+        float d = (float)(Math.sqrt((i1-i0)*(i1-i0) + (j1-j0)*(j1-j0)) * 0.5);
+
+        float d0001 = (h00 + h01) / 2 + rndRadius(d);
+        float d0010 = (h00 + h10) / 2 + rndRadius(d);
+        float d1101 = (h11 + h01) / 2 + rndRadius(d);
+        float d1110 = (h11 + h10) / 2 + rndRadius(d);
+
+        float h0001 = getFractalHeight(i0, j01, d0001, terrain,isset);
+        float h0010 = getFractalHeight(i01, j0, d0010, terrain,isset);
+        float h1101 = getFractalHeight(i01, j1, d1101, terrain,isset);
+        float h1110 = getFractalHeight(i1, j01, d1110, terrain,isset);
+
+        float dm = (float)((h0001 + h0010 + h1101 + h1110) / 4.0);
+        float hm = getFractalHeight(i01, j01, dm, terrain,isset);
+
+        if(id > 1 && jd > 1) {
+            setFractalHeights(i0, j0, i01, j01, terrain, isset);
+            setFractalHeights(i01, j0, i1, j01, terrain, isset);
+            setFractalHeights(i0, j01, i01, j1, terrain, isset);
+            setFractalHeights(i01, j01, i1, j1, terrain, isset);
+        } else if(jd > 1) {
+            setFractalHeights(i0, j0, i1, j01, terrain, isset);
+            setFractalHeights(i0, j01, i1, j1, terrain, isset);
+        } else {
+            setFractalHeights(i0, j0, i01, j1, terrain, isset);
+            setFractalHeights(i01, j0, i1, j1, terrain, isset);
+        }
+    }
+
+    public static void setFractalHeights(Terrain terrain) {
+        int N = terrain.getN();
+        boolean[] isset = new boolean[N*N];
+        setFractalHeights(0, 0, N - 1, N - 1, terrain, isset);
+    }
+
+    public static void smoothHeights(Terrain terrain) {
+        int N = terrain.getN();
+        int radius = (int)Math.ceil(Math.sqrt(N*N/2.0f));
+        smoothHeights(N/2, N/2, radius, false, terrain);
+    }
+
+    public static void smoothHeights(int ic, int jc, int radius, boolean fallOff, Terrain terrain) {
+        final int N = terrain.getN();
+        final int w = 2*radius+1;
+        float[] s = new float[w*w];
+        for(int ia = -radius; ia <= radius; ia++) {
+            int i = ic + ia;
+            if(i < 0 || i >= N) continue;
+            for(int ja = -radius; ja <= radius; ja++) {
+                int j = jc + ja;
+                if(j < 0 || j >= N) continue;
+                int sidx = (ia+radius) + (ja+radius)*w;
+
+                float m = computeEffect(i, j, ic, jc, radius, fallOff, N);
+                if(m <= 0.0000001) {
+                    s[sidx] = terrain.getHeight(i,j);
+                    continue;
+                }
+                float h = 0;
+                int c = 0;
+                if(i > 0 && j > 0) {
+                    h += terrain.getHeight(i-1,j-1);
+                    c += 1;
+                }
+                if(i < N-1 && j > 0) {
+                    h += terrain.getHeight(i+1,j-1);
+                    c += 1;
+                }
+                if(i > 0 && j < N-1) {
+                    h += terrain.getHeight(i-1,j+1);
+                    c += 1;
+                }
+                if(i < N-1 && j < N-1) {
+                    h += terrain.getHeight(i+1,j+1);
+                    c += 1;
+                }
+                if(i > 0) {
+                    h += terrain.getHeight(i-1,j);
+                    c += 1;
+                }
+                if(j > 0) {
+                    h += terrain.getHeight(i,j-1);
+                    c += 1;
+                }
+                if(i < N-1) {
+                    h += terrain.getHeight(i+1,j);
+                    c += 1;
+                }
+                if(j < N-1) {
+                    h += terrain.getHeight(i,j+1);
+                    c += 1;
+                }
+                s[sidx] = (1-m) * terrain.getHeight(i,j) + m * h / c;
+            }
+        }
+        for(int ia = -radius; ia <= radius; ia++) {
+            int i = ic + ia;
+            if(i < 0 || i >= N) continue;
+            for(int ja = -radius; ja <= radius; ja++) {
+                int j = jc + ja;
+                if(j < 0 || j >= N) continue;
+                int sidx = (ia+radius) + (ja+radius)*w;
+                terrain.setHeight(i, j, s[sidx]);
+            }
+        }
+    }
+
+    public static void clampHeights(Terrain terrain) {
+        int N = terrain.getN();
+        for(int i = 0; i < N; i++) {
+            for(int j = 0; j < N; j++) {
+                terrain.setHeight(i, j, Math.max(0, Math.min(255, terrain.getHeight(i, j))));
+            }
+        }
+    }
+
+    private static float computeEffect(int i, int j, int ic, int jc, int radius, boolean fallOff, int N) {
+        if(i < 0 || j < 0 || i >= N || j >= N) return 0;
+        if(!fallOff) return 1;
+        int d2 = (ic-i)*(ic-i)+(jc-j)*(jc-j);
+        if(d2 > radius*radius) return 0;
+        return ((float)radius - (float)Math.sqrt(d2)) / (float)radius;
+    }
+
+    public static void addHeight(int i, int j, int radius, float add, Terrain terrain) {
+        final int N = terrain.getN();
+        for(int ja = -radius; ja <= radius; ja++) {
+            int r = j + ja;
+            if(r < 0 || r >= N) continue;
+            for(int ia = -radius; ia <= radius; ia++) {
+                int c = i + ia;
+                if(c < 0 || c >= N) continue;
+                float v = add * computeEffect(c, r, i, j, radius, true, N);
+                float h = terrain.getHeight(c, r) + v;
+                h = Math.max(0, Math.min(255, h));
+                terrain.setHeight(c, r, h);
+            }
+        }
+    }
+}
+
+--[ 2022.11.08.17.46.07.840.0 ]--
+InitFile: /src/PathfinderVisualizer.java
+/**
+ * PathfinderVisualizer visualizes the terrain and found path.
+ */
+
+import java.awt.Color;
+import java.awt.Font;
+
+public class PathfinderVisualizer {
+
+    // delay in milliseconds (controls animation speed)
+    private final static int DELAY = 100;
+
+    // color for different elevations.  must be in ascending order!
+    private final static int[][] elevationColors = {
+            // h    r   g   b   where h=height, r=red, g=green, b=blue
+            {  0,   0,  0,  0},
+            {  2,   0,  0,160},
+            {  4,   0,224,224},
+            { 16, 192,192,  0},
+            { 64,  16,255, 16},
+            {128,  32,224, 32},
+            {192, 128,128,  8},
+            {224, 164,164,164},
+            {255, 255,255,255}
+    };
+
+    private final static Color cStart    = new Color(128, 128, 255);
+    private final static Color cEnd      = new Color(255, 128, 128);
+    private final static Color cSolution = new Color(255, 128, 255);
+    private final static Color cSearched = new Color(128,   0, 128);
+
+    // linearly interpolating between the corresponding rgb values
+    private static Color colorLERP(float v1, int r0, int g0, int b0, int r1, int g1, int b1) {
+        v1 = Math.max(0.0f, Math.min(1.0f, v1));
+        float v0 = 1.0f - v1;
+        int r = (int)(v0 * r0 + v1 * r1);
+        int g = (int)(v0 * g0 + v1 * g1);
+        int b = (int)(v0 * b0 + v1 * b1);
+        return new Color(r, g, b);
+    }
+    private static Color colorLERP(float v1, Color c0, Color c1) {
+        v1 = Math.max(0.0f, Math.min(1.0f, v1));
+        float v0 = 1.0f - v1;
+        int r = (int)(v0 * c0.getRed()   + v1 * c1.getRed());
+        int g = (int)(v0 * c0.getGreen() + v1 * c1.getGreen());
+        int b = (int)(v0 * c0.getBlue()  + v1 * c1.getBlue());
+        int a = (int)(v0 * c0.getAlpha() + v1 * c1.getAlpha());
+        return new Color(r, g, b, a);
+    }
+
+    // returns color for given height
+    private static Color height2Color(int h) {
+        h = Math.max(0, Math.min(255, h));
+
+        int[] ec0 = elevationColors[0];  // default lower bound
+        int[] ec1 = elevationColors[1];  // default upper bound
+
+        // find upper bound while updating lower bound
+        for(int i = 1; i < elevationColors.length; i++) {
+            ec1 = elevationColors[i];
+            if(h >= ec0[0] && h <= ec1[0]) break;
+            ec0 = ec1;
+        }
+
+        int h0=ec0[0], r0=ec0[1], g0=ec0[2], b0=ec0[3];
+        int h1=ec1[0], r1=ec1[1], g1=ec1[2], b1=ec1[3];
+        float v1 = ((float)(h - h0)) / ((float)(h1 - h0));
+
+        return colorLERP(v1, r0, g0, b0, r1, g1, b1);
+    }
+
+    private static void drawCircle(int i, int j, int N, double rad) {
+        int c = (int)((i+0.5f) * 464.0f / N);
+        int r = (int)((j+0.5f) * 464.0f / N);
+        StdDraw.circle(c + 24, 464 - r + 36, rad);
+    }
+    public static void drawCircle(Coord loc, int N, double rad) {
+        drawCircle(loc.getI(), loc.getJ(), N, rad);
+    }
+
+    private static void drawPath(Iterable<Coord> path, int N) {
+        boolean first = true;
+        int c0 = 0, r0 = 0;
+        for (Coord loc : path) {
+            int c1 = (int)((loc.getI()+0.5f) * 464.0f / N);
+            int r1 = (int)((loc.getJ()+0.5f) * 464.0f / N);
+            if(!first) {
+                StdDraw.line(c0 + 24, 464 - r0 + 36, c1 + 24, 464 - r1 + 36);
+            }
+            first = false;
+            c0 = c1; r0 = r1;
+        }
+    }
+
+    // draw N-by-N pathfinding map
+    public static void draw(Terrain terrain, Pathfinder pf, Walker walker, int N) {
+        StdDraw.clear();
+        StdDraw.setXscale(0, 512);
+        StdDraw.setYscale(0, 512);
+        StdDraw.setPenColor(StdDraw.BLACK);
+        StdDraw.filledSquare(256, 256 + 12, 464 / 2);
+
+        // draw terrain
+        for(int row = 0; row < 464; row++) {
+            int j = (int)((float)row/464.0f * N);
+            for(int col = 0; col < 464; col++) {
+                int i = (int)((float)col/464.0f * N);
+                Coord loc = new Coord(i,j);
+                Color c = height2Color(terrain.getHeight(loc));
+                if(pf.wasSearched(loc)) {
+                    c = colorLERP(0.50f, c, cSearched);
+                }
+                StdDraw.setPenColor(c);
+                StdDraw.filledSquare(col + 24, 464 - row + 36, 1);
+            }
+        }
+
+        // draw path start
+        if(pf.getPathStart() != null) {
+            StdDraw.setPenColor(StdDraw.BLACK);
+            StdDraw.setPenRadius(0.006);
+            drawCircle(pf.getPathStart(), N, 4.0);
+
+            StdDraw.setPenColor(cStart);
+            StdDraw.setPenRadius(0.002);
+            drawCircle(pf.getPathStart(), N, 4.0);
+        }
+
+        // draw path end
+        if(pf.getPathEnd() != null) {
+            StdDraw.setPenColor(StdDraw.BLACK);
+            StdDraw.setPenRadius(0.006);
+            drawCircle(pf.getPathEnd(), N, 4.0);
+
+            StdDraw.setPenColor(cEnd);
+            StdDraw.setPenRadius(0.002);
+            drawCircle(pf.getPathEnd(), N, 4.0);
+        }
+
+        // draw found path
+        if(pf.foundPath()) {
+            StdDraw.setPenColor(StdDraw.BLACK);
+            StdDraw.setPenRadius(0.006);
+            drawPath(pf.getPathSolution(), N);
+
+            StdDraw.setPenColor(cSolution);
+            StdDraw.setPenRadius(0.002);
+            drawPath(pf.getPathSolution(), N);
+        }
+
+        // draw walker
+        if(walker != null) {
+            Coord loc = walker.getLocation();
+            StdDraw.setPenColor(StdDraw.BLACK);
+            StdDraw.setPenRadius(0.006);
+            PathfinderVisualizer.drawCircle(loc, N, 2.0);
+
+            StdDraw.setPenColor(StdDraw.WHITE);
+            StdDraw.setPenRadius(0.002);
+            PathfinderVisualizer.drawCircle(loc, N, 2.0);
+        }
+
+        // write status text
+        StdDraw.setFont(new Font("SansSerif", Font.PLAIN, 12));
+        StdDraw.setPenColor(StdDraw.BLACK);
+        StdDraw.text(96, 12, "heuristic: " + pf.getHeuristic());
+        if(pf.foundPath()) StdDraw.text(256, 12, "path: " + pf.getPathCost());
+        else               StdDraw.text(256, 12, "no path found");
+        StdDraw.text(512-96, 12, "searched: " + pf.getSearchSize() + " (" + (int)(100.0f * pf.getSearchSize() / (N*N)) + "%)");
+    }
+}
+
+--[ 2022.11.08.19.51.02.654.0 ]--
+:/src/Pathfinder.java
+- 225
+- 225
+- 225
+- 225
+- 225
+- 225
+r 225         
+--[ 2022.11.08.19.51.12.144.0 ]--
++ 162                 
+--[ 2022.11.08.19.51.12.396.0 ]--
++ 162                 Stack<Coord> i = new Stack<>();
++ 163         PFNode current = end;
++ 164         while(current != null) {
++ 165             i.push(current.location);
++ 166             current = current.previous;
++ 167         }
+r 168         return i;
+--[ 2022.11.08.19.51.12.527.0 ]--
+r 163                 PFNode current = end;
+r 164                 while(current != null) {
+r 165                     i.push(current.location);
+r 166                     current = current.previous;
+r 167                 }
+r 168                 return i;
+--[ 2022.11.08.19.51.14.574.0 ]--
+r 168                 
+--[ 2022.11.08.19.51.14.906.0 ]--
+- 168
+--[ 2022.11.08.19.51.24.518.0 ]--
+r 162                  = new Stack<>();
+--[ 2022.11.08.19.51.25.275.0 ]--
+r 162                 i = new Stack<>();
+--[ 2022.11.08.19.51.35.799.0 ]--
++ 79     
+--[ 2022.11.08.19.51.36.048.0 ]--
+r 79     Stack<Coord> i
+--[ 2022.11.08.19.51.38.272.0 ]--
+r 79     Stack<Coord> i;
+--[ 2022.11.08.19.51.43.918.0 ]--
+r 232         r
+--[ 2022.11.08.19.51.44.014.0 ]--
+r 232         re
+--[ 2022.11.08.19.51.44.144.0 ]--
+r 232         ret
+--[ 2022.11.08.19.51.44.273.0 ]--
+r 232         retu
+--[ 2022.11.08.19.51.44.368.0 ]--
+r 232         retur
+--[ 2022.11.08.19.51.44.498.0 ]--
+r 232         return
+--[ 2022.11.08.19.51.44.680.0 ]--
+r 232         return 
+--[ 2022.11.08.19.51.45.210.0 ]--
+r 232         return i
+--[ 2022.11.08.19.51.45.919.0 ]--
+r 232         return i;
+--[ 2022.11.08.19.54.41.037.0 ]--
+:/src/Walker.java
+r 41             w (cost <= money){
+--[ 2022.11.08.19.54.41.082.0 ]--
+r 41             wh (cost <= money){
+--[ 2022.11.08.19.54.41.197.0 ]--
+r 41             whi (cost <= money){
+--[ 2022.11.08.19.54.41.323.0 ]--
+r 41             whil (cost <= money){
+--[ 2022.11.08.19.54.41.486.0 ]--
+r 41             while (cost <= money){
+--[ 2022.11.08.19.54.44.564.0 ]--
+r 41             while (cost < money){
+--[ 2022.11.08.19.54.44.676.0 ]--
+r 41             while (cost  money){
+--[ 2022.11.08.19.54.46.622.0 ]--
+r 41             while (cost > money){
+--[ 2022.11.08.19.54.53.908.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.08.19.56.10.263.0 ]--
+r 41             while (cost  money){
+--[ 2022.11.08.19.56.10.990.0 ]--
+r 41             while (cost < money){
+--[ 2022.11.08.19.56.11.521.0 ]--
+r 41             while (cost <= money){
+--[ 2022.11.08.19.56.21.904.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.08.19.57.16.481.0 ]--
+r 41             i (cost <= money){
+--[ 2022.11.08.19.57.16.595.0 ]--
+r 41             if (cost <= money){
+--[ 2022.11.08.19.57.23.798.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.08.19.57.44.025.0 ]--
+r 41             w (cost <= money){
+--[ 2022.11.08.19.57.44.065.0 ]--
+r 41             wh (cost <= money){
+--[ 2022.11.08.19.57.44.215.0 ]--
+r 41             whi (cost <= money){
+--[ 2022.11.08.19.57.44.351.0 ]--
+r 41             whil (cost <= money){
+--[ 2022.11.08.19.57.44.461.0 ]--
+r 41             while (cost <= money){
+--[ 2022.11.08.19.58.12.690.0 ]--
+r 41             while (cost <= money ){
+--[ 2022.11.08.19.58.14.524.0 ]--
+r 41             while (cost <= money){
+--[ 2022.11.08.19.59.05.099.0 ]--
++ 43                 
+--[ 2022.11.08.19.59.10.390.0 ]--
+r 43                 cost = map.computeTravelCost(current, next)
+--[ 2022.11.08.19.59.11.600.0 ]--
+r 43                 cost = map.computeTravelCost(current, next);
+--[ 2022.11.08.19.59.38.138.0 ]--
+r 41             while (cost <= money ){
+--[ 2022.11.08.19.59.42.623.0 ]--
+r 41             while (cost <= money &){
+--[ 2022.11.08.19.59.42.749.0 ]--
+r 41             while (cost <= money &&){
+--[ 2022.11.08.19.59.42.932.0 ]--
+r 41             while (cost <= money && ){
+--[ 2022.11.08.19.59.43.917.0 ]--
+r 41             while (cost <= money && !){
+--[ 2022.11.08.19.59.44.925.0 ]--
+r 41             while (cost <= money && !d){
+--[ 2022.11.08.19.59.45.033.0 ]--
+r 41             while (cost <= money && !do){
+--[ 2022.11.08.19.59.45.215.0 ]--
+r 41             while (cost <= money && !don){
+--[ 2022.11.08.19.59.45.306.0 ]--
+r 41             while (cost <= money && !done){
+--[ 2022.11.08.19.59.46.804.0 ]--
+r 41             while (cost <= money && !doneWalking){
+--[ 2022.11.08.19.59.46.826.0 ]--
+r 41             while (cost <= money && !doneWalking()){
+--[ 2022.11.08.19.59.58.690.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.08.20.00.42.995.0 ]--
+r 41             while (cost <= money ){
+--[ 2022.11.08.20.00.44.115.0 ]--
+r 41             while (cost <= money){
+--[ 2022.11.08.20.00.47.415.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.08.20.02.02.695.0 ]--
+r 44                 
+--[ 2022.11.08.20.02.03.611.0 ]--
++ 43                 
+--[ 2022.11.08.20.02.03.848.0 ]--
+r 43                 current = next;
+--[ 2022.11.08.20.02.06.056.0 ]--
+- 45
+--[ 2022.11.08.20.02.12.454.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.08.20.08.47.200.0 ]--
++ 45                 
+--[ 2022.11.08.20.08.49.899.0 ]--
+- 45
+--[ 2022.11.08.20.08.52.235.0 ]--
++ 44                 
+--[ 2022.11.08.20.08.53.838.0 ]--
+r 44                 n
+--[ 2022.11.08.20.08.53.955.0 ]--
+r 44                 ne
+--[ 2022.11.08.20.08.54.108.0 ]--
+r 44                 ner
+--[ 2022.11.08.20.08.54.965.0 ]--
+r 44                 ne
+--[ 2022.11.08.20.08.56.097.0 ]--
+r 44                 n
+--[ 2022.11.08.20.08.56.247.0 ]--
+r 44                 
+--[ 2022.11.08.20.09.00.425.0 ]--
+r 44                 next = iterator.next();
+--[ 2022.11.08.20.09.10.111.0 ]--
+r 41             while (cost <= money ){
+--[ 2022.11.08.20.09.11.208.0 ]--
+r 41             while (cost <= money &){
+--[ 2022.11.08.20.09.11.334.0 ]--
+r 41             while (cost <= money &&){
+--[ 2022.11.08.20.09.11.572.0 ]--
+r 41             while (cost <= money && ){
+--[ 2022.11.08.20.09.12.536.0 ]--
+r 41             while (cost <= money && !){
+--[ 2022.11.08.20.09.13.304.0 ]--
+r 41             while (cost <= money && !d){
+--[ 2022.11.08.20.09.14.103.0 ]--
+r 41             while (cost <= money && !doneWalking){
+--[ 2022.11.08.20.09.14.118.0 ]--
+r 41             while (cost <= money && !doneWalking()){
+--[ 2022.11.08.20.09.23.720.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.08.20.10.34.859.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.08.20.11.46.674.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.08.20.12.15.560.0 ]--
+:/src/InteractivePathfinderVisualizer.java
+r 46     private final static String emapFilename = emaps[];        // change index to load a different elevation map
+--[ 2022.11.08.20.12.15.755.0 ]--
+r 46     private final static String emapFilename = emaps[3];        // change index to load a different elevation map
+--[ 2022.11.08.20.12.19.875.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.08.20.12.39.285.0 ]--
+r 46     private final static String emapFilename = emaps[];        // change index to load a different elevation map
+--[ 2022.11.08.20.12.39.525.0 ]--
+r 46     private final static String emapFilename = emaps[9];        // change index to load a different elevation map
+--[ 2022.11.08.20.12.44.395.0 ]--
+CompilationStatus (AEW): 0 0 0
+--[ 2022.11.08.20.13.39.343.0 ]--
+r 46     private final static String emapFilename = emaps[];        // change index to load a different elevation map
+--[ 2022.11.08.20.13.39.578.0 ]--
+r 46     private final static String emapFilename = emaps[2];        // change index to load a different elevation map

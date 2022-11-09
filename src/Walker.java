@@ -9,14 +9,10 @@ public class Walker {
     // terrain: the Terrain the Walker traverses
     // path: the sequence of Coords the Walker follows
     Terrain map;
-    Iterable<Coord> ourPath;
-    Coord startLoc = null;
-    Coord endLoc = null;
     Iterator <Coord> iterator;
     Coord current;
     float money = 0;
 
-    int pathLocs = 0;
     public Walker(Terrain terrain, Iterable<Coord> path) {
         iterator = path.iterator();
         current =iterator.next();
@@ -42,9 +38,11 @@ public class Walker {
         if (!doneWalking()) {
             Coord next = iterator.next();
             float cost = map.computeTravelCost(current, next);
-            if (cost <= money){
+            while (cost <= money && !doneWalking()){
                 money-=cost;
                 current = next;
+                next = iterator.next();
+                cost = map.computeTravelCost(current, next);
             }
         }
     }

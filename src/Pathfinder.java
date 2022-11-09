@@ -76,6 +76,7 @@ public class Pathfinder {
 
     Coord pathEnd=null;
     PFNode end = null;
+    Stack<Coord> i;
     float heuristic = 1;
     boolean pathFound=false;
     int searchSize = 0;
@@ -159,6 +160,12 @@ public class Pathfinder {
                 pathFound = true;
                 //end.previous=pos;
                 end = pos;
+                i = new Stack<>();
+                PFNode current = end;
+                while(current != null) {
+                    i.push(current.location);
+                    current = current.previous;
+                }
                 //end.cost = end.previous.cost;
                 return;
             }
@@ -222,12 +229,6 @@ public class Pathfinder {
     }
 
     public Iterable<Coord> getPathSolution() {
-        Stack<Coord> i = new Stack<>();
-        PFNode current = end;
-        while(current != null) {
-            i.push(current.location);
-            current = current.previous;
-        }
         return i;
     }
 
