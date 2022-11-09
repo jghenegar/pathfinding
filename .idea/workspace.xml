@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50b83df3-15a9-4360-bde3-1e23007b18a2" name="Default" comment="We fixed the cost - maybe the final???">
+    <list default="true" id="50b83df3-15a9-4360-bde3-1e23007b18a2" name="Default" comment="Fixed the leftover issues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.log/history.log" beforeDir="false" afterPath="$PROJECT_DIR$/.log/history.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P04_Pathfinding/Pathfinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P04_Pathfinding/Pathfinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P04_Pathfinding/Walker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P04_Pathfinding/Walker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pathfinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pathfinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Walker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Walker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667926493580</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixed the leftover issues">
+      <created>1667956486201</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667956486201</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +287,8 @@
     <MESSAGE value="ended saturday group work--filled out walker class" />
     <MESSAGE value="computePath" />
     <MESSAGE value="We fixed the cost - maybe the final???" />
-    <option name="LAST_COMMIT_MESSAGE" value="We fixed the cost - maybe the final???" />
+    <MESSAGE value="Fixed the leftover issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the leftover issues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

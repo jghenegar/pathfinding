@@ -20834,3 +20834,21 @@ CompilationStatus (AEW): 0 0 0
 r 46     private final static String emapFilename = emaps[];        // change index to load a different elevation map
 --[ 2022.11.08.20.13.39.578.0 ]--
 r 46     private final static String emapFilename = emaps[2];        // change index to load a different elevation map
+--[ 2022.11.08.20.43.17.792.0 ]--
+UpdateTree (AD): 15 0
++ /.git/objects/0b/7d5545acbeb076895d318bb6d395266c28dba9
++ /.git/objects/13/22a9e1de0ab9af64a6b248ad95423e7e8c5ce7
++ /.git/objects/3f/ff1a1706c9f4af74fa8d0a7140c81b97dcee90
++ /.git/objects/43/b84dc8976d2f3a878ac9890ee7d17b67588f14
++ /.git/objects/57/a31073f61279f3987eb0769650998ed10ac9ba
++ /.git/objects/5f/bc8f803cec2d1172ad63ce98fa3be0891fbcad
++ /.git/objects/64/19f53d363ad02925d7caf15b93607307e74453
++ /.git/objects/64/6c9a39cb2a3d28c1b2451bd385ab3b41e97de3
++ /.git/objects/7f/9dc216bd4cdd2808e80799d3f1dd9c6ff9d695
++ /.git/objects/8c/b78109d3ab6f04105d04659e3e88e0b389c56f
++ /.git/objects/8e/c5ab976a47f70fbb5d52c0abe8cb58910f0c6b
++ /.git/objects/bf/ef2b962c2e77ebe5cece04e02fa87c116764ef
++ /.git/objects/c4/19aa426f182d82c9b6b936f3f746aeef112958
++ /.git/objects/ee/4352da79f7a24f4dbb8736c20506e65d03c1ca
++ /.git/objects/fb/94e22415625bbf8e04df73a72bf99d79fc259d
+
